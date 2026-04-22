@@ -96,7 +96,7 @@ When the user says "ingest [source]":
 8. Create new entity pages (feature, concept, persona, etc.) as warranted
 9. Update `wiki/glossary.md` with any new or refined terms
 10. Update `wiki/index.md` — add new pages, update summaries of changed pages
-11. Update `wiki/overview.md` if the source shifts the big picture
+11. Update `wiki/overview.md` if the source shifts the big picture — when adding or updating concept bullets or insight paragraphs, append a compact numbered superscript link at the end of each line pointing to the source's page in `wiki/sources/`. Assign each source a sequential integer (¹ ² ³ ⁴ ⁵ …) in order of first appearance in the overview. Use the format `[ⁿ](sources/source-filename.md)`. If multiple sources reinforce the same concept, include all their numbered links, e.g. `[³](sources/foo.md) [⁴](sources/bar.md)`
 12. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>

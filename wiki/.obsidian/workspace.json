@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "sources/francieli-wagner-bim-coordination.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "francieli-wagner-bim-coordination"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "sources/francieli-wagner-bim-coordination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para index"
+              "title": "Links inversos para francieli-wagner-bim-coordination"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "sources/francieli-wagner-bim-coordination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para index"
+              "title": "Links de saída para francieli-wagner-bim-coordination"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "sources/francieli-wagner-bim-coordination.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de index"
+              "title": "Sumário de francieli-wagner-bim-coordination"
             }
           }
         ],
@@ -184,21 +184,21 @@
   },
   "active": "b1c0fa7fbd719655",
   "lastOpenFiles": [
+    "overview.md",
+    "log.md",
+    "sources/gyaco-conway-team-structure.md",
+    "index.md",
     "concepts/team-topology.md",
     "concepts/conways-law.md",
     "concepts/bim-coordination.md",
-    "sources/gyaco-conway-team-structure.md",
     "concepts/rag-approaches.md",
     "concepts/pageindex.md",
     "concepts/coaching-modes.md",
     "concepts/conversation-design.md",
-    "overview.md",
-    "log.md",
     "sources/mbs-performance-vs-development-coaching.md",
     "sources/mbs-two-questions-for-great-conversation.md",
     "sources/francieli-wagner-bim-coordination.md",
     "glossary.md",
-    "index.md",
     "sources/pageindex-vectorless-rag.md",
     "Sem título.base"
   ]
