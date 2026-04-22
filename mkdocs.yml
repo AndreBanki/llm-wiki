@@ -85,6 +85,7 @@ nav:
       - RAG Approaches: concepts/ai-engineering/rag-approaches.md
     - BIM & Construction:
       - BIM Coordination: concepts/bim-construction/bim-coordination.md
+      - Planejamento Preditivo de Obras: concepts/bim-construction/planejamento-preditivo-obras.md
     - Coaching & Leadership:
       - Coaching Modes: concepts/coaching-leadership/coaching-modes.md
       - Coaching Paradoxes: concepts/coaching-leadership/coaching-paradoxes.md
@@ -110,6 +111,7 @@ nav:
       - MCP vs API (Vidvatta): sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
+      - Alessandro Lopes — Planejamento de Obra 4.0: sources/bim-construction/alessandro-lopes-planejamento-obra-40.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md

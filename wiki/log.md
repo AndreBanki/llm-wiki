@@ -6,6 +6,31 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | Planejamento de obra 4.0: algoritmos que otimizam cronogramas e antecipam gargalos (Alessandro Lopes)
+
+**Source:** LinkedIn Pulse article by Alessandro Lopes (Sócio/Diretor de Inovação, Athié Wohnrath), April 22, 2026  
+**URL:** https://www.linkedin.com/pulse/planejamento-de-obra-40-algoritmos-que-otimizam-e-antecipam-lopes-f8s9f/
+
+Pages created:
+- `wiki/sources/bim-construction/alessandro-lopes-planejamento-obra-40.md` — source summary: IA como antevisão no planejamento de obras; frentes de obra; cronograma inteligente; Procore/Autodesk Construction Cloud; MIT/PMI/ASCE references; Brazil as early-stage market
+- `wiki/concepts/bim-construction/planejamento-preditivo-obras.md` — new concept page: planejamento preditivo, loop de dados históricos, frente de obra como unidade de análise, cronograma inteligente, tabela reagir→prever, knowledge gaps
+
+Pages updated:
+- `wiki/concepts/bim-construction/bim-coordination.md` — filled knowledge gap "ferramentas de coordenação BIM"; added Procore/Autodesk Construction Cloud table; added link to planejamento-preditivo-obras; updated related pages
+- `wiki/glossary.md` — added 5 new terms under BIM section: Planejamento Preditivo de Obras, Frente de Obra, Cronograma Inteligente, Antevisão, Lead Time (construção)
+- `wiki/index.md` — added source entry (Alessandro Lopes) and concept entry (Planejamento Preditivo de Obras) under BIM & Construction; updated bim-coordination summary
+- `wiki/overview.md` — updated source count (12→13), page count (44→46), last ingest; extended BIM section with 2 new bullets (planejamento preditivo + cronograma inteligente); added BIM+AI cross-domain insight to Key Insights
+- `mkdocs.yml` — added Planejamento Preditivo de Obras to concepts nav; added Alessandro Lopes source to sources nav
+- `raw/ingested.md` — added PDF to ingested list
+
+Key additions:
+- First wiki coverage of construction execution planning as distinct from project coordination (Francieli Wagner covers design phase; this covers execution phase)
+- Establishes "antevisão" as a named concept and the data loop (produtividade + lead times + histórico de atrasos) as the core mechanism
+- Creates a meaningful cross-domain connection: the feedback loop principle is identical between Palantir AIP (operational data → better AI decisions) and construction predictive planning (historical execution data → better scheduling)
+- Alessandro Lopes and Francieli Wagner now form a complementary pair covering the full lifecycle: design coordination + execution planning
+
+---
+
 ## [2026-04-22] ingest | O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu (Eric Luque)
 
 **Source:** LinkedIn Pulse article by Eric Luque (Co-founder Ecotrace), April 16, 2026  

@@ -3,7 +3,7 @@ title: Coordenação BIM
 type: concept
 created: 2026-04-22
 updated: 2026-04-22
-sources: [francieli-wagner-bim-coordination.md]
+sources: [francieli-wagner-bim-coordination.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf]
 tags: [bim, coordenação, compatibilização, disciplinas, conflito, modelo-federado]
 ---
 
@@ -74,10 +74,21 @@ Isso exige que cada disciplina saiba:
 
 ---
 
+## Ferramentas de Coordenação e Gestão de Obras
+
+Plataformas que integram BIM com gestão de obras e módulos de IA preditiva para sequenciamento e antecipação de gargalos:
+
+| Plataforma | Capacidade |
+|---|---|
+| **Procore** | Integração BIM + gestão de obras + IA preditiva para cronogramas |
+| **Autodesk Construction Cloud** | Integração BIM + gestão de obras + IA preditiva para cronogramas |
+
+Nota: coordenação BIM (disciplinas de projeto) e planejamento preditivo de obras (execução) são fases distintas — ver [[bim-construction/planejamento-preditivo-obras]].
+
 ## Knowledge Gaps
 
 - Como estruturar a sequência de entregas entre disciplinas (protocolo de prioridade)?
-- Quais ferramentas de coordenação BIM dão suporte ao sequenciamento explícito?
+- Como integrar dados de compatibilização BIM com o sistema de planejamento preditivo de execução?
 - Casos documentados de impacto financeiro de conflitos não resolvidos em obra.
 
 ---
@@ -85,4 +96,5 @@ Isso exige que cada disciplina saiba:
 ## Related Pages
 
 - [[bim-construction/francieli-wagner-bim-coordination]]
+- [[bim-construction/planejamento-preditivo-obras]]
 - [[glossary]]

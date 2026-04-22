@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf]
 tags: [terminology, style, glossary]
 ---
 
@@ -146,6 +146,26 @@ Each entry follows this format:
 
 **HVAC** *(Heating, Ventilation, and Air Conditioning)*
 : Disciplina complementar de climatização e ventilação. No contexto brasileiro, inclui ar-condicionado e ventilação mecânica.
+
+**Planejamento Preditivo de Obras**
+: Uso de algoritmos e IA para transformar o planejamento de construção de um processo reativo em um processo de antevisão — alimentando sistemas com dados reais de execução para identificar padrões de risco antes que se materializem em atrasos.
+- See also: [[bim-construction/planejamento-preditivo-obras]]
+
+**Frente de Obra**
+: Unidade básica de análise no planejamento de construção. Cada frente corresponde a um conjunto de atividades realizadas em paralelo ou sequência, com sua própria produtividade, dependências de material e vulnerabilidades de atraso.
+- See also: [[bim-construction/planejamento-preditivo-obras]]
+
+**Cronograma Inteligente**
+: Sistema de planejamento de obras que aprende com dados de cada obra executada e sugere sequências ótimas de frentes com base em disponibilidade de equipe, lead times de material e dependências de projeto. Visão de futuro proposta por Alessandro Lopes (Athié Wohnrath).
+- See also: [[bim-construction/planejamento-preditivo-obras]]
+
+**Antevisão** *(foresight, no contexto de obras)*
+: Capacidade de identificar e endereçar riscos de execução antes que se materializem como surpresas no cronograma. Contrastada com o modo reativo (reagir ao problema quando aparece). Principal promessa da IA preditiva no planejamento de obras.
+- See also: [[bim-construction/planejamento-preditivo-obras]]
+
+**Lead Time** *(no contexto de construção civil)*
+: Prazo entre o pedido de um material/serviço e sua efetiva disponibilidade em obra. Um dos principais dados de entrada para sistemas preditivos de cronograma.
+- Note: o mesmo termo aparece em supply chain / product management com sentido similar, mas o contexto de obras tem particularidades (fornecedores especializados, itens sob medida, logística de canteiro).
 
 ---
 

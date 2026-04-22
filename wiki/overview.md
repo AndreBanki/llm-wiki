@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 12  
-**Wiki pages:** 44 (index, log, overview, glossary + 12 sources + 22 concepts + updated pages)  
-**Last ingest:** 2026-04-22 — Eric Luque / LinkedIn Pulse (O Claude Opus 4.7 não é um upgrade)  
+**Source count:** 13  
+**Wiki pages:** 46 (index, log, overview, glossary + 13 sources + 23 concepts + updated pages)  
+**Last ingest:** 2026-04-22 — Alessandro Lopes / LinkedIn Pulse (Planejamento de obra 4.0)  
 **Last lint:** —
 
 ---
@@ -39,10 +39,12 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
-Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação.
+Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação. Expansão para planejamento preditivo de execução de obras via IA.
 
-- **Coordenação BIM** — Modelo federado vs. cultura de responsabilidade sequencial; o princípio "não interessa quem chegou primeiro" [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
+- **Coordenação BIM** — Modelo federado vs. cultura de responsabilidade sequencial; o princípio “não interessa quem chegou primeiro” [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 - **Pares de conflito** — Matrix de risco entre disciplinas: Estrutural×HVAC, Hidro×Elétrico, Estrutural×Hidro (ALTO); HVAC×Incêndio, Elétrico×Estrutural (MÉDIO) [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
+- **Planejamento preditivo de obras** — IA como antevisão: alimentar sistemas com dados reais (produtividade por frente, lead times de fornecedores, histórico de atrasos) para emitir alertas preditivos como “70% de chance de atrasar se o material não chegar até quinta” [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
+- **Cronograma inteligente** — visão de futuro: cronograma que aprende com cada obra executada e sugere sequência ótima de frentes; Brasil ainda dá os primeiros passos; ferramentas: Procore, Autodesk Construction Cloud [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
 
 ### 3. Coaching and Leadership (Personal Development)
 
@@ -96,6 +98,8 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 **RAG domain:** The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity. [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
 
 **BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro. [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
+
+**BIM + AI cross-domain:** O maior inimigo de uma obra não é a dificuldade técnica — é a surpresa. A IA não substitui o gestor: ela fornece antevisão, cruzando dados reais de execução (produtividade por frente, lead times, histórico de atrasos) para prever riscos antes que se materializem. O princípio é idêntico ao do modelo Palantir AIP: decisões melhores nascem de dados operacionais reais, não de achismo. Quem começa a alimentar esses sistemas primeiro constrói a vantagem composta. [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
 
 **Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — “What have you already considered?” — can shift the dynamic without sacrificing momentum. The same philosophy extends to group settings: pre-designed questions act as containers that invite depth without requiring a structured agenda. Beneath all of this sits the “being of coaching”: four paradoxes (Humble Confidence, Fierce Love, Light and Grounded, Care and Don’t Care) that AI cannot replicate — the embodied presence that makes questions land differently. [³](sources/coaching-leadership/mbs-performance-vs-development-coaching.md) [⁴](sources/coaching-leadership/mbs-two-questions-for-great-conversation.md) [⁶](sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md)
 

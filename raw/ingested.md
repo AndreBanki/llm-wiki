@@ -13,6 +13,7 @@ Update this file at the end of every ingest.
 - `How Palantir AIP Bootcamps Work _ Palantir Blog.pdf`
 - `I Stopped Using Vector Databases for RAG _ PageIndex Vectorless RAG _ by Sweety Tripathi _ Apr, 2026 _ Generative AI.pdf`
 - `O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf`
+- `Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf`
 - `Post _ LinkedIn_Compatibilização.pdf`
 - `Skills no Claude Code_ O Guia Definitivo Para Quem Quer Parar de Subutilizar a Ferramenta Mais Poderosa da IA Agentica _ LinkedIn.pdf`
 - `System Design For Beginners_ Everything You Need in One Article _ by Shivam Bhadani _ Medium.pdf`

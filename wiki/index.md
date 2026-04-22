@@ -57,6 +57,7 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[bim-construction/francieli-wagner-bim-coordination]] | LinkedIn post: coordenação BIM como problema cultural/processual, não apenas de ferramentas; matrix de conflitos entre disciplinas | 2026-04-22 |
+| [[bim-construction/alessandro-lopes-planejamento-obra-40]] | LinkedIn Pulse (Abr 2026): planejamento preditivo de obras; IA como antevisão; frentes de obra; Procore/Autodesk Construction Cloud; Brasil em fase inicial | 2026-04-22 |
 
 ### Software Engineering
 
@@ -104,7 +105,8 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[bim-construction/bim-coordination]] | Coordenação BIM como problema cultural/processual; pares de maior risco de conflito entre disciplinas complementares | 2026-04-22 |
+| [[bim-construction/bim-coordination]] | Coordenação BIM como problema cultural/processual; pares de maior risco de conflito entre disciplinas complementares; ferramentas Procore e Autodesk Construction Cloud | 2026-04-22 |
+| [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; loop de dados históricos | 2026-04-22 |
 
 ### Software Engineering
 
