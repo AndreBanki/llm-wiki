@@ -6,6 +6,30 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | Gyaco — Como a estrutura de time molda o seu produto
+
+**Source:** Article by Joca Torres (Gyaco), published 2026-04-21
+**URL:** https://www.gyaco.com/pt/2026/04/21/como-a-estrutura-de-time-molda-o-seu-produto
+
+Pages created:
+- `wiki/sources/gyaco-conway-team-structure.md`
+- `wiki/concepts/conways-law.md`
+- `wiki/concepts/team-topology.md`
+
+Pages updated:
+- `wiki/glossary.md` — added 6 new terms: Lei de Conway, Manobra Reversa de Conway, Times Orientados a Produto, Times Orientados a Usuário, Topologia de Times, Marketplace de Três Pontas; added new section "Product Management / Organizational Design"
+- `wiki/index.md` — added 1 source and 2 concept entries
+- `wiki/overview.md` — added 4th domain (Product Management and Organizational Design); updated source count (5) and page count (17); added key insight connecting product framing to the broader wiki theme of "right framing unlocks wider solution space"
+
+Key additions:
+- Core concept: Lei de Conway — structure silently shapes product; when wrong, works against strategy
+- Critique: Manobra Reversa de Conway is valid but incomplete — must be preceded by strategy (who are users, what problems, what business objectives)
+- Principle: "Estrutura deve seguir estratégia e arquitetura, nessa ordem"
+- Lopes case study: teams organized around systems (portal, CRM, app) were blind to SMS/WhatsApp as lead delivery solutions; reorganized around marketplace actors (Cliente Final, Incorporadoras/Proprietários, Corretores/Franqueados, Sistemas Centrais) in one week
+- Cross-domain insight: framing determines solution space — echoes coaching ("What have you already considered?") and conversation design (pre-selected questions open depth)
+
+---
+
 ## [2026-04-07] init | Wiki created
 
 Wiki initialized for a technical writer's personal knowledge base.

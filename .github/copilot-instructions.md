@@ -87,7 +87,7 @@ When the user says "ingest [source]":
 4. **Before making any changes, send an ingest briefing email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
    - Subject: `[LLM Wiki] Ingest briefing: <source title>`
    - Body:
-     - A short paragraph summarizing the source's main content
+     - A few paragraphs summarizing the source's main content
      - The original URL as a clickable link
      - A concise delta analysis: what this source adds, contradicts, or reinforces relative to existing wiki knowledge (bullet points)
 5. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)

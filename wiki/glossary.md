@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -126,6 +126,40 @@ Each entry follows this format:
 
 **HVAC** *(Heating, Ventilation, and Air Conditioning)*
 : Disciplina complementar de climatização e ventilação. No contexto brasileiro, inclui ar-condicionado e ventilação mecânica.
+
+---
+
+## Product Management / Organizational Design
+
+**Lei de Conway** *(Conway's Law)*
+: "Organizations that design systems tend to produce systems that mirror the communication structures of those organizations." (Melvin Conway, 1968.) Team structure shapes product structure — when structure is wrong, it works silently against strategy.
+- See also: [[conways-law]]
+
+**Manobra Reversa de Conway** *(Reverse Conway Maneuver)*
+: The practice of defining the desired system architecture first, then organizing teams to reflect that architecture. Valid and powerful, but incomplete: ignores users and business strategy, which must be defined before any architectural decision.
+- See also: [[conways-law]]
+
+**Times Orientados a Produto** *(Product/System-Centric Teams)*
+: Teams organized around a specific system or technology artifact. Risk: can only see solutions within their system's scope, leading to feature accumulation and blind spots for cross-channel solutions.
+- Contrasted with: times orientados a usuário
+- See also: [[team-topology]]
+
+**Times Orientados a Usuário** *(User-Centric Teams)*
+: Teams organized around a user segment or marketplace actor. Benefit: the solution space is open — any channel or approach that solves the user's problem qualifies.
+- Contrasted with: times orientados a produto
+- See also: [[team-topology]]
+
+**Topologia de Times** *(Team Topology)*
+: The deliberate arrangement of teams around a specific organizing principle (system, user, capability). The choice of organizing principle is itself a product and strategy decision.
+- See also: [[team-topology]]
+
+**Marketplace de Três Pontas** *(Three-Sided Marketplace)*
+: A marketplace with three distinct actor types, each with different goals and requiring dedicated value creation. Example (Lopes): end clients (buyers/renters) + developers/owners (sellers) + brokers/franchisees (intermediaries).
+- See also: [[gyaco-conway-team-structure]], [[team-topology]]
+
+---
+
+## Coaching / Leadership
 
 **Conversation Design**
 : The practice of pre-selecting questions and structuring the opening of a group conversation to invite depth and bypass surface-level exchange. The designer acts as a host, then steps back. Distinct from facilitation (which manages process) and coaching (which is one-on-one).

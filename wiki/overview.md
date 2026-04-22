@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 4  
-**Wiki pages:** 14 (index, log, overview, glossary + 4 sources + 5 concepts)  
-**Last ingest:** 2026-04-22 — MBS Newsletter (Two questions for a great conversation)  
+**Source count:** 5  
+**Wiki pages:** 17 (index, log, overview, glossary + 5 sources + 7 concepts)  
+**Last ingest:** 2026-04-22 — Gyaco article (Como a estrutura de time molda o seu produto)  
 **Last lint:** —
 
 ---
@@ -46,6 +46,15 @@ Two MBS Works newsletters covering the art of coaching and intentional conversat
 - **Practical technique** — "What have you already considered?" as a minimal intervention to shift from solution mode to development mode
 - **Conversation design** — Intentional group hosting via pre-selected questions; the "good host" role; the two-question dinner format ("What are you known for?" / "What are you up to?")
 
+### 4. Product Management and Organizational Design
+
+One Gyaco article by Joca Torres covering the relationship between team structure and system architecture.
+
+- **Conway's Law** — Organizations produce systems that mirror their communication structures; structure works silently against strategy when wrong
+- **Reverse Conway Maneuver** — Valid but incomplete tool; must be preceded by strategy (users + business objectives)
+- **Team topology** — System-centric vs. user-centric organizing; Lopes three-sided marketplace case study
+- **Principle:** "Estrutura deve seguir estratégia e arquitetura, nessa ordem"
+
 ## Key Insights (as of last ingest)
 
 **RAG domain:** The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity.
@@ -53,6 +62,8 @@ Two MBS Works newsletters covering the art of coaching and intentional conversat
 **BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro.
 
 **Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — "What have you already considered?" — can shift the dynamic without sacrificing momentum. The same philosophy extends to group settings: pre-designed questions ("What are you known for?" / "What are you up to?") act as containers that invite depth without requiring a structured agenda.
+
+**Product management domain:** The framing of a team's scope determines what solutions it can see. A team organized around a system can only solve problems by adding features to that system. A team organized around a user segment can draw from any channel, tool, or approach. This is a structural phenomenon, not a creativity problem — and it connects to the broader wiki theme: *the right framing unlocks a wider solution space* (echoed in coaching, conversation design, and BIM sequencing decisions).
 ---
 
 ## Key Themes
