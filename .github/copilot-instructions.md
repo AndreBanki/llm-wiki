@@ -109,6 +109,12 @@ When the user says "ingest [source]":
    Pages updated: ...
    Key additions: ...
    ```
+13. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+   - Subject: `[LLM Wiki] Ingest complete: <source title>`
+   - Body:
+     - **Pages created:** list each new file with a one-line description
+     - **Pages updated:** list each modified file with a one-line description of what changed
+     - A short paragraph on the most important cross-domain connection or insight added by this ingest
 
 A single ingest may touch 5–15 wiki pages. That is expected.
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "overview"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para index"
+              "title": "Links inversos para overview"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para index"
+              "title": "Links de saída para overview"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de index"
+              "title": "Sumário de overview"
             }
           }
         ],
@@ -185,25 +185,33 @@
   "active": "b1c0fa7fbd719655",
   "lastOpenFiles": [
     "glossary.md",
-    "index.md",
-    "sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md",
-    "log.md",
     "overview.md",
+    "concepts/software-engineering/caching-cdn-proxy.md",
+    "concepts/software-engineering/messaging-and-events.md",
+    "concepts/software-engineering/distributed-systems.md",
+    "concepts/software-engineering/database-scaling.md",
+    "concepts/software-engineering/cap-theorem-and-consistency.md",
+    "concepts/software-engineering/system-design-approach.md",
+    "concepts/software-engineering",
+    "sources/software-engineering/shivambhadani-system-design-for-beginners.md",
+    "sources/software-engineering",
+    "sources/product-org-design/gyaco-conway-team-structure.md",
+    "concepts/ai-engineering/mcp-architecture.md",
+    "sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md",
+    "concepts/ai-engineering/constitutional-ai.md",
+    "concepts/ai-engineering/genai-security-workflow.md",
+    "sources/ai-engineering/gartner-genai-security-workflow.md",
+    "sources/bim-construction/francieli-wagner-bim-coordination.md",
+    "sources/ai-engineering/pageindex-vectorless-rag.md",
+    "sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md",
+    "index.md",
+    "log.md",
     "concepts/bim-construction/bim-coordination.md",
     "concepts/product-org-design/team-topology.md",
     "concepts/product-org-design/conways-law.md",
     "concepts/coaching-leadership/conversation-design.md",
     "concepts/coaching-leadership/coaching-paradoxes.md",
     "concepts/coaching-leadership/coaching-modes.md",
-    "concepts/ai-engineering/rag-approaches.md",
-    "concepts/ai-engineering/pageindex.md",
-    "concepts/ai-engineering/llm-wiki-pattern.md",
-    "sources/bim-construction/francieli-wagner-bim-coordination.md",
-    "sources/product-org-design/gyaco-conway-team-structure.md",
-    "sources/coaching-leadership/mbs-two-questions-for-great-conversation.md",
-    "sources/coaching-leadership/mbs-performance-vs-development-coaching.md",
-    "sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md",
-    "sources/ai-engineering/pageindex-vectorless-rag.md",
     "concepts/bim-construction",
     "concepts/product-org-design",
     "concepts/coaching-leadership",
@@ -211,13 +219,6 @@
     "sources/bim-construction",
     "sources/product-org-design",
     "sources/coaching-leadership",
-    "sources/ai-engineering",
-    "sources/francieli-wagner-bim-coordination.md",
-    "concepts/llm-wiki-pattern.md",
-    "sources/creativeaininja-llm-wiki-cursor-obsidian.md",
-    "concepts/coaching-paradoxes.md",
-    "sources/mbs-paradoxes-of-being-a-coach.md",
-    "sources/gyaco-conway-team-structure.md",
-    "Sem título.base"
+    "sources/ai-engineering"
   ]
 }

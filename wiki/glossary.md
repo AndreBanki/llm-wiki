@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -243,6 +243,93 @@ Each entry follows this format:
 **Andrej Karpathy**
 : AI researcher; founding member at OpenAI, former head of AI/Autopilot at Tesla. Originator of the LLM Wiki pattern (`llm-wiki.md`, early 2026). Known for making deep technical AI concepts accessible.
 - See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]]
+
+---
+
+## AI Security / GenAI Governance
+
+**3H Principles** *(Helpful, Honest, Harmless)*
+: The three required properties of trustworthy GenAI output, popularized by Anthropic. **Helpful** = serves the user's legitimate needs; **Honest** = does not mislead or fabricate; **Harmless** = does not harm the user or third parties. Primary output quality standard at the generation stage of the GenAI workflow.
+- See also: [[ai-engineering/constitutional-ai]], [[ai-engineering/genai-security-workflow]]
+
+**Constitutional AI**
+: A formalized set of high-level directives or principles that govern the output and behavior of an AI system. Implemented by the CISO/developer or encoded so the AI governs itself. Ensures outputs consistently align with 3H principles. Organizations may have multiple constitutions for different use cases.
+- See also: [[ai-engineering/constitutional-ai]], [[ai-engineering/genai-security-workflow]]
+
+**TRiSM** *(Trust, Risk, and Security Management)*
+: Gartner's meta-framework for AI governance. Addresses trust (helpful, honest), risk (harmless), and security (hardened deployment). Combined with 3H principles via a Constitutional AI workflow.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Data Security Debt**
+: Technical and governance debt related to data security that accumulates when unstructured data receives lower priority. GenAI adoption exposes this debt sharply: missing data classification, sensitivity labeling, and access controls block secure AI deployment. Must be addressed before or early in the GenAI workflow.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Human in the Loop**
+: The design principle of maintaining human oversight at every stage of the GenAI workflow. Humans validate outputs, interpret regulatory requirements, and provide nuanced judgment that automated systems cannot replicate. A required architectural element, not optional.
+- Preferred: `human in the loop` / Note: distinct from human-in-the-loop in control systems (different domain)
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Data Poisoning**
+: An attack where a malicious actor intentionally introduces corrupted or misleading data into a training dataset, manipulating the model's behavior — typically causing it to perform incorrectly or act in biased ways.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Model Evasion**
+: An attack where adversarial inputs that look normal to humans cause an AI model to make mistakes — misclassifying dangerous content as safe, or allowing malicious behavior to go undetected.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Model Tampering**
+: An attack where an adversary gains access to a trained model and modifies its weights, introducing unintended biases or unauthorized behavioral changes.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Model Leakage / Model Inversion**
+: A threat where the trained model inadvertently leaks parts of its proprietary training data to unauthorized users through query responses. Model inversion is the technique of reconstructing training data by querying the model.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**DSPM** *(Data Security Posture Management)*
+: Tools designed to provide visibility into data security posture — particularly for unstructured data. Used at the data acquisition stage of the GenAI workflow for data discovery, classification, and flow mapping.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+**Guardrails** *(AI)*
+: Security controls that span multiple stages of the GenAI workflow (generation, deployment, feedback). Implement content moderation, data leakage prevention, and output safety constraints as a unified enforcement layer.
+- Tools: NVIDIA NeMo Guardrails, OpenAI Moderation API
+- See also: [[ai-engineering/genai-security-workflow]], [[ai-engineering/constitutional-ai]]
+
+**Feedback Poisoning**
+: An attack where malicious actors submit fake feedback or reports to corrupt model retraining or overwhelm feedback triage systems. Particularly dangerous because it degrades model quality over time.
+- See also: [[ai-engineering/genai-security-workflow]]
+
+---
+
+## MCP / Agent Architecture
+
+**MCP** *(Model Context Protocol)*
+: A protocol layer that enables AI agents to discover and invoke tools based on context and reasoning. The AI model decides which tool to use; the server exposes capabilities rather than endpoints. Contrasted with traditional REST APIs where a human or deterministic code explicitly calls a known endpoint.
+- See also: [[ai-engineering/mcp-architecture]]
+
+**MCP Server**
+: In MCP architecture, a server that exposes *tools* (AI-facing capabilities) rather than *services* (business logic contracts). No strict endpoint schema; the AI navigates its capabilities through reasoning and capability discovery.
+- Contrasted with: traditional service / REST API service
+- See also: [[ai-engineering/mcp-architecture]]
+
+**Capability Discovery**
+: A protocol-level mechanism in MCP where an AI client dynamically learns what tools are available from an MCP server at runtime — rather than having endpoints hardcoded. Enables flexible, model-driven orchestration.
+- See also: [[ai-engineering/mcp-architecture]]
+
+**Tool Overload**
+: An MCP-specific failure mode where too many tools are exposed to the agent, causing the model to choose incorrectly, hallucinate a tool call, or fail to converge on the right action. Fix: expose fewer, well-scoped tools with explicit permission scopes.
+- See also: [[ai-engineering/mcp-architecture]]
+
+**Context Drift**
+: An MCP-specific failure mode where an AI agent loses coherence about what the current task requires across a multi-step tool chain. The model's context window no longer reflects the task state correctly.
+- See also: [[ai-engineering/mcp-architecture]]
+
+**Tool-Level Permissions**
+: The MCP security model where each exposed tool has its own permission scope, limiting what it can access or modify. Contrasted with the network-perimeter and service-level access model of traditional API security.
+- See also: [[ai-engineering/mcp-architecture]]
+
+**Context Isolation**
+: In MCP security, the principle that each agent's execution context is isolated — preventing one tool invocation from leaking context to another, and bounding the blast radius of a compromised tool.
+- See also: [[ai-engineering/mcp-architecture]]
 
 ---
 

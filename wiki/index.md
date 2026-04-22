@@ -32,6 +32,8 @@ Each entry follows this format:
 |---|---|---|
 | [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]] | Medium article: LLM Wiki pattern by Karpathy, implemented in 30 min with Cursor + Obsidian — origin story of this wiki's architecture | 2026-04-22 |
 | [[ai-engineering/pageindex-vectorless-rag]] | Medium article: PageIndex vectorless RAG vs traditional vector RAG — 98.7% FinanceBench accuracy | 2026-04-22 |
+| [[ai-engineering/vidvatta-mcp-vs-api-architecture]] | LinkedIn post: MCP vs. Traditional API Architecture — strategic layer-by-layer comparison; client roles, protocol, services, security, scaling, career paths | 2026-04-22 |
+| [[ai-engineering/gartner-genai-security-workflow]] | Gartner (Oct 2025): 6-stage GenAI security workflow — data, model, generation, deployment, compliance, feedback — with threat taxonomy and countermeasures | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -53,6 +55,12 @@ Each entry follows this format:
 |---|---|---|
 | [[bim-construction/francieli-wagner-bim-coordination]] | LinkedIn post: coordenação BIM como problema cultural/processual, não apenas de ferramentas; matrix de conflitos entre disciplinas | 2026-04-22 |
 
+### Software Engineering
+
+| Page | Summary | Updated |
+|---|---|---|
+| [[software-engineering/shivambhadani-system-design-for-beginners]] | Medium article: comprehensive system design survey (26 topics) for beginners — CAP theorem, database scaling, Kafka, EDA, consistent hashing, distributed systems | 2026-04-22 |
+
 ---
 
 ## Concepts
@@ -66,6 +74,9 @@ Each entry follows this format:
 | [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — and why it works without vector databases | 2026-04-22 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
 | [[ai-engineering/rag-approaches]] | Comparison of vector RAG vs vectorless RAG — strengths, limitations, and hybrid strategy | 2026-04-22 |
+| [[ai-engineering/mcp-architecture]] | MCP (Model Context Protocol) — AI-driven tool orchestration; tools not services; capability discovery; security model; failure modes; comparison with traditional REST APIs | 2026-04-22 |
+| [[ai-engineering/genai-security-workflow]] | 6-stage GenAI security workflow model (Gartner): each stage's threat profile, countermeasures, and cross-cutting principles (Human in the Loop, Guardrails, TRiSM) | 2026-04-22 |
+| [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -87,6 +98,17 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[bim-construction/bim-coordination]] | Coordenação BIM como problema cultural/processual; pares de maior risco de conflito entre disciplinas complementares | 2026-04-22 |
+
+### Software Engineering
+
+| Page | Summary | Updated |
+|---|---|---|
+| [[software-engineering/system-design-approach]] | Problem-solving framework (decompose → 4 dimensions); scaling fundamentals; load balancer algorithms; microservices vs monolith | 2026-04-22 |
+| [[software-engineering/cap-theorem-and-consistency]] | CAP theorem (CP vs AP); strong vs eventual consistency; quorum protocols; consistent hashing ring algorithm | 2026-04-22 |
+| [[software-engineering/database-scaling]] | Progressive scaling ladder: indexing → partitioning → master-slave → multi-master → sharding; SQL vs NoSQL decision framework | 2026-04-22 |
+| [[software-engineering/distributed-systems]] | Coordinator/worker pattern; leader election algorithms; auto-recoverable systems; big data tools (Spark) | 2026-04-22 |
+| [[software-engineering/messaging-and-events]] | Message queue vs stream; Kafka internals; real-time pub/sub; event-driven architecture (EDA) patterns | 2026-04-22 |
+| [[software-engineering/caching-cdn-proxy]] | Caching strategies; Redis deep dive; blob storage (S3); CDN edge servers; forward vs reverse proxy | 2026-04-22 |
 
 ---
 
