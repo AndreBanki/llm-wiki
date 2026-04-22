@@ -16,6 +16,7 @@ Medium article by Sweety Tripathi (Apr 13, 2026) arguing that vectorless RAG via
 | Author | Sweety Tripathi |
 | Published | April 13, 2026 |
 | Platform | Medium — Generative AI publication |
+| URL | https://medium.com/generative-ai/i-stopped-using-vector-databases-for-rag-pageindex-vectorless-rag-e54dedbe364e |
 | Reading time | 10 min |
 | Raw file | `raw/pageindex-vectorless-rag.md` |
 

@@ -81,15 +81,16 @@ Followed by:
 
 When the user says "ingest [source]":
 
-1. Read the source file from `raw/`
-2. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
-3. Create a summary page in `wiki/sources/` named after the source file
-4. Identify which existing wiki pages are affected — update them
-5. Create new entity pages (feature, concept, persona, etc.) as warranted
-6. Update `wiki/glossary.md` with any new or refined terms
-7. Update `wiki/index.md` — add new pages, update summaries of changed pages
-8. Update `wiki/overview.md` if the source shifts the big picture
-9. Append an entry to `wiki/log.md`:
+1. Ask the user for the **original URL** of the content before proceeding (if not already provided)
+2. Read the source file from `raw/`
+3. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
+4. Create a summary page in `wiki/sources/` named after the source file — always include the original URL in the Metadata table
+5. Identify which existing wiki pages are affected — update them
+6. Create new entity pages (feature, concept, persona, etc.) as warranted
+7. Update `wiki/glossary.md` with any new or refined terms
+8. Update `wiki/index.md` — add new pages, update summaries of changed pages
+9. Update `wiki/overview.md` if the source shifts the big picture
+10. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
    Pages created: ...
