@@ -35,6 +35,7 @@ Each entry follows this format:
 | [[ai-engineering/vidvatta-mcp-vs-api-architecture]] | LinkedIn post: MCP vs. Traditional API Architecture — strategic layer-by-layer comparison; client roles, protocol, services, security, scaling, career paths | 2026-04-22 |
 | [[ai-engineering/gartner-genai-security-workflow]] | Gartner (Oct 2025): 6-stage GenAI security workflow — data, model, generation, deployment, compliance, feedback — with threat taxonomy and countermeasures | 2026-04-22 |
 | [[ai-engineering/palantir-aip-bootcamps]] | Palantir Blog (Oct 2023): AIP Bootcamp model — 1–5 day enterprise AI deployment; Ontology concept; full spectrum AI; empirical architecture principle; 11 use cases | 2026-04-22 |
+| [[ai-engineering/eric-luque-claude-code-skills]] | LinkedIn Pulse (Apr 2026): Claude Code Skills — directory-based context packages for AI agents; 9 skill categories; gotcha-driven knowledge capture; Opus 4.7 amplification | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -80,6 +81,7 @@ Each entry follows this format:
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, and use case categories | 2026-04-22 |
+| [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -137,5 +139,5 @@ Each entry follows this format:
 - Update the "last updated" date when a page changes substantially
 - Mark orphan pages with `⚠️ orphan` until they gain inbound links
 - If a category grows beyond 10 pages, consider adding sub-sections
-- Pages are organized into 4 domain categories: `ai-engineering`, `coaching-leadership`, `product-org-design`, `bim-construction`
+- Pages are organized into 5 domain categories: `ai-engineering`, `coaching-leadership`, `product-org-design`, `bim-construction`, `software-engineering`
 - Internal links use the format `[[category/filename]]` (e.g., `[[coaching-leadership/coaching-modes]]`)

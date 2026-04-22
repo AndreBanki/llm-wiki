@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -360,6 +360,47 @@ Each entry follows this format:
 **Expert Feedback Loop**
 : A mechanism where domain experts validate, correct, or augment AI outputs in the flow of their normal work — and those corrections are captured to improve the model over time. Key source of proprietary competitive advantage in enterprise AI.
 - See also: [[ai-engineering/enterprise-ai-deployment]]
+
+---
+
+## Claude Code / Agentic Coding
+
+**Claude Code**
+: Anthropic's agentic coding tool — an AI agent that reads project files, executes commands, and operates autonomously within a software project. Runs as an MCP client; extensible via Skills. Distinct from Claude (the general-purpose LLM): Claude Code is the agent environment, Claude is the model powering it.
+- See also: [[ai-engineering/claude-code-skills]], [[ai-engineering/mcp-architecture]]
+
+**Skill (Claude Code)**
+: A directory-based context package for Claude Code that gives the agent specialized knowledge, tools, and operational patterns for a specific task domain. Not a single Markdown file — a folder containing the entry-point `skill.md`, `config.json`, reference docs, scripts, templates, and examples. Located at `.claude/skills/<name>/`.
+- Preferred: *skill* (lower case when used generically) / *Skill* (proper noun in Claude Code context)
+- See also: [[ai-engineering/claude-code-skills]]
+
+**Gotcha (skills)**
+: A production-discovered pitfall that an AI model repeatedly falls into without explicit correction. The most valuable content of a skill's documentation. Examples: deprecated method signatures, schema mismatches between database and API, test isolation requirements. Skills should grow their gotchas section organically as errors are observed.
+- Not to be confused with: general programming gotchas (the meaning is similar but context-specific here)
+- See also: [[ai-engineering/claude-code-skills]]
+
+**Context Engineering**
+: The practice of deliberately structuring information sources — their content, format, and organization — to maximize the quality of an AI model's reasoning. In Claude Code Skills, this includes folder structure as progressive disclosure (detailed docs in subfolders, loaded on demand). Broader than prompt engineering: involves data architecture, not just text composition.
+- Related: progressive disclosure, skill folder structure
+- See also: [[ai-engineering/claude-code-skills]]
+
+**Progressive Disclosure (prompts)**
+: The application of the UI/UX principle of progressive disclosure to AI prompt design: the entry-point file gives the model the high-level overview and rules; detailed reference material lives in subfolders that the model navigates on demand. Preserves context budget while making full detail available.
+- Related: context engineering, skill folder structure
+- See also: [[ai-engineering/claude-code-skills]], [[ai-engineering/rag-approaches]]
+
+**Skill Description (trigger conditions)**
+: The `description` field of a Claude Code Skill — specifies *when the model should consider invoking the skill*, written as trigger conditions (verbs, task types, keywords) rather than as a human-readable summary. A vague description results in a skill that is never invoked at the right moment.
+- Contrast: human-readable description ("skill for deploying AWS services") vs. trigger description ("use when user asks to deploy, publish, push, or mentions staging, canary, rollback")
+- See also: [[ai-engineering/claude-code-skills]]
+
+**CLAUDE_PLUGIN_DATA**
+: An environment variable pointing to a stable per-plugin data directory that persists across skill updates. Used to store state (logs, history, preferences) that would be lost if written to the skill's own directory (which may be overwritten during updates).
+- See also: [[ai-engineering/claude-code-skills]]
+
+**Task Budget (Opus 4.7)**
+: A beta feature in Claude Opus 4.7 that lets the caller specify a token budget for a complete agentic loop (including reasoning, tool calls, results, and output). Enables calibrating computational effort per skill: critical skills at `xhigh` effort, routine skills at `high`.
+- See also: [[ai-engineering/claude-code-skills]]
 
 ---
 

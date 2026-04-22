@@ -74,6 +74,7 @@ nav:
   - Concepts:
     - AI Engineering:
       - Palantir AIP: concepts/ai-engineering/aip-platform.md
+      - Claude Code Skills: concepts/ai-engineering/claude-code-skills.md
       - Constitutional AI: concepts/ai-engineering/constitutional-ai.md
       - Enterprise AI Deployment: concepts/ai-engineering/enterprise-ai-deployment.md
       - GenAI Security Workflow: concepts/ai-engineering/genai-security-workflow.md
@@ -100,6 +101,7 @@ nav:
   - Sources:
     - AI Engineering:
       - LLM Wiki (CreativeAI Ninja): sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md
+      - Claude Code Skills (Eric Luque): sources/ai-engineering/eric-luque-claude-code-skills.md
       - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md
       - PageIndex Vectorless RAG: sources/ai-engineering/pageindex-vectorless-rag.md
       - Palantir AIP Bootcamps: sources/ai-engineering/palantir-aip-bootcamps.md

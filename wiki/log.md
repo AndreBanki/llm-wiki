@@ -6,6 +6,31 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | Skills no Claude Code: O Guia Definitivo (Eric Luque)
+
+**Source:** LinkedIn Pulse article by Eric Luque (Co-founder Ecotrace), April 18, 2026  
+**URL:** https://www.linkedin.com/pulse/skills-claude-code-o-guia-definitivo-para-quem-quer-parar-eric-luque-kosuf/
+
+Pages created:
+- `raw/eric-luque-claude-code-skills.md` — full article content in Markdown
+- `wiki/sources/ai-engineering/eric-luque-claude-code-skills.md` — source summary with 9-category table, best practices, Opus 4.7 impact, and breaking changes
+- `wiki/concepts/ai-engineering/claude-code-skills.md` — concept page for Claude Code Skills: what they are, folder structure, 9 categories, best practices, Opus 4.7 impact, relationship to MCP/RAG/LLM Wiki
+
+Pages updated:
+- `wiki/concepts/ai-engineering/mcp-architecture.md` — added Claude Code Skills row to relationship table; added to Related Pages; updated sources frontmatter
+- `wiki/glossary.md` — added new section "Claude Code / Agentic Coding" with 7 new terms: Claude Code, Skill (Claude Code), Gotcha (skills), Context Engineering, Progressive Disclosure (prompts), Skill Description (trigger conditions), CLAUDE_PLUGIN_DATA, Task Budget (Opus 4.7)
+- `wiki/index.md` — added 1 source entry and 1 concept entry; corrected domain count to 5
+- `wiki/overview.md` — added Claude Code Skills bullet to AI Engineering domain (source ¹¹); added key insight paragraph for Skills domain; updated source count (11) and page count (40)
+
+Key additions:
+- Introduces **Claude Code Skills** as a structured, directory-based context-delivery mechanism for AI agents — a major new concept in the ai-engineering domain
+- Core insight: the *gotchas section* is the most valuable part of any skill — production-discovered pitfalls that compound over time, directly paralleling this wiki's own knowledge-capture philosophy
+- **Context engineering via folder structure**: progressive disclosure applied to LLM prompting — main file gives overview, subfolders are retrieved on demand to preserve context budget
+- **Opus 4.7 impact**: more literal instruction following means descriptions and gotchas matter more than ever; the model rewards well-written skills disproportionately
+- Cross-domain: Skills as client-side specialization above MCP extends the MCP concept from protocol to full workflow tooling; "start with one gotcha" mirrors "start with one use case" from enterprise AI deployment
+
+---
+
 ## [2026-04-22] ingest | Deploying Full Spectrum AI in Days: How AIP Bootcamps Work
 
 **Source:** Palantir Blog post, October 12, 2023  

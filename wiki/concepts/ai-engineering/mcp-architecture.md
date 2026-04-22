@@ -3,7 +3,7 @@ title: MCP Architecture (Model Context Protocol)
 type: concept
 created: 2026-04-22
 updated: 2026-04-22
-sources: [vidvatta-mcp-vs-api-architecture.md]
+sources: [vidvatta-mcp-vs-api-architecture.md, eric-luque-claude-code-skills.md]
 tags: [mcp, agent-architecture, tool-orchestration, ai-engineering, capability-discovery]
 ---
 
@@ -119,6 +119,7 @@ AI Engineer → Agent Platform Engineer → AI Architect
 | LLM Wiki pattern | The wiki's schema file is an MCP-like construct: it defines what the AI can do and what constraints apply. |
 | Vectorless RAG | Both MCP and vectorless RAG rely on *LLM reasoning* to navigate structure, rather than fixed lookup. |
 | Palantir AIP | AIP's Ontology-grounded automation is the enterprise deployment analog of MCP orchestration: both shift AI from responding to user messages to responding to real-world events. The Ontology plays a similar role to MCP's tool/capability registry — it defines the structured world the AI can reason about and act on. See [[ai-engineering/aip-platform]] |
+| Claude Code Skills | Skills are the *client-side customization layer* of an MCP-based coding agent. While MCP defines what tools a server exposes, skills define what the client knows, how it behaves, and what domain-specific context it brings to each invocation. Skills address the tool-overload failure mode by focusing the agent on specific task domains. See [[ai-engineering/claude-code-skills]] |
 
 ---
 
@@ -129,3 +130,4 @@ AI Engineer → Agent Platform Engineer → AI Architect
 - [[ai-engineering/llm-wiki-pattern]] — meta-level orchestration; the schema file as a tool contract analog
 - [[ai-engineering/pageindex]] — vectorless RAG; reasoning-based navigation (parallel philosophy to MCP's reasoning-based tool selection)
 - [[ai-engineering/aip-platform]] — Palantir AIP: enterprise deployment of the same "AI decides what to act on" principle via the Ontology
+- [[ai-engineering/claude-code-skills]] — Skills as client-side specialization for MCP-based coding agents
