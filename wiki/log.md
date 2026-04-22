@@ -89,3 +89,28 @@ Key additions:
 - Core distinction: performance coaching (task-focused, default under pressure) vs. development coaching (person-focused, requires intentional curiosity)
 - Risk of defaulting to performance: coach takes ownership of thinking, leaving the other person unaccomplished
 - Practical technique: "What have you already considered?" — one question that shifts dynamic from solution mode to development mode
+
+---
+
+## [2026-04-22] ingest | MBS Newsletter — Two questions for a great conversation
+
+**Source:** Email newsletter by Michael Bungay Stanier (MBS Works), March 31, 2026
+**URL:** https://mail.google.com/mail/u/0/#snoozed/FMfcgzQgLFgnpdHzDmgxdtxGsGKNqsWT
+
+Pages created:
+- `raw/mbs-two-questions-for-great-conversation.md`
+- `wiki/sources/mbs-two-questions-for-great-conversation.md`
+- `wiki/concepts/conversation-design.md`
+
+Pages updated:
+- `wiki/concepts/coaching-modes.md` — added cross-reference to conversation-design
+- `wiki/glossary.md` — added 6 new terms: Conversation Design, Good Host, The Conspiracy, Worthy Goal, "What are you known for?", "What are you up to?"
+- `wiki/index.md` — added new source and concept entries
+- `wiki/overview.md` — expanded coaching domain, updated source count and key insights
+
+Key additions:
+- New concept: conversation design — intentional pre-selection of questions to invite depth in a group setting
+- Two-question dinner format: "What are you known for?" (values/best self) + "What are you up to?" (adventure/becoming)
+- "Good host" as a role: curating people and questions to create conditions for meaningful connection
+- The Conspiracy: MBS's accountability membership community; Worthy Goal as the member's declared aspiration
+- Reinforces the MBS core philosophy: the right question unlocks more than advice or information

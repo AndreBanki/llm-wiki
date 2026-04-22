@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -126,6 +126,30 @@ Each entry follows this format:
 
 **HVAC** *(Heating, Ventilation, and Air Conditioning)*
 : Disciplina complementar de climatização e ventilação. No contexto brasileiro, inclui ar-condicionado e ventilação mecânica.
+
+**Conversation Design**
+: The practice of pre-selecting questions and structuring the opening of a group conversation to invite depth and bypass surface-level exchange. The designer acts as a host, then steps back. Distinct from facilitation (which manages process) and coaching (which is one-on-one).
+- See also: [[conversation-design]]
+
+**Good Host**
+: A role described by MBS as deliberately curating people and questions to create conditions for meaningful connection and collaboration — not just organizing logistics. A good host wants "great people to know other great people."
+- See also: [[conversation-design]]
+
+**The Conspiracy**
+: MBS's accountability membership community. Members commit to a Worthy Goal and receive support, focus, and accountability from a "brilliant community of humans."
+- See also: [[mbs-two-questions-for-great-conversation]]
+
+**Worthy Goal**
+: The declared aspiration a Conspiracy member commits to. The practical answer to the conversation design question "What are you up to?" — what adventure is beckoning, the edge you're stepping toward.
+- See also: [[conversation-design]], [[mbs-two-questions-for-great-conversation]]
+
+**"What are you known for?"**
+: First question of MBS's two-question dinner format. Invites participants to name their values, elemental parts, and best self as seen by people who care about them — not their public reputation.
+- See also: [[conversation-design]]
+
+**"What are you up to?"**
+: Second question of MBS's two-question dinner format. Conspiratorial in tone; asks about the adventure beckoning, the edge being stepped toward, and who the person is becoming. Bypasses status updates.
+- See also: [[conversation-design]]
 
 ---
 

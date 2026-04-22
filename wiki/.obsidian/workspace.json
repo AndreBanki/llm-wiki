@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,16 +184,18 @@
   },
   "active": "b1c0fa7fbd719655",
   "lastOpenFiles": [
-    "sources/pageindex-vectorless-rag.md",
-    "concepts/coaching-modes.md",
     "sources/mbs-performance-vs-development-coaching.md",
-    "concepts/pageindex.md",
-    "index.md",
+    "concepts/conversation-design.md",
+    "sources/mbs-two-questions-for-great-conversation.md",
+    "sources/francieli-wagner-bim-coordination.md",
     "overview.md",
     "glossary.md",
+    "index.md",
     "log.md",
+    "sources/pageindex-vectorless-rag.md",
+    "concepts/coaching-modes.md",
+    "concepts/pageindex.md",
     "concepts/bim-coordination.md",
-    "sources/francieli-wagner-bim-coordination.md",
     "Sem título.base",
     "concepts/rag-approaches.md"
   ]

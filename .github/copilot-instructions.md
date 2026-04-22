@@ -83,14 +83,21 @@ When the user says "ingest [source]":
 
 1. Ask the user for the **original URL** of the content before proceeding (if not already provided)
 2. Read the source file from `raw/`
-3. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
-4. Create a summary page in `wiki/sources/` named after the source file — always include the original URL in the Metadata table
-5. Identify which existing wiki pages are affected — update them
-6. Create new entity pages (feature, concept, persona, etc.) as warranted
-7. Update `wiki/glossary.md` with any new or refined terms
-8. Update `wiki/index.md` — add new pages, update summaries of changed pages
-9. Update `wiki/overview.md` if the source shifts the big picture
-10. Append an entry to `wiki/log.md`:
+3. Read `wiki/index.md` and relevant existing pages to understand what is already known
+4. **Before making any changes, send an ingest briefing email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+   - Subject: `[LLM Wiki] Ingest briefing: <source title>`
+   - Body:
+     - A short paragraph summarizing the source's main content
+     - The original URL as a clickable link
+     - A concise delta analysis: what this source adds, contradicts, or reinforces relative to existing wiki knowledge (bullet points)
+5. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
+6. Create a summary page in `wiki/sources/` named after the source file — always include the original URL in the Metadata table
+7. Identify which existing wiki pages are affected — update them
+8. Create new entity pages (feature, concept, persona, etc.) as warranted
+9. Update `wiki/glossary.md` with any new or refined terms
+10. Update `wiki/index.md` — add new pages, update summaries of changed pages
+11. Update `wiki/overview.md` if the source shifts the big picture
+12. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
    Pages created: ...

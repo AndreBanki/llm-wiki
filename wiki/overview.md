@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 3  
-**Wiki pages:** 12 (index, log, overview, glossary + 3 sources + 4 concepts)  
-**Last ingest:** 2026-04-22 — MBS Newsletter (Performance vs. Development Coaching)  
+**Source count:** 4  
+**Wiki pages:** 14 (index, log, overview, glossary + 4 sources + 5 concepts)  
+**Last ingest:** 2026-04-22 — MBS Newsletter (Two questions for a great conversation)  
 **Last lint:** —
 
 ---
@@ -40,10 +40,11 @@ Integração de disciplinas complementares em projetos BIM. Foco no problema cul
 
 ### 3. Coaching and Leadership (Personal Development)
 
-Distinction between performance coaching (task-focused) and development coaching (person-focused). Source: Michael Bungay Stanier (MBS Works).
+Two MBS Works newsletters covering the art of coaching and intentional conversation. Source: Michael Bungay Stanier (MBS Works).
 
 - **Coaching modes** — Two modes on a spectrum; performance is the default under pressure; development requires intentional curiosity
 - **Practical technique** — "What have you already considered?" as a minimal intervention to shift from solution mode to development mode
+- **Conversation design** — Intentional group hosting via pre-selected questions; the "good host" role; the two-question dinner format ("What are you known for?" / "What are you up to?")
 
 ## Key Insights (as of last ingest)
 
@@ -51,7 +52,7 @@ Distinction between performance coaching (task-focused) and development coaching
 
 **BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro.
 
-**Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — "What have you already considered?" — can shift the dynamic without sacrificing momentum.
+**Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — "What have you already considered?" — can shift the dynamic without sacrificing momentum. The same philosophy extends to group settings: pre-designed questions ("What are you known for?" / "What are you up to?") act as containers that invite depth without requiring a structured agenda.
 ---
 
 ## Key Themes

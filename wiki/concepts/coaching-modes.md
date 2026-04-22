@@ -71,3 +71,5 @@ This one question:
 ## Related Pages
 
 - [[mbs-performance-vs-development-coaching]]
+- [[conversation-design]] — shares the same root philosophy: the right question, held with curiosity, unlocks more than advice
+- [[mbs-two-questions-for-great-conversation]]
