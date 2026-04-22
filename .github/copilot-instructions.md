@@ -170,10 +170,9 @@ Always ask the user which format they want if it's not clear.
 ## Session Start Checklist
 
 At the start of every session:
-1. Read this file (CLAUDE.md)
-2. Read `wiki/index.md` to orient yourself
-3. Read the last 5 entries in `wiki/log.md` to understand recent activity
-4. Ask the user what they want to do: ingest, query, lint, or something else
+1. Read `wiki/index.md` to orient yourself
+2. Read the last 5 entries in `wiki/log.md` to understand recent activity
+3. Ask the user what they want to do: ingest, query, lint, or something else
 
 ---
 
