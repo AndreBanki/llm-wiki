@@ -118,6 +118,7 @@ AI Engineer → Agent Platform Engineer → AI Architect
 | RAG (retrieval) | RAG retrieves *context*; MCP orchestrates *actions*. Complementary layers in an AI agent stack. |
 | LLM Wiki pattern | The wiki's schema file is an MCP-like construct: it defines what the AI can do and what constraints apply. |
 | Vectorless RAG | Both MCP and vectorless RAG rely on *LLM reasoning* to navigate structure, rather than fixed lookup. |
+| Palantir AIP | AIP's Ontology-grounded automation is the enterprise deployment analog of MCP orchestration: both shift AI from responding to user messages to responding to real-world events. The Ontology plays a similar role to MCP's tool/capability registry — it defines the structured world the AI can reason about and act on. See [[ai-engineering/aip-platform]] |
 
 ---
 
@@ -127,3 +128,4 @@ AI Engineer → Agent Platform Engineer → AI Architect
 - [[ai-engineering/rag-approaches]] — RAG as the retrieval layer; MCP as the action/orchestration layer
 - [[ai-engineering/llm-wiki-pattern]] — meta-level orchestration; the schema file as a tool contract analog
 - [[ai-engineering/pageindex]] — vectorless RAG; reasoning-based navigation (parallel philosophy to MCP's reasoning-based tool selection)
+- [[ai-engineering/aip-platform]] — Palantir AIP: enterprise deployment of the same "AI decides what to act on" principle via the Ontology

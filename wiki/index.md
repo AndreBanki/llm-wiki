@@ -34,6 +34,7 @@ Each entry follows this format:
 | [[ai-engineering/pageindex-vectorless-rag]] | Medium article: PageIndex vectorless RAG vs traditional vector RAG — 98.7% FinanceBench accuracy | 2026-04-22 |
 | [[ai-engineering/vidvatta-mcp-vs-api-architecture]] | LinkedIn post: MCP vs. Traditional API Architecture — strategic layer-by-layer comparison; client roles, protocol, services, security, scaling, career paths | 2026-04-22 |
 | [[ai-engineering/gartner-genai-security-workflow]] | Gartner (Oct 2025): 6-stage GenAI security workflow — data, model, generation, deployment, compliance, feedback — with threat taxonomy and countermeasures | 2026-04-22 |
+| [[ai-engineering/palantir-aip-bootcamps]] | Palantir Blog (Oct 2023): AIP Bootcamp model — 1–5 day enterprise AI deployment; Ontology concept; full spectrum AI; empirical architecture principle; 11 use cases | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -77,6 +78,8 @@ Each entry follows this format:
 | [[ai-engineering/mcp-architecture]] | MCP (Model Context Protocol) — AI-driven tool orchestration; tools not services; capability discovery; security model; failure modes; comparison with traditional REST APIs | 2026-04-22 |
 | [[ai-engineering/genai-security-workflow]] | 6-stage GenAI security workflow model (Gartner): each stage's threat profile, countermeasures, and cross-cutting principles (Human in the Loop, Guardrails, TRiSM) | 2026-04-22 |
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
+| [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
+| [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, and use case categories | 2026-04-22 |
 
 ### Coaching & Leadership
 

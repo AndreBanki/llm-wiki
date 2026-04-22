@@ -6,6 +6,31 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | Deploying Full Spectrum AI in Days: How AIP Bootcamps Work
+
+**Source:** Palantir Blog post, October 12, 2023  
+**URL:** https://blog.palantir.com/deploying-full-spectrum-ai-in-days-how-aip-bootcamps-work-21829ec8d560
+
+Pages created:
+- `wiki/sources/ai-engineering/palantir-aip-bootcamps.md` — source summary with five "why it works" principles, 11 enterprise use cases, Ontology concept, and customer testimonials
+- `wiki/concepts/ai-engineering/aip-platform.md` — concept page for Palantir AIP: Ontology, full spectrum AI maturity model, empirical AI architecture principle, bootcamp methodology, connections to MCP and Conway's Law
+- `wiki/concepts/ai-engineering/enterprise-ai-deployment.md` — concept page for enterprise AI deployment: bootcamp model, chat-to-automation shift, expert feedback loops, empirical architecture, use case categories
+
+Pages updated:
+- `wiki/concepts/ai-engineering/mcp-architecture.md` — added AIP/Ontology as a cross-reference in the "Relationship to Other AI Engineering Concepts" table; added to Related Pages
+- `wiki/glossary.md` — added new section "Enterprise AI Deployment / AIP" with 6 new terms: AIP, Ontology (Palantir), Full Spectrum AI, AIP Bootcamp, Empirical AI Architecture, Expert Feedback Loop; updated sources frontmatter
+- `wiki/index.md` — added 1 source entry and 2 concept entries
+- `wiki/overview.md` — added AIP and Enterprise AI Deployment bullets to RAG/AI domain section; added enterprise AI deployment key insight paragraph; updated source count (10) and page count (37); assigned source number ¹⁰
+
+Key additions:
+- Introduces **Enterprise AI Deployment** as a concrete, platform-specific domain in the wiki
+- Core concept: the **Palantir Ontology** as the enabling layer that shifts AI from user-prompt-driven to event-driven (the operational bridge between real-world events and AI actions)
+- **Empirical AI architecture** principle: architecture decisions must emerge from production experience, not upfront doctrine — the most important cross-domain insight of this ingest
+- Cross-domain connections: (1) Ontology grounds AI in operational reality, parallel to MCP's event-driven tool orchestration; (2) "empirical not theological" mirrors Joca Torres's "structure follows strategy" principle
+- **AIP Bootcamp model** as a repeatable methodology for rapid enterprise AI adoption: delivers working use case + team capability simultaneously
+
+---
+
 ## [2026-04-22] ingest | System Design For Beginners: Everything You Need in One Article
 
 **Source:** Medium article by Shivam Bhadani (@shivambhadani_), December 21, 2024  

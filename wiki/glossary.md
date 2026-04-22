@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -330,6 +330,36 @@ Each entry follows this format:
 **Context Isolation**
 : In MCP security, the principle that each agent's execution context is isolated — preventing one tool invocation from leaking context to another, and bounding the blast radius of a compromised tool.
 - See also: [[ai-engineering/mcp-architecture]]
+
+---
+
+## Enterprise AI Deployment / AIP
+
+**AIP** *(Palantir Artificial Intelligence Platform)*
+: Palantir's enterprise AI platform that integrates foundation models with live operational data through the Ontology. Enables organizations to move from chat-based AI to event-driven AI automation across any business function.
+- See also: [[ai-engineering/aip-platform]]
+
+**Ontology** *(Palantir)*
+: Palantir's semantic data model that represents an organization's real-world entities and events in a structured, live format. Grounds AI prompts in operational reality rather than just user input — enabling event-driven automation (e.g., a supply disruption triggers AI analysis without a human typing a prompt).
+- Note: Palantir-specific term; not to be confused with the general concept of ontology in knowledge representation
+- See also: [[ai-engineering/aip-platform]]
+
+**Full Spectrum AI**
+: Palantir's term for the maturity spectrum of enterprise AI deployment, from chat-style interaction at one end to fully automated, event-driven intelligent primitives embedded in business applications at the other. Most enterprises start at the chat end and must be guided toward automation.
+- See also: [[ai-engineering/aip-platform]], [[ai-engineering/enterprise-ai-deployment]]
+
+**AIP Bootcamp**
+: Palantir's 1–5 day immersive hands-on engagement format for enterprise AI deployment. Participants build real production use cases (not demos) while simultaneously developing team capability. Core principle: "learn to fish, eat a fish" — deliver value today and build skills for tomorrow.
+- See also: [[ai-engineering/enterprise-ai-deployment]], [[ai-engineering/aip-platform]]
+
+**Empirical AI Architecture**
+: The principle that AI architecture decisions (number of LLMs, fine-tuning vs. prompting, commercial vs. open source, learning loop design) must be discovered through real production use cases rather than decided upfront based on theoretical preferences. Contrasted with "theological" AI architecture (upfront doctrine).
+- Related: parallels "structure follows strategy" in product org design — both reject premature architectural commitment
+- See also: [[ai-engineering/enterprise-ai-deployment]], [[ai-engineering/aip-platform]]
+
+**Expert Feedback Loop**
+: A mechanism where domain experts validate, correct, or augment AI outputs in the flow of their normal work — and those corrections are captured to improve the model over time. Key source of proprietary competitive advantage in enterprise AI.
+- See also: [[ai-engineering/enterprise-ai-deployment]]
 
 ---
 
