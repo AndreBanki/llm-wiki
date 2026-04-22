@@ -2,7 +2,7 @@
 title: Overview
 type: overview
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-22
 sources: []
 tags: [overview, synthesis]
 ---
@@ -15,18 +15,25 @@ tags: [overview, synthesis]
 
 ## Current State
 
-This wiki was just initialized. No sources have been ingested yet.
-
-**Source count:** 0
-**Wiki pages:** 4 (index, log, overview, glossary)
-**Last ingest:** —
+**Source count:** 1  
+**Wiki pages:** 7 (index, log, overview, glossary + 1 source + 2 concepts)  
+**Last ingest:** 2026-04-22 — "I Stopped Using Vector Databases for RAG: PageIndex Vectorless RAG"  
 **Last lint:** —
 
 ---
 
 ## What This Wiki Covers
 
-*(Will populate automatically as you ingest sources. The LLM will update this section to reflect the domain, products, and topics you're building knowledge about.)*
+This wiki currently focuses on **RAG (Retrieval-Augmented Generation) retrieval strategies**, specifically the contrast between traditional vector-based RAG and the emerging reasoning-based (vectorless) approach pioneered by PageIndex.
+
+### Core Topics
+
+- **RAG retrieval approaches** — Vector RAG vs. Vectorless RAG, strengths, limitations, when to use each, hybrid strategy
+- **PageIndex** — Open source vectorless RAG framework by VectifyAI; hierarchical tree indexing + LLM-powered tree search; 98.7% accuracy on FinanceBench
+
+### Key Insight (as of last ingest)
+
+The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity. PageIndex is the leading open source implementation of this pattern.
 
 ---
 

@@ -26,7 +26,9 @@ Each entry follows this format:
 
 *One entry per raw document ingested. Add entries here after each ingest.*
 
-*(No sources ingested yet — drop a file into `raw/` and say "ingest [filename]" to get started.)*
+| Page | Summary | Updated |
+|---|---|---|
+| [[pageindex-vectorless-rag]] | Medium article: PageIndex vectorless RAG vs traditional vector RAG — 98.7% FinanceBench accuracy | 2026-04-22 |
 
 ---
 
@@ -58,7 +60,10 @@ Each entry follows this format:
 
 *One entry per core domain concept.*
 
-*(Empty — will populate as sources are ingested.)*
+| Page | Summary | Updated |
+|---|---|---|
+| [[pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
+| [[rag-approaches]] | Comparison of vector RAG vs vectorless RAG — strengths, limitations, and hybrid strategy | 2026-04-22 |
 
 ---
 
