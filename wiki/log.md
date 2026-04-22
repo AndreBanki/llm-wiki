@@ -6,6 +6,57 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | I Gave an AI a One-Page Idea and It Built Me an Entire Knowledge Base in 30 Minutes
+
+**Source:** `article.md` (Medium article by Balu Kosuri / @creativeaininja)
+**URL:** https://medium.com/@creativeaininja/mempalace-the-viral-ai-memory-system-that-got-22k-stars-in-48-hours-an-honest-look-and-setup-26c234b0a27b
+
+Pages created:
+- `wiki/sources/creativeaininja-llm-wiki-cursor-obsidian.md`
+- `wiki/concepts/llm-wiki-pattern.md`
+
+Pages updated:
+- `wiki/glossary.md` — added 8 new terms in new section "AI Knowledge Management": LLM Wiki, Schema File, Knowledge Compounding, Ingest, Lint, Cursor AI, Obsidian, Andrej Karpathy
+- `wiki/index.md` — added 1 source entry and 1 concept entry
+- `wiki/overview.md` — added 5th domain (AI Knowledge Management — meta-domain); added key insight for meta-domain; updated source count (6) and page count (20)
+
+Key additions:
+- This article is the **origin story** of this wiki's own architecture — traces the LLM Wiki pattern back to Karpathy's `llm-wiki.md` gist (early 2026)
+- Core concept: three-layer architecture (raw/ + wiki/ + schema); schema file = "the brain" that converts a general-purpose AI into a disciplined wiki maintainer
+- Core argument: AI's comparative advantage is bookkeeping — the work that kills human-maintained wikis; maintenance cost drops to nearly zero
+- Knowledge compounding: the wiki grows richer with each ingest, unlike chat-based AI which resets every session
+- Index-based navigation: `index.md` as a vectorless navigation map — cross-domain connection to PageIndex / vectorless RAG concepts already in the wiki
+- Implementation: Cursor AI + Obsidian toolchain; full infrastructure buildable in 30 min from 3 prompts
+- Cross-domain connection: `index.md` navigation IS an instance of reasoning-based retrieval (PageIndex domain); reinforces the wiki's recurring theme that *the right framing unlocks a wider solution space*
+
+---
+
+## [2026-04-22] ingest | MBS Works — The paradoxes of being a coach
+
+**Source:** MBS Works newsletter by Michael Bungay Stanier, March 10, 2026  
+**URL:** https://mail.google.com/mail/u/0/#snoozed/FMfcgzQfCMqcqBmFlkdsBJnkkpppPBjv
+
+Pages created:
+- `raw/mbs-paradoxes-of-being-a-coach.md`
+- `wiki/sources/mbs-paradoxes-of-being-a-coach.md`
+- `wiki/concepts/coaching-paradoxes.md`
+
+Pages updated:
+- `wiki/concepts/coaching-modes.md` — added cross-references to coaching-paradoxes and new source
+- `wiki/glossary.md` — added 6 new terms: Being of Coaching, Humble Confidence, Fierce Love, Light and Grounded, Care and Don't Care; updated sources frontmatter
+- `wiki/index.md` — added 1 source entry and 1 concept entry
+- `wiki/overview.md` — added 2 new coaching domain bullets; updated coaching key insight to include being-of-coaching layer and ⁶ citation; updated source count (6) and page count (19)
+
+Key additions:
+- "Being of coaching" concept — coaching effectiveness lives in how you show up, not just what questions you ask
+- Four paradoxes framework: Humble Confidence, Fierce Love, Light and Grounded, Care and Don't Care
+- AI contrast: questions are replicable; the being is not — a new cross-domain connection between coaching and AI domains
+- Outcome-ownership principle: coach creates conditions for better thinking; coachee owns the results
+- Fierce Love connects to and extends the support/challenge axis in coaching-modes
+- Light and Grounded reinforces the structure-vs-freedom balance in conversation-design
+
+---
+
 ## [2026-04-22] ingest | Gyaco — Como a estrutura de time molda o seu produto
 
 **Source:** Article by Joca Torres (Gyaco), published 2026-04-21
