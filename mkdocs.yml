@@ -77,6 +77,7 @@ nav:
       - Claude Code Skills: concepts/ai-engineering/claude-code-skills.md
       - Constitutional AI: concepts/ai-engineering/constitutional-ai.md
       - Enterprise AI Deployment: concepts/ai-engineering/enterprise-ai-deployment.md
+      - AI Agent Governance: concepts/ai-engineering/ai-agent-governance.md
       - GenAI Security Workflow: concepts/ai-engineering/genai-security-workflow.md
       - LLM Wiki Pattern: concepts/ai-engineering/llm-wiki-pattern.md
       - MCP Architecture: concepts/ai-engineering/mcp-architecture.md
@@ -102,6 +103,7 @@ nav:
     - AI Engineering:
       - LLM Wiki (CreativeAI Ninja): sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md
       - Claude Code Skills (Eric Luque): sources/ai-engineering/eric-luque-claude-code-skills.md
+      - Claude Opus 4.7 Operator Risk (Eric Luque): sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md
       - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md
       - PageIndex Vectorless RAG: sources/ai-engineering/pageindex-vectorless-rag.md
       - Palantir AIP Bootcamps: sources/ai-engineering/palantir-aip-bootcamps.md

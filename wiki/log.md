@@ -6,6 +6,32 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-22] ingest | O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu (Eric Luque)
+
+**Source:** LinkedIn Pulse article by Eric Luque (Co-founder Ecotrace), April 16, 2026  
+**URL:** https://www.linkedin.com/pulse/o-claude-opus-47-n%C3%A3o-%C3%A9-um-upgrade-come%C3%A7o-de-problema-que-eric-luque-zxgvf/
+
+Pages created:
+- `wiki/sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md` — source summary covering copilot→operator shift, four risks (global errors, silent cost, delegation without governance, pipeline anti-pattern), four-component stack, architecture of decision
+- `wiki/concepts/ai-engineering/ai-agent-governance.md` — new concept page: delegation vs automation, long-context as operational risk, four-component production stack, architecture of decision
+
+Pages updated:
+- `wiki/concepts/ai-engineering/enterprise-ai-deployment.md` — added AI in Production: The Governance Gap section; new related pages
+- `wiki/concepts/ai-engineering/mcp-architecture.md` — added execution limits and observability rows to common mistakes table
+- `wiki/glossary.md` — added new section "AI Agent Governance" with 7 terms: AI Operator, Architecture of Decision, Delegation (AI), Agent Observability, AI FinOps, Silent Cost Creep, Execution Control
+- `wiki/overview.md` — added AI as Operator and AI Agent Governance bullets to domain 1; updated source count (11→12) and page count
+- `wiki/index.md` — added source entry and updated enterprise-ai-deployment + ai-agent-governance concept entries
+- `mkdocs.yml` — added AI Agent Governance to concepts nav; added new source to AI Engineering sources nav
+- `raw/ingested.md` — added PDF to ingested list
+
+Key additions:
+- First wiki coverage of AI governance as a discipline distinct from AI security (Gartner) — focuses on organizational architecture of decision rather than threat mitigation
+- Establishes the copilot→operator shift as a named concept in the wiki
+- Creates the AI FinOps and Agent Observability terms as first-class glossary entries
+- Eric Luque's two articles (Skills + Operator Risk) now form a recognized pair: interface (Skills) + governance (Operator Risk)
+
+---
+
 ## [2026-04-22] ingest | Skills no Claude Code: O Guia Definitivo (Eric Luque)
 
 **Source:** LinkedIn Pulse article by Eric Luque (Co-founder Ecotrace), April 18, 2026  

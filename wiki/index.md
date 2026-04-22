@@ -36,6 +36,7 @@ Each entry follows this format:
 | [[ai-engineering/gartner-genai-security-workflow]] | Gartner (Oct 2025): 6-stage GenAI security workflow — data, model, generation, deployment, compliance, feedback — with threat taxonomy and countermeasures | 2026-04-22 |
 | [[ai-engineering/palantir-aip-bootcamps]] | Palantir Blog (Oct 2023): AIP Bootcamp model — 1–5 day enterprise AI deployment; Ontology concept; full spectrum AI; empirical architecture principle; 11 use cases | 2026-04-22 |
 | [[ai-engineering/eric-luque-claude-code-skills]] | LinkedIn Pulse (Apr 2026): Claude Code Skills — directory-based context packages for AI agents; 9 skill categories; gotcha-driven knowledge capture; Opus 4.7 amplification | 2026-04-22 |
+| [[ai-engineering/eric-luque-claude-opus-47-operator-risk]] | LinkedIn Pulse (Apr 2026): Opus 4.7 shifts AI from copilot to operator; four production risks (global errors, silent cost, delegation without governance, pipeline anti-pattern); four-component governance stack | 2026-04-22 |
 
 ### Coaching & Leadership
 
@@ -80,8 +81,9 @@ Each entry follows this format:
 | [[ai-engineering/genai-security-workflow]] | 6-stage GenAI security workflow model (Gartner): each stage's threat profile, countermeasures, and cross-cutting principles (Human in the Loop, Guardrails, TRiSM) | 2026-04-22 |
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
-| [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, and use case categories | 2026-04-22 |
+| [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
+| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-22 |
 
 ### Coaching & Leadership
 

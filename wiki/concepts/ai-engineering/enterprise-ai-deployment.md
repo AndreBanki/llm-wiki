@@ -108,10 +108,24 @@ Enterprise AI use cases cluster into six broad categories:
 
 ---
 
+## AI in Production: The Governance Gap
+
+As models gain effective long-context reasoning, they shift from **copilot** (suggests, human validates) to **operator** (interprets, decides, executes). This transition exposes a governance gap in most enterprise deployments:
+
+- **Errors become global, not local**: systemic model visibility means a single wrong decision can cascade across deploy, policy, and cost simultaneously
+- **Silent cost creep**: newer tokenizers consume more tokens per request by default; without AI FinOps, bills rise without teams understanding why
+- **Delegation without governance**: plugging a powerful model into CI/CD pipelines without redesigning for action limits, decision scope, and rollback is a common failure mode
+
+See [[ai-engineering/ai-agent-governance]] for the four-component production stack (guardrails, observability, FinOps, execution control).
+
+---
+
 ## Related Pages
 
 - [[ai-engineering/aip-platform]]
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/genai-security-workflow]]
+- [[ai-engineering/ai-agent-governance]]
 - [[product-org-design/conways-law]]
 - [[sources/ai-engineering/palantir-aip-bootcamps]]
+- [[sources/ai-engineering/eric-luque-claude-opus-47-operator-risk]]

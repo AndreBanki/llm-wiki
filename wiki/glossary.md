@@ -300,6 +300,41 @@ Each entry follows this format:
 
 ---
 
+## AI Agent Governance
+
+**AI Operator** *(operator model)*
+: A mode in which an AI model does not just suggest actions but interprets context, makes decisions, and executes them autonomously — with the human arriving after the fact to review results. Contrasted with the copilot model. Enabled by effective long-context reasoning (e.g., Claude Opus 4.7).
+- Contrasted with: copilot (AI suggests, human validates, system executes)
+- See also: [[ai-engineering/ai-agent-governance]], [[ai-engineering/eric-luque-claude-opus-47-operator-risk]]
+
+**Architecture of Decision**
+: The structural design of where, under what conditions, and with what safeguards an AI agent is permitted to make autonomous decisions within an organization. The primary governance responsibility for CTOs and Principal Engineers as AI transitions from copilot to operator.
+- Key questions: where can AI decide? where can it not? how do we audit, limit, and shut it down?
+- See also: [[ai-engineering/ai-agent-governance]]
+
+**Delegation (AI)**
+: The transfer of decision authority to an AI agent — as distinct from automation (where a rule determines execution). Delegation is unpredictable without governance scaffolding; automating a decision is not the same as delegating it.
+- Contrasted with: automation (rule → system executes, predictable)
+- See also: [[ai-engineering/ai-agent-governance]]
+
+**Agent Observability**
+: The ability to inspect what decision an AI agent made, why it made that decision (reasoning trace), and how much it cost (token consumption per task). A required component of any production agentic system; without it, debugging, auditing, and improvement are impossible.
+- See also: [[ai-engineering/ai-agent-governance]], [[ai-engineering/mcp-architecture]]
+
+**AI FinOps**
+: The discipline of managing and controlling the financial cost of running AI models in production. Includes budget limits per task, per team, and per operation class. Critical when newer model generations consume more tokens per request by default — without FinOps, costs rise silently.
+- See also: [[ai-engineering/ai-agent-governance]]
+
+**Silent Cost Creep**
+: A failure mode in AI production deployments where model upgrades or tokenizer changes increase token consumption per request without any visible product change — resulting in unexpected cost increases with no obvious trigger.
+- See also: [[ai-engineering/ai-agent-governance]]
+
+**Execution Control**
+: A governance mechanism that separates the AI's suggestion scope (unlimited) from its execution scope (explicitly constrained). The principle: AI can suggest everything; it executes only within approved boundaries. Requires defined action limits, decision scope, rollback automation, and human checkpoints for irreversible actions.
+- See also: [[ai-engineering/ai-agent-governance]]
+
+---
+
 ## MCP / Agent Architecture
 
 **MCP** *(Model Context Protocol)*

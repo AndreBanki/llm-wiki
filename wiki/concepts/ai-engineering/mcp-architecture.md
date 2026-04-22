@@ -78,6 +78,8 @@ MCP's security model is granular at the *tool level*, not the service level. Eac
 | Mistake | Fix |
 |---|---|
 | Too many tools | Fewer, well-scoped tools — each tool should have a clear, distinct purpose |
+| No execution limits | Define action scope per agent class: what the agent can read vs. write vs. delete |
+| No observability | Instrument every tool call: what was decided, why, and at what cost — see [[ai-engineering/ai-agent-governance]] |
 | No permission scopes | Explicit scopes for each tool — limit what each tool can access |
 
 ---

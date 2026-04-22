@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 11  
-**Wiki pages:** 40 (index, log, overview, glossary + 11 sources + 21 concepts + mcp-architecture updated)  
-**Last ingest:** 2026-04-22 — Eric Luque / LinkedIn Pulse (Skills no Claude Code)  
+**Source count:** 12  
+**Wiki pages:** 44 (index, log, overview, glossary + 12 sources + 22 concepts + updated pages)  
+**Last ingest:** 2026-04-22 — Eric Luque / LinkedIn Pulse (O Claude Opus 4.7 não é um upgrade)  
 **Last lint:** —
 
 ---
@@ -33,6 +33,8 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **PageIndex** — Open source vectorless RAG framework; hierarchical tree indexing + LLM-powered reasoning; 98.7% accuracy on FinanceBench [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
 - **MCP (Model Context Protocol)** — AI-driven tool orchestration protocol; AI decides which tools to use; tools not services; capability discovery; tool-level permissions; failure modes: tool overload, context drift [⁹](sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md)
 - **Claude Code Skills** — Directory-based context packages for AI coding agents; a skill is a folder (not a file): entry-point .md + config.json + scripts + templates + references + examples; 9 categories from library reference to infrastructure runbooks; the *gotchas section* is the most valuable content; folder structure enables progressive disclosure as context engineering; Opus 4.7 makes well-written skills dramatically more effective [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
+- **AI as Operator** — Claude Opus 4.7 marks the transition from copilot (AI suggests, human validates) to operator (AI interprets, decides, executes — human arrives after); long context enables systemic visibility, meaning errors cascade globally not locally [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
+- **AI Agent Governance** — The new CTO/Principal responsibility: architecture of decision (where AI can/cannot decide); four-component production stack: real guardrails (executable policy), agent observability (what, why, cost), AI FinOps (budget control), execution control (suggest everything; execute within bounds) [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
 - **Palantir AIP** — Enterprise AI platform; Ontology grounds AI in real-world operational events (not just user messages); full spectrum AI from chat → automation → intelligent primitives; empirical AI architecture principle [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 

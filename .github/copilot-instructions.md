@@ -84,6 +84,12 @@ Followed by:
 
 ### Ingest
 
+When the user says "ingest the new file" (or similar phrasing without specifying a source):
+1. Read `raw/ingested.md` to get the list of already-ingested PDFs
+2. List all PDFs in `raw/` and identify which are not in `raw/ingested.md`
+3. If exactly one PDF has not been ingested, proceed with that file as the source
+4. If more than one PDF has not been ingested, list them and ask the user which one to ingest before proceeding
+
 When the user says "ingest [source]":
 
 1. Ask the user for the **original URL** of the content before proceeding (if not already provided)
@@ -103,14 +109,15 @@ When the user says "ingest [source]":
 10. Update `wiki/index.md` — add new pages, update summaries of changed pages
 11. Update `wiki/overview.md` if the source shifts the big picture — when adding or updating concept bullets or insight paragraphs, append a compact numbered superscript link at the end of each line pointing to the source's page in `wiki/sources/`. Assign each source a sequential integer (¹ ² ³ ⁴ ⁵ …) in order of first appearance in the overview. Use the format `[ⁿ](sources/source-filename.md)`. If multiple sources reinforce the same concept, include all their numbered links, e.g. `[³](sources/foo.md) [⁴](sources/bar.md)`
 12. Update `mkdocs.yml` — add any new pages to the `nav` section under the correct category. If a new category directory was created, add it as a new nav group. Keep the nav in sync with the actual files in `wiki/`.
-13. Append an entry to `wiki/log.md`:
+13. Add the PDF filename to `raw/ingested.md` (alphabetically within the Ingested list).
+14. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
    Pages created: ...
    Pages updated: ...
    Key additions: ...
    ```
-14. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+15. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
    - Subject: `[LLM Wiki] Ingest complete: <source title>`
    - Body:
      - **Pages created:** list each new file with a one-line description
