@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -69,6 +69,63 @@ Each entry follows this format:
 **VectifyAI**
 : The team that built and maintains PageIndex. Also operates the cloud service at pageindex.ai.
 - See also: [[pageindex]]
+
+---
+
+## Coaching / Leadership
+
+**Performance Coaching**
+: A mode of coaching focused on the task at hand — getting things done, fixing problems, moving faster. The natural default under pressure. Risk: the coach takes ownership of the thinking, leaving the other person feeling unaccomplished.
+- Contrasted with: development coaching
+- See also: [[coaching-modes]]
+
+**Development Coaching**
+: A mode of coaching focused on the person doing the task — who they are becoming, what they are learning, what capability they are building. Requires staying curious long enough for the other person to grow.
+- Not passive or slow by default; it's intentional curiosity
+- Contrasted with: performance coaching
+- See also: [[coaching-modes]]
+
+**Resisting the Urge to Rescue**
+: A key discipline in development coaching. After asking a question, not filling the silence with your own answer. Trusting the other person to do their own thinking even when it feels slow or uncomfortable.
+- See also: [[coaching-modes]]
+
+**Holding Space**
+: Remaining present and attentive without rushing to fill silence or offer solutions. Allows the other person room to think, process, and arrive at their own conclusions.
+- See also: [[coaching-modes]]
+
+---
+
+## BIM / Coordenação de Projetos
+
+**BIM** *(Building Information Modeling / Modelagem da Informação da Construção)*
+: Metodologia de trabalho baseada em modelos digitais tridimensionais e inteligentes que integram geometria, dados e informações do ciclo de vida da construção.
+- Canonical form for this wiki: `BIM` (sigla em inglês, universalmente adotada no Brasil)
+- See also: [[bim-coordination]]
+
+**Coordenação BIM**
+: Processo de integração e compatibilização das disciplinas de projeto (estrutural, hidráulica, elétrica, HVAC, incêndio, etc.) dentro de um ambiente BIM, com o objetivo de identificar e resolver conflitos antes da execução em obra.
+- See also: [[bim-coordination]]
+
+**Modelo Federado**
+: Agregação dos modelos individuais de cada disciplina em um único ambiente de visualização e análise. Condição necessária, mas não suficiente, para coordenação BIM real.
+- See also: [[bim-coordination]]
+
+**Compatibilização**
+: Processo de identificação e resolução de conflitos físicos, funcionais ou de sequência entre disciplinas de projeto. Pode ser feita via clash detection automatizado ou revisão manual.
+- See also: [[bim-coordination]]
+
+**Disciplinas Complementares**
+: Conjunto de projetos de engenharia que complementam o projeto arquitetônico: estrutural, hidráulica, elétrica, HVAC (climatização), PPCI (prevenção e combate a incêndio), entre outros.
+- Preferred: `disciplinas complementares` / Avoid: `disciplinas` (ambíguo)
+
+**Clash Detection**
+: Verificação automatizada de interferências físicas (colisões geométricas) entre elementos de disciplinas distintas dentro do modelo federado.
+
+**PPCI** *(Projeto de Prevenção e Combate a Incêndio)*
+: Disciplina complementar responsável pelo sistema de proteção contra incêndio: sprinklers, hidrantes, rotas de fuga, etc.
+
+**HVAC** *(Heating, Ventilation, and Air Conditioning)*
+: Disciplina complementar de climatização e ventilação. No contexto brasileiro, inclui ar-condicionado e ventilação mecânica.
 
 ---
 

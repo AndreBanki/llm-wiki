@@ -15,26 +15,43 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 1  
-**Wiki pages:** 7 (index, log, overview, glossary + 1 source + 2 concepts)  
-**Last ingest:** 2026-04-22 — "I Stopped Using Vector Databases for RAG: PageIndex Vectorless RAG"  
+**Source count:** 3  
+**Wiki pages:** 12 (index, log, overview, glossary + 3 sources + 4 concepts)  
+**Last ingest:** 2026-04-22 — MBS Newsletter (Performance vs. Development Coaching)  
 **Last lint:** —
 
 ---
 
 ## What This Wiki Covers
 
-This wiki currently focuses on **RAG (Retrieval-Augmented Generation) retrieval strategies**, specifically the contrast between traditional vector-based RAG and the emerging reasoning-based (vectorless) approach pioneered by PageIndex.
+This wiki currently spans three domains:
 
-### Core Topics
+### 1. RAG Retrieval Strategies (LLM / AI)
+Contrast between traditional vector-based RAG and reasoning-based (vectorless) RAG. Core framework: PageIndex by VectifyAI.
 
 - **RAG retrieval approaches** — Vector RAG vs. Vectorless RAG, strengths, limitations, when to use each, hybrid strategy
-- **PageIndex** — Open source vectorless RAG framework by VectifyAI; hierarchical tree indexing + LLM-powered tree search; 98.7% accuracy on FinanceBench
+- **PageIndex** — Open source vectorless RAG framework; hierarchical tree indexing + LLM-powered reasoning; 98.7% accuracy on FinanceBench
 
-### Key Insight (as of last ingest)
+### 2. Coordenação de Projetos BIM (Construção Civil)
+Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação.
 
-The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity. PageIndex is the leading open source implementation of this pattern.
+- **Coordenação BIM** — Modelo federado vs. cultura de responsabilidade sequencial; o princípio "não interessa quem chegou primeiro"
+- **Pares de conflito** — Matrix de risco entre disciplinas: Estrutural×HVAC, Hidro×Elétrico, Estrutural×Hidro (ALTO); HVAC×Incêndio, Elétrico×Estrutural (MÉDIO)
 
+### 3. Coaching and Leadership (Personal Development)
+
+Distinction between performance coaching (task-focused) and development coaching (person-focused). Source: Michael Bungay Stanier (MBS Works).
+
+- **Coaching modes** — Two modes on a spectrum; performance is the default under pressure; development requires intentional curiosity
+- **Practical technique** — "What have you already considered?" as a minimal intervention to shift from solution mode to development mode
+
+## Key Insights (as of last ingest)
+
+**RAG domain:** The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity.
+
+**BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro.
+
+**Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — "What have you already considered?" — can shift the dynamic without sacrificing momentum.
 ---
 
 ## Key Themes
@@ -50,6 +67,7 @@ The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a 
 - What product or domain is this wiki primarily covering?
 - Who are the primary user personas to document for?
 - Is there an existing style guide to ingest as a baseline?
+- Como estruturar protocolo de sequência de entregas entre disciplinas BIM?
 
 ---
 
