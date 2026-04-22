@@ -8,6 +8,7 @@ Instead of re-searching raw documents on every question (like RAG), the LLM **re
 
 ## Prerequisites
 
+- Python 3.10+
 - [Cursor](https://cursor.sh/) (or any LLM-powered editor that reads a schema file)
 - [Obsidian](https://obsidian.md/) (free) for browsing the wiki in real time
 
@@ -78,6 +79,70 @@ The AI checks for contradictions between pages, stale claims, orphan pages with 
 
 ---
 
+## Local Development
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+The site is available at `http://localhost:8000`.
+
+---
+
+## Deploy on Render.com
+
+The project includes a Python server (`server.py`) that serves the static site with basic authentication (username and password). No extra dependencies beyond the standard library.
+
+### 1. Create the GitHub repository
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/<your-org>/llm-wiki.git
+git push -u origin main
+```
+
+### 2. Create the Web Service on Render
+
+1. Go to [render.com](https://render.com) and log in with GitHub
+2. **New** → **Web Service** → connect the repository
+3. Configure:
+
+   | Field | Value |
+   |---|---|
+   | **Name** | `llm-wiki` |
+   | **Runtime** | `Python 3` |
+   | **Build Command** | `pip install -r requirements.txt && mkdocs build` |
+   | **Start Command** | `python server.py` |
+   | **Instance Type** | Free |
+
+### 3. Set environment variables
+
+Under **Environment**, add:
+
+| Variable | Description |
+|---|---|
+| `AUTH_USER` | Site login username |
+| `AUTH_PASS` | Site login password |
+
+> **Never commit `.env` to the repository.** The file is already in `.gitignore`.
+
+### 4. Deploy
+
+Click **Create Web Service**. Render will build MkDocs and start the server. The site will be available in ~3 minutes.
+
+Every `git push` to `main` triggers an automatic redeploy.
+
+### Notes
+
+- On the Free plan, the service sleeps after 15 min of inactivity (~30s to wake on the next request)
+- To change the password, update `AUTH_PASS` in the Render environment variables (no redeploy needed)
+- Share credentials with your team through a secure channel
+
+---
+
 ## Repo Structure
 
 ```
@@ -85,6 +150,8 @@ llm-wiki-karpathy/
 ├── CLAUDE.md          # Schema — the AI's operating manual
 ├── llm-wiki.md        # Karpathy's original idea document
 ├── article.md         # Walkthrough article explaining this project
+├── requirements.txt   # Python dependencies (MkDocs Material)
+├── server.py          # Static site server with basic auth (for Render deploy)
 │
 ├── raw/               # Your source documents (AI reads, never writes)
 │   └── .gitkeep

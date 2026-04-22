@@ -1,0 +1,347 @@
+/* ============================================================
+   ROTEIRO DE VIAGEM 2027 — extra.css
+   ============================================================ */
+
+/* ── Google Fonts ─────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono&family=Noto+Color+Emoji&display=swap');
+
+/* ── Variáveis de tema ────────────────────────────────────── */
+:root {
+  --travel-purple: #512da8;
+  --travel-purple-light: #7c4dff;
+  --travel-amber: #ffab00;
+  --travel-amber-dark: #ff8f00;
+  --travel-surface: #f5f3ff;
+  --travel-border: rgba(81, 45, 168, 0.15);
+  --travel-text-muted: #6b7280;
+  --content-max-width: 1400px;
+}
+
+[data-md-color-scheme="slate"] {
+  --travel-surface: rgba(255, 255, 255, 0.04);
+  --travel-border: rgba(255, 255, 255, 0.1);
+  --travel-text-muted: #9ca3af;
+}
+
+/* ── Tipografia base ─────────────────────────────────────── */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* ── Largura do conteúdo ─────────────────────────────────── */
+.md-grid {
+  max-width: var(--content-max-width);
+}
+
+/* ── Barra superior — sombra sutil ──────────────────────── */
+.md-header {
+  box-shadow: 0 2px 12px rgba(0,0,0,.18);
+}
+
+/* ── Título do site na barra ─────────────────────────────── */
+.md-header__title .md-header__topic:first-child {
+  font-family: 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Nunito', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+/* ── Abas de navegação ───────────────────────────────────── */
+.md-tabs__link {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  opacity: 0.82;
+  transition: opacity 0.2s;
+}
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+.md-tabs__link--active::after {
+  background: var(--travel-amber);
+  height: 3px;
+}
+
+/* ── H1 — título principal da página ────────────────────── */
+.md-typeset h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--travel-purple);
+  border-bottom: 3px solid var(--travel-amber);
+  padding-bottom: .45rem;
+  margin-bottom: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #ce93d8;
+  border-bottom-color: var(--travel-amber);
+}
+
+/* ── H2 — seção ─────────────────────────────────────────── */
+.md-typeset h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-left: 4px solid var(--travel-purple-light);
+  padding-left: .7rem;
+  margin-top: 2.2rem;
+  color: var(--travel-purple);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #b39ddb;
+  border-left-color: var(--travel-amber);
+}
+
+/* ── H3 — subseção ──────────────────────────────────────── */
+.md-typeset h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #374151;
+  margin-top: 1.6rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #e2e8f0;
+}
+
+/* ── Tabelas — estilo guia de viagem ─────────────────────── */
+.md-typeset table:not([class]) {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--travel-border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07);
+  width: 100%;
+  font-size: 0.82rem;
+  margin: 1.2rem 0;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--travel-purple);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: .65rem 1rem;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  padding: .6rem 1rem;
+  border-top: 1px solid var(--travel-border);
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: var(--travel-surface);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(124, 77, 255, 0.06);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background: #4a148c;
+}
+
+/* ── Linha do tempo do dia (primeira coluna = horário) ───── */
+.md-typeset table:not([class]) td:first-child {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--travel-purple);
+  width: 1%;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td:first-child {
+  color: #ce93d8;
+}
+
+/* ── Blockquote / dica geográfica ───────────────────────── */
+.md-typeset blockquote {
+  border-left: 4px solid var(--travel-amber);
+  background: rgba(255, 171, 0, 0.07);
+  border-radius: 0 8px 8px 0;
+  padding: .7rem 1rem;
+  color: #374151;
+  font-size: 0.84rem;
+  font-style: normal;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  background: rgba(255, 171, 0, 0.09);
+  color: #d1d5db;
+}
+
+/* ── Links ───────────────────────────────────────────────── */
+.md-typeset a {
+  color: var(--travel-purple);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.md-typeset a:hover {
+  color: var(--travel-purple-light);
+  border-bottom-color: var(--travel-amber);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #ce93d8;
+}
+
+/* ── Inline code ─────────────────────────────────────────── */
+.md-typeset code {
+  background: rgba(81, 45, 168, 0.08);
+  color: var(--travel-purple);
+  border-radius: 4px;
+  padding: .15em .4em;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: rgba(255,255,255,.08);
+  color: #ce93d8;
+}
+
+/* ── Admonitions ─────────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-left-width: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06);
+}
+
+/* ── Sidebar — seções de destino ─────────────────────────── */
+.md-nav--primary .md-nav__item--nested > .md-nav__link,
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  background: linear-gradient(90deg, rgba(81,45,168,0.13) 0%, transparent 100%);
+  border-radius: 6px;
+  padding: .4rem .65rem;
+  margin: .25rem 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--travel-purple);
+}
+
+[data-md-color-scheme="slate"]
+  .md-nav--primary .md-nav__item--nested > .md-nav__link,
+[data-md-color-scheme="slate"]
+  .md-nav--primary .md-nav__item--section > .md-nav__link {
+  background: linear-gradient(90deg, rgba(206,147,216,0.14) 0%, transparent 100%);
+  color: #ce93d8;
+}
+
+/* ── Item ativo na sidebar ───────────────────────────────── */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: var(--travel-purple) !important;
+  color: #fff !important;
+  border-radius: 6px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link .md-ellipsis {
+  color: #fff !important;
+}
+
+[data-md-color-scheme="slate"]
+  .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: var(--travel-purple) !important;
+  box-shadow: 0 2px 12px rgba(81,45,168,.45) !important;
+}
+
+/* ── TOC direita — oculta, sem reservar espaço ─────────── */
+.md-sidebar--secondary {
+  display: none !important;
+  width: 0 !important;
+}
+
+[data-md-type="toc"] {
+  display: none !important;
+}
+
+/* Ocupa o espaço que seria da TOC direita */
+@media screen and (min-width: 76.25em) {
+  .md-content {
+    max-width: calc(100% - 12.1rem) !important;
+  }
+}
+
+/* ── Progress bar de navegação ───────────────────────────── */
+.md-progress {
+  background: var(--travel-amber) !important;
+}
+
+/* ── Separador hr ─────────────────────────────────────────── */
+.md-typeset hr {
+  border-color: var(--travel-border);
+  margin: 1.8rem 0;
+}
+
+/* ── Botão copiar código ─────────────────────────────────── */
+.md-clipboard:hover {
+  color: var(--travel-amber);
+}
+
+/* ── Botão zoom dos diagramas Mermaid ────────────────────── */
+.mermaid-zoom-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 5;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 8px;
+  background: var(--travel-purple);
+  color: #fff;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+  opacity: .75;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(81,45,168,.35);
+}
+
+.mermaid-zoom-btn:hover {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* ── Responsivo — mobile ─────────────────────────────────── */
+@media screen and (max-width: 76.1875em) {
+  .md-typeset h1 { font-size: 1.45rem; }
+  .md-typeset h2 { font-size: 1.1rem; }
+}
+
+/* ── Imagens com align=right/left — desabilita float em mobile ── */
+@media screen and (max-width: 37.4375em) {
+  .md-typeset img[align="right"],
+  .md-typeset img[align="left"] {
+    float: none !important;
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0.8rem auto 1rem;
+  }
+}
+

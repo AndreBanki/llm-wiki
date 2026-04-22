@@ -1,0 +1,121 @@
+site_name: LLM Wiki
+site_description: Personal knowledge base maintained by AI agents
+site_author: Banki
+
+docs_dir: wiki
+site_dir: site
+use_directory_urls: false
+
+hooks:
+  - hooks.py
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.progress
+    - search.highlight
+    - search.suggest
+    - content.tables
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: 
+    - Index: index.md
+    - Overview: overview.md
+    - Log: log.md
+  - Concepts:
+    - AI Engineering:
+      - Palantir AIP: concepts/ai-engineering/aip-platform.md
+      - Constitutional AI: concepts/ai-engineering/constitutional-ai.md
+      - Enterprise AI Deployment: concepts/ai-engineering/enterprise-ai-deployment.md
+      - GenAI Security Workflow: concepts/ai-engineering/genai-security-workflow.md
+      - LLM Wiki Pattern: concepts/ai-engineering/llm-wiki-pattern.md
+      - MCP Architecture: concepts/ai-engineering/mcp-architecture.md
+      - PageIndex: concepts/ai-engineering/pageindex.md
+      - RAG Approaches: concepts/ai-engineering/rag-approaches.md
+    - BIM & Construction:
+      - BIM Coordination: concepts/bim-construction/bim-coordination.md
+    - Coaching & Leadership:
+      - Coaching Modes: concepts/coaching-leadership/coaching-modes.md
+      - Coaching Paradoxes: concepts/coaching-leadership/coaching-paradoxes.md
+      - Conversation Design: concepts/coaching-leadership/conversation-design.md
+    - Product & Org Design:
+      - Conway's Law: concepts/product-org-design/conways-law.md
+      - Team Topology: concepts/product-org-design/team-topology.md
+    - Software Engineering:
+      - Caching, CDN & Proxy: concepts/software-engineering/caching-cdn-proxy.md
+      - CAP Theorem: concepts/software-engineering/cap-theorem-and-consistency.md
+      - Database Scaling: concepts/software-engineering/database-scaling.md
+      - Distributed Systems: concepts/software-engineering/distributed-systems.md
+      - Messaging & Events: concepts/software-engineering/messaging-and-events.md
+      - System Design Approach: concepts/software-engineering/system-design-approach.md
+  - Sources:
+    - AI Engineering:
+      - LLM Wiki (CreativeAI Ninja): sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md
+      - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md
+      - PageIndex Vectorless RAG: sources/ai-engineering/pageindex-vectorless-rag.md
+      - Palantir AIP Bootcamps: sources/ai-engineering/palantir-aip-bootcamps.md
+      - MCP vs API (Vidvatta): sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md
+    - BIM & Construction:
+      - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
+    - Coaching & Leadership:
+      - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
+      - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
+      - MBS — Two Questions: sources/coaching-leadership/mbs-two-questions-for-great-conversation.md
+    - Product & Org Design:
+      - GYACO — Conway & Team Structure: sources/product-org-design/gyaco-conway-team-structure.md
+    - Software Engineering:
+      - System Design for Beginners: sources/software-engineering/shivambhadani-system-design-for-beginners.md
+  - Glossary: glossary.md
+  
+extra_css:
+  - stylesheets/extra.css
+

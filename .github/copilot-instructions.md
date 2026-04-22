@@ -102,14 +102,15 @@ When the user says "ingest [source]":
 9. Update `wiki/glossary.md` with any new or refined terms
 10. Update `wiki/index.md` — add new pages, update summaries of changed pages
 11. Update `wiki/overview.md` if the source shifts the big picture — when adding or updating concept bullets or insight paragraphs, append a compact numbered superscript link at the end of each line pointing to the source's page in `wiki/sources/`. Assign each source a sequential integer (¹ ² ³ ⁴ ⁵ …) in order of first appearance in the overview. Use the format `[ⁿ](sources/source-filename.md)`. If multiple sources reinforce the same concept, include all their numbered links, e.g. `[³](sources/foo.md) [⁴](sources/bar.md)`
-12. Append an entry to `wiki/log.md`:
+12. Update `mkdocs.yml` — add any new pages to the `nav` section under the correct category. If a new category directory was created, add it as a new nav group. Keep the nav in sync with the actual files in `wiki/`.
+13. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
    Pages created: ...
    Pages updated: ...
    Key additions: ...
    ```
-13. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+14. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
    - Subject: `[LLM Wiki] Ingest complete: <source title>`
    - Body:
      - **Pages created:** list each new file with a one-line description
@@ -158,6 +159,7 @@ When the user says "lint the wiki":
 ## Cross-Referencing Convention
 
 - Always use `[[category/filename-without-extension]]` for internal links to sources and concepts (e.g., `[[coaching-leadership/coaching-modes]]`, `[[ai-engineering/pageindex]]`)
+- These wiki-style links are resolved at build time by `mkdocs-ezlinks-plugin` (configured in `mkdocs.yml`). The plugin searches all files under `wiki/` for a path that ends with the given suffix, so `[[ai-engineering/rag-approaches]]` correctly resolves to `concepts/ai-engineering/rag-approaches.md` or `sources/ai-engineering/rag-approaches.md` — whichever exists. Do NOT convert these to standard markdown links.
 - The four domain categories are: `ai-engineering`, `coaching-leadership`, `product-org-design`, `bim-construction`
 - When a new category is needed (new domain), create the subdirectory under both `wiki/sources/` and `wiki/concepts/` and add it to this list
 - Core files (`glossary`, `index`, `overview`, `log`) use `[[filename]]` with no prefix

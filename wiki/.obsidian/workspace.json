@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para overview"
+              "title": "Links inversos para index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para overview"
+              "title": "Links de saída para index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de overview"
+              "title": "Sumário de index"
             }
           }
         ],
@@ -184,11 +184,13 @@
   },
   "active": "b1c0fa7fbd719655",
   "lastOpenFiles": [
+    "stylesheets/extra.css",
+    "stylesheets",
+    "overview.md",
     "concepts/ai-engineering/enterprise-ai-deployment.md",
     "concepts/ai-engineering/aip-platform.md",
     "sources/ai-engineering/palantir-aip-bootcamps.md",
     "glossary.md",
-    "overview.md",
     "concepts/software-engineering/caching-cdn-proxy.md",
     "concepts/software-engineering/messaging-and-events.md",
     "concepts/software-engineering/distributed-systems.md",
@@ -211,14 +213,12 @@
     "log.md",
     "concepts/bim-construction/bim-coordination.md",
     "concepts/product-org-design/team-topology.md",
-    "concepts/product-org-design/conways-law.md",
     "concepts/bim-construction",
     "concepts/product-org-design",
     "concepts/coaching-leadership",
     "concepts/ai-engineering",
     "sources/bim-construction",
     "sources/product-org-design",
-    "sources/coaching-leadership",
-    "sources/ai-engineering"
+    "sources/coaching-leadership"
   ]
 }
