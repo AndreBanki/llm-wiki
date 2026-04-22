@@ -85,5 +85,5 @@ Every step except the final content fetch is a reasoning step. The LLM is active
 
 ## Related Pages
 
-- [[pageindex-vectorless-rag]] (source article)
-- [[rag-approaches]]
+- [[ai-engineering/pageindex-vectorless-rag]] (source article)
+- [[ai-engineering/rag-approaches]]

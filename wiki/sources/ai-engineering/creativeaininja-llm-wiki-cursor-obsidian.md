@@ -58,7 +58,7 @@ Practical walkthrough of implementing Andrej Karpathy's LLM Wiki pattern in 30 m
 
 The `index.md` serves as a lightweight navigation map. When queried, the AI reads `index.md` first to identify relevant pages, then drills into them. No embeddings or similarity search needed — works well up to hundreds of pages.
 
-**Connection to [[rag-approaches]]:** The wiki's own index.md is a vectorless navigation mechanism — an instance of the reasoning-based retrieval philosophy documented from the PageIndex source.
+**Connection to [[ai-engineering/rag-approaches]]:** The wiki's own index.md is a vectorless navigation mechanism — an instance of the reasoning-based retrieval philosophy documented from the PageIndex source.
 
 ## The Schema File as "The Brain"
 
@@ -107,7 +107,7 @@ Editing this file changes how the AI behaves for your domain. Adding a new entit
 
 ## Related Pages
 
-- [[llm-wiki-pattern]] — the LLM Wiki concept in full
-- [[rag-approaches]] — vectorless retrieval philosophy; index.md is an instance of this
-- [[pageindex]] — another vectorless approach; shares the "no embeddings" philosophy
+- [[ai-engineering/llm-wiki-pattern]] — the LLM Wiki concept in full
+- [[ai-engineering/rag-approaches]] — vectorless retrieval philosophy; index.md is an instance of this
+- [[ai-engineering/pageindex]] — another vectorless approach; shares the "no embeddings" philosophy
 - [[glossary]] — terms introduced: LLM Wiki, schema file, knowledge compounding, ingest, lint

@@ -76,5 +76,5 @@ Extraído da imagem no post, intitulada **"F2-C — Compatibilização e Princip
 
 ## Related Pages
 
-- [[bim-coordination]]
+- [[bim-construction/bim-coordination]]
 - [[glossary]]

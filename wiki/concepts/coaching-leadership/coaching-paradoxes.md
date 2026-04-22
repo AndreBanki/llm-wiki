@@ -93,7 +93,7 @@ The paradoxes are simple to name but subtle to embody because each pole is genui
 
 ## Relationship to Coaching Modes
 
-The [[coaching-modes]] distinction (performance vs. development) describes *what* you're coaching for.  
+The [[coaching-leadership/coaching-modes]] distinction (performance vs. development) describes *what* you're coaching for.  
 The four paradoxes describe *how* you show up to do it.
 
 They are complementary layers:
@@ -113,8 +113,8 @@ This is MBS's implicit argument for why "being coach-like" will remain a distinc
 
 ## Related Pages
 
-- [[mbs-paradoxes-of-being-a-coach]] — source page
-- [[coaching-modes]] — performance vs. development; what you coach for
-- [[conversation-design]] — Light and Grounded mirrors the dinner host's balance between pre-selected questions and emergent conversation
-- [[mbs-performance-vs-development-coaching]]
-- [[mbs-two-questions-for-great-conversation]]
+- [[coaching-leadership/mbs-paradoxes-of-being-a-coach]] — source page
+- [[coaching-leadership/coaching-modes]] — performance vs. development; what you coach for
+- [[coaching-leadership/conversation-design]] — Light and Grounded mirrors the dinner host's balance between pre-selected questions and emergent conversation
+- [[coaching-leadership/mbs-performance-vs-development-coaching]]
+- [[coaching-leadership/mbs-two-questions-for-great-conversation]]

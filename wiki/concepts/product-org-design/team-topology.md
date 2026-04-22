@@ -15,7 +15,7 @@ How teams are structured relative to systems, users, and business strategy — a
 
 ## Core Idea
 
-Team topology is the deliberate arrangement of teams around a specific organizing principle. The choice of organizing principle (system, technology, user segment, business capability) is itself a product and strategy decision — because team structure shapes what solutions teams can see and build. See [[conways-law]].
+Team topology is the deliberate arrangement of teams around a specific organizing principle. The choice of organizing principle (system, technology, user segment, business capability) is itself a product and strategy decision — because team structure shapes what solutions teams can see and build. See [[product-org-design/conways-law]].
 
 ---
 
@@ -41,7 +41,7 @@ Team topology is the deliberate arrangement of teams around a specific organizin
 
 ## Three-Sided Marketplace Structure (Caso Lopes)
 
-The Lopes real estate marketplace reorganization (documented in [[gyaco-conway-team-structure]]) is a practical example of shifting from system-centric to user-centric topology.
+The Lopes real estate marketplace reorganization (documented in [[product-org-design/gyaco-conway-team-structure]]) is a practical example of shifting from system-centric to user-centric topology.
 
 ### Before (System-Centric)
 | Team | System Owned |
@@ -68,7 +68,7 @@ The Lopes real estate marketplace reorganization (documented in [[gyaco-conway-t
 
 1. **Strategy before architecture.** Define what needs to be built (who are the users, what problems to solve, what business outcomes to achieve) before making team structure decisions.
 2. **Architecture as constraint.** System architecture is a real and important constraint — it must be considered, not ignored.
-3. **Structure follows strategy and architecture, in that order.** See [[conways-law]] for the full principle.
+3. **Structure follows strategy and architecture, in that order.** See [[product-org-design/conways-law]] for the full principle.
 4. **Cognitive load matters.** Teams must have a scope narrow enough to develop genuine expertise about their users or domain.
 5. **Shared infrastructure is a valid team.** A "central systems" or platform team handles the shared technical foundation without forcing product teams to own it.
 
@@ -76,5 +76,5 @@ The Lopes real estate marketplace reorganization (documented in [[gyaco-conway-t
 
 ## Related Pages
 
-- [[conways-law]]
-- [[gyaco-conway-team-structure]]
+- [[product-org-design/conways-law]]
+- [[product-org-design/gyaco-conway-team-structure]]

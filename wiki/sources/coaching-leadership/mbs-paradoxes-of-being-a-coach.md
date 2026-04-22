@@ -81,8 +81,8 @@ How you relate to the outcome. Care about progress — but hold it lightly. Grip
 - Outcome-ownership principle: coach creates conditions, coachee owns results
 
 **Reinforces:**
-- Support/challenge axis (extends [[coaching-modes]])
-- Structure-vs-freedom tension from [[conversation-design]]
+- Support/challenge axis (extends [[coaching-leadership/coaching-modes]])
+- Structure-vs-freedom tension from [[coaching-leadership/conversation-design]]
 - Curiosity as a discipline across all MBS sources
 
 **Contradicts:** nothing in existing wiki.
@@ -91,8 +91,8 @@ How you relate to the outcome. Care about progress — but hold it lightly. Grip
 
 ## Related Pages
 
-- [[coaching-paradoxes]] — concept page for the four paradoxes
-- [[coaching-modes]] — the earlier MBS source; performance vs. development distinction
-- [[conversation-design]] — Light and Grounded mirrors the dinner host balance of structure and freedom
-- [[mbs-performance-vs-development-coaching]]
-- [[mbs-two-questions-for-great-conversation]]
+- [[coaching-leadership/coaching-paradoxes]] — concept page for the four paradoxes
+- [[coaching-leadership/coaching-modes]] — the earlier MBS source; performance vs. development distinction
+- [[coaching-leadership/conversation-design]] — Light and Grounded mirrors the dinner host balance of structure and freedom
+- [[coaching-leadership/mbs-performance-vs-development-coaching]]
+- [[coaching-leadership/mbs-two-questions-for-great-conversation]]

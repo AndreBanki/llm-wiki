@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para overview"
+              "title": "Links inversos para index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para overview"
+              "title": "Links de saída para index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "overview.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de overview"
+              "title": "Sumário de index"
             }
           }
         ],
@@ -184,26 +184,40 @@
   },
   "active": "b1c0fa7fbd719655",
   "lastOpenFiles": [
+    "glossary.md",
+    "index.md",
+    "sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md",
+    "log.md",
+    "overview.md",
+    "concepts/bim-construction/bim-coordination.md",
+    "concepts/product-org-design/team-topology.md",
+    "concepts/product-org-design/conways-law.md",
+    "concepts/coaching-leadership/conversation-design.md",
+    "concepts/coaching-leadership/coaching-paradoxes.md",
+    "concepts/coaching-leadership/coaching-modes.md",
+    "concepts/ai-engineering/rag-approaches.md",
+    "concepts/ai-engineering/pageindex.md",
+    "concepts/ai-engineering/llm-wiki-pattern.md",
+    "sources/bim-construction/francieli-wagner-bim-coordination.md",
+    "sources/product-org-design/gyaco-conway-team-structure.md",
+    "sources/coaching-leadership/mbs-two-questions-for-great-conversation.md",
+    "sources/coaching-leadership/mbs-performance-vs-development-coaching.md",
+    "sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md",
+    "sources/ai-engineering/pageindex-vectorless-rag.md",
+    "concepts/bim-construction",
+    "concepts/product-org-design",
+    "concepts/coaching-leadership",
+    "concepts/ai-engineering",
+    "sources/bim-construction",
+    "sources/product-org-design",
+    "sources/coaching-leadership",
+    "sources/ai-engineering",
     "sources/francieli-wagner-bim-coordination.md",
     "concepts/llm-wiki-pattern.md",
     "sources/creativeaininja-llm-wiki-cursor-obsidian.md",
     "concepts/coaching-paradoxes.md",
     "sources/mbs-paradoxes-of-being-a-coach.md",
-    "overview.md",
-    "log.md",
     "sources/gyaco-conway-team-structure.md",
-    "index.md",
-    "concepts/team-topology.md",
-    "concepts/conways-law.md",
-    "concepts/bim-coordination.md",
-    "concepts/rag-approaches.md",
-    "concepts/pageindex.md",
-    "concepts/coaching-modes.md",
-    "concepts/conversation-design.md",
-    "sources/mbs-performance-vs-development-coaching.md",
-    "sources/mbs-two-questions-for-great-conversation.md",
-    "glossary.md",
-    "sources/pageindex-vectorless-rag.md",
     "Sem título.base"
   ]
 }

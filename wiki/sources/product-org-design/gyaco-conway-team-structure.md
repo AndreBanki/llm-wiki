@@ -81,6 +81,6 @@ Team structure inevitably shapes the product a team builds — a reality describ
 
 ## Related Pages
 
-- [[conways-law]]
-- [[team-topology]]
-- [[conversation-design]] — parallel insight: framing the question determines the solution space
+- [[product-org-design/conways-law]]
+- [[product-org-design/team-topology]]
+- [[coaching-leadership/conversation-design]] — parallel insight: framing the question determines the solution space

@@ -32,7 +32,7 @@ In plain terms: the way you organize your teams determines the way your product 
 ### The Visibility Problem
 A team organized around a specific product or system can only see solutions within that system's scope. An engineer on a broker app team will naturally solve problems by adding features to the broker app — not because they lack creativity, but because that's what falls within their operational boundaries.
 
-**The Lopes case:** A team tasked with getting leads to brokers faster built an MVP with 58 requirements for a broker app (with 90 more queued). SMS and WhatsApp — simpler, faster, and with far higher penetration in Brazil — were invisible because they fell outside the app team's scope. See [[gyaco-conway-team-structure]].
+**The Lopes case:** A team tasked with getting leads to brokers faster built an MVP with 58 requirements for a broker app (with 90 more queued). SMS and WhatsApp — simpler, faster, and with far higher penetration in Brazil — were invisible because they fell outside the app team's scope. See [[product-org-design/gyaco-conway-team-structure]].
 
 ---
 
@@ -81,6 +81,6 @@ The inverse is also problematic: organizing purely around users and business obj
 
 ## Related Pages
 
-- [[gyaco-conway-team-structure]]
-- [[team-topology]]
-- [[conversation-design]] — parallel insight: the framing of the question determines the solution space
+- [[product-org-design/gyaco-conway-team-structure]]
+- [[product-org-design/team-topology]]
+- [[coaching-leadership/conversation-design]] — parallel insight: the framing of the question determines the solution space

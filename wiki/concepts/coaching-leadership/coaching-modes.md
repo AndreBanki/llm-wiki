@@ -70,8 +70,8 @@ This one question:
 
 ## Related Pages
 
-- [[mbs-performance-vs-development-coaching]]
-- [[conversation-design]] — shares the same root philosophy: the right question, held with curiosity, unlocks more than advice
-- [[mbs-two-questions-for-great-conversation]]
-- [[coaching-paradoxes]] — the "being of coaching" layer: four paradoxes that describe *how* to show up, independent of which mode you're using
-- [[mbs-paradoxes-of-being-a-coach]]
+- [[coaching-leadership/mbs-performance-vs-development-coaching]]
+- [[coaching-leadership/conversation-design]] — shares the same root philosophy: the right question, held with curiosity, unlocks more than advice
+- [[coaching-leadership/mbs-two-questions-for-great-conversation]]
+- [[coaching-leadership/coaching-paradoxes]] — the "being of coaching" layer: four paradoxes that describe *how* to show up, independent of which mode you're using
+- [[coaching-leadership/mbs-paradoxes-of-being-a-coach]]

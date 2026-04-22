@@ -63,7 +63,7 @@ The goal is "a moment of light, a flash of something created between two differe
 
 ## Connection to Development Coaching
 
-Conversation design shares the same root philosophy as development coaching (see [[coaching-modes]]): the right question, held with genuine curiosity, unlocks more than any amount of advice.
+Conversation design shares the same root philosophy as development coaching (see [[coaching-leadership/coaching-modes]]): the right question, held with genuine curiosity, unlocks more than any amount of advice.
 
 - Both resist the urge to fill space with solutions
 - Both presuppose that the other person has something worth discovering
@@ -81,6 +81,6 @@ Conversation design shares the same root philosophy as development coaching (see
 
 ## Related Pages
 
-- [[mbs-two-questions-for-great-conversation]]
-- [[coaching-modes]]
-- [[mbs-performance-vs-development-coaching]]
+- [[coaching-leadership/mbs-two-questions-for-great-conversation]]
+- [[coaching-leadership/coaching-modes]]
+- [[coaching-leadership/mbs-performance-vs-development-coaching]]

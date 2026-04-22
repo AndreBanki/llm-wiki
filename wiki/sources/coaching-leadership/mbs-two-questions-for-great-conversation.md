@@ -58,12 +58,12 @@ MBS Works email newsletter on intentional conversation hosting: two questions th
 
 ## Concepts Introduced
 
-- [[conversation-design]] — Intentional conversation hosting: pre-selecting questions to invite depth and bypass surface-level exchange
+- [[coaching-leadership/conversation-design]] — Intentional conversation hosting: pre-selecting questions to invite depth and bypass surface-level exchange
 
 ---
 
 ## Related Pages
 
-- [[conversation-design]]
-- [[coaching-modes]]
-- [[mbs-performance-vs-development-coaching]]
+- [[coaching-leadership/conversation-design]]
+- [[coaching-leadership/coaching-modes]]
+- [[coaching-leadership/mbs-performance-vs-development-coaching]]

@@ -26,11 +26,19 @@ wiki/
   log.md                ← append-only chronological activity log
   overview.md           ← high-level synthesis of the full knowledge base
   glossary.md           ← living terminology, definitions, style rules
-  sources/              ← one summary page per raw source
+  sources/              ← one summary page per raw source, organized by domain category
+    ai-engineering/
+    coaching-leadership/
+    product-org-design/
+    bim-construction/
   features/             ← one page per product feature documented
   products/             ← one page per product or tool
   personas/             ← one page per user persona or audience segment
-  concepts/             ← one page per core concept or domain idea
+  concepts/             ← one page per core concept, organized by domain category
+    ai-engineering/
+    coaching-leadership/
+    product-org-design/
+    bim-construction/
   style/                ← style rules, tone guidelines, naming conventions
   analyses/             ← comparison tables, gap analyses, research outputs
 ```
@@ -43,11 +51,8 @@ Create subdirectories as needed. If a page doesn't fit existing categories, prop
 
 | Type | Location | Purpose |
 |---|---|---|
-| **Source** | `wiki/sources/` | Summary of a raw document — key facts, quotes, metadata |
-| **Feature** | `wiki/features/` | A product feature: what it does, how it works, how to doc it |
-| **Product** | `wiki/products/` | A product or tool: overview, versions, related features |
-| **Persona** | `wiki/personas/` | A user type: goals, pain points, expertise level, preferred doc format |
-| **Concept** | `wiki/concepts/` | A domain idea: definition, related terms, common misconceptions |
+| **Source** | `wiki/sources/<category>/` | Summary of a raw document — key facts, quotes, metadata |
+| **Concept** | `wiki/concepts/<category>/` | A domain idea: definition, related terms, common misconceptions |
 | **Style Rule** | `wiki/style/` | A writing convention: when to apply it, examples, exceptions |
 | **Analysis** | `wiki/analyses/` | A synthesized output: comparison, gap analysis, outline |
 
@@ -146,7 +151,10 @@ When the user says "lint the wiki":
 
 ## Cross-Referencing Convention
 
-- Always use `[[filename-without-extension]]` for internal links
+- Always use `[[category/filename-without-extension]]` for internal links to sources and concepts (e.g., `[[coaching-leadership/coaching-modes]]`, `[[ai-engineering/pageindex]]`)
+- The four domain categories are: `ai-engineering`, `coaching-leadership`, `product-org-design`, `bim-construction`
+- When a new category is needed (new domain), create the subdirectory under both `wiki/sources/` and `wiki/concepts/` and add it to this list
+- Core files (`glossary`, `index`, `overview`, `log`) use `[[filename]]` with no prefix
 - When creating or updating a page, scan other relevant pages and add back-links
 - The glossary and overview should link to every major entity page
 

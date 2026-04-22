@@ -93,5 +93,5 @@ The shift from similarity to reasoning in retrieval mirrors a broader trend: whe
 
 ## Related Pages
 
-- [[pageindex]]
-- [[pageindex-vectorless-rag]] (source article)
+- [[ai-engineering/pageindex]]
+- [[ai-engineering/pageindex-vectorless-rag]] (source article)

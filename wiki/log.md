@@ -189,3 +189,20 @@ Key additions:
 - "Good host" as a role: curating people and questions to create conditions for meaningful connection
 - The Conspiracy: MBS's accountability membership community; Worthy Goal as the member's declared aspiration
 - Reinforces the MBS core philosophy: the right question unlocks more than advice or information
+
+## [2026-04-22] restructure | Reorganização por categorias de domínio
+
+Pages moved:
+- wiki/sources/ ? 4 subcategories: i-engineering/ (2), coaching-leadership/ (3), product-org-design/ (1), im-construction/ (1)
+- wiki/concepts/ ? 4 subcategories: i-engineering/ (3), coaching-leadership/ (3), product-org-design/ (2), im-construction/ (1)
+
+Files updated:
+- wiki/index.md — Sources and Concepts sections reorganized with category headers; maintenance notes updated
+- wiki/overview.md — All (sources/filename.md) footnote links updated to include category subpath
+- wiki/glossary.md — All [[wikilinks]] updated to [[category/filename]] format
+- All 16 concept and source pages — [[wikilinks]] updated to [[category/filename]] format
+
+Key changes:
+- Domain categories established: i-engineering, coaching-leadership, product-org-design, im-construction
+- Linking convention updated to [[category/filename]] across the entire wiki
+- Schema unchanged — categories are a structural convention, not a new entity type

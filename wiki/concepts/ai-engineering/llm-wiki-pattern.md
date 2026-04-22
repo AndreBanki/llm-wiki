@@ -82,7 +82,7 @@ This work is boring, repetitive, and never-ending. So wikis go stale, trust erod
 
 The `index.md` acts as a lightweight navigation map. On every query, the AI reads `index.md` first to identify relevant pages, then reads only those pages. No embeddings, no cosine similarity, no vector database required.
 
-This is functionally an instance of **reasoning-based retrieval** — the AI reasons about *where in the wiki* an answer lives, rather than computing similarity scores across all content. See [[rag-approaches]] and [[pageindex]] for the broader pattern.
+This is functionally an instance of **reasoning-based retrieval** — the AI reasons about *where in the wiki* an answer lives, rather than computing similarity scores across all content. See [[ai-engineering/rag-approaches]] and [[ai-engineering/pageindex]] for the broader pattern.
 
 **Practical limit:** Works well up to hundreds of pages. Beyond that, hierarchical indexing (as in PageIndex) or a two-level index would be needed.
 
@@ -136,7 +136,7 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 
 ## Related Pages
 
-- [[rag-approaches]] — vectorless retrieval; index.md navigation is an instance of reasoning-based retrieval
-- [[pageindex]] — another vectorless RAG approach sharing the "no embeddings" philosophy
+- [[ai-engineering/rag-approaches]] — vectorless retrieval; index.md navigation is an instance of reasoning-based retrieval
+- [[ai-engineering/pageindex]] — another vectorless RAG approach sharing the "no embeddings" philosophy
 - [[glossary]] — canonical terms: LLM Wiki, schema file, knowledge compounding, ingest, lint
-- [[creativeaininja-llm-wiki-cursor-obsidian]] — source article
+- [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]] — source article

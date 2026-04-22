@@ -50,10 +50,10 @@ MBS Works email newsletter contrasting performance coaching (task-focused) with 
 
 ## Concepts Introduced
 
-- [[coaching-modes]] — Performance vs. development coaching and how to shift between them
+- [[coaching-leadership/coaching-modes]] — Performance vs. development coaching and how to shift between them
 
 ---
 
 ## Related Pages
 
-- [[coaching-modes]]
+- [[coaching-leadership/coaching-modes]]

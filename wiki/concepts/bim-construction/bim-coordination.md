@@ -84,5 +84,5 @@ Isso exige que cada disciplina saiba:
 
 ## Related Pages
 
-- [[francieli-wagner-bim-coordination]]
+- [[bim-construction/francieli-wagner-bim-coordination]]
 - [[glossary]]

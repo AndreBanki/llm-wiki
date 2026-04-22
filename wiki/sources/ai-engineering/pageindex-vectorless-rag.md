@@ -53,5 +53,5 @@ Medium article by Sweety Tripathi (Apr 13, 2026) arguing that vectorless RAG via
 
 ## Related Pages
 
-- [[pageindex]]
-- [[rag-approaches]]
+- [[ai-engineering/pageindex]]
+- [[ai-engineering/rag-approaches]]
