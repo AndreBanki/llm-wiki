@@ -2,7 +2,7 @@
 title: Overview
 type: overview
 created: 2026-04-07
-updated: 2026-04-22
+updated: 2026-04-24
 sources: []
 tags: [overview, synthesis]
 ---
@@ -15,10 +15,10 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 16  
-**Wiki pages:** 54 (index, log, overview, glossary + 16 sources + 25 concepts + updated pages)  
+**Source count:** 17  
+**Wiki pages:** 46 (index, log, overview, glossary + 17 sources + 25 concepts)  
 **Last ingest:** 2026-04-24 — Tejas Sharma / Level Up Coding (How to Build the Knowledge System Andrej Karpathy Uses)  
-**Last lint:** —
+**Last lint:** 2026-04-24
 
 ---
 
@@ -68,7 +68,7 @@ One Gyaco article by Joca Torres covering the relationship between team structur
 - **Team topology** — System-centric vs. user-centric organizing; Lopes three-sided marketplace case study [⁵](sources/product-org-design/gyaco-conway-team-structure.md)
 - **Principle:** "Estrutura deve seguir estratégia e arquitetura, nessa ordem" [⁵](sources/product-org-design/gyaco-conway-team-structure.md)
 
-### 6. AI Security for GenAI (New)
+### 5. AI Security for GenAI
 
 Gartner research mapping security controls to the six stages of a GenAI workflow. The core claim: GenAI security requires stage-specific tool chains; no single console covers all stages.
 
@@ -79,7 +79,7 @@ Gartner research mapping security controls to the six stages of a GenAI workflow
 - **Human in the loop** — required architectural element at every stage, not optional; validates outputs, interprets compliance, provides judgment automated systems cannot [⁸](sources/ai-engineering/gartner-genai-security-workflow.md)
 - **TRiSM** — Gartner's Trust, Risk, and Security Management meta-framework for AI governance [⁸](sources/ai-engineering/gartner-genai-security-workflow.md)
 
-### 5. AI Knowledge Management (Meta-domain)
+### 6. AI Knowledge Management (Meta-domain)
 
 This wiki's own architecture and methodology, traced back to Andrej Karpathy's `llm-wiki.md` pattern.
 
@@ -91,15 +91,15 @@ This wiki's own architecture and methodology, traced back to Andrej Karpathy's `
 - **Quarriable knowledge** — Once the wiki is large enough, your own accumulated reading becomes answerable on demand, without hallucination from the open web [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 - **Obsidian as reader, not builder** — Karpathy uses Obsidian only for navigation (browsing what the AI built), not for note creation; the distinction matters: the IDE layer is a viewer [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 
-### 6. Software Engineering / System Design
+### 7. Software Engineering / System Design
 
 A comprehensive survey of distributed systems, scaling patterns, database strategies, and system design interview frameworks. Source: Shivam Bhadani (@shivambhadani_).
 
-- **System design fundamentals** — Servers, DNS, latency, throughput, vertical vs horizontal scaling, auto-scaling, and back-of-the-envelope estimation as the entry point to any architecture decision [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
-- **CAP theorem** — Foundational distributed systems tradeoff: in practice always CP or AP (never CAP); strong consistency for banking/payments; eventual consistency for social/catalog use cases [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
-- **Database scaling ladder** — Progressive approach: index → vertical scale → partitioning → master-slave → multi-master → sharding; advance only when the previous step hits its limit [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
-- **Messaging taxonomy** — Message queue (single consumer type, message deleted) vs message stream (multiple consumer groups, message persists); Kafka for high-throughput streams; Redis Pub/Sub for real-time push [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
-- **Problem-solving framework** — Decompose into sub-problems; for each: database, caching, scaling/fault tolerance, communication (sync vs async) [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
+- **System design fundamentals** — Servers, DNS, latency, throughput, vertical vs horizontal scaling, auto-scaling, and back-of-the-envelope estimation as the entry point to any architecture decision [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
+- **CAP theorem** — Foundational distributed systems tradeoff: in practice always CP or AP (never CAP); strong consistency for banking/payments; eventual consistency for social/catalog use cases [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
+- **Database scaling ladder** — Progressive approach: index → vertical scale → partitioning → master-slave → multi-master → sharding; advance only when the previous step hits its limit [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
+- **Messaging taxonomy** — Message queue (single consumer type, message deleted) vs message stream (multiple consumer groups, message persists); Kafka for high-throughput streams; Redis Pub/Sub for real-time push [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
+- **Problem-solving framework** — Decompose into sub-problems; for each: database, caching, scaling/fault tolerance, communication (sync vs async) [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)
 
 ## Key Insights (as of last ingest)
 
@@ -115,7 +115,7 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 **AI security domain:** The security of GenAI systems is a stage-specific problem: data quality threats (poisoning, leakage, polymorphism) precede model attacks (evasion, tampering), which precede generation risks (non-3H outputs), which precede deployment exploits (API hijacking, DoS), which precede compliance gaps, which precede feedback manipulation. Each layer must be solved in sequence. The cross-cutting insight: a human in the loop at every stage is the only safeguard against the failure modes that automated tools miss — not a luxury but a structural requirement. [⁸](sources/ai-engineering/gartner-genai-security-workflow.md)
 
 **AI knowledge management domain (meta):** This wiki is itself an instance of the LLM Wiki pattern. The same insight that makes vectorless RAG effective — reasoning about document structure rather than similarity-matching chunks — applies to wiki navigation: `index.md` is a structured navigation map, not a vector index. The maintenance cost argument is the key architectural claim: AI’s comparative advantage is exactly the bookkeeping that makes human-maintained wikis fail. This connects the meta-domain to all others: every insight ingested here is only as useful as the system’s ability to surface it later. [⁷](sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md)
-**Software engineering domain:** System design is fundamentally a framework for making principled tradeoffs under constraints. The 4-dimension decomposition (database, caching, scaling, communication) provides a repeatable structure for any problem. The CAP theorem names the irreducible tradeoff in distributed systems. The database scaling ladder names the right order of interventions. Crucially, this domain reinforces two existing wiki themes: (1) microservice boundaries mirror team communication structures — Conway's Law in software form; (2) consistent hashing uses structure-aware routing rather than brute-force search, directly paralleling PageIndex's vectorless RAG approach. [⁸](sources/software-engineering/shivambhadani-system-design-for-beginners.md)**AI agent architecture domain (MCP):** MCP represents the *action layer* of AI agents — complementing RAG (the retrieval layer) and LLM reasoning (the processing layer). The core architectural shift: decision-making about which tool to call moves from deterministic code into the model itself. This has direct security implications (tool-level permissions replace network-perimeter auth) and novel failure modes (tool overload, context drift) that have no traditional API analogs. Practical principle: expose fewer, well-scoped tools rather than comprehensive capability sets. [⁹](sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md)
+**Software engineering domain:** System design is fundamentally a framework for making principled tradeoffs under constraints. The 4-dimension decomposition (database, caching, scaling, communication) provides a repeatable structure for any problem. The CAP theorem names the irreducible tradeoff in distributed systems. The database scaling ladder names the right order of interventions. Crucially, this domain reinforces two existing wiki themes: (1) microservice boundaries mirror team communication structures — Conway's Law in software form; (2) consistent hashing uses structure-aware routing rather than brute-force search, directly paralleling PageIndex's vectorless RAG approach. [¹⁷](sources/software-engineering/shivambhadani-system-design-for-beginners.md)**AI agent architecture domain (MCP):** MCP represents the *action layer* of AI agents — complementing RAG (the retrieval layer) and LLM reasoning (the processing layer). The core architectural shift: decision-making about which tool to call moves from deterministic code into the model itself. This has direct security implications (tool-level permissions replace network-perimeter auth) and novel failure modes (tool overload, context drift) that have no traditional API analogs. Practical principle: expose fewer, well-scoped tools rather than comprehensive capability sets. [⁹](sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md)
 
 **Claude Code Skills domain:** The key insight from this article is a reframing: a skill is a *folder*, not a file. It is a complete context-delivery package — documentation, scripts, templates, examples, config — that transforms a general model into a domain specialist. The highest-value element of any skill is the *gotchas section*: production-discovered pitfalls the model repeatedly falls into. Skills should start minimal and grow organically. The folder structure itself is a context engineering tool (progressive disclosure). With Opus 4.7's more literal instruction-following, a well-written skill has proportionally higher ROI — and a vague description or missing gotchas is proportionally more costly. This connects directly to the LLM Wiki pattern: both are about accumulating non-obvious knowledge in structured, navigable form, compounding value over time. [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
 

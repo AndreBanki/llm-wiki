@@ -1,5 +1,16 @@
 # Wiki Log
 
+## [2026-04-24] lint
+Issues found: 6
+- `overview.md` frontmatter `updated` stale (2026-04-22 → 2026-04-24)
+- `index.md` overview entry date stale (2026-04-07 → 2026-04-24)
+- `overview.md` duplicate section `### 6.` and out-of-order numbering (AI Security was 6, Knowledge Mgmt was 5, Software Eng was also 6) → renumbered to 5, 6, 7
+- `overview.md` duplicate footnote `[⁸]` used by both Gartner GenAI Security and Shivambhadani → Shivambhadani reassigned to `[¹⁷]` (6 occurrences fixed)
+- `glossary.md` line 455: `[[sources/ai-engineering/balajiBal-palantir-ontologies]]` used non-standard `sources/` prefix → fixed to `[[ai-engineering/balajiBal-palantir-ontologies]]`
+- `overview.md` `Source count` stale (16 → 17) and `Wiki pages` count inflated with phantom "updated pages" language (54 → 46)
+Fixes applied: all 6
+No orphan pages. No contradictions.
+
 Append-only chronological record of all activity: ingests, queries, and lint passes.
 
 To view recent activity: `grep "^## \[" log.md | tail -10`

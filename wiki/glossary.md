@@ -452,7 +452,7 @@ Each entry follows this format:
 
 **Meaning Precedes Intelligence**
 : Core design principle articulated by balaji bal as Palantir's foundational belief: before a system can act intelligently, it must have an explicit, shared model of what the entities in its domain are, how they relate, and what can happen to them. Intelligence built on top of implicit meaning (schemas, governance policies, analyst interpretation) fails when the system is expected to act autonomously.
-- See also: [[ai-engineering/ontology-driven-architecture]], [[sources/ai-engineering/balajiBal-palantir-ontologies]]
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/balajiBal-palantir-ontologies]]
 
 **World-Modeling**
 : The practice of building software systems whose primary purpose is to represent and reason over a domain's entities, relationships, and dynamics — as opposed to systems optimized for data processing, analytics, or reporting. Palantir was a world-modeling company from the beginning. The ontology is the technical implementation of the world model.

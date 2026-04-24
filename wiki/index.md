@@ -17,7 +17,7 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-07 |
+| [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-24 |
 | [[glossary]] | Living terminology, definitions, and style conventions | 2026-04-07 |
 
 ---
