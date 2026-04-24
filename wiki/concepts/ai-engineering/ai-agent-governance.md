@@ -2,8 +2,8 @@
 title: AI Agent Governance
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf]
+updated: 2026-04-24
+sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf]
 tags: [ai-governance, agent-architecture, finops, observability, decision-architecture, ai-engineering]
 ---
 
@@ -72,6 +72,8 @@ Cost control at the task level:
 
 New tokenizers (e.g., Opus 4.7) consume more tokens per request by default. Without FinOps, costs rise silently — teams don't know until the bill arrives.
 
+**Model selection is an AI FinOps decision.** In agentic pipelines that loop 10+ times per task, a 17x token-cost differential between models (e.g., Claude Opus 4.6 vs. Qwen 3.6 Plus) translates directly to operational expense at scale. See [[ai-engineering/llm-model-economics]] for the decision framework.
+
 ### 4. Execution Control
 AI can suggest everything. AI executes only within explicitly approved scopes. Key controls:
 - Limits on action type (read vs. write vs. delete)
@@ -112,3 +114,4 @@ This works until it doesn't. When it fails, it's not a bug — it's a wrong deci
 - [[ai-engineering/enterprise-ai-deployment]]
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/genai-security-workflow]]
+- [[ai-engineering/llm-model-economics]]

@@ -2,8 +2,8 @@
 title: Palantir AIP (Artificial Intelligence Platform)
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [palantir-aip-bootcamps]
+updated: 2026-04-24
+sources: [palantir-aip-bootcamps, balajiBal-palantir-ontologies]
 tags: [palantir, aip, enterprise-ai, ontology, ai-platform, saas]
 ---
 
@@ -32,6 +32,14 @@ The **Ontology** is Palantir's semantic data model — a live, structured repres
 - With Ontology: AI responds to *real-world events* — supply disruptions, warranty claims, patient admissions, machine defects
 
 This enables genuine automation: a supply chain disruption detected in operational data can automatically trigger AI triage, remediation suggestions, and downstream notifications — without any human typing a prompt.
+
+**Deeper framing:** The Ontology is not a metadata glossary or a schema extension. It is an *operational model of reality* — defining entities, relationships, constraints, and valid state transitions. The critical distinction:
+
+> "Schemas describe data. Ontologies describe reality."
+
+A schema tells you a table has a status column. The Ontology tells you what states are possible, how you move between them, and what actions those states enable or prohibit. This is why Palantir's agents can take reliable autonomous actions: actions are only valid if they correspond to legitimate state transitions on real entities.
+
+For a full treatment of this concept, see [[ai-engineering/ontology-driven-architecture]].
 
 ---
 

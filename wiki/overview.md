@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 13  
-**Wiki pages:** 46 (index, log, overview, glossary + 13 sources + 23 concepts + updated pages)  
-**Last ingest:** 2026-04-22 — Alessandro Lopes / LinkedIn Pulse (Planejamento de obra 4.0)  
+**Source count:** 15  
+**Wiki pages:** 51 (index, log, overview, glossary + 15 sources + 25 concepts + updated pages)  
+**Last ingest:** 2026-04-24 — balaji bal / Medium (Palantir's Real Secret Sauce — Ontologies)  
 **Last lint:** —
 
 ---
@@ -35,7 +35,12 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Claude Code Skills** — Directory-based context packages for AI coding agents; a skill is a folder (not a file): entry-point .md + config.json + scripts + templates + references + examples; 9 categories from library reference to infrastructure runbooks; the *gotchas section* is the most valuable content; folder structure enables progressive disclosure as context engineering; Opus 4.7 makes well-written skills dramatically more effective [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
 - **AI as Operator** — Claude Opus 4.7 marks the transition from copilot (AI suggests, human validates) to operator (AI interprets, decides, executes — human arrives after); long context enables systemic visibility, meaning errors cascade globally not locally [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
 - **AI Agent Governance** — The new CTO/Principal responsibility: architecture of decision (where AI can/cannot decide); four-component production stack: real guardrails (executable policy), agent observability (what, why, cost), AI FinOps (budget control), execution control (suggest everything; execute within bounds) [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
+- **LLM Model Economics** — As of early 2026, the gap between frontier closed models and top open-weight models is now primarily economic rather than qualitative; Qwen 3.6 Plus (78.8% SWE-bench) is available at $0.28/M input tokens vs. $5.00/M for Claude Opus 4.6 (80.8%) — a 17x cost differential that is business-critical at agent pipeline scale [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)
+- **OpenRouter** — Inference routing platform aggregating open-weight and closed models under a single OpenAI-compatible API; enables per-task model routing (open-weight for volume, frontier for hard tasks) without infrastructure changes [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)
+- **1M Context vs. RAG** — Long-context windows (1M tokens) can replace chunking-based RAG pipelines for entire codebases or document corpora; eliminates vector DB infrastructure for single-document use cases; does not replace RAG for multi-document corpora larger than the context window [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md) [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
 - **Palantir AIP** — Enterprise AI platform; Ontology grounds AI in real-world operational events (not just user messages); full spectrum AI from chat → automation → intelligent primitives; empirical AI architecture principle [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
+- **Ontology-Driven Architecture** — Schemas describe data; ontologies describe reality. An ontology defines entities, relationships, constraints, and valid state transitions — making it the operational core of the system, not a metadata layer. Big data worked without ontologies because intelligence was external (humans interpreted results). Agentic systems require ontologies because the system itself must act. Without ontologies, agents hallucinate actions, misuse tools, and produce unenforceable safety boundaries [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
+- **Ontologies as Coordination Layer** — A shared ontology provides the deterministic interface that allows humans, services, and AI agents to operate together: a common model of what exists, what can change, who can change it. Governance alone (ownership, access control, compliance) is insufficient — "governance without ontology is bureaucracy without physics" [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
@@ -112,6 +117,8 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 **Claude Code Skills domain:** The key insight from this article is a reframing: a skill is a *folder*, not a file. It is a complete context-delivery package — documentation, scripts, templates, examples, config — that transforms a general model into a domain specialist. The highest-value element of any skill is the *gotchas section*: production-discovered pitfalls the model repeatedly falls into. Skills should start minimal and grow organically. The folder structure itself is a context engineering tool (progressive disclosure). With Opus 4.7's more literal instruction-following, a well-written skill has proportionally higher ROI — and a vague description or missing gotchas is proportionally more costly. This connects directly to the LLM Wiki pattern: both are about accumulating non-obvious knowledge in structured, navigable form, compounding value over time. [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
 
 **Enterprise AI deployment domain (AIP):** The most important insight from Palantir's AIP Bootcamp model is the same insight that runs through the coaching, product, and system design domains of this wiki: *upfront architectural decisions made without empirical evidence are dangerous*. In AI deployment, this means: don't decide how many LLMs to use, whether to fine-tune, or what your learning loop looks like before you have a production use case to learn from. The enabling technology is the Ontology — a semantic data model that bridges operational reality and AI prompts, unlocking event-driven automation rather than just chat. This connects directly to MCP (both replace user-prompt-driven with event-driven AI) and to Conway's Law (both reject theological structure in favor of strategy-led, empirically-validated design). [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
+
+**Ontology-driven architecture domain:** The deepest insight from Palantir's ontology-first bet is a single principle: *meaning precedes intelligence*. Big data systems could work without ontologies because intelligence was external — analysts supplied judgment, governance supplied policy. Agentic systems cannot work without ontologies because the system itself must act at machine speed. The schema vs. ontology distinction is foundational: a schema tells you what a database looks like; an ontology tells you what the domain means — what states exist, what transitions are valid, what actions are permitted. Without this, agents don't fail loudly (hallucinations, policy violations, prompt spaghetti); they fail silently in production. The cross-domain connection: ontologies are the AI equivalent of a deliberate team topology — both reject emergent, unplanned design in favor of explicit upfront modeling that makes the system composable and reliable over time. [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
 ---
 
 ## Key Themes
@@ -134,6 +141,23 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 ## Knowledge Gaps
 
 *(Areas where more sources are needed. The LLM will flag these during ingests and lint passes.)*
+
+### 🔴 PRIORIDADE CRÍTICA — Ontologia como Camada Operacional
+
+O wiki tem cobertura inicial do conceito de ontologia (via Palantir/balaji bal e AIP Bootcamps), mas ela é **superficial em relação à profundidade que o tema merece**. Ontologia é o mecanismo que transforma sistemas de IA em agentes confiáveis — e o wiki ainda não cobre:
+
+- **Implementação prática de ontologias** — como se constrói uma ontologia operacional para um domínio real? Quais ferramentas (SPARQL, OWL, Property Graph, RDF)? Quais padrões de modelagem?
+- **Ontologia vs. Knowledge Graph** — qual a diferença entre um ontology-driven system e um knowledge graph? Quando usar cada abordagem?
+- **Ontologias em sistemas não-Palantir** — como empresas que não usam AIP implementam camadas semânticas equivalentes? Existem padrões open-source?
+- **Ontologia e RAG** — qual a relação entre um ontology-driven retrieval e as abordagens de RAG já documentadas no wiki (vectorless, vector)? Uma ontologia pode substituir o índice?
+- **Ontologia como interface de segurança** — a ligação entre ontologias e o GenAI Security Workflow (Gartner) ainda está subdesenvolvida. Como as constraints e state transitions da ontologia se mapeiam para os controles de segurança nos 6 estágios?
+- **Ontologia em domínios específicos deste wiki** — BIM já tem um modelo de dados rico (IFC/BIM 360) — qual a relação com ontologias? Existe uma ontologia de construção civil?
+
+**Fontes sugeridas para ingestão:**
+- Documentação oficial do Palantir Ontology / Foundry
+- Artigos sobre ontologia e agentic AI além da visão Palantir
+- Casos de uso de knowledge graphs em enterprise AI (ex: AWS Neptune, Neo4j, Stardog)
+- Especificação IFC como ontologia de construção
 
 ---
 

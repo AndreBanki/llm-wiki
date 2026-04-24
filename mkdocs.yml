@@ -74,11 +74,13 @@ nav:
   - Concepts:
     - AI Engineering:
       - Palantir AIP: concepts/ai-engineering/aip-platform.md
+      - Ontology-Driven Architecture: concepts/ai-engineering/ontology-driven-architecture.md
       - Claude Code Skills: concepts/ai-engineering/claude-code-skills.md
       - Constitutional AI: concepts/ai-engineering/constitutional-ai.md
       - Enterprise AI Deployment: concepts/ai-engineering/enterprise-ai-deployment.md
       - AI Agent Governance: concepts/ai-engineering/ai-agent-governance.md
       - GenAI Security Workflow: concepts/ai-engineering/genai-security-workflow.md
+      - LLM Model Economics: concepts/ai-engineering/llm-model-economics.md
       - LLM Wiki Pattern: concepts/ai-engineering/llm-wiki-pattern.md
       - MCP Architecture: concepts/ai-engineering/mcp-architecture.md
       - PageIndex: concepts/ai-engineering/pageindex.md
@@ -108,6 +110,7 @@ nav:
       - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md
       - PageIndex Vectorless RAG: sources/ai-engineering/pageindex-vectorless-rag.md
       - Palantir AIP Bootcamps: sources/ai-engineering/palantir-aip-bootcamps.md
+      - Qwen 3.6 Plus 1T Tokens (Chew Loong Nian): sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md
       - MCP vs API (Vidvatta): sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md

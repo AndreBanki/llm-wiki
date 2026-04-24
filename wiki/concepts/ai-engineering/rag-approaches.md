@@ -91,7 +91,32 @@ Use vector search to find the right document from a large collection, then use P
 
 The shift from similarity to reasoning in retrieval mirrors a broader trend: when tasks require understanding structure and following logic, reasoning-first approaches outperform similarity-first approaches. Claude Code has reportedly moved away from vector-based code retrieval in favor of reasoning-driven approaches for the same reason.
 
+## Third Paradigm: 1M Context — No Retrieval At All
+
+As of early 2026, a third option has emerged: **skip retrieval entirely**.
+
+Models like Qwen 3.6 Plus (1M-token context window, linear attention architecture) can load an entire codebase or document corpus in a single inference call — including distant function definitions, cross-file dependencies, and historical context — with no retrieval pipeline.
+
+| Paradigm | Retrieval mechanism | Structure preserved | Latency | Cost |
+|---|---|---|---|---|
+| Vector RAG | Cosine similarity | Destroyed by chunking | Low | Low (after index build) |
+| Vectorless RAG | LLM tree reasoning | Preserved | High | High per query |
+| 1M context | None | Fully preserved | Low | Depends on model pricing |
+
+**When 1M context replaces RAG:**
+- Single long document that fits in context (legal contracts, financial filings, entire codebases)
+- Agents needing full session coherence (tool call history + plan traces stay in-window)
+- Teams wanting to eliminate vector DB infrastructure entirely
+
+**When 1M context is not enough:**
+- Corpus larger than 1M tokens (then RAG is still needed)
+- Cost sensitivity at scale (1M-context tier pricing is 3-4x standard tier)
+
+See [[ai-engineering/llm-model-economics]] for the cost tradeoff analysis.
+
 ## Related Pages
 
 - [[ai-engineering/pageindex]]
 - [[ai-engineering/pageindex-vectorless-rag]] (source article)
+- [[ai-engineering/llm-model-economics]]
+- [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] (source article)

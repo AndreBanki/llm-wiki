@@ -2,8 +2,8 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-04-22
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf]
+updated: 2026-04-24
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -69,6 +69,36 @@ Each entry follows this format:
 **VectifyAI**
 : The team that built and maintains PageIndex. Also operates the cloud service at pageindex.ai.
 - See also: [[ai-engineering/pageindex]]
+
+**SWE-bench Verified**
+: The canonical benchmark for evaluating software engineering capability in LLMs. Tests models against real GitHub issues from production repositories — requires the model to actually understand and fix bugs, not just recognize patterns. As of early 2026, top scores: Claude Opus 4.6 at 80.8%, Qwen 3.6 Plus at 78.8%.
+- See also: [[ai-engineering/llm-model-economics]]
+
+**Open-Weight Model**
+: An LLM whose model weights are publicly available (downloadable and self-hostable), as opposed to closed/proprietary models where weights are kept private by the vendor. Open-weight models can be run locally, fine-tuned, and accessed via inference providers like OpenRouter. Note: "open-weight" is more precise than "open-source" (which implies training code and data are also public).
+- Contrasted with: closed model, proprietary model (e.g., Claude, GPT)
+- See also: [[ai-engineering/llm-model-economics]]
+
+**OpenRouter**
+: An inference routing platform that aggregates multiple LLM providers (open-weight and proprietary) through a single OpenAI-compatible API endpoint. Enables developers to switch between models by changing only the `model` string. Key for cost-performance arbitrage: run Qwen 3.6 Plus at $0.28/M for high-volume tasks; route to Claude/GPT for hard tasks. No waitlist as of April 2026.
+- See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]]
+
+**Token Economics**
+: The analysis of LLM token consumption and cost as a first-class architectural and business decision. Especially important for agentic pipelines: each agent loop re-sends accumulating context, so cost compounds. A 17x token cost differential between models translates to 17x operational cost difference at scale.
+- See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/ai-agent-governance]]
+
+**Linear Attention**
+: An attention mechanism that approximates standard (quadratic) transformer attention with $O(n)$ cost scaling instead of $O(n^2)$ — making it dramatically cheaper for long-context inference. Used in Qwen 3.6 Plus for bulk context processing, enabling its 1M-token context window at competitive inference speeds.
+- Contrasted with: standard quadratic attention (cost scales with sequence length squared)
+- See also: [[ai-engineering/llm-model-economics]]
+
+**Mixture-of-Experts (MoE)**
+: A neural network architecture where a large number of "expert" subnetworks exist, but only a sparse subset activates per forward pass (selected by a gating mechanism based on input). Enables scaling total model parameters without proportionally scaling compute. Used in Qwen 3.6 Plus (sparse MoE + linear attention hybrid).
+- See also: [[ai-engineering/llm-model-economics]]
+
+**Qwen 3.6 Plus**
+: Alibaba's flagship agentic coding model released April 2, 2026. Open-weight; hybrid linear attention + sparse MoE architecture; 1M-token context window; $0.28/M input tokens; 78.8% SWE-bench Verified; 158 tok/s inference speed. First model to process 1 trillion tokens in a single day on OpenRouter. Designed as an agentic-first model: tool use as first-class primitive, dual orchestrator/subagent support, always-on chain-of-thought.
+- See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]]
 
 ---
 
@@ -394,10 +424,32 @@ Each entry follows this format:
 : Palantir's enterprise AI platform that integrates foundation models with live operational data through the Ontology. Enables organizations to move from chat-based AI to event-driven AI automation across any business function.
 - See also: [[ai-engineering/aip-platform]]
 
-**Ontology** *(Palantir)*
-: Palantir's semantic data model that represents an organization's real-world entities and events in a structured, live format. Grounds AI prompts in operational reality rather than just user input — enabling event-driven automation (e.g., a supply disruption triggers AI analysis without a human typing a prompt).
-- Note: Palantir-specific term; not to be confused with the general concept of ontology in knowledge representation
-- See also: [[ai-engineering/aip-platform]]
+**Ontology** *(operational ontology, Palantir Ontology)*
+: A formal, explicit model of reality that defines the entities, relationships, constraints, and valid state transitions in a domain. In Palantir's implementation: a live semantic data model that grounds AI actions in real-world operational state. The critical distinction — *schemas describe data; ontologies describe reality*. A schema tells you a table has a `status` column; an ontology tells you what states are possible, how you move between them, and what actions are enabled or prohibited at each state.
+- The ontology is not a layer on top of the system — it *is* the system
+- Enables reliable agentic action: agents can only perform operations that correspond to legitimate state transitions on real entities
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/aip-platform]]
+
+**Schema vs. Ontology**
+: The foundational architectural distinction between describing data structure (schema) and describing operational reality (ontology). Schemas define what a database looks like; ontologies define what the domain means. Big data systems worked without ontologies because intelligence was external (analysts interpreted the data). Agentic systems require ontologies because the system itself must act reliably.
+- See also: [[ai-engineering/ontology-driven-architecture]]
+
+**Meaning Precedes Intelligence**
+: Core design principle articulated by balaji bal as Palantir's foundational belief: before a system can act intelligently, it must have an explicit, shared model of what the entities in its domain are, how they relate, and what can happen to them. Intelligence built on top of implicit meaning (schemas, governance policies, analyst interpretation) fails when the system is expected to act autonomously.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[sources/ai-engineering/balajiBal-palantir-ontologies]]
+
+**World-Modeling**
+: The practice of building software systems whose primary purpose is to represent and reason over a domain's entities, relationships, and dynamics — as opposed to systems optimized for data processing, analytics, or reporting. Palantir was a world-modeling company from the beginning. The ontology is the technical implementation of the world model.
+- See also: [[ai-engineering/ontology-driven-architecture]]
+
+**Deterministic Interface**
+: An interface whose behavior is fully specified by explicit, computable rules rather than probabilistic model outputs. Ontologies serve as deterministic interfaces for agentic systems: an agent cannot take an action unless it corresponds to a valid state transition defined in the ontology. Contrasted with probabilistic guardrails (which constrain through model behavior, not hard rules).
+- Related term: MCP tools also act as deterministic interfaces at the tool-call level
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/mcp-architecture]]
+
+**Governance without Ontology**
+: A system in which data access, ownership, and compliance are enforced through policy, but the system itself has no model of the domain's real-world entities and valid operations. Per balaji bal: "Governance without ontology is bureaucracy without physics." Policy can regulate access; only an ontology can enforce what actions are *meaningful and valid*.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/genai-security-workflow]]
 
 **Full Spectrum AI**
 : Palantir's term for the maturity spectrum of enterprise AI deployment, from chat-style interaction at one end to fully automated, event-driven intelligent primitives embedded in business applications at the other. Most enterprises start at the chat end and must be guided toward automation.

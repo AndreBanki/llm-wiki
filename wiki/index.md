@@ -37,6 +37,8 @@ Each entry follows this format:
 | [[ai-engineering/palantir-aip-bootcamps]] | Palantir Blog (Oct 2023): AIP Bootcamp model — 1–5 day enterprise AI deployment; Ontology concept; full spectrum AI; empirical architecture principle; 11 use cases | 2026-04-22 |
 | [[ai-engineering/eric-luque-claude-code-skills]] | LinkedIn Pulse (Apr 2026): Claude Code Skills — directory-based context packages for AI agents; 9 skill categories; gotcha-driven knowledge capture; Opus 4.7 amplification | 2026-04-22 |
 | [[ai-engineering/eric-luque-claude-opus-47-operator-risk]] | LinkedIn Pulse (Apr 2026): Opus 4.7 shifts AI from copilot to operator; four production risks (global errors, silent cost, delegation without governance, pipeline anti-pattern); four-component governance stack | 2026-04-22 |
+| [[ai-engineering/balajiBal-palantir-ontologies]] | Medium (Mar 2026): Palantir's ontology-first approach as foundation for agentic AI; schema vs. ontology distinction; "Meaning precedes intelligence"; ontologies as deterministic interface and coordination layer | 2026-04-24 |
+| [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] | Medium/Towards AI (Apr 2026): Qwen 3.6 Plus hits 1T daily tokens on OpenRouter; benchmark comparison vs Claude Opus 4.6 and GPT-5.4; token economics for agent pipelines; agentic architecture decisions | 2026-04-24 |
 
 ### Coaching & Leadership
 
@@ -84,7 +86,7 @@ Each entry follows this format:
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
-| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-22 |
+| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence" | 2026-04-24 || [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway | 2026-04-24 |
 
 ### Coaching & Leadership
 

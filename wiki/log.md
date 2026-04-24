@@ -6,6 +6,40 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-24] ingest | Palantir's Real Secret Sauce — Ontologies (balaji bal — Medium)
+Pages created:
+- `wiki/sources/ai-engineering/balajiBal-palantir-ontologies.md` — schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence"
+- `wiki/concepts/ai-engineering/ontology-driven-architecture.md` — deep concept page on operational ontologies; four components; schema/ontology contrast; big data era vs. agentic era; coordination layer; governance vs. ontology
+
+Pages updated:
+- `wiki/concepts/ai-engineering/aip-platform.md` — expanded Ontology section with schema/ontology distinction and link to ontology-driven-architecture concept
+- `wiki/glossary.md` — updated Ontology entry; added: Schema vs. Ontology, Meaning Precedes Intelligence, World-Modeling, Deterministic Interface, Governance without Ontology
+- `wiki/index.md` — added new source and concept entries
+- `wiki/overview.md` — updated source count (15); added Ontology-Driven Architecture and Coordination Layer bullets; added ontology key insight paragraph
+- `mkdocs.yml` — added Ontology-Driven Architecture to concepts nav; added Palantir Ontologies source to nav
+
+Key additions: The schema vs. ontology distinction is now a first-class concept in the wiki. Directly deepens existing Palantir AIP coverage and connects to AI agent governance (deterministic guardrails), MCP (deterministic tool interfaces), and Conway's Law (explicit upfront structure vs. emergent design).
+
+---
+
+## [2026-04-24] ingest | Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens (Chew Loong Nian — Towards AI / Medium)
+Pages created:
+- `wiki/sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md` — benchmark comparison, architecture specs, cost math, agentic design decisions, OpenRouter access guide
+- `wiki/concepts/ai-engineering/llm-model-economics.md` — decision framework for model selection; token economics; open-weight vs. frontier; OpenRouter; linear attention + MoE; tiered agent architecture
+
+Pages updated:
+- `wiki/concepts/ai-engineering/rag-approaches.md` — added third paradigm: 1M context window as alternative to RAG chunking
+- `wiki/concepts/ai-engineering/ai-agent-governance.md` — added model selection as AI FinOps dimension; linked to llm-model-economics
+- `wiki/glossary.md` — added: SWE-bench Verified, Open-Weight Model, OpenRouter, Token Economics, Linear Attention, MoE, Qwen 3.6 Plus
+- `wiki/index.md` — added new source and concept entries
+- `wiki/overview.md` — updated source count (14); added LLM Model Economics, OpenRouter, and 1M Context vs. RAG bullets
+- `mkdocs.yml` — added LLM Model Economics to concepts nav; added Qwen source to sources nav
+- `raw/ingested.md` — added PDF to ingested list
+
+Key additions: The 17x token cost differential between open-weight and frontier models is now documented as a business-critical agent architecture decision. OpenRouter is flagged as an infrastructure tool to investigate for agent pipelines.
+
+---
+
 ## [2026-04-22] ingest | Planejamento de obra 4.0: algoritmos que otimizam cronogramas e antecipam gargalos (Alessandro Lopes)
 
 **Source:** LinkedIn Pulse article by Alessandro Lopes (Sócio/Diretor de Inovação, Athié Wohnrath), April 22, 2026  
