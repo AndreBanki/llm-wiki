@@ -2,9 +2,9 @@
 title: LLM Wiki Pattern
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [article.md]
-tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian]
+updated: 2026-04-24
+sources: [article.md, tejas-sharma-karpathy-knowledge-system.md]
+tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian, synthesis, pkm]
 ---
 
 # LLM Wiki Pattern
@@ -24,6 +24,7 @@ Introduced by **Andrej Karpathy** in early 2026 as a one-page markdown document 
 
 ## The Core Problem It Solves
 
+### The Maintenance Problem
 Traditional knowledge management fails because of **maintenance cost**:
 - Updating cross-references when a page changes
 - Keeping summaries current as new information arrives
@@ -34,6 +35,17 @@ Traditional knowledge management fails because of **maintenance cost**:
 This work is boring, repetitive, and never-ending. So wikis go stale, trust erodes, and nobody opens them.
 
 **LLM Wiki's insight:** AI has a comparative advantage in exactly this type of work. It never gets tired. It can update 15 files in a single pass. It notices contradictions. The maintenance cost drops to nearly zero.
+
+### The Synthesis Problem
+Separately, even professionals with large, well-maintained archives face a deeper issue: **knowledge without connection is just storage**. The problem isn't retrieval — it's synthesis. Three archetypes (Tejas Sharma):
+
+| Archetype | What they have | What they lack |
+|---|---|---|
+| Lawyer with 10 years of case notes | Deep information | A way to reason across all of it at once |
+| Consultant who advised 30 companies | Domain knowledge | The pattern that connects the cases |
+| Researcher who read 500 papers | Data | The connection that makes it cohere |
+
+The LLM Wiki pattern addresses both problems: the AI handles maintenance *and* builds the connections that surface synthesis-level insights.
 
 ---
 
@@ -71,6 +83,10 @@ This work is boring, repetitive, and never-ending. So wikis go stale, trust erod
 3. AI synthesizes an answer with citations to wiki pages
 4. AI offers to save the answer as an analysis page — questions compound the knowledge base
 
+Once the wiki is large enough, it becomes **quarriable**: your own accumulated knowledge becomes answerable on demand, drawn entirely from what you've already read — no hallucinations from the open web.
+
+**Step 5 — Filing outputs back in:** When the AI gives you an answer, generates a visualization, or writes a summary, file it back into the wiki. Every query enriches the base. This is the mechanism by which knowledge compounds — the wiki doesn't just reflect what you've read; over time it reflects what you've *thought*.
+
 ### Lint
 1. Tell the AI: "Lint the wiki"
 2. AI checks for: contradictions between pages, stale claims superseded by newer sources, orphan pages (no inbound links), concepts mentioned but lacking a page, missing cross-references, inconsistent terminology
@@ -105,7 +121,7 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 | Tool | Role |
 |---|---|
 | **Cursor AI** | Primary interface for talking to the AI agent; reads schema, runs ingest/query/lint |
-| **Obsidian** | Browser/viewer for the wiki; graph view shows knowledge connections visually |
+| **Obsidian** | Browser/viewer for the wiki — a *reader*, not a builder. You navigate what the AI built; you don't create notes inside it. Graph view shows knowledge connections visually. |
 | **Obsidian Web Clipper** | Browser extension to clip web articles directly to `raw/` |
 | Any AI agent | Claude, ChatGPT, Codex, etc. — paste `CLAUDE.md` into context if not using Cursor |
 
@@ -138,5 +154,6 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 
 - [[ai-engineering/rag-approaches]] — vectorless retrieval; index.md navigation is an instance of reasoning-based retrieval
 - [[ai-engineering/pageindex]] — another vectorless RAG approach sharing the "no embeddings" philosophy
-- [[glossary]] — canonical terms: LLM Wiki, schema file, knowledge compounding, ingest, lint
-- [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]] — source article
+- [[glossary]] — canonical terms: LLM Wiki, schema file, knowledge compounding, ingest, lint, quarriable knowledge, synthesis problem
+- [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]] — source article (Balu Kosuri; implementation walkthrough)
+- [[ai-engineering/tejas-sharma-karpathy-knowledge-system]] — source article (Tejas Sharma; synthesis problem framing, quarriable knowledge)

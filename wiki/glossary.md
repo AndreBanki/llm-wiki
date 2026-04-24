@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-24
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -263,6 +263,22 @@ Each entry follows this format:
 : A pattern for AI-maintained personal knowledge bases, introduced by Andrej Karpathy in early 2026. The AI reads source documents once and builds a structured, interlinked wiki — then updates it incrementally as new sources are added. Key insight: AI handles bookkeeping (the work that kills human-maintained wikis) while humans focus on sourcing and questioning.
 - See also: [[ai-engineering/llm-wiki-pattern]]
 
+**PKM** *(Personal Knowledge Management)*
+: The broad category of tools and practices for individuals to capture, organize, and retrieve knowledge. Examples: Obsidian, Roam Research, Notion, Logseq. The LLM Wiki pattern is distinguished from traditional PKM by delegating the connecting/linking work to AI rather than the human.
+- See also: [[ai-engineering/llm-wiki-pattern]]
+
+**Synthesis Problem**
+: The challenge faced by experienced professionals who have accumulated large amounts of domain knowledge but lack a mechanism to reason across all of it at once. Distinct from an *information problem* (not enough data) or a *retrieval problem* (can't find the data). The LLM Wiki pattern's primary value proposition at professional scale. Three canonical archetypes: lawyer with 10 years of case notes, consultant who advised 30 companies, researcher who read 500 papers.
+- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/tejas-sharma-karpathy-knowledge-system]]
+
+**Quarriable Knowledge**
+: A property of a knowledge base that is large and well-connected enough to be *queried like a mine* — complex questions can be answered on demand, drawn entirely from accumulated sources, without hallucination from the open web. Term introduced by Tejas Sharma to describe the end state of a mature LLM Wiki.
+- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/tejas-sharma-karpathy-knowledge-system]]
+
+**Constella**
+: A no-code personal knowledge tool (constella.app) built by Tejas Sharma implementing the same pattern as Karpathy's LLM Wiki: sources go in, AI builds the connections, you ask questions against everything you've accumulated. Designed to remove the setup complexity Karpathy called "a hacky collection of scripts."
+- See also: [[ai-engineering/tejas-sharma-karpathy-knowledge-system]]
+
 **Schema File** *(CLAUDE.md, copilot-instructions.md)*
 : The operating manual for the AI agent in an LLM Wiki. Defines entity types, page YAML format, ingest/query/lint workflows, and session-start checklist. Editing it changes how the AI behaves for a specific domain.
 - Canonical reference in this repo: `.github/copilot-instructions.md`
@@ -291,8 +307,8 @@ Each entry follows this format:
 - See also: [[ai-engineering/llm-wiki-pattern]]
 
 **Andrej Karpathy**
-: AI researcher; founding member at OpenAI, former head of AI/Autopilot at Tesla. Originator of the LLM Wiki pattern (`llm-wiki.md`, early 2026). Known for making deep technical AI concepts accessible.
-- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]]
+: AI researcher; founding member at OpenAI, former head of AI/Autopilot at Tesla. Originator of the LLM Wiki pattern (`llm-wiki.md`, early 2026). Known for making deep technical AI concepts accessible. Self-described his LLM Wiki implementation as "a hacky collection of scripts."
+- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]], [[ai-engineering/tejas-sharma-karpathy-knowledge-system]]
 
 ---
 

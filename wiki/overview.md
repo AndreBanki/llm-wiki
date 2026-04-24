@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 15  
-**Wiki pages:** 51 (index, log, overview, glossary + 15 sources + 25 concepts + updated pages)  
-**Last ingest:** 2026-04-24 — balaji bal / Medium (Palantir's Real Secret Sauce — Ontologies)  
+**Source count:** 16  
+**Wiki pages:** 54 (index, log, overview, glossary + 16 sources + 25 concepts + updated pages)  
+**Last ingest:** 2026-04-24 — Tejas Sharma / Level Up Coding (How to Build the Knowledge System Andrej Karpathy Uses)  
 **Last lint:** —
 
 ---
@@ -87,6 +87,9 @@ This wiki's own architecture and methodology, traced back to Andrej Karpathy's `
 - **Knowledge compounding** — Each ingest makes the wiki richer; cross-references multiply; connections surface automatically; contrasted with chat-based AI that resets every session [⁷](sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md)
 - **Index-based navigation** — `index.md` as a vectorless navigation map; the AI reads it first on every query to find relevant pages — no embeddings needed [⁷](sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md)
 - **Schema as brain** — The schema/instruction file converts a general-purpose AI into a disciplined wiki maintainer; editing it adapts AI behavior to any domain [⁷](sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md)
+- **Synthesis problem** — Experienced professionals don't have information problems; they have synthesis problems. The LLM Wiki's deepest value is not faster retrieval but surfacing connections across everything accumulated — showing what you don't know yet, and where two ideas almost touch but don't [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
+- **Quarriable knowledge** — Once the wiki is large enough, your own accumulated reading becomes answerable on demand, without hallucination from the open web [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
+- **Obsidian as reader, not builder** — Karpathy uses Obsidian only for navigation (browsing what the AI built), not for note creation; the distinction matters: the IDE layer is a viewer [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 
 ### 6. Software Engineering / System Design
 

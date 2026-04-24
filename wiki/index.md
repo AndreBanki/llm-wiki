@@ -39,6 +39,7 @@ Each entry follows this format:
 | [[ai-engineering/eric-luque-claude-opus-47-operator-risk]] | LinkedIn Pulse (Apr 2026): Opus 4.7 shifts AI from copilot to operator; four production risks (global errors, silent cost, delegation without governance, pipeline anti-pattern); four-component governance stack | 2026-04-22 |
 | [[ai-engineering/balajiBal-palantir-ontologies]] | Medium (Mar 2026): Palantir's ontology-first approach as foundation for agentic AI; schema vs. ontology distinction; "Meaning precedes intelligence"; ontologies as deterministic interface and coordination layer | 2026-04-24 |
 | [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] | Medium/Towards AI (Apr 2026): Qwen 3.6 Plus hits 1T daily tokens on OpenRouter; benchmark comparison vs Claude Opus 4.6 and GPT-5.4; token economics for agent pipelines; agentic architecture decisions | 2026-04-24 |
+| [[ai-engineering/tejas-sharma-karpathy-knowledge-system]] | Level Up Coding/Medium (Apr 2026): reframes Karpathy's LLM Wiki as a solution to the synthesis problem; quarriable knowledge; Obsidian as reader not builder; Constella as no-code alternative | 2026-04-24 |
 
 ### Coaching & Leadership
 
@@ -77,7 +78,7 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — and why it works without vector databases | 2026-04-22 |
+| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases | 2026-04-24 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
 | [[ai-engineering/rag-approaches]] | Comparison of vector RAG vs vectorless RAG — strengths, limitations, and hybrid strategy | 2026-04-22 |
 | [[ai-engineering/mcp-architecture]] | MCP (Model Context Protocol) — AI-driven tool orchestration; tools not services; capability discovery; security model; failure modes; comparison with traditional REST APIs | 2026-04-22 |

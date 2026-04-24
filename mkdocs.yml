@@ -105,6 +105,7 @@ nav:
   - Sources:
     - AI Engineering:
       - LLM Wiki (CreativeAI Ninja): sources/ai-engineering/creativeaininja-llm-wiki-cursor-obsidian.md
+      - LLM Wiki (Tejas Sharma): sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md
       - Claude Code Skills (Eric Luque): sources/ai-engineering/eric-luque-claude-code-skills.md
       - Claude Opus 4.7 Operator Risk (Eric Luque): sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md
       - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md

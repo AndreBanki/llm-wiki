@@ -6,6 +6,21 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-04-24] ingest | How to Build the Knowledge System Andrej Karpathy Uses (Tejas Sharma — Level Up Coding / Medium)
+Pages created:
+- `wiki/sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md` — reframes LLM Wiki as a solution to the synthesis problem; quarriable knowledge; Obsidian as reader not builder; Constella reference; Karpathy's "hacky scripts" quote
+
+Pages updated:
+- `wiki/concepts/ai-engineering/llm-wiki-pattern.md` — added synthesis problem section with three-archetype table; added quarriable knowledge and "filing outputs back in" to query operation; updated Obsidian toolchain description to reader-not-builder
+- `wiki/glossary.md` — added: PKM, Synthesis Problem, Quarriable Knowledge, Constella; updated Andrej Karpathy entry with "hacky scripts" quote
+- `wiki/index.md` — added new source entry; updated llm-wiki-pattern concept summary
+- `wiki/overview.md` — updated source count (16); added Synthesis Problem, Quarriable Knowledge, and Obsidian-as-reader bullets to AI Knowledge Management section
+- `mkdocs.yml` — added LLM Wiki (Tejas Sharma) to AI Engineering sources nav
+
+Key additions: The synthesis problem framing is now a first-class concept in the wiki — extending the LLM Wiki's value proposition from productivity (faster retrieval) to professional leverage (cross-domain synthesis). The "quarriable knowledge" vocabulary is a useful handle for conversations about when an LLM Wiki becomes genuinely powerful.
+
+---
+
 ## [2026-04-24] ingest | Palantir's Real Secret Sauce — Ontologies (balaji bal — Medium)
 Pages created:
 - `wiki/sources/ai-engineering/balajiBal-palantir-ontologies.md` — schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence"

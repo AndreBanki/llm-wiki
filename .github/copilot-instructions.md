@@ -87,10 +87,10 @@ Followed by:
 When the user says "ingest the new file" (or similar phrasing without specifying a source):
 1. Read `raw/ingested.md` to get the list of already-ingested PDFs
 2. List all PDFs in `raw/` and identify which are not in `raw/ingested.md`
-3. If exactly one PDF has not been ingested, proceed with that file as the source
+3. If exactly one PDF has not been ingested, treat it as the source and continue with the full ingest steps below, the same as when the user says "ingest [source]"
 4. If more than one PDF has not been ingested, list them and ask the user which one to ingest before proceeding
 
-When the user says "ingest [source]":
+When the user says "ingest [source]" (or once the source has been identified via the auto-detection path above):
 
 1. Ask the user for the **original URL** of the content before proceeding (if not already provided)
 2. Read the source file from `raw/`
