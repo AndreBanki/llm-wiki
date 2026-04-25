@@ -2,9 +2,9 @@
 title: Planejamento Preditivo de Obras
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf]
-tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão]
+updated: 2026-04-25
+sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras]
+tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning]
 ---
 
 # Planejamento Preditivo de Obras
@@ -61,6 +61,21 @@ No planejamento preditivo, a **frente de obra** é a unidade básica de análise
 
 ---
 
+## Contrato como Variável de Configuração
+
+O tipo de contrato determina **o que precisa ser monitorado** e **para quem o planejamento é útil**. Um cronograma preditivo que não considera o modelo contratual gera alertas irrelevantes para os stakeholders errados.
+
+| Tipo de Contrato | Stakeholder que mais usa o planejamento preditivo | Alertas mais críticos |
+|---|---|---|
+| Turn-key / EPC | Gestão da contratada | Interfaces críticas, variações de escopo, gargalos de fornecimento |
+| Preço Unitário | Fiscal do dono + contratada | Produtividade por item, quantidades medidas vs. previstas |
+| Administração | Dono da obra | Eficiência, custos reais por frente |
+| Aliança / IPD | Todos os parceiros | Dashboard unificado de risco e desempenho |
+
+Ver: [[bim-construction/tipos-contrato-engenharia]]
+
+---
+
 ## Ferramentas e Plataformas
 
 Plataformas que já integram BIM + gestão de obras + IA preditiva:
@@ -89,6 +104,37 @@ A visão de longo prazo para o domínio é o **cronograma inteligente**: um sist
 3. Dependências entre frentes de projeto
 
 Isso cria um feedback loop: cada obra executada melhora a precisão do sistema para obras futuras — o mesmo princípio de knowledge compounding que se aplica ao LLM Wiki ([[ai-engineering/llm-wiki-pattern]]) e ao modelo Palantir AIP ([[ai-engineering/aip-platform]]).
+
+---
+
+## As Cinco Frentes de IA na Gestão de Obras
+
+Além do planejamento e previsão (foco do Alessandro Lopes), a IA atua em mais quatro frentes na gestão de obras. Juntas, essas frentes formam um mapa completo de onde a tecnologia agrega valor:
+
+| Frente | Capacidade de IA | Maturidade |
+|---|---|---|
+| **1. Planejamento e previsão** | Dados históricos + cenários para estimar prazos, custos e riscos | Alta — tema central deste conceito |
+| **2. Controle financeiro** | Acompanhamento em tempo real; identificação antecipada de desvios orçamentários | Média — Procore/ACC com módulos financeiros |
+| **3. Gestão de equipes** | Organização de tarefas e monitoramento de produtividade | Média — emergente |
+| **4. Execução e monitoramento** | Registro estruturado da obra com dados visuais e operacionais integrados | Alta — câmeras, IoT, BIM as-built |
+| **5. Análise e melhoria contínua** | Consolidação de indicadores para evolução dos próximos projetos | Baixa — depende de dados acumulados |
+
+Fonte: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]]
+
+**Relevância para Visus Planning:** o produto se encaixa primariamente na **Frente 1 (Planejamento e previsão)**, com potencial para a **Frente 4 (Execução e monitoramento)** à medida que dados de campo são integrados.
+
+---
+
+## Dados como Diferencial, Não a Ferramenta
+
+> "O que mais impacta o resultado de uma obra hoje não é a ferramenta — é como os dados são usados ao longo do processo."
+> — Jhonatan Lazarin
+
+O pré-requisito para que qualquer das cinco frentes acima funcione é **processo bem definido + dados consistentes**. Ferramentas de IA ampliam a capacidade analítica, mas não substituem a disciplina de processo.
+
+Este princípio ecoa o que o wiki já documentou em outros domínios:
+- Palantir: "meaning precedes intelligence" — ontologias como pré-condição para agentic AI ([[ai-engineering/ontology-driven-architecture]])
+- Alessandro Lopes: o maior inimigo de uma obra é a surpresa — e a IA só elimina surpresas com dados reais de execução ([[bim-construction/alessandro-lopes-planejamento-obra-40]])
 
 ---
 

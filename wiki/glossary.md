@@ -2,8 +2,8 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-04-24
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md]
+updated: 2026-04-25
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -99,6 +99,28 @@ Each entry follows this format:
 **Qwen 3.6 Plus**
 : Alibaba's flagship agentic coding model released April 2, 2026. Open-weight; hybrid linear attention + sparse MoE architecture; 1M-token context window; $0.28/M input tokens; 78.8% SWE-bench Verified; 158 tok/s inference speed. First model to process 1 trillion tokens in a single day on OpenRouter. Designed as an agentic-first model: tool use as first-class primitive, dual orchestrator/subagent support, always-on chain-of-thought.
 - See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]]
+
+**AI Session Memory** *(persistent semantic memory, Mem0 memory)*
+: The capability for an AI coding agent to retain and retrieve decisions, preferences, and architectural choices across sessions — solving the problem that every new session starts from scratch. Implemented via Mem0 + ChromaDB + MCP. Distinct from domain knowledge (LLM Wiki) and static context (CLAUDE.md); operates at the project-decision tier.
+- Contrasted with: LLM Wiki (synthesized domain knowledge), CLAUDE.md (deterministic static context)
+- See also: [[ai-engineering/ai-session-memory]]
+
+**AI Amnesia**
+: The condition where an AI coding assistant has no memory of past sessions. Each session restarts from zero; decisions made in prior sessions are permanently lost unless manually re-explained. The core problem that session memory tools like Mem0 address.
+- See also: [[ai-engineering/ai-session-memory]]
+
+**Mem0 (mem0ai)**
+: A Python library for AI memory management. Takes text, extracts key facts using an LLM, stores them as vector embeddings in a vector database (e.g., ChromaDB), and enables semantic search retrieval. Used to add persistent session memory to Claude Code via an MCP server.
+- See also: [[ai-engineering/ai-session-memory]]
+
+**ChromaDB**
+: A local, SQLite-backed vector database. Stores vector embeddings on disk with no infrastructure requirements (no Docker, no server process). Used as the storage backend for Mem0 in session memory setups. Data persists across reboots.
+- See also: [[ai-engineering/ai-session-memory]], [[ai-engineering/rag-approaches]]
+
+**Claude Code Hook**
+: A script registered with Claude Code to fire automatically on specific lifecycle events: `SessionEnd`, `PreCompact`, `Stop`, `PostToolUse`. Hooks enable automated workflows (e.g., memory extraction) but carry production risks: PreCompact fires on every context compaction (not just session end), unbounded background processes cause runaway CPU, per-session locks fail under concurrent sessions.
+- Key rule: register on `SessionEnd` only; use a global `pgrep`-based concurrency cap; add `gtimeout 300` wrapper
+- See also: [[ai-engineering/ai-session-memory]], [[ai-engineering/ai-agent-governance]]
 
 ---
 
@@ -196,6 +218,43 @@ Each entry follows this format:
 **Lead Time** *(no contexto de construção civil)*
 : Prazo entre o pedido de um material/serviço e sua efetiva disponibilidade em obra. Um dos principais dados de entrada para sistemas preditivos de cronograma.
 - Note: o mesmo termo aparece em supply chain / product management com sentido similar, mas o contexto de obras tem particularidades (fornecedores especializados, itens sob medida, logística de canteiro).
+
+**EPC** *(Engineering, Procurement and Construction)*
+: Modalidade contratual em que uma única contratada é responsável pelo projeto executivo (Engineering), suprimento de materiais e equipamentos (Procurement) e execução da obra (Construction). Equivalente funcional do Turn-key. Todo o risco de custo e prazo fica com a contratada.
+- See also: [[bim-construction/tipos-contrato-engenharia]]
+
+**Turn-key / Empreitada Integral**
+: Modalidade contratual em que a contratada entrega a obra "pronta para funcionar" — responsabilidade total sobre escopo, prazo e custo. Terminologia brasileira equivalente: empreitada integral. Alta vulnerabilidade a mudanças de escopo; risco muito alto para a contratada.
+- Canonical form for this wiki: `Turn-key / EPC` when referring to the model in general; `Empreitada Integral` when specifically referencing a contrato no Brasil
+- See also: [[bim-construction/tipos-contrato-engenharia]]
+
+**Alocação de Risco** *(risk allocation)*
+: Distribuição contratual de quem absorve o impacto financeiro de eventos imprevistos em um projeto. O tipo de contrato é o principal mecanismo de alocação de risco. Determina os incentivos de cada parte e o que cada stakeholder precisa monitorar no planejamento.
+- See also: [[bim-construction/tipos-contrato-engenharia]]
+
+**Claim** *(reivindicação contratual)*
+: Solicitação formal de compensação (financeira ou de prazo) por uma parte do contrato em função de eventos não previstos ou de responsabilidade da outra parte. Frequência e tipologia de claims variam com o tipo de contrato.
+- Preferred: `claim` (anglicismo universalmente adotado na indústria brasileira de infraestrutura)
+- See also: [[bim-construction/tipos-contrato-engenharia]]
+
+**Claim Management**
+: Disciplina especializada em identificar, quantificar, documentar e negociar reivindicações contratuais (claims) em projetos de engenharia e construção. Mais relevante em contratos Turn-key/EPC devido ao alto risco da contratada.
+- See also: [[bim-construction/tipos-contrato-engenharia]]
+
+**FIDIC** *(Fédération Internationale des Ingénieurs-Conseils)*
+: Organização internacional que publica os contratos-padrão mais adotados em projetos de engenharia civil internacionais. Principais livros: Yellow Book (EPC/Plant), Red Book (Preço Unitário/Construction), Silver Book (Turn-key mais rígido/EPC Turnkey).
+
+**AltoQi Visus Planning**
+: Produto de planejamento de obras em concepção pela AltoQi. Encaixa-se na **Frente 1 (Planejamento e previsão)** do mapa de IA na gestão de obras — estimativa de prazos, custos e riscos com base em dados históricos. Contexto estratégico: o tipo contratual determina quais métricas são destacadas e para quais stakeholders; o framing "dados como diferencial, não a ferramenta" (Lazarin) posiciona o produto como amplificador da capacidade de antevisão do gestor.
+- See also: [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]], [[bim-construction/jhonatan-lazarin-ia-gestao-obras]]
+
+**Cinco Frentes de IA na Gestão de Obras**
+: Framework de posicionamento para soluções de IA em construção: (1) Planejamento e previsão, (2) Controle financeiro em tempo real, (3) Gestão de equipes e produtividade, (4) Execução e monitoramento, (5) Análise e melhoria contínua. Útil para mapear onde um produto ou funcionalidade se encaixa no contexto mais amplo da transformação digital de obras.
+- See also: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]], [[bim-construction/planejamento-preditivo-obras]]
+
+**Dados como Diferencial** *(data as differentiator)*
+: Framing proposto por Jhonatan Lazarin: o que impacta o resultado de uma obra não é a ferramenta de IA em si, mas como os dados são usados ao longo do processo. A IA só amplifica análise e controle quando aplicada sobre processos bem definidos e dados consistentes. Paralelo no wiki: "meaning precedes intelligence" (Palantir Ontology) — inteligência sem substrato semântico produz ruído, não insight.
+- See also: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]], [[ai-engineering/ontology-driven-architecture]]
 
 ---
 

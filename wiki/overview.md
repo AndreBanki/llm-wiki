@@ -2,7 +2,7 @@
 title: Overview
 type: overview
 created: 2026-04-07
-updated: 2026-04-24
+updated: 2026-04-25
 sources: []
 tags: [overview, synthesis]
 ---
@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 17  
-**Wiki pages:** 46 (index, log, overview, glossary + 17 sources + 25 concepts)  
-**Last ingest:** 2026-04-24 — Tejas Sharma / Level Up Coding (How to Build the Knowledge System Andrej Karpathy Uses)  
+**Source count:** 20  
+**Wiki pages:** 52 (index, log, overview, glossary + 20 sources + 26 concepts + 1 analysis)  
+**Last ingest:** 2026-04-25 — Daniel Rusnok / Medium (How I Added Persistent Semantic Memory to Claude Code in 15 Minutes)  
 **Last lint:** 2026-04-24
 
 ---
@@ -44,12 +44,14 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
-Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação. Expansão para planejamento preditivo de execução de obras via IA.
+Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação. Expansão para planejamento preditivo de execução de obras via IA e para a dimensão contratual como variável de configuração do planejamento.
 
 - **Coordenação BIM** — Modelo federado vs. cultura de responsabilidade sequencial; o princípio “não interessa quem chegou primeiro” [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 - **Pares de conflito** — Matrix de risco entre disciplinas: Estrutural×HVAC, Hidro×Elétrico, Estrutural×Hidro (ALTO); HVAC×Incêndio, Elétrico×Estrutural (MÉDIO) [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 - **Planejamento preditivo de obras** — IA como antevisão: alimentar sistemas com dados reais (produtividade por frente, lead times de fornecedores, histórico de atrasos) para emitir alertas preditivos como “70% de chance de atrasar se o material não chegar até quinta” [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
-- **Cronograma inteligente** — visão de futuro: cronograma que aprende com cada obra executada e sugere sequência ótima de frentes; Brasil ainda dá os primeiros passos; ferramentas: Procore, Autodesk Construction Cloud [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
+- **Cronograma inteligente** — visão de futuro: cronograma que aprende com cada obra executada e sugere sequência ótima de frentes; Brasil ainda dá os primeiros passos; ferramentas: Procore, Autodesk Construction Cloud [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)- **Dados como diferencial, não a ferramenta** — o que impacta o resultado de uma obra não é a ferramenta, mas como os dados são usados ao longo do processo; pré-condição: processos bem definidos + dados consistentes; ecoa "meaning precedes intelligence" do domínio de ontologias [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md)
+- **Cinco frentes de IA na gestão de obras** — mapa de posicionamento: (1) Planejamento e previsão, (2) Controle financeiro em tempo real, (3) Gestão de equipes/produtividade, (4) Execução e monitoramento, (5) Análise e melhoria contínua; Visus Planning na Frente 1 com potencial para Frente 4 [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md)- **Tipos de Contrato em Engenharia** — O tipo de contrato define como o risco é alocado e o que cada stakeholder precisa monitorar. Turn-key/EPC: contratada absorve todo o risco → planejamento voltado para a gestão da contratada. Preço Unitário → medições e produtividade centrais. Administração/Cost Plus → custos e eficiência. Aliança/IPD → painel unificado. Princípio: "Grande parte dos problemas não nasce na execução — nasce na forma como o contrato foi estruturado" [¹⁸](sources/bim-construction/alexander-mattos-contratos-engenharia.md)
+- **AltoQi Visus Planning (dimensão contratual)** — Para AltoQi Visus Planning, o tipo de contrato é uma variável de configuração: dashboards, alertas e stakeholder primário mudam conforme o modelo contratual do projeto [¹⁸](sources/bim-construction/alexander-mattos-contratos-engenharia.md)
 
 ### 3. Coaching and Leadership (Personal Development)
 
@@ -91,6 +93,10 @@ This wiki's own architecture and methodology, traced back to Andrej Karpathy's `
 - **Quarriable knowledge** — Once the wiki is large enough, your own accumulated reading becomes answerable on demand, without hallucination from the open web [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 - **Obsidian as reader, not builder** — Karpathy uses Obsidian only for navigation (browsing what the AI built), not for note creation; the distinction matters: the IDE layer is a viewer [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 
+- **Session memory vs. domain knowledge** — Two complementary memory tiers for AI coding assistants: the LLM Wiki handles synthesized domain knowledge (curated sources, stable, cross-referenced); Mem0/ChromaDB handles episodic project decisions (automatic, ephemeral, per-project). Neither replaces the other. CLAUDE.md is a third tier (deterministic, always loaded). Together they give an AI assistant the full context a senior developer carries in their head [²⁰](sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md)
+- **Knowledge promotion workflow** — Mem0 memories can graduate into wiki knowledge: when a project-specific decision reveals a generalizable pattern, it belongs in the wiki; the specific decision stays in Mem0. The wiki's glossary and concept pages provide the ontological backbone that makes Mem0 queries more precise [²⁰](sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md)
+- **Hook production hazards** — AI-generated automation code passes a dry-run and fails under real-world concurrency. Four stacked failure modes documented: per-session locks (allow N concurrent extractions), PreCompact hook frequency, unbounded background processes, orphaned MCP servers. Meta-lesson: *"It generated a working script in 30 seconds" is not the same as "it generated a safe script."* [²⁰](sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md)
+
 ### 7. Software Engineering / System Design
 
 A comprehensive survey of distributed systems, scaling patterns, database strategies, and system design interview frameworks. Source: Shivam Bhadani (@shivambhadani_).
@@ -107,7 +113,7 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 
 **BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro. [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 
-**BIM + AI cross-domain:** O maior inimigo de uma obra não é a dificuldade técnica — é a surpresa. A IA não substitui o gestor: ela fornece antevisão, cruzando dados reais de execução (produtividade por frente, lead times, histórico de atrasos) para prever riscos antes que se materializem. O princípio é idêntico ao do modelo Palantir AIP: decisões melhores nascem de dados operacionais reais, não de achismo. Quem começa a alimentar esses sistemas primeiro constrói a vantagem composta. [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
+**BIM + AI cross-domain:** O maior inimigo de uma obra não é a dificuldade técnica — é a surpresa. A IA não substitui o gestor: ela fornece antevisão, cruzando dados reais de execução (produtividade por frente, lead times, histórico de atrasos) para prever riscos antes que se materializem. O que impacta o resultado, porém, não é a ferramenta — é como os dados são usados: IA amplifica apenas quando aplicada sobre processos bem definidos e dados consistentes (paralelo direto com "meaning precedes intelligence" do domínio de ontologias). O mapa completo das cinco frentes (planejamento, controle financeiro, equipes, execução, melhoria contínua) posiciona o Visus Planning primariamente na Frente 1, com dados do campo como caminho para a Frente 4. [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md) [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md)
 
 **Coaching domain:** The default mode under pressure is performance coaching. Development coaching requires a deliberate choice to stay curious. A single well-placed question — “What have you already considered?” — can shift the dynamic without sacrificing momentum. The same philosophy extends to group settings: pre-designed questions act as containers that invite depth without requiring a structured agenda. Beneath all of this sits the “being of coaching”: four paradoxes (Humble Confidence, Fierce Love, Light and Grounded, Care and Don’t Care) that AI cannot replicate — the embodied presence that makes questions land differently. [³](sources/coaching-leadership/mbs-performance-vs-development-coaching.md) [⁴](sources/coaching-leadership/mbs-two-questions-for-great-conversation.md) [⁶](sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md)
 

@@ -1,5 +1,56 @@
 # Wiki Log
 
+## [2026-04-25] ingest | How I Added Persistent Semantic Memory to Claude Code in 15 Minutes (Daniel Rusnok — Medium)
+Pages created:
+- `wiki/sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md` — session amnesia problem; Mem0 + MCP + ChromaDB architecture; 4-tool MCP interface; the Incident (7 parallel Claude instances); four root-cause bugs; fix with global pgrep cap + gtimeout; hook review checklist
+- `wiki/concepts/ai-engineering/ai-session-memory.md` — new concept: three-tier memory model (context/session/domain), Mem0 MCP pattern, vectorless vs. semantic retrieval tension, production hook hazards
+- `wiki/analyses/session-memory-vs-wiki-synergy.md` — synergy analysis: how Mem0 session memory and the Karpathy LLM Wiki operate as complementary tiers; combined architecture; knowledge promotion workflow; the vectorless/semantic tension resolved by knowledge type
+
+Pages updated:
+- `wiki/glossary.md` — added: AI Session Memory, AI Amnesia, Mem0, ChromaDB, Claude Code Hook; updated frontmatter sources
+- `wiki/index.md` — added source entry, concept entry (ai-session-memory), new Analyses section with synergy page
+- `wiki/overview.md` — updated source count (19→20), page count (49→52); added 3 bullets to domain 6 (AI Knowledge Management): session memory tier, knowledge promotion workflow, hook production hazards; updated last ingest
+- `mkdocs.yml` — added AI Session Memory to Concepts nav; added Rusnok source to Sources nav; added Analyses section with synergy page
+- `raw/ingested.md` — added entry for Rusnok article
+
+Key additions: The distinction between *what I know* (wiki) and *what I decided* (Mem0) is now a first-class concept in the wiki. The synergy analysis surfaces the most actionable cross-domain insight: these two memory systems are not alternatives but complementary tiers, each optimized for its knowledge type. The hook incident provides a concrete production case study reinforcing the AI Agent Governance concept.
+
+---
+
+## [2026-04-25] ingest | IA na Gestão de Obras: dados como diferencial (Jhonatan Lazarin — LinkedIn)
+Pages created:
+- `wiki/sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md` — tese: o diferencial não é a ferramenta, mas como os dados são usados; mapa das cinco frentes de IA na gestão de obras; pré-condição: processos bem definidos + dados consistentes; relevância para Visus Planning
+
+Pages updated:
+- `wiki/concepts/bim-construction/planejamento-preditivo-obras.md` — adicionadas duas seções: "As Cinco Frentes de IA na Gestão de Obras" (tabela com maturidade por frente + posicionamento do Visus Planning) e "Dados como Diferencial, Não a Ferramenta" (com conexões cross-wiki a ontology-driven-architecture e Alessandro Lopes); atualizado frontmatter (sources, tags, updated)
+- `wiki/glossary.md` — atualizado "AltoQi Visus Planning" (expandido com Cinco Frentes e framing Lazarin); adicionados: "Cinco Frentes de IA na Gestão de Obras", "Dados como Diferencial"
+- `wiki/index.md` — adicionada nova source entry; atualizado summary de planejamento-preditivo-obras
+- `wiki/overview.md` — atualizado source count (19); adicionados dois novos bullets à seção BIM; atualizado key insight BIM+AI com framing Lazarin
+- `mkdocs.yml` — adicionado Jhonatan Lazarin à nav BIM sources
+- `raw/ingested.md` — adicionada entrada para linkedin-post-jhonatan-lazarin-ia-gestao-obras
+
+Key additions: O mapa das cinco frentes de IA na gestão de obras é agora um conceito de primeira classe no wiki — e um instrumento de posicionamento direto para o Visus Planning. A convergência entre "dados como diferencial" (Lazarin) e "meaning precedes intelligence" (Palantir Ontology) reforça um tema transversal emergente: sem substrato de dados bem estruturado, ferramentas de IA amplificam ruído, não insight.
+
+---
+
+## [2026-04-25] ingest | Tipos de Contratos em Engenharia: Riscos, Vulnerabilidades e Potencial de Perdas (Alexander Mattos — LinkedIn)
+Pages created:
+- `wiki/sources/bim-construction/alexander-mattos-contratos-engenharia.md` — tese central: problemas em projetos de engenharia nascem na estrutura do contrato; análise de Turn-key/EPC, Preço Unitário, Administração, Aliança/IPD; implicações para AltoQi Visus Planning
+- `wiki/concepts/bim-construction/tipos-contrato-engenharia.md` — conceito completo: modelos contratuais em engenharia; matriz de risco por tipo; implicações para planejamento por stakeholder; vocabulário de claim management; FIDIC; dimensão AltoQi Visus Planning
+
+Pages updated:
+- `wiki/concepts/bim-construction/planejamento-preditivo-obras.md` — added "Contrato como Variável de Configuração" section com tabela: tipo de contrato → stakeholder → alertas críticos
+- `wiki/glossary.md` — added: EPC, Turn-key/Empreitada Integral, Alocação de Risco, Claim, Claim Management, FIDIC, AltoQi Visus Planning
+- `wiki/index.md` — added new source and concept entries for BIM & Construction
+- `wiki/overview.md` — updated source count (17→18), page count (46→48), last ingest; extended BIM section with 2 new bullets (tipos de contrato + Visus Planning); updated section description
+- `mkdocs.yml` — added Tipos de Contrato em Engenharia to concepts nav; added Alexander Mattos source to BIM sources nav
+
+Key additions: A dimensão contratual é agora um conceito de primeira classe no wiki. A conexão mais importante: o tipo de contrato determina quem tem risco → o que precisa de visibilidade → requisito de produto para AltoQi Visus Planning. Isso transforma a análise de contratos de um tema de infraestrutura/óleo&gás em um insumo direto para o design de produto da AltoQi.
+
+Note: source provided as a LinkedIn post screenshot in chat — no PDF file in raw/; ingested.md not updated.
+
+---
+
 ## [2026-04-24] lint
 Issues found: 6
 - `overview.md` frontmatter `updated` stale (2026-04-22 → 2026-04-24)

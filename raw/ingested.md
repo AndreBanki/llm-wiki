@@ -10,9 +10,11 @@ Update this file at the end of every ingest.
 - `Gmail - [The Works] The paradoxes of being a coach.pdf`
 - `Gmail - [The Works] Two questions for a great conversation.pdf`
 - `Gmail - Do you focus on the task or the person_.pdf`
+- `How I Added Persistent Semantic Memory to Claude Code in 15 Minutes — Daniel Rusnok — Medium.pdf`
 - `How Palantir AIP Bootcamps Work _ Palantir Blog.pdf`
 - `How to Build the Knowledge System Andrej Karpathy Uses (And What It's Actually For) _ by Tejas Sharma _ Apr, 2026 _ Level Up Coding.pdf`
 - `I Stopped Using Vector Databases for RAG _ PageIndex Vectorless RAG _ by Sweety Tripathi _ Apr, 2026 _ Generative AI.pdf`
+- `linkedin-post-jhonatan-lazarin-ia-gestao-obras` *(LinkedIn post PDF shared directly — no raw/ file)*
 - `O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf`
 - `Palantir's Real Secret Sauce — Ontologies _ by balaji bal _ Mar, 2026 _ Medium.pdf`
 - `Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf`
