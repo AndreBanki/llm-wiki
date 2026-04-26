@@ -66,6 +66,7 @@ Each entry follows this format:
 | [[bim-construction/alessandro-lopes-planejamento-obra-40]] | LinkedIn Pulse (Abr 2026): planejamento preditivo de obras; IA como antevisão; frentes de obra; Procore/Autodesk Construction Cloud; Brasil em fase inicial | 2026-04-22 |
 | [[bim-construction/jhonatan-lazarin-ia-gestao-obras]] | LinkedIn post (Abr 2026): IA na gestão de obras — dados como diferencial, não a ferramenta; mapa das cinco frentes (planejamento, controle financeiro, equipes, execução, melhoria contínua); pré-condição: processos bem definidos + dados consistentes | 2026-04-25 |
 | [[bim-construction/alexander-mattos-contratos-engenharia]] | LinkedIn post (Abr 2026): tipos de contratos em engenharia (Turn-key/EPC, Preço Unitário, Administração, Aliança); contratos como modelos de alocação de risco; implicações para planejamento e AltoQi Visus Planning | 2026-04-25 |
+| [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] | GT TIC ANTAC / MDIC Construa Brasil (Mai 2025): workflow operacional completo do AltoQi Visus Planning — modelo federado IFC, EAP, cronograma 4D, setorização, simulação, rastreamento planejado vs. executado, relatórios | 2026-04-26 |
 
 ### Software Engineering
 
@@ -115,7 +116,7 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[bim-construction/bim-coordination]] | Coordenação BIM como problema cultural/processual; pares de maior risco de conflito entre disciplinas complementares; ferramentas Procore e Autodesk Construction Cloud | 2026-04-22 |
-| [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta" | 2026-04-25 |
+| [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta"; Frente 4 confirmada no Visus Planning 2024 | 2026-04-26 |
 | [[bim-construction/tipos-contrato-engenharia]] | Tipos de contrato em engenharia: Turn-key/EPC, Preço Unitário, Administração, Aliança; alocação de risco por modelo; implicações para planejamento e stakeholders (AltoQi Visus Planning) | 2026-04-25 |
 
 ### Software Engineering
@@ -138,6 +139,16 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[session-memory-vs-wiki-synergy]] | Synergy analysis: how Mem0/session memory and the Karpathy LLM Wiki operate as complementary tiers; vectorless vs. semantic retrieval; knowledge promotion workflow; combined architecture | 2026-04-25 |
+
+---
+
+## Products
+
+*One entry per product or tool documented.*
+
+| Page | Summary | Updated |
+|---|---|---|
+| [[products/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-04-26 |
 
 ---
 

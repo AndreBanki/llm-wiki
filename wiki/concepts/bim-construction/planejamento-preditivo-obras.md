@@ -2,9 +2,9 @@
 title: Planejamento Preditivo de Obras
 type: concept
 created: 2026-04-22
-updated: 2026-04-25
-sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras]
-tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning]
+updated: 2026-04-26
+sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md]
+tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning, simulacao-4d, eap]
 ---
 
 # Planejamento Preditivo de Obras
@@ -123,6 +123,8 @@ Fonte: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]]
 
 **Relevância para Visus Planning:** o produto se encaixa primariamente na **Frente 1 (Planejamento e previsão)**, com potencial para a **Frente 4 (Execução e monitoramento)** à medida que dados de campo são integrados.
 
+> **Atualização (2026-04-26):** O Visus Planning 2024 já tem capacidade de Frente 4 implementada — rastreamento de planejado vs. executado com percentuais por atividade e Gantt comparativo. Ver [[products/altoqi-visus-planning]] e [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] para o workflow operacional completo.
+
 ---
 
 ## Dados como Diferencial, Não a Ferramenta
@@ -179,6 +181,8 @@ A IA não substitui o engenheiro ou coordenador de obra. Ela fornece uma camada 
 
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/alessandro-lopes-planejamento-obra-40]]
+- [[products/altoqi-visus-planning]]
+- [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
 - [[ai-engineering/enterprise-ai-deployment]]
 - [[ai-engineering/aip-platform]]
 - [[ai-engineering/llm-wiki-pattern]]

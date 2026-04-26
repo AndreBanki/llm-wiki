@@ -123,6 +123,7 @@ nav:
       - Alessandro Lopes — Planejamento de Obra 4.0: sources/bim-construction/alessandro-lopes-planejamento-obra-40.md
       - Alexander Mattos — Contratos em Engenharia: sources/bim-construction/alexander-mattos-contratos-engenharia.md
       - Jhonatan Lazarin — IA na Gestão de Obras: sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md
+      - Visus Planning Tutorial (GT TIC ANTAC): sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
@@ -133,6 +134,8 @@ nav:
       - System Design for Beginners: sources/software-engineering/shivambhadani-system-design-for-beginners.md
   - Analyses:
     - Session Memory vs. Wiki Synergy: analyses/session-memory-vs-wiki-synergy.md
+  - Products:
+    - AltoQi Visus Planning: products/altoqi-visus-planning.md
   - Glossary: glossary.md
   
 extra_css:

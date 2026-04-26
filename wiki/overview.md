@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 22  
-**Wiki pages:** 56 (index, log, overview, glossary + 22 sources + 26 concepts + 1 analysis)  
-**Last ingest:** 2026-04-26 — Ana Bildea / Medium (How to Use Graphify: Turn Any Folder Into a Knowledge Graph)  
+**Source count:** 23  
+**Wiki pages:** 60 (index, log, overview, glossary + 23 sources + 26 concepts + 1 analysis + 1 product)  
+**Last ingest:** 2026-04-26 — GT TIC ANTAC / MDIC Construa Brasil (Planejamento da Construção com AltoQi Visus Planning — módulos 1–4)  
 **Last lint:** 2026-04-24
 
 ---
@@ -46,14 +46,15 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
-Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação. Expansão para planejamento preditivo de execução de obras via IA e para a dimensão contratual como variável de configuração do planejamento.
+Integração de disciplinas complementares em projetos BIM. Foco no problema cultural/processual (não apenas ferramental) da coordenação. Expansão para planejamento preditivo de execução de obras via IA, dimensão contratual como variável de configuração, e workflow operacional completo do AltoQi Visus Planning.
 
 - **Coordenação BIM** — Modelo federado vs. cultura de responsabilidade sequencial; o princípio “não interessa quem chegou primeiro” [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 - **Pares de conflito** — Matrix de risco entre disciplinas: Estrutural×HVAC, Hidro×Elétrico, Estrutural×Hidro (ALTO); HVAC×Incêndio, Elétrico×Estrutural (MÉDIO) [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 - **Planejamento preditivo de obras** — IA como antevisão: alimentar sistemas com dados reais (produtividade por frente, lead times de fornecedores, histórico de atrasos) para emitir alertas preditivos como “70% de chance de atrasar se o material não chegar até quinta” [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)
 - **Cronograma inteligente** — visão de futuro: cronograma que aprende com cada obra executada e sugere sequência ótima de frentes; Brasil ainda dá os primeiros passos; ferramentas: Procore, Autodesk Construction Cloud [¹³](sources/bim-construction/alessandro-lopes-planejamento-obra-40.md)- **Dados como diferencial, não a ferramenta** — o que impacta o resultado de uma obra não é a ferramenta, mas como os dados são usados ao longo do processo; pré-condição: processos bem definidos + dados consistentes; ecoa "meaning precedes intelligence" do domínio de ontologias [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md)
-- **Cinco frentes de IA na gestão de obras** — mapa de posicionamento: (1) Planejamento e previsão, (2) Controle financeiro em tempo real, (3) Gestão de equipes/produtividade, (4) Execução e monitoramento, (5) Análise e melhoria contínua; Visus Planning na Frente 1 com potencial para Frente 4 [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md)- **Tipos de Contrato em Engenharia** — O tipo de contrato define como o risco é alocado e o que cada stakeholder precisa monitorar. Turn-key/EPC: contratada absorve todo o risco → planejamento voltado para a gestão da contratada. Preço Unitário → medições e produtividade centrais. Administração/Cost Plus → custos e eficiência. Aliança/IPD → painel unificado. Princípio: "Grande parte dos problemas não nasce na execução — nasce na forma como o contrato foi estruturado" [¹⁸](sources/bim-construction/alexander-mattos-contratos-engenharia.md)
+- **Cinco frentes de IA na gestão de obras** — mapa de posicionamento: (1) Planejamento e previsão, (2) Controle financeiro em tempo real, (3) Gestão de equipes/produtividade, (4) Execução e monitoramento, (5) Análise e melhoria contínua; Visus Planning na Frente 1 e **Frente 4 já confirmada** (rastreamento planejado vs. executado disponível no v2024) [¹⁹](sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md) [²³](sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md)- **Tipos de Contrato em Engenharia** — O tipo de contrato define como o risco é alocado e o que cada stakeholder precisa monitorar. Turn-key/EPC: contratada absorve todo o risco → planejamento voltado para a gestão da contratada. Preço Unitário → medições e produtividade centrais. Administração/Cost Plus → custos e eficiência. Aliança/IPD → painel unificado. Princípio: "Grande parte dos problemas não nasce na execução — nasce na forma como o contrato foi estruturado" [¹⁸](sources/bim-construction/alexander-mattos-contratos-engenharia.md)
 - **AltoQi Visus Planning (dimensão contratual)** — Para AltoQi Visus Planning, o tipo de contrato é uma variável de configuração: dashboards, alertas e stakeholder primário mudam conforme o modelo contratual do projeto [¹⁸](sources/bim-construction/alexander-mattos-contratos-engenharia.md)
+- **AltoQi Visus Planning (workflow operacional)** — 8 etapas: (1) importação de IFCs + modelo federado; (2) análise de metadados IFC; (3) EAP na aba Quantitativo (até 5 níveis, mesma estrutura para orçamento e planejamento); (4) setorização por coordenadas X/Y via campo Ambiente; (5) cronograma com predecessoras (TI/II/latência); (6) simulação 4D animada; (7) rastreamento planejado vs. executado com percentuais por atividade; (8) relatórios: curva S, histograma, Gantt, Excel [²³](sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md)
 
 ### 3. Coaching and Leadership (Personal Development)
 

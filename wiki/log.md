@@ -1,6 +1,11 @@
 # Wiki Log
 
-## [2026-04-26] ingest | How to Use Graphify: Turn Any Folder Into a Knowledge Graph (Ana Bildea — Medium)
+## [2026-04-26] ingest | Planejamento da Construção com AltoQi Visus Planning — Objeto de Aprendizagem módulos 1–4 (GT TIC ANTAC / Mariana Farias / MDIC Construa Brasil)
+Pages created: `wiki/sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md` — tutorial completo 4 módulos: modelo federado IFC, EAP, cronograma, setorização, simulação 4D, rastreamento planejado vs. executado, relatórios; `wiki/products/altoqi-visus-planning.md` — nova página de produto (primeiro uso do diretório `wiki/products/`)
+Pages updated: `wiki/concepts/bim-construction/planejamento-preditivo-obras.md` — nova nota confirmando Frente 4 + links para product page; `wiki/glossary.md` — 8 novos termos (Simulação 4D, EAP, Predecessora, Setorização, Modelo Federado, Curva S, Projeto Construa Brasil; AltoQi Visus Planning expandido); `wiki/index.md` — nova linha de source + nova seção Products; `wiki/overview.md` — contadores atualizados, bullet Frente 4 confirmada + bullet workflow operacional; `mkdocs.yml` — nova linha de source + nova seção Products no nav; `raw/clips/ingested.md` — 4 filenames adicionados
+Key additions: Frente 4 (rastreamento planejado vs. executado) confirmada no Visus Planning v2024 — não é mais "potencial futuro". EAP como estrutura unificada (quantitativo + orçamento + planejamento) documentada pela primeira vez. Projeto Construa Brasil (MDIC) adicionado como ator-chave no ecossistema BIM brasileiro. Primeiro uso do diretório `wiki/products/`.
+
+
 Pages created: `wiki/sources/ai-engineering/how-to-use-graphify-knowledge-graph.md` — source summary: Graphify 3-pass pipeline (AST parsing, transcription, parallel LLM extraction); provenance tagging; subgraph retrieval; 71.5x token reduction claim
 Pages updated: `wiki/concepts/ai-engineering/rag-approaches.md` — added Fourth Paradigm: Graph-Based RAG section with full comparison table; `wiki/glossary.md` — added Graphify, Provenance Tagging, Knowledge Graph RAG, AST Parsing, PreToolUse Hook; `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`, `raw/clips/ingested.md`
 Key additions: Graph-based RAG documented as fourth paradigm alongside vector RAG, vectorless RAG, and 1M context. Provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS) introduced as a new concept for epistemic honesty in AI-generated knowledge structures. The deterministic/probabilistic extraction distinction is a design principle applicable beyond Graphify.

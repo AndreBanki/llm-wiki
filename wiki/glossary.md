@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-26
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -282,8 +282,36 @@ Each entry follows this format:
 : Organização internacional que publica os contratos-padrão mais adotados em projetos de engenharia civil internacionais. Principais livros: Yellow Book (EPC/Plant), Red Book (Preço Unitário/Construction), Silver Book (Turn-key mais rígido/EPC Turnkey).
 
 **AltoQi Visus Planning**
-: Produto de planejamento de obras em concepção pela AltoQi. Encaixa-se na **Frente 1 (Planejamento e previsão)** do mapa de IA na gestão de obras — estimativa de prazos, custos e riscos com base em dados históricos. Contexto estratégico: o tipo contratual determina quais métricas são destacadas e para quais stakeholders; o framing "dados como diferencial, não a ferramenta" (Lazarin) posiciona o produto como amplificador da capacidade de antevisão do gestor.
-- See also: [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]], [[bim-construction/jhonatan-lazarin-ia-gestao-obras]]
+: Plataforma BIM de planejamento de obras da AltoQi. Integra modelo federado IFC, EAP, orçamento e cronograma 4D em um único ambiente. Workflow: importação de IFCs → análise de metadados → EAP (aba Quantitativo) → setorização → cronograma com predecessoras → simulação 4D → rastreamento planejado vs. executado → relatórios (curva S, histograma, Excel). Encaixa-se na Frente 1 (Planejamento e previsão) e Frente 4 (Execução e monitoramento) do mapa de IA na gestão de obras. O tipo contratual determina quais métricas são destacadas e para quais stakeholders.
+- See also: [[products/altoqi-visus-planning]], [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]]
+
+**Simulação 4D** *(4D BIM simulation)*
+: Vinculação do modelo BIM 3D a um cronograma de execução, permitindo visualizar o estado da construção em qualquer data ou como animação da sequência construtiva. O "4D" refere-se à adição do tempo (4ª dimensão) ao modelo geométrico. Usos: validação do sequenciamento, comunicação com stakeholders, identificação de conflitos de tempo-espaço.
+- See also: [[products/altoqi-visus-planning]]
+
+**EAP** *(Estrutura Analítica de Projeto / Work Breakdown Structure — WBS)*
+: Decomposição hierárquica do escopo de um projeto em pacotes de trabalho gerenciáveis. No Visus Planning, a EAP é definida na aba de Quantitativo e alimenta simultaneamente o orçamento e o planejamento. Critérios de hierarquia são baseados nas propriedades IFC dos elementos (disciplina, pavimento, entidade, ambiente). Até 5 níveis.
+- See also: [[products/altoqi-visus-planning]]
+
+**Predecessora** *(predecessor task, dependência de atividade)*
+: Relação de dependência entre atividades de um cronograma. Tipos principais: TI (Término a Início — padrão); II (Início a Início — atividades começam juntas); com latência (espera N dias entre as atividades). Uma atividade pode ter múltiplas predecessoras.
+- See also: [[products/altoqi-visus-planning]]
+
+**Setorização** *(sectoring, zoning)*
+: Técnica de divisão de uma obra em setores ou trechos para planejamento granular. No Visus Planning, quando os IFCs não contêm propriedade de setor, a setorização é feita por seleção de elementos via coordenadas X/Y e atribuição do campo "Ambiente" nos metadados. O campo Ambiente passa então a ser um critério de hierarquia na EAP.
+- See also: [[products/altoqi-visus-planning]]
+
+**Modelo Federado** *(federated model, modelo integrado)*
+: Modelo BIM resultante da agregação de múltiplos modelos IFC de diferentes disciplinas (arquitetura, estrutura, instalações elétrica e hidráulica, canteiro de obras) em um único ambiente de visualização e análise. Cada disciplina mantém seu IFC separado; a federação os sobrepõe. Fundamento da coordenação BIM e do planejamento 4D.
+- See also: [[products/altoqi-visus-planning]], [[bim-construction/bim-coordination]]
+
+**Curva S** *(S-curve)*
+: Representação gráfica do avanço acumulado de uma obra (físico ou financeiro) ao longo do tempo. A curva tem formato de S porque o ritmo de execução acelera no meio do projeto e desacelera nas pontas (início de mobilização e final de acabamentos). Instrumento de controle: a comparação entre curva S planejada e realizada indica se a obra está adiantada ou atrasada.
+- See also: [[products/altoqi-visus-planning]]
+
+**Projeto Construa Brasil**
+: Iniciativa do MDIC (Ministério do Desenvolvimento, Indústria, Comércio e Serviços) para modernização do setor da construção civil brasileiro via capacitação em BIM. Produz Objetos de Aprendizagem BIM (OA BIM) disponibilizados gratuitamente no Portal BIM Acadêmico. Os OA BIMs são material pedagógico estruturado para docentes, estudantes e profissionais — ponto de partida para disciplinas e exercícios.
+- See also: [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
 
 **Cinco Frentes de IA na Gestão de Obras**
 : Framework de posicionamento para soluções de IA em construção: (1) Planejamento e previsão, (2) Controle financeiro em tempo real, (3) Gestão de equipes e produtividade, (4) Execução e monitoramento, (5) Análise e melhoria contínua. Útil para mapear onde um produto ou funcionalidade se encaixa no contexto mais amplo da transformação digital de obras.
