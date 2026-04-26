@@ -2,7 +2,7 @@
 title: Overview
 type: overview
 created: 2026-04-07
-updated: 2026-04-25
+updated: 2026-04-26
 sources: []
 tags: [overview, synthesis]
 ---
@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 20  
-**Wiki pages:** 52 (index, log, overview, glossary + 20 sources + 26 concepts + 1 analysis)  
-**Last ingest:** 2026-04-25 — Daniel Rusnok / Medium (How I Added Persistent Semantic Memory to Claude Code in 15 Minutes)  
+**Source count:** 22  
+**Wiki pages:** 56 (index, log, overview, glossary + 22 sources + 26 concepts + 1 analysis)  
+**Last ingest:** 2026-04-26 — Ana Bildea / Medium (How to Use Graphify: Turn Any Folder Into a Knowledge Graph)  
 **Last lint:** 2026-04-24
 
 ---
@@ -36,8 +36,10 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **AI as Operator** — Claude Opus 4.7 marks the transition from copilot (AI suggests, human validates) to operator (AI interprets, decides, executes — human arrives after); long context enables systemic visibility, meaning errors cascade globally not locally [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
 - **AI Agent Governance** — The new CTO/Principal responsibility: architecture of decision (where AI can/cannot decide); four-component production stack: real guardrails (executable policy), agent observability (what, why, cost), AI FinOps (budget control), execution control (suggest everything; execute within bounds) [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
 - **LLM Model Economics** — As of early 2026, the gap between frontier closed models and top open-weight models is now primarily economic rather than qualitative; Qwen 3.6 Plus (78.8% SWE-bench) is available at $0.28/M input tokens vs. $5.00/M for Claude Opus 4.6 (80.8%) — a 17x cost differential that is business-critical at agent pipeline scale [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)
+- **Tiered Model Routing** — Within a single pipeline, different tasks warrant different model tiers: routine tasks (tagging, summarization, classification) belong to cheap/local models (Gemini Flash, Ollama); synthesis and complex reasoning belong to frontier models (Claude). "Don't use a nuclear reactor to toast bread" — preserve frontier quota for where the capability gap is material [²¹](sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md)
 - **OpenRouter** — Inference routing platform aggregating open-weight and closed models under a single OpenAI-compatible API; enables per-task model routing (open-weight for volume, frontier for hard tasks) without infrastructure changes [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)
 - **1M Context vs. RAG** — Long-context windows (1M tokens) can replace chunking-based RAG pipelines for entire codebases or document corpora; eliminates vector DB infrastructure for single-document use cases; does not replace RAG for multi-document corpora larger than the context window [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md) [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
+- **Graph-Based RAG (Graphify)** — A fourth retrieval paradigm: persistent knowledge graph built via 3-pass pipeline (deterministic AST parsing → local transcription → parallel LLM extraction); serves compressed ~300-token subgraphs instead of raw files; provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS) guarantees epistemic honesty; claimed 71.5x token reduction; Graphify is a skill for existing coding assistants (Claude Code, Cursor, etc.), not a standalone orchestrator [²²](sources/ai-engineering/how-to-use-graphify-knowledge-graph.md)
 - **Palantir AIP** — Enterprise AI platform; Ontology grounds AI in real-world operational events (not just user messages); full spectrum AI from chat → automation → intelligent primitives; empirical AI architecture principle [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 - **Ontology-Driven Architecture** — Schemas describe data; ontologies describe reality. An ontology defines entities, relationships, constraints, and valid state transitions — making it the operational core of the system, not a metadata layer. Big data worked without ontologies because intelligence was external (humans interpreted results). Agentic systems require ontologies because the system itself must act. Without ontologies, agents hallucinate actions, misuse tools, and produce unenforceable safety boundaries [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
 - **Ontologies as Coordination Layer** — A shared ontology provides the deterministic interface that allows humans, services, and AI agents to operate together: a common model of what exists, what can change, who can change it. Governance alone (ownership, access control, compliance) is insufficient — "governance without ontology is bureaucracy without physics" [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
@@ -92,6 +94,7 @@ This wiki's own architecture and methodology, traced back to Andrej Karpathy's `
 - **Synthesis problem** — Experienced professionals don't have information problems; they have synthesis problems. The LLM Wiki's deepest value is not faster retrieval but surfacing connections across everything accumulated — showing what you don't know yet, and where two ideas almost touch but don't [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 - **Quarriable knowledge** — Once the wiki is large enough, your own accumulated reading becomes answerable on demand, without hallucination from the open web [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
 - **Obsidian as reader, not builder** — Karpathy uses Obsidian only for navigation (browsing what the AI built), not for note creation; the distinction matters: the IDE layer is a viewer [¹⁶](sources/ai-engineering/tejas-sharma-karpathy-knowledge-system.md)
+- **Content acquisition layer** — The LLM Wiki pattern's upstream gap: how documents get into `raw/` in the first place. Obsidian Web Clipper solves this with 2-click capture + auto-populated YAML frontmatter (title, source URL, author, published date, type, tags) across 5 content-type templates. An overnight Python script (Gemini Flash or local Ollama) then tags, summarizes, and moves clips from Inbox → Wiki via Obsidian CLI. The design principle: the best system is one you actually use — minimize friction at capture, let automation handle processing [²¹](sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md)
 
 - **Session memory vs. domain knowledge** — Two complementary memory tiers for AI coding assistants: the LLM Wiki handles synthesized domain knowledge (curated sources, stable, cross-referenced); Mem0/ChromaDB handles episodic project decisions (automatic, ephemeral, per-project). Neither replaces the other. CLAUDE.md is a third tier (deterministic, always loaded). Together they give an AI assistant the full context a senior developer carries in their head [²⁰](sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md)
 - **Knowledge promotion workflow** — Mem0 memories can graduate into wiki knowledge: when a project-specific decision reveals a generalizable pattern, it belongs in the wiki; the specific decision stays in Mem0. The wiki's glossary and concept pages provide the ontological backbone that makes Mem0 queries more precise [²⁰](sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md)

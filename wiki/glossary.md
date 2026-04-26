@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-26
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -137,6 +137,27 @@ Each entry follows this format:
 **Ollama**
 : A free, open-source tool for running AI language models locally on your own machine without sending data to any external API. Suitable for batch processing tasks (tagging, summarization) where privacy, cost, or quota conservation matters. RAM-intensive — best scheduled for overnight runs to avoid degrading the development environment during work hours.
 - See also: [[ai-engineering/llm-model-economics]]
+
+**Graphify**
+: An open-source Python tool (`pip install graphifyy`) that converts any local folder — code, PDFs, images, audio, video — into a persistent, queryable knowledge graph. Uses a three-pass pipeline: deterministic AST parsing (Pass 1), local audio/video transcription (Pass 2), and parallel LLM extraction (Pass 3). Serves compressed subgraphs to AI assistants instead of raw files. Claimed 71.5x token reduction. Graphify is a *skill*, not an orchestrator; the user's coding assistant (Claude Code, Cursor, etc.) is the runtime that dispatches subagents.
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/how-to-use-graphify-knowledge-graph]]
+
+**Provenance Tagging** *(graph edge provenance)*
+: A labeling convention for edges in a knowledge graph that makes explicit whether a relationship was deterministically extracted or probabilistically inferred. Graphify uses three labels: `EXTRACTED` (from AST/structured source, confidence 1.0), `INFERRED` (from LLM reasoning over unstructured content, confidence < 1.0), `AMBIGUOUS` (low-confidence, flagged for human review). Core principle: epistemic honesty — you always know what the system *found* vs. what it *guessed*.
+- See also: [[ai-engineering/how-to-use-graphify-knowledge-graph]]
+
+**Knowledge Graph RAG** *(graph-based RAG)*
+: A RAG paradigm where retrieval is performed by extracting a topology-clustered **subgraph** from a persistent knowledge graph, rather than retrieving vector-similarity chunks or reasoning over a document tree. Enables multi-hop relational queries and preserves cross-file dependency structure. Contrasted with Vector RAG (similarity-based), Vectorless RAG (tree traversal), and 1M Context (no retrieval). See Graphify.
+- See also: [[ai-engineering/rag-approaches]]
+
+**AST Parsing** *(Abstract Syntax Tree parsing)*
+: Deterministic structural analysis of source code that extracts classes, functions, imports, call graphs, and docstrings by parsing the code's syntax tree — not by reading it as text. Used in Graphify's Pass 1. Because AST parsing is rule-based, all edges it produces carry confidence 1.0 (`EXTRACTED`). `tree-sitter` is the library used by Graphify for cross-language AST parsing (20 languages).
+- Contrasted with: LLM-based code understanding (probabilistic, confidence < 1.0)
+- See also: [[ai-engineering/how-to-use-graphify-knowledge-graph]]
+
+**PreToolUse Hook** *(Graphify hook)*
+: A lifecycle hook that fires before an AI assistant uses any file-reading or search tool. Graphify installs a PreToolUse hook so the assistant reads the knowledge graph map *first*, identifies relevant nodes, and retrieves a focused subgraph — rather than grepping through raw files.
+- See also: [[ai-engineering/how-to-use-graphify-knowledge-graph]], [[ai-engineering/claude-code-skills]]
 
 ---
 

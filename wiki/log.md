@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-04-26] ingest | How to Use Graphify: Turn Any Folder Into a Knowledge Graph (Ana Bildea — Medium)
+Pages created: `wiki/sources/ai-engineering/how-to-use-graphify-knowledge-graph.md` — source summary: Graphify 3-pass pipeline (AST parsing, transcription, parallel LLM extraction); provenance tagging; subgraph retrieval; 71.5x token reduction claim
+Pages updated: `wiki/concepts/ai-engineering/rag-approaches.md` — added Fourth Paradigm: Graph-Based RAG section with full comparison table; `wiki/glossary.md` — added Graphify, Provenance Tagging, Knowledge Graph RAG, AST Parsing, PreToolUse Hook; `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`, `raw/clips/ingested.md`
+Key additions: Graph-based RAG documented as fourth paradigm alongside vector RAG, vectorless RAG, and 1M context. Provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS) introduced as a new concept for epistemic honesty in AI-generated knowledge structures. The deterministic/probabilistic extraction distinction is a design principle applicable beyond Graphify.
+
 ## [2026-04-26] ingest | Seamless Content Ingestion for Claude-Obsidian Second Brain (James Wilkins — Medium)
 Pages created: `wiki/sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md` — source summary: Obsidian Web Clipper + overnight ingest script pipeline; 5 content-type templates; tiered model routing pattern
 Pages updated: `wiki/concepts/ai-engineering/llm-wiki-pattern.md` — added Layer 0 (Content Acquisition) section with automated capture pattern; `wiki/concepts/ai-engineering/llm-model-economics.md` — added Tiered Model Routing by Task Type section; `wiki/glossary.md` — added Obsidian Web Clipper, Content Acquisition Pipeline, Tiered Model Routing, Ollama; `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`

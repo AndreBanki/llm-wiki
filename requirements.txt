@@ -1,3 +1,7 @@
 mkdocs>=1.6
 mkdocs-material>=9.5
 mkdocs-ezlinks-plugin>=0.1.14
+
+# Clip watcher
+watchdog>=4.0
+winotify>=1.1

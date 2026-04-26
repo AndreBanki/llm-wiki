@@ -2,7 +2,7 @@
 title: RAG Retrieval Approaches
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-26
 sources: [pageindex-vectorless-rag.md]
 tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking]
 ---
@@ -114,9 +114,51 @@ Models like Qwen 3.6 Plus (1M-token context window, linear attention architectur
 
 See [[ai-engineering/llm-model-economics]] for the cost tradeoff analysis.
 
+## Fourth Paradigm: Graph-Based RAG (Graphify)
+
+A fourth retrieval approach where the document corpus is represented as a **persistent knowledge graph** rather than a vector index or a tree. Introduced by Graphify (2026).
+
+### How it works
+
+1. **Pass 1 — Deterministic AST Parsing** (local, no LLM): `tree-sitter` extracts code structure across 20 languages. Edges tagged `EXTRACTED`, confidence 1.0.
+2. **Pass 2 — Local Transcription** (local, no LLM): `faster-whisper` transcribes audio/video.
+3. **Pass 3 — Parallel LLM Extraction**: subagents process unstructured content (PDFs, docs, images) and infer relationships. Edges tagged `INFERRED` with a confidence score.
+4. A `PreToolUse` hook intercepts queries before file-grepping — the assistant reads the graph first, retrieves a focused **subgraph**, and answers from structure.
+
+### Key properties
+
+- **Provenance tagging**: every edge is labeled `EXTRACTED`, `INFERRED`, or `AMBIGUOUS` — epistemic honesty about what was found vs. what was guessed
+- **Deterministic + probabilistic separation**: rule-based extraction runs locally with confidence 1.0; LLM inference is explicitly labeled as probabilistic
+- **Token compression**: serves ~300-token subgraphs instead of full raw files — claimed 71.5x reduction
+- **Multi-hop**: topology-clustered graph enables following chains of relationships, not just single-document traversal
+
+### Best for
+
+- Large codebases with complex dependency graphs
+- Mixed-media corpora (code + PDFs + video transcripts)
+- Teams that need explainability about *why* a relationship was identified
+- Scenarios where raw files cannot fit in context even with 1M-window models
+
+### Comparison with other paradigms
+
+| Dimension | Vector RAG | Vectorless RAG | 1M Context | Graph RAG (Graphify) |
+|---|---|---|---|---|
+| Index type | Dense vectors | Hierarchical JSON tree | None | Knowledge graph |
+| Retrieval | Cosine similarity | LLM tree reasoning | None | Subgraph extraction |
+| Structure preserved | No (chunked) | Yes (tree) | Yes (full) | Yes (graph topology) |
+| Multi-hop reasoning | No | Limited | Yes | Yes |
+| Provenance tracking | No | No | No | Yes (EXTRACTED/INFERRED) |
+| Local/private pass | No | No | N/A | Yes (Pass 1 + 2) |
+| Best for | Large collections | Single long docs | Fits-in-context | Code + mixed corpora |
+
+See [[ai-engineering/how-to-use-graphify-knowledge-graph]] for full implementation details.
+
+---
+
 ## Related Pages
 
 - [[ai-engineering/pageindex]]
 - [[ai-engineering/pageindex-vectorless-rag]] (source article)
+- [[ai-engineering/how-to-use-graphify-knowledge-graph]] (source article)
 - [[ai-engineering/llm-model-economics]]
 - [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] (source article)

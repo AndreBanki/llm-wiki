@@ -2,9 +2,9 @@
 title: LLM Wiki Pattern
 type: concept
 created: 2026-04-22
-updated: 2026-04-24
-sources: [article.md, tejas-sharma-karpathy-knowledge-system.md]
-tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian, synthesis, pkm]
+updated: 2026-04-26
+sources: [article.md, tejas-sharma-karpathy-knowledge-system.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
+tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian, synthesis, pkm, content-acquisition, web-clipper]
 ---
 
 # LLM Wiki Pattern
@@ -50,6 +50,22 @@ The LLM Wiki pattern addresses both problems: the AI handles maintenance *and* b
 ---
 
 ## The Three-Layer Architecture
+
+### Layer 0 — Content Acquisition (upstream of raw/)
+The pipeline that gets documents *into* `raw/` in the first place. Often the invisible prerequisite that determines whether the system actually gets used. Two patterns:
+
+**Manual curation (this wiki's approach):** Human deposits files directly into `raw/` — PDFs, copied markdown, web-clipped `.md` files. Each source is deliberate. The tradeoff: higher friction, higher quality per source.
+
+**Automated capture (Wilkins / Obsidian Web Clipper approach):**
+- Browser extension converts any page to a structured markdown note with YAML frontmatter in 2 clicks
+- Five content-type templates auto-selected by URL trigger: Article, PDF/Paper (arXiv etc.), Video (YouTube transcript), GitHub (README), Social Post
+- Frontmatter populated automatically: `title`, `source` (URL), `author`, `published`, `created`, `description`, `tags`, `type`, `ingested`, `read`
+- Notes land in an Obsidian Inbox folder overnight processing handles the rest
+- Overnight Python script (Gemini Flash or local Ollama) tags and summarizes each note, then moves it from Inbox → Wiki via Obsidian CLI (preserving wikilinks)
+
+**Key design insight (Wilkins):** *The best system is one you actually use.* Automation lowers the capture barrier to near zero; the tradeoff is less curation per source. The `ingested` checkbox on each clip mirrors the `raw/clips/ingested.md` tracking file in this wiki.
+
+See [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] for full implementation details.
 
 ### Layer 1 — Raw Sources (`raw/`)
 - Immutable originals: PDFs, markdown files, web clips, transcripts, meeting notes, style guides
@@ -122,7 +138,7 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 |---|---|
 | **Cursor AI** | Primary interface for talking to the AI agent; reads schema, runs ingest/query/lint |
 | **Obsidian** | Browser/viewer for the wiki — a *reader*, not a builder. You navigate what the AI built; you don't create notes inside it. Graph view shows knowledge connections visually. |
-| **Obsidian Web Clipper** | Browser extension to clip web articles directly to `raw/` |
+| **Obsidian Web Clipper** | Browser extension to clip web articles directly to `raw/clips/` — 2-click capture with auto-populated YAML frontmatter; 5 content-type templates |
 | Any AI agent | Claude, ChatGPT, Codex, etc. — paste `CLAUDE.md` into context if not using Cursor |
 
 **Two-window workflow:** Cursor on the left (talk to AI), Obsidian on the right (watch wiki pages appear in real time).

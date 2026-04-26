@@ -2,9 +2,9 @@
 title: LLM Model Economics & Selection
 type: concept
 created: 2026-04-24
-updated: 2026-04-24
-sources: [Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf]
-tags: [llm-selection, token-economics, open-weight, frontier-models, cost-quality-tradeoff, openrouter, swe-bench, ai-engineering]
+updated: 2026-04-26
+sources: [Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
+tags: [llm-selection, token-economics, open-weight, frontier-models, cost-quality-tradeoff, openrouter, swe-bench, ai-engineering, tiered-model-routing]
 ---
 
 Decision framework for choosing LLMs in production agent pipelines, balancing capability benchmarks against token cost and deployment economics.
@@ -129,6 +129,32 @@ When building multi-agent systems, model selection is a **tiered decision**:
 
 ---
 
+## Tiered Model Routing by Task Type
+
+Beyond the frontier vs. open-weight decision, a second axis exists: **task complexity within a single system**. Not all tasks in a pipeline warrant the same model tier.
+
+**Wilkins principle:** *"Using a nuclear reactor to toast a slice of bread."* Routine tasks (tagging, summarization, classification) don't justify frontier model cost — they can be delegated to cheap or local models, preserving frontier quota for the work that actually requires it.
+
+### Task-to-tier mapping:
+
+| Task | Recommended tier | Rationale |
+|---|---|---|
+| Content tagging, topic classification | Cheap/local (Gemini Flash, Ollama) | Structured, low-ambiguity; small model sufficient |
+| ~100-word summarization | Cheap/local | Extractive, bounded; no synthesis required |
+| Batch document processing | Cheap/local | High volume; cost compounds fast |
+| Complex reasoning, novel implementations | Frontier (Claude Opus) | Ambiguous, high failure cost |
+| Cross-document synthesis, insight surfacing | Frontier | Requires full context and judgment |
+| Compliance/regulatory output review | Frontier | Error cost is high |
+
+### Local model option (Ollama):
+Running a small model locally (e.g., Qwen 3 or Gemma 4 series) via Ollama is free, private, and appropriate for overnight batch tasks. RAM overhead is real — scheduling overnight runs avoids degrading the development environment during work hours.
+
+**Integration pattern (Wilkins):** In a content acquisition pipeline — Gemini Flash (or Ollama) processes every clipped article overnight; Claude handles synthesis, Q&A, and wiki maintenance when the user interacts. The result: Claude quota is spent on what Claude is uniquely good at.
+
+See [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] for the concrete implementation of this pattern in a content pipeline.
+
+---
+
 ## Open Questions / Pending Investigation
 
 > ⚠️ **Pendência: OpenRouter em produção (AltoQi)**
@@ -148,6 +174,7 @@ When building multi-agent systems, model selection is a **tiered decision**:
 ## Related Pages
 
 - [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]]
+- [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]]
 - [[ai-engineering/rag-approaches]]
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/ai-agent-governance]]
