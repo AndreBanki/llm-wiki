@@ -116,6 +116,7 @@ nav:
       - Qwen 3.6 Plus 1T Tokens (Chew Loong Nian): sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md
       - MCP vs API (Vidvatta): sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md
       - Semantic Memory + MCP (Rusnok): sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md
+      - Content Acquisition Pipeline (Wilkins): sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
       - Alessandro Lopes — Planejamento de Obra 4.0: sources/bim-construction/alessandro-lopes-planejamento-obra-40.md

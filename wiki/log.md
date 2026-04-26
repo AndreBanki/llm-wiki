@@ -1,6 +1,11 @@
 # Wiki Log
 
-## [2026-04-25] ingest | How I Added Persistent Semantic Memory to Claude Code in 15 Minutes (Daniel Rusnok — Medium)
+## [2026-04-26] ingest | Seamless Content Ingestion for Claude-Obsidian Second Brain (James Wilkins — Medium)
+Pages created: `wiki/sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md` — source summary: Obsidian Web Clipper + overnight ingest script pipeline; 5 content-type templates; tiered model routing pattern
+Pages updated: `wiki/concepts/ai-engineering/llm-wiki-pattern.md` — added Layer 0 (Content Acquisition) section with automated capture pattern; `wiki/concepts/ai-engineering/llm-model-economics.md` — added Tiered Model Routing by Task Type section; `wiki/glossary.md` — added Obsidian Web Clipper, Content Acquisition Pipeline, Tiered Model Routing, Ollama; `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`
+Key additions: Content acquisition as the upstream gap in the LLM Wiki pattern — the "how does anything get into raw/" question answered. Tiered model routing introduced as a distinct dimension: not just "which model for my app" but "which model for each task in my pipeline". This wiki's `raw/clips/` pattern documented as a parallel implementation of Wilkins' `ingested` checkbox system.
+
+
 Pages created:
 - `wiki/sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md` — session amnesia problem; Mem0 + MCP + ChromaDB architecture; 4-tool MCP interface; the Incident (7 parallel Claude instances); four root-cause bugs; fix with global pgrep cap + gtimeout; hook review checklist
 - `wiki/concepts/ai-engineering/ai-session-memory.md` — new concept: three-tier memory model (context/session/domain), Mem0 MCP pattern, vectorless vs. semantic retrieval tension, production hook hazards

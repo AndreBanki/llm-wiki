@@ -2,8 +2,8 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-04-25
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md]
+updated: 2026-04-26
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -121,6 +121,22 @@ Each entry follows this format:
 : A script registered with Claude Code to fire automatically on specific lifecycle events: `SessionEnd`, `PreCompact`, `Stop`, `PostToolUse`. Hooks enable automated workflows (e.g., memory extraction) but carry production risks: PreCompact fires on every context compaction (not just session end), unbounded background processes cause runaway CPU, per-session locks fail under concurrent sessions.
 - Key rule: register on `SessionEnd` only; use a global `pgrep`-based concurrency cap; add `gtimeout 300` wrapper
 - See also: [[ai-engineering/ai-session-memory]], [[ai-engineering/ai-agent-governance]]
+
+**Obsidian Web Clipper**
+: A browser extension that converts any web page into a structured markdown note with auto-populated YAML frontmatter and deposits it into an Obsidian folder in 2 clicks. Supports 5 content-type templates (Article, PDF/Paper, Video, GitHub, Social) with URL-based auto-selection. The frontmatter includes `title`, `source` (URL), `author`, `published`, `created`, `description`, `tags`, `type`, and status checkboxes (`ingested`, `read`).
+- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]]
+
+**Content Acquisition Pipeline** *(clip pipeline, ingest pipeline)*
+: The upstream workflow that gets raw documents into `raw/` before the wiki ingest process begins. Two patterns: (1) *Manual curation* — human deposits files deliberately, high quality per source, higher friction; (2) *Automated capture* — browser extension + overnight script processes everything, near-zero friction, lower curation per source. The `ingested` checkbox / tracking file pattern bridges capture and wiki ingest in both variants.
+- See also: [[ai-engineering/llm-wiki-pattern]], [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]]
+
+**Tiered Model Routing**
+: An architecture pattern that assigns different LLM tiers to tasks of different complexity within the same pipeline. Routine tasks (tagging, summarization, classification) route to cheap/local models (Gemini Flash, Ollama); complex reasoning and synthesis route to frontier models (Claude). Principle: *don't use a nuclear reactor to toast bread* — save frontier quota for tasks where the capability gap is material. Extends the cost-quality tradeoff framework from "which model for my app" to "which model for each task in my pipeline."
+- See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]]
+
+**Ollama**
+: A free, open-source tool for running AI language models locally on your own machine without sending data to any external API. Suitable for batch processing tasks (tagging, summarization) where privacy, cost, or quota conservation matters. RAM-intensive — best scheduled for overnight runs to avoid degrading the development environment during work hours.
+- See also: [[ai-engineering/llm-model-economics]]
 
 ---
 

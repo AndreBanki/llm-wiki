@@ -41,6 +41,7 @@ Each entry follows this format:
 | [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] | Medium/Towards AI (Apr 2026): Qwen 3.6 Plus hits 1T daily tokens on OpenRouter; benchmark comparison vs Claude Opus 4.6 and GPT-5.4; token economics for agent pipelines; agentic architecture decisions | 2026-04-24 |
 | [[ai-engineering/tejas-sharma-karpathy-knowledge-system]] | Level Up Coding/Medium (Apr 2026): reframes Karpathy's LLM Wiki as a solution to the synthesis problem; quarriable knowledge; Obsidian as reader not builder; Constella as no-code alternative | 2026-04-24 |
 | [[ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory]] | Medium (Apr 2026): adding persistent semantic memory to Claude Code via Mem0 + MCP + ChromaDB; session amnesia problem; 4-bug incident (7 parallel Claude instances); hook review checklist | 2026-04-25 |
+| [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] | Medium (Apr 2026): 2-click content acquisition pipeline for Claude-Obsidian Second Brain; Obsidian Web Clipper (5 templates); overnight Python script with tiered model routing (Gemini Flash/Ollama for tagging; Claude for synthesis) | 2026-04-26 |
 
 ### Coaching & Leadership
 
@@ -81,7 +82,7 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases | 2026-04-24 |
+| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases; content acquisition layer (Layer 0) via Obsidian Web Clipper | 2026-04-26 |
 | [[ai-engineering/ai-session-memory]] | AI session memory: three-tier memory model (context/session/domain), Mem0 + ChromaDB MCP pattern, hook production hazards, vectorless vs. semantic retrieval tension | 2026-04-25 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
 | [[ai-engineering/rag-approaches]] | Comparison of vector RAG vs vectorless RAG — strengths, limitations, and hybrid strategy | 2026-04-22 |
@@ -91,7 +92,7 @@ Each entry follows this format:
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
-| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence" | 2026-04-24 || [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway | 2026-04-24 |
+| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence" | 2026-04-24 || [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
 
 ### Coaching & Leadership
 

@@ -86,11 +86,15 @@ Followed by:
 
 When the user says "ingest the new file" (or similar phrasing without specifying a source):
 1. Read `raw/ingested.md` to get the list of already-ingested PDFs
-2. List all PDFs in `raw/` and identify which are not in `raw/ingested.md`
-3. If exactly one PDF has not been ingested, treat it as the source and continue with the full ingest steps below, the same as when the user says "ingest [source]"
-4. If more than one PDF has not been ingested, list them and ask the user which one to ingest before proceeding
+2. Read `raw/clips/ingested.md` to get the list of already-ingested clips
+3. List all PDFs in `raw/` (non-recursive) that are not in `raw/ingested.md`
+4. List all `.md` files in `raw/clips/` (excluding `ingested.md` itself) that are not in `raw/clips/ingested.md`
+5. Combine both lists. If exactly one file has not been ingested (from either source), treat it as the source and continue with the appropriate ingest workflow below
+6. If more than one file has not been ingested, list them and ask the user which one to ingest before proceeding
 
-When the user says "ingest [source]" (or once the source has been identified via the auto-detection path above):
+When the user says "ingest [source]" (or once the source has been identified via the auto-detection path above), follow the appropriate workflow:
+
+#### PDF Ingest
 
 1. Ask the user for the **original URL** of the content before proceeding (if not already provided)
 2. Read the source file from `raw/`
@@ -110,6 +114,42 @@ When the user says "ingest [source]" (or once the source has been identified via
 11. Update `wiki/overview.md` if the source shifts the big picture — when adding or updating concept bullets or insight paragraphs, append a compact numbered superscript link at the end of each line pointing to the source's page in `wiki/sources/`. Assign each source a sequential integer (¹ ² ³ ⁴ ⁵ …) in order of first appearance in the overview. Use the format `[ⁿ](sources/source-filename.md)`. If multiple sources reinforce the same concept, include all their numbered links, e.g. `[³](sources/foo.md) [⁴](sources/bar.md)`
 12. Update `mkdocs.yml` — add any new pages to the `nav` section under the correct category. If a new category directory was created, add it as a new nav group. Keep the nav in sync with the actual files in `wiki/`.
 13. Add the PDF filename to `raw/ingested.md` (alphabetically within the Ingested list).
+14. Append an entry to `wiki/log.md`:
+   ```
+   ## [YYYY-MM-DD] ingest | <source title>
+   Pages created: ...
+   Pages updated: ...
+   Key additions: ...
+   ```
+15. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+   - Subject: `[LLM Wiki] Ingest complete: <source title>`
+   - Body:
+     - **Pages created:** list each new file with a one-line description
+     - **Pages updated:** list each modified file with a one-line description of what changed
+     - A short paragraph on the most important cross-domain connection or insight added by this ingest
+
+#### Clip Ingest
+
+Clips are MD files saved by the Obsidian Web Clipper into `raw/clips/`. They already contain structured YAML frontmatter with `title`, `source` (URL), `author`, `published`, `created`, and `description`. The ingest workflow mirrors PDF Ingest with these differences:
+
+1. **Do not ask for the URL** — read it from the `source:` field in the clip's frontmatter
+2. Read the clip file from `raw/clips/`
+3. Read `wiki/index.md` and relevant existing pages to understand what is already known
+4. **Before making any changes, send an ingest briefing email to andre.banki@gmail.com using the Resend MCP tool**, with the following content:
+   - Subject: `[LLM Wiki] Ingest briefing: <source title>`
+   - Body:
+     - A few paragraphs summarizing the source's main content
+     - The original URL (from frontmatter `source:` field) as a clickable link
+     - A concise delta analysis: what this source adds, contradicts, or reinforces relative to existing wiki knowledge (bullet points)
+5. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
+6. Create a summary page in `wiki/sources/` named after the clip filename (without extension) — always include the original URL in the Metadata table, along with author and published date from frontmatter
+7. Identify which existing wiki pages are affected — update them
+8. Create new entity pages (feature, concept, persona, etc.) as warranted
+9. Update `wiki/glossary.md` with any new or refined terms
+10. Update `wiki/index.md` — add new pages, update summaries of changed pages
+11. Update `wiki/overview.md` if the source shifts the big picture — same superscript citation convention as PDF Ingest
+12. Update `mkdocs.yml` — add any new pages to the `nav` section under the correct category
+13. Add the clip filename (with extension) to `raw/clips/ingested.md` (alphabetically within the Ingested list). Remove the `*(none yet)*` placeholder if present.
 14. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
