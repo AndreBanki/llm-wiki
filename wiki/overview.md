@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 23  
-**Wiki pages:** 60 (index, log, overview, glossary + 23 sources + 26 concepts + 1 analysis + 1 product)  
-**Last ingest:** 2026-04-26 — GT TIC ANTAC / MDIC Construa Brasil (Planejamento da Construção com AltoQi Visus Planning — módulos 1–4)  
+**Source count:** 24  
+**Wiki pages:** 61 (index, log, overview, glossary + 24 sources + 26 concepts + 1 analysis + 1 product)  
+**Last ingest:** 2026-04-27 — Dr Nicolas Figay (Everyone Has an Ontology Now. Almost Nobody Has an Ontology.)  
 **Last lint:** 2026-04-24
 
 ---
@@ -43,6 +43,8 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Palantir AIP** — Enterprise AI platform; Ontology grounds AI in real-world operational events (not just user messages); full spectrum AI from chat → automation → intelligent primitives; empirical AI architecture principle [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 - **Ontology-Driven Architecture** — Schemas describe data; ontologies describe reality. An ontology defines entities, relationships, constraints, and valid state transitions — making it the operational core of the system, not a metadata layer. Big data worked without ontologies because intelligence was external (humans interpreted results). Agentic systems require ontologies because the system itself must act. Without ontologies, agents hallucinate actions, misuse tools, and produce unenforceable safety boundaries [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
 - **Ontologies as Coordination Layer** — A shared ontology provides the deterministic interface that allows humans, services, and AI agents to operate together: a common model of what exists, what can change, who can change it. Governance alone (ownership, access control, compliance) is insufficient — "governance without ontology is bureaucracy without physics" [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
+- **The Formal Semantics Gap** — No vendor "ontology" (Microsoft Fabric IQ, Palantir, SAP) commits to formal semantics: description logic, inference, or the Open World Assumption. Palantir's Ontology is the most sophisticated offering but remains a "well-governed conceptual map" — not semantic reasoning in the logical sense. Whether the gap matters depends on what the system must *prove*. Both views held in tension: Bal says it is deterministic in practice; Figay says it cannot formally prove anything [²⁴](sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md)
+- **Semantic Cartography** — A competing paradigm: universal semantic representation is a structural impossibility; the appropriate response is to build tools that navigate the coexistence of multiple, legitimate, incompatible representations — mapping where they align, diverge, and what the interoperability consequences are (Dr Nicolas Figay — CAISE 2025 / I-ESA 2026) [²⁴](sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md)
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
@@ -131,7 +133,7 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 
 **Enterprise AI deployment domain (AIP):** The most important insight from Palantir's AIP Bootcamp model is the same insight that runs through the coaching, product, and system design domains of this wiki: *upfront architectural decisions made without empirical evidence are dangerous*. In AI deployment, this means: don't decide how many LLMs to use, whether to fine-tune, or what your learning loop looks like before you have a production use case to learn from. The enabling technology is the Ontology — a semantic data model that bridges operational reality and AI prompts, unlocking event-driven automation rather than just chat. This connects directly to MCP (both replace user-prompt-driven with event-driven AI) and to Conway's Law (both reject theological structure in favor of strategy-led, empirically-validated design). [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
-**Ontology-driven architecture domain:** The deepest insight from Palantir's ontology-first bet is a single principle: *meaning precedes intelligence*. Big data systems could work without ontologies because intelligence was external — analysts supplied judgment, governance supplied policy. Agentic systems cannot work without ontologies because the system itself must act at machine speed. The schema vs. ontology distinction is foundational: a schema tells you what a database looks like; an ontology tells you what the domain means — what states exist, what transitions are valid, what actions are permitted. Without this, agents don't fail loudly (hallucinations, policy violations, prompt spaghetti); they fail silently in production. The cross-domain connection: ontologies are the AI equivalent of a deliberate team topology — both reject emergent, unplanned design in favor of explicit upfront modeling that makes the system composable and reliable over time. [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md)
+**Ontology-driven architecture domain:** The deepest insight from Palantir's ontology-first bet is a single principle: *meaning precedes intelligence*. Big data systems could work without ontologies because intelligence was external — analysts supplied judgment, governance supplied policy. Agentic systems cannot work without ontologies because the system itself must act at machine speed. The schema vs. ontology distinction is foundational: a schema tells you what a database looks like; an ontology tells you what the domain means — what states exist, what transitions are valid, what actions are permitted. Without this, agents don't fail loudly; they fail silently in production. [¹⁵](sources/ai-engineering/balajiBal-palantir-ontologies.md) A critical counterpoint (Figay, 2026): no vendor "ontology" — including Palantir's — commits to formal semantics (description logic, inference, OWA). What is sold as "semantic reasoning" is a well-governed conceptual map. A second architectural bet (Semantic Cartography) holds that convergence on a unified meaning model is structurally impossible and that the correct response is plurality navigation, not unified ontology construction. The wiki holds both views in tension. [²⁴](sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md)
 ---
 
 ## Key Themes
@@ -168,7 +170,7 @@ O wiki tem cobertura inicial do conceito de ontologia (via Palantir/balaji bal e
 
 **Fontes sugeridas para ingestão:**
 - Documentação oficial do Palantir Ontology / Foundry
-- Artigos sobre ontologia e agentic AI além da visão Palantir
+- ~~Artigos sobre ontologia e agentic AI além da visão Palantir~~ ✅ parcialmente endereçado por Figay (2026): formal vs. vendor ontologies; o que OWL/description logic realmente requer
 - Casos de uso de knowledge graphs em enterprise AI (ex: AWS Neptune, Neo4j, Stardog)
 - Especificação IFC como ontologia de construção
 

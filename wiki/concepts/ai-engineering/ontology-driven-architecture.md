@@ -2,9 +2,9 @@
 title: Ontology-Driven Architecture
 type: concept
 created: 2026-04-24
-updated: 2026-04-24
-sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps]
-tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface]
+updated: 2026-04-27
+sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal]
+tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography]
 ---
 
 # Ontology-Driven Architecture
@@ -128,10 +128,81 @@ Core principle: **Meaning precedes intelligence.**
 
 ---
 
+---
+
+## A Critical View: The Formal Semantics Gap
+
+*Source: Dr Nicolas Figay, "Everyone Has an Ontology Now. Almost Nobody Has an Ontology." (2026) — [[ai-engineering/nfigay-ontology-marketing-vs-formal]]*
+
+The framing above reflects the view advanced by balaji bal and Palantir. A second, complementary view holds that vendor "ontologies" — including Palantir's — do not qualify as formal ontologies in the logical sense, and that this distinction matters when AI agents must reason autonomously in high-stakes domains.
+
+A **formal ontology** provides:
+
+| Property | What it means |
+|---|---|
+| **Formal semantics** | Axioms with a well-defined model-theoretic interpretation |
+| **Description logic** | A decidable fragment of first-order logic for class relationships and constraints |
+| **Open World Assumption** | Absence of a fact = unknown, not false; inference can derive what was not explicitly stated |
+| **Inference** | A reasoner derives conclusions from axioms; the system can *prove* things |
+| **Decidability** | The inference procedure terminates in bounded time |
+| **Auditability** | Every derived conclusion traces back to the axioms that produced it |
+
+Figay's assessment of the vendor landscape:
+
+- **Palantir Ontology** — "the most sophisticated of the vendor offerings" (object types, link types, action types) — but no description logic, no inference, no formal epistemological commitment. A well-governed conceptual map, not semantic reasoning.
+- **Microsoft Fabric IQ** — bootstrapped from Power BI semantic models by business users via no-code tools. No formal semantics.
+
+The stakes are not low: Palantir runs systems supporting defence operations; Microsoft positions Fabric IQ for autonomous AI decision-making. When an agent acts on an informal semantic layer, its reasoning is only as good as the completeness of what domain experts manually constructed — not what an inference engine derived.
+
+**The key question:** *What exactly can your system prove?*
+
+### Holding Both Views in Tension
+
+| Dimension | balaji bal (2026) | Dr Nicolas Figay (2026) |
+|---|---|---|
+| **Palantir Ontology** | Deterministic interface in practice | Most sophisticated vendor offering, still lacks formal semantics |
+| **What you get** | Valid state transitions that constrain agent actions | Well-governed conceptual map with no inference engine |
+| **The bet** | Convergence on meaning is achievable and sufficient | Convergence is a structural impossibility |
+| **Failure mode** | Agents hallucinate when the ontology has gaps | Agents have no formal proof — informal gaps fail silently |
+
+The resolution: Palantir's Ontology is more powerful than a schema and more useful than a data catalog. Whether the formal/informal distinction matters depends on what the system must *prove*. For operational coordination within a governed domain, informal ontologies may be sufficient. For formal certification of autonomous behavior in safety-critical systems, they are not.
+
+---
+
+## A Competing Paradigm: Semantic Cartography
+
+*Source: Dr Nicolas Figay — CAISE 2025 / I-ESA 2026*
+
+Semantic Cartography starts from the opposite epistemological premise: **universal semantic representation is not a problem waiting to be solved — it is a structural impossibility.**
+
+Enterprise systems inevitably involve representations that are:
+- **Legitimate:** each valid within its own frame of reference
+- **Incompatible:** cannot be merged without losing information from at least one frame
+- **Necessary:** the incompatibility reflects genuine differences in how different actors model the world
+
+The appropriate response is not to build a better unified ontology. It is to build tools that *navigate plurality*: mapping the semantic landscape — where representations align, where they diverge, and what the interoperability consequences of each divergence are.
+
+**The architectural contrast:**
+
+| | Ontology-Driven Architecture | Semantic Cartography |
+|---|---|---|
+| **Core bet** | Convergence is achievable — build toward unified meaning | Convergence is impossible — navigate plurality |
+| **Primary artifact** | Ontology (unified model) | Map (representation landscape) |
+| **Agent stance** | Agents constrained by valid ontology state transitions | Agents navigating explicit representation divergences |
+| **Failure mode** | Brittle when model is incomplete | Requires ongoing cartographic maintenance |
+| **Scope** | Single domain or enterprise | Multi-domain, multi-organization interoperability |
+
+**Both paradigms agree:** agentic systems need semantic grounding. **They disagree:** on whether to achieve it by converging on a shared model or by building navigation tools for irreducible plurality.
+
+Figay's argument: a platform betting on convergence creates brittle, opaque, non-auditable semantic infrastructure that fails quietly until it fails catastrophically. Two decades of industrial evidence support the plurality view.
+
+---
+
 ## Connections to Other Concepts
 
-- **[[ai-engineering/aip-platform]]** — Palantir AIP uses the Ontology to ground AI in real-world operational events; this page deepens the ontology layer of that concept
+- **[[ai-engineering/aip-platform]]** — Palantir AIP uses the Ontology to ground AI in real-world operational events; this page deepens and critiques the ontology layer of that concept
+- **[[ai-engineering/nfigay-ontology-marketing-vs-formal]]** — primary source for the Formal Semantics Gap and Semantic Cartography sections above
 - **[[ai-engineering/mcp-architecture]]** — MCP (Model Context Protocol) is a complementary deterministic interface: MCP defines what *tools* an agent can call; an ontology defines what *reality states* are valid. Both move AI from text-reasoning to structured-world-reasoning
-- **[[ai-engineering/ai-agent-governance]]** — Ontologies are the enforcement mechanism that makes guardrails deterministic; the four-component governance stack (guardrails, observability, FinOps, execution control) is structurally stronger when built on an ontology
-- **[[ai-engineering/genai-security-workflow]]** — The Gartner framework's data governance stage is necessary but, per this article, insufficient; ontologies complete what governance alone cannot enforce
+- **[[ai-engineering/ai-agent-governance]]** — Ontologies are the enforcement mechanism that makes guardrails deterministic; the four-component governance stack (guardrails, observability, FinOps, execution control) is structurally stronger when built on an ontology — and weaker when the ontology lacks formal semantics
+- **[[ai-engineering/genai-security-workflow]]** — The Gartner framework's data governance stage is necessary but, per both sources, insufficient; formal ontologies would complete what governance alone cannot enforce
 - **[[product-org-design/conways-law]]** — "Meaning must be encoded upfront" mirrors "strategy must precede structure"; both reject emergent, unplanned design in favor of deliberate upfront modeling

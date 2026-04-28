@@ -43,6 +43,7 @@ Each entry follows this format:
 | [[ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory]] | Medium (Apr 2026): adding persistent semantic memory to Claude Code via Mem0 + MCP + ChromaDB; session amnesia problem; 4-bug incident (7 parallel Claude instances); hook review checklist | 2026-04-25 |
 | [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] | Medium (Apr 2026): 2-click content acquisition pipeline for Claude-Obsidian Second Brain; Obsidian Web Clipper (5 templates); overnight Python script with tiered model routing (Gemini Flash/Ollama for tagging; Claude for synthesis) | 2026-04-26 |
 | [[ai-engineering/how-to-use-graphify-knowledge-graph]] | Medium (Apr 2026): Graphify — converts any folder into a persistent knowledge graph; 3-pass pipeline (AST parsing, local transcription, parallel LLM extraction); provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS); 71.5x token reduction via subgraph retrieval | 2026-04-26 |
+| [[ai-engineering/nfigay-ontology-marketing-vs-formal]] | Medium (Apr 2026): "ontology" as marketing term; what formal ontologies actually require (description logic, OWA, inference); vendor critique (Microsoft Fabric IQ, Palantir); Semantic Cartography as alternative paradigm | 2026-04-27 |
 
 ### Coaching & Leadership
 
@@ -94,7 +95,8 @@ Each entry follows this format:
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
-| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; why agentic systems require ontologies; ontologies as coordination layer and deterministic interface; "meaning precedes intelligence" | 2026-04-24 || [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
+| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm | 2026-04-27 |
+| [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
 
 ### Coaching & Leadership
 

@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-26
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -568,7 +568,28 @@ Each entry follows this format:
 : A formal, explicit model of reality that defines the entities, relationships, constraints, and valid state transitions in a domain. In Palantir's implementation: a live semantic data model that grounds AI actions in real-world operational state. The critical distinction — *schemas describe data; ontologies describe reality*. A schema tells you a table has a `status` column; an ontology tells you what states are possible, how you move between them, and what actions are enabled or prohibited at each state.
 - The ontology is not a layer on top of the system — it *is* the system
 - Enables reliable agentic action: agents can only perform operations that correspond to legitimate state transitions on real entities
-- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/aip-platform]]
+- **Marketing note:** Vendors (Microsoft Fabric IQ, Palantir, SAP, AWS) use "ontology" broadly. A *formal ontology* (OWL/description logic) provides inference and formal proof guarantees; vendor ontologies are governed property graphs — useful for operational coordination but without formal semantics. See: Formal Ontology.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/aip-platform]], [[ai-engineering/nfigay-ontology-marketing-vs-formal]]
+
+**Formal Ontology** *(OWL ontology, logical ontology)*
+: An ontology in the logical sense: formal semantics (axioms with model-theoretic interpretation), description logic, the Open World Assumption, an inference engine that derives what has not been explicitly stated, and decidability in defined fragments. Contrasted with *vendor ontologies* (governed property graphs, business glossaries) that use the term but commit to none of these properties.
+- Key test: *what can your system prove?* A formal ontology supports automated theorem proving; a vendor ontology supports governed data navigation.
+- Tools: OWL (Web Ontology Language), RDF, SPARQL, Protégé, Stardog, GraphDB
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/nfigay-ontology-marketing-vs-formal]]
+
+**Description Logic**
+: A family of formal knowledge representation languages forming the logical foundation of OWL (Web Ontology Language). Provides decidable, bounded inference — you can assert class hierarchies, property restrictions, and axioms, and a reasoner derives all entailed conclusions within guaranteed completion time. Absent from all major vendor "ontology" products examined by Figay (2026).
+- See also: [[ai-engineering/nfigay-ontology-marketing-vs-formal]]
+
+**Open World Assumption (OWA)**
+: A logical stance in which the absence of a fact in a knowledge base means *it is unknown*, not *it is false*. Contrasted with the Closed World Assumption (CWA) used in databases, where what is not stored is treated as false. Formal ontologies adopt OWA; vendor ontologies and property graphs typically adopt CWA.
+- Key implication: under OWA, a reasoner can infer new facts; under CWA, queries return only what was explicitly entered.
+- See also: [[ai-engineering/nfigay-ontology-marketing-vs-formal]]
+
+**Semantic Cartography**
+: A research paradigm proposing that the enterprise semantic problem cannot be solved by converging on a unified ontology, because universal semantic representation is structurally impossible. Instead: build tools that map the semantic landscape — showing where multiple, legitimate, incompatible representations align, diverge, and what the interoperability consequences are. Developed by Dr Nicolas Figay; presented at CAISE 2025; underlying the I-ESA 2026 paper on Enterprise Interoperability.
+- Contrasted with: Ontology-Driven Architecture (which bets on convergence). Both recognize the same problem — agentic systems need semantic grounding — but disagree on whether convergence is achievable.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/nfigay-ontology-marketing-vs-formal]]
 
 **Schema vs. Ontology**
 : The foundational architectural distinction between describing data structure (schema) and describing operational reality (ontology). Schemas define what a database looks like; ontologies define what the domain means. Big data systems worked without ontologies because intelligence was external (analysts interpreted the data). Agentic systems require ontologies because the system itself must act reliably.
