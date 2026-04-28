@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\llm-wiki\\\\raw\\\\clips\\\\\" -Force | ForEach-Object { $_.Name })",
+      "mcp__resend__send-email"
+    ]
+  }
+}

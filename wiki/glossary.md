@@ -3,7 +3,7 @@ title: Glossary
 type: glossary
 created: 2026-04-07
 updated: 2026-04-26
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -27,8 +27,33 @@ Each entry follows this format:
 ## Terminology
 
 **RAG** *(Retrieval-Augmented Generation)*
-: A pattern where an LLM's response is grounded in content retrieved from external documents rather than relying solely on training data. The retrieval step is the key engineering challenge.
+: A pattern where an LLM's response is grounded in content retrieved from external documents rather than relying solely on training data. The retrieval step is the key engineering challenge. Standard RAG has a structural flaw: the hard top-K selection step is non-differentiable, permanently decoupling the retriever from the generator (see: Gradient Wall).
 - See also: [[ai-engineering/rag-approaches]]
+
+**Gradient Wall**
+: The structural flaw in standard RAG: the hard top-K retrieval selection step is non-differentiable, which blocks backpropagation from flowing from the generator (LLM) back to the retriever. Consequence: the retriever can never learn from the generator's mistakes — the two components are permanently decoupled regardless of how good the embedding model or chunking strategy is. Almost all RAG improvements work around this wall rather than solving it. Only CLaRa (2025) attacks it directly via a differentiable top-k estimator.
+- Term and framing: Gaurav Shrivastav (2026)
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]]
+
+**CLaRa** *(Continuous Latent Reasoning)*
+: A retrieval architecture published December 2025 by researchers from Apple and the University of Edinburgh that eliminates the gradient wall. Three innovations: (1) *memory tokens* — continuous, learned document representations at 16x–128x compression; (2) *Query Reasoner* — generates a hypothetical ideal answer and searches for memory tokens that would support it; (3) *differentiable top-k estimator* — makes the retrieval step smooth enough for gradients to flow backward, enabling end-to-end training. Released as CLaRa-7B-Base, CLaRa-7B-Instruct, CLaRa-7B-E2E on Hugging Face.
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]]
+
+**Memory Tokens** *(CLaRa)*
+: Continuous, learned document representations introduced by CLaRa. Not text chunks; not embeddings of text. Small sets of learned tokens that encode the semantic meaning of a document at 16x to 128x compression, stripped of syntax noise and filler words. Contrast with chunking (which preserves original text but destroys structure) and embeddings (which are fixed-size dense vectors of chunk content).
+- See also: [[ai-engineering/rag-approaches]]
+
+**Query Reasoner** *(CLaRa)*
+: A component in CLaRa that inverts the standard retrieval approach: instead of matching the query to stored document representations, it first generates a hypothetical ideal answer, then searches for memory tokens that would support that hypothetical. Analogous to "what would the answer look like?" rather than "what looks similar to the question?"
+- See also: [[ai-engineering/rag-approaches]]
+
+**Golden Retriever RAG** *(query expansion RAG)*
+: A process-level improvement to vector RAG where an LLM intercepts and rewrites the raw user query before it reaches the retriever — expanding jargon, resolving abbreviations, and adding contextual detail. Improves retrieval accuracy measurably at the cost of one additional LLM call per query (added latency). Does not address the gradient wall; the architecture is otherwise unchanged.
+- See also: [[ai-engineering/rag-approaches]]
+
+**Instructed Retriever** *(Databricks, January 2026)*
+: A retrieval system that guides the retriever with structured instructions upfront rather than end-to-end training. Three capabilities: (1) query decomposition (breaks complex questions into searchable sub-questions); (2) contextual relevance scoring (intent-based, not keyword-based); (3) metadata reasoning (converts natural-language temporal references into concrete date filters). Results: 35–50% recall gains on StaRK-Instruct; up to 70% on harder enterprise QA. Does not address the gradient wall.
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]]
 
 **Vector RAG** *(traditional RAG)*
 : The dominant RAG implementation: documents are chunked, embedded into dense vectors, stored in a vector database, and retrieved via cosine similarity search at query time.

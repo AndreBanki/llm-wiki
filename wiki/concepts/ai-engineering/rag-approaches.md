@@ -2,9 +2,9 @@
 title: RAG Retrieval Approaches
 type: concept
 created: 2026-04-22
-updated: 2026-04-26
-sources: [pageindex-vectorless-rag.md]
-tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking]
+updated: 2026-04-27
+sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md]
+tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking, gradient-wall, clara, differentiable-retrieval]
 ---
 
 Overview of Retrieval-Augmented Generation (RAG) retrieval strategies, contrasting the traditional vector-based approach with the emerging reasoning-based (vectorless) approach.
@@ -12,6 +12,25 @@ Overview of Retrieval-Augmented Generation (RAG) retrieval strategies, contrasti
 ## What Is RAG?
 
 Retrieval-Augmented Generation (RAG) is a pattern where an LLM's response is grounded in retrieved document content rather than relying solely on training data. The core challenge is the **retrieval step** — finding the right piece of content to feed to the LLM.
+
+## Two Analytical Frames
+
+This page uses two complementary frames for evaluating RAG approaches:
+
+- **Retrieval mechanism** — how each paradigm finds content (similarity, reasoning, graph, none); the primary organizing frame
+- **Gradient wall** — whether the approach enables end-to-end learning between retriever and generator; a secondary frame introduced by Gaurav Shrivastav (2026)
+
+Both frames are kept in tension: the paradigm frame shows best-fit use cases; the gradient wall frame exposes which "improvements" are architectural fixes vs. patches.
+
+## The Gradient Wall: RAG's Structural Flaw
+
+Standard RAG has a deeper architectural problem that chunk size, embedding models, and similarity thresholds cannot fix: **the retrieval step is not differentiable**.
+
+Modern deep learning works via backpropagation: when a neural network makes a mistake, the error travels backward through every layer, adjusting weights proportionally to their contribution. This requires every step to be differentiable — smooth, continuous, mathematically well-behaved.
+
+The top-K document selection step is not. A document is either in the context window or it is not. No fractional document; no smooth transition. So when the retriever surfaces wrong documents and the LLM generates a wrong answer, the error signal **cannot flow backward through the discrete selection step**. The retriever never learns it made a mistake. Next identical query → same mistake.
+
+This is the gradient wall. It permanently decouples the retriever from the generator regardless of which retrieval paradigm is used. Almost all popular RAG improvements work *around* this wall; only CLaRa (see below) attacks it directly.
 
 ## Vector RAG (Traditional)
 
@@ -41,6 +60,14 @@ Retrieval-Augmented Generation (RAG) is a pattern where an LLM's response is gro
 - Searching across large collections of documents to identify which ones are relevant
 - High-throughput, low-latency requirements
 - Short, unstructured, or conversational documents
+
+### Process-Level Improvements (gradient wall remains intact)
+
+Two approaches improve Vector RAG accuracy without changing its fundamental architecture:
+
+**Golden Retriever RAG** — An LLM intercepts the raw query before retrieval, expands jargon, resolves abbreviations, and adds contextual detail, then sends the enriched query to the retriever. Retrieval accuracy improves measurably. Cost: one extra LLM call per query (added latency).
+
+**Instructed Retriever (Databricks, January 2026)** — Guides the retriever with structured instructions upfront rather than training it with generator feedback: (1) **Query Decomposition** — breaks multi-part questions into independently searchable components; (2) **Contextual Relevance** — reasons about actual intent, not keyword proximity; (3) **Metadata Reasoning** — converts "last year" into concrete date filters. Results on StaRK-Instruct benchmark: 35–50% recall gains; up to 70% on harder enterprise QA tasks. A genuinely useful system, but the retriever still cannot learn from generator outcomes — the wall is intact.
 
 ## Vectorless RAG (Reasoning-Based)
 
@@ -141,17 +168,35 @@ A fourth retrieval approach where the document corpus is represented as a **pers
 
 ### Comparison with other paradigms
 
-| Dimension | Vector RAG | Vectorless RAG | 1M Context | Graph RAG (Graphify) |
-|---|---|---|---|---|
-| Index type | Dense vectors | Hierarchical JSON tree | None | Knowledge graph |
-| Retrieval | Cosine similarity | LLM tree reasoning | None | Subgraph extraction |
-| Structure preserved | No (chunked) | Yes (tree) | Yes (full) | Yes (graph topology) |
-| Multi-hop reasoning | No | Limited | Yes | Yes |
-| Provenance tracking | No | No | No | Yes (EXTRACTED/INFERRED) |
-| Local/private pass | No | No | N/A | Yes (Pass 1 + 2) |
-| Best for | Large collections | Single long docs | Fits-in-context | Code + mixed corpora |
+| Dimension | Vector RAG | Vectorless RAG | 1M Context | Graph RAG (Graphify) | CLaRa |
+|---|---|---|---|---|---|
+| Index type | Dense vectors | Hierarchical JSON tree | None | Knowledge graph | Memory tokens |
+| Retrieval | Cosine similarity | LLM tree reasoning | None | Subgraph extraction | Differentiable top-k |
+| Structure preserved | No (chunked) | Yes (tree) | Yes (full) | Yes (graph topology) | Semantic compression |
+| Multi-hop reasoning | No | Limited | Yes | Yes | Via Query Reasoner |
+| Provenance tracking | No | No | No | Yes (EXTRACTED/INFERRED) | No |
+| End-to-end learning | No (gradient wall) | No (gradient wall) | N/A | No (gradient wall) | **Yes** |
+| Best for | Large collections | Single long docs | Fits-in-context | Code + mixed corpora | Research / E2E training |
 
-See [[ai-engineering/how-to-use-graphify-knowledge-graph]] for full implementation details.
+See [[ai-engineering/how-to-use-graphify-knowledge-graph]] for full Graphify implementation details.
+
+## Fifth Paradigm: Differentiable Retrieval (CLaRa)
+
+Published December 2025 by researchers from Apple and the University of Edinburgh. The only RAG approach that attacks the gradient wall directly rather than working around it.
+
+Standard RAG compresses documents into text chunks and retrieves by vector similarity. CLaRa replaces this entirely:
+
+- **Memory tokens** — compressed representations of document content. Not text chunks; not embeddings of text. Small sets of continuous, learned tokens encoding semantic meaning at **16x to 128x compression**, stripped of syntax noise and filler words.
+- **Query Reasoner** — generates a hypothetical ideal answer first, then searches for memory tokens that would *support* that hypothetical. Inverse of standard retrieval: searching for what *should* be there, not what *looks similar*.
+- **Differentiable top-k estimator** — makes the retrieval selection step mathematically smooth enough for gradients to flow backward from answer generation, through the retrieval step, into the Query Reasoner.
+
+**The retriever can now learn from the generator's mistakes.** End-to-end training is possible for the first time.
+
+**Released models (Hugging Face):** CLaRa-7B-Base, CLaRa-7B-Instruct, CLaRa-7B-E2E. The E2E variant uses the full differentiable retrieval loop.
+
+**Status as of early 2026:** Research release. Production maturity to be established.
+
+See [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] for the full source analysis including the gradient wall explanation and all five evaluated approaches.
 
 ---
 
@@ -160,5 +205,6 @@ See [[ai-engineering/how-to-use-graphify-knowledge-graph]] for full implementati
 - [[ai-engineering/pageindex]]
 - [[ai-engineering/pageindex-vectorless-rag]] (source article)
 - [[ai-engineering/how-to-use-graphify-knowledge-graph]] (source article)
+- [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] (source article — gradient wall, CLaRa)
 - [[ai-engineering/llm-model-economics]]
 - [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] (source article)

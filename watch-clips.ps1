@@ -1,16 +1,28 @@
 # watch-clips.ps1
-# Monitors raw/clips/ for new .md files and shows a Windows notification.
+# Monitors raw/ (PDFs) and raw/clips/ (clips) for new files and auto-ingests via Claude Code.
 # Run this in a background terminal: pwsh -NoExit -File watch-clips.ps1
 
-$watchPath = Join-Path $PSScriptRoot "raw\clips"
+$clipsPath = Join-Path $PSScriptRoot "raw\clips"
+$rawPath   = Join-Path $PSScriptRoot "raw"
 
-$watcher = New-Object System.IO.FileSystemWatcher
-$watcher.Path = $watchPath
-$watcher.Filter = "*.md"
-$watcher.NotifyFilter = [System.IO.NotifyFilters]::FileName
-$watcher.EnableRaisingEvents = $true
+# Watcher for new clips (.md)
+$watcherClips = New-Object System.IO.FileSystemWatcher
+$watcherClips.Path = $clipsPath
+$watcherClips.Filter = "*.md"
+$watcherClips.NotifyFilter = [System.IO.NotifyFilters]::FileName
+$watcherClips.EnableRaisingEvents = $true
 
-Write-Host "Watching $watchPath for new clips..." -ForegroundColor Cyan
+# Watcher for new PDFs
+$watcherPDF = New-Object System.IO.FileSystemWatcher
+$watcherPDF.Path = $rawPath
+$watcherPDF.Filter = "*.pdf"
+$watcherPDF.NotifyFilter = [System.IO.NotifyFilters]::FileName
+$watcherPDF.EnableRaisingEvents = $true
+
+Register-ObjectEvent $watcherClips Created -SourceIdentifier ClipCreated | Out-Null
+Register-ObjectEvent $watcherPDF   Created -SourceIdentifier PDFCreated  | Out-Null
+
+Write-Host "Watching $clipsPath (clips) and $rawPath (PDFs)..." -ForegroundColor Cyan
 
 function Show-ToastNotification {
     param([string]$Title, [string]$Message)
@@ -33,20 +45,27 @@ function Show-ToastNotification {
     [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier("LLM Wiki").Show($toast)
 }
 
-while ($true) {
-    $event = $watcher.WaitForChanged([System.IO.WatcherChangeTypes]::Created, 5000)
-    if (-not $event.TimedOut) {
-        $filename = $event.Name
+try {
+    while ($true) {
+        $ev = Wait-Event -SourceIdentifier ClipCreated, PDFCreated -Timeout 5
+        if ($null -eq $ev) { continue }
+
+        $filename = $ev.SourceEventArgs.Name
+        Remove-Event -EventIdentifier $ev.EventIdentifier
+
         # Ignore the ingested.md tracking file
-        if ($filename -eq "ingested.md") { continue }
+        if ($ev.SourceIdentifier -eq "ClipCreated" -and $filename -eq "ingested.md") { continue }
 
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] New clip detected: $filename" -ForegroundColor Green
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] New file detected: $filename" -ForegroundColor Green
 
-        Show-ToastNotification `
-            -Title "LLM Wiki — New Clip" `
-            -Message "Ready to ingest: $filename"
+        Show-ToastNotification -Title "LLM Wiki — Ingesting…" -Message $filename
 
-        # Open VS Code focused on the workspace (if not already open)
-        code "g:\Meu Drive\llm-wiki"
+        Start-Sleep -Seconds 2  # wait for file to finish writing
+        Start-Process -FilePath "claude" -ArgumentList '"ingest the new file"' -WorkingDirectory $PSScriptRoot
     }
+} finally {
+    Unregister-Event -SourceIdentifier ClipCreated -ErrorAction SilentlyContinue
+    Unregister-Event -SourceIdentifier PDFCreated  -ErrorAction SilentlyContinue
+    $watcherClips.Dispose()
+    $watcherPDF.Dispose()
 }

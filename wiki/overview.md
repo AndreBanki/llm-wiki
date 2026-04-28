@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 24  
-**Wiki pages:** 61 (index, log, overview, glossary + 24 sources + 26 concepts + 1 analysis + 1 product)  
-**Last ingest:** 2026-04-27 — Dr Nicolas Figay (Everyone Has an Ontology Now. Almost Nobody Has an Ontology.)  
+**Source count:** 25  
+**Wiki pages:** 62 (index, log, overview, glossary + 25 sources + 26 concepts + 1 analysis + 1 product)  
+**Last ingest:** 2026-04-27 — Gaurav Shrivastav (RAG Is Fundamentally Broken. Here's Why.)  
 **Last lint:** 2026-04-24
 
 ---
@@ -29,7 +29,9 @@ This wiki currently spans **six domains**:
 ### 1. RAG Retrieval Strategies (LLM / AI)
 Contrast between traditional vector-based RAG and reasoning-based (vectorless) RAG. Core framework: PageIndex by VectifyAI.
 
-- **RAG retrieval approaches** — Vector RAG vs. Vectorless RAG, strengths, limitations, when to use each, hybrid strategy [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
+- **RAG retrieval approaches** — Five paradigms: Vector RAG, Vectorless RAG, Graph RAG, 1M Context, and CLaRa (differentiable retrieval). Two analytical frames: retrieval mechanism (best-fit use case) and gradient wall (whether end-to-end learning is possible). Almost all popular RAG improvements are patches on the gradient wall, not fixes [¹](sources/ai-engineering/pageindex-vectorless-rag.md) [²⁵](sources/ai-engineering/gaurav-shrivastav-rag-fundamentally-broken.md)
+- **The Gradient Wall** — Standard RAG's structural flaw: the hard top-K retrieval step is non-differentiable, permanently decoupling the retriever from the generator. The retriever can never learn from the LLM's mistakes. GraphRAG, Golden Retriever RAG, and the Databricks Instructed Retriever all work around this wall; only CLaRa breaks it [²⁵](sources/ai-engineering/gaurav-shrivastav-rag-fundamentally-broken.md)
+- **CLaRa (Continuous Latent Reasoning)** — Apple + University of Edinburgh (Dec 2025): first RAG architecture with a differentiable top-k estimator enabling end-to-end training. Memory tokens replace text chunks (16x–128x compression). Query Reasoner generates a hypothetical ideal answer and retrieves tokens that support it — inverse of standard retrieval [²⁵](sources/ai-engineering/gaurav-shrivastav-rag-fundamentally-broken.md)
 - **PageIndex** — Open source vectorless RAG framework; hierarchical tree indexing + LLM-powered reasoning; 98.7% accuracy on FinanceBench [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
 - **MCP (Model Context Protocol)** — AI-driven tool orchestration protocol; AI decides which tools to use; tools not services; capability discovery; tool-level permissions; failure modes: tool overload, context drift [⁹](sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md)
 - **Claude Code Skills** — Directory-based context packages for AI coding agents; a skill is a folder (not a file): entry-point .md + config.json + scripts + templates + references + examples; 9 categories from library reference to infrastructure runbooks; the *gotchas section* is the most valuable content; folder structure enables progressive disclosure as context engineering; Opus 4.7 makes well-written skills dramatically more effective [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
@@ -115,7 +117,7 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 
 ## Key Insights (as of last ingest)
 
-**RAG domain:** The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity. [¹](sources/ai-engineering/pageindex-vectorless-rag.md)
+**RAG domain:** The shift from *similarity-based retrieval* to *reasoning-based retrieval* is a meaningful architectural evolution for structured document Q&A. When tasks require understanding document structure and following logical references, reasoning beats similarity. [¹](sources/ai-engineering/pageindex-vectorless-rag.md) A deeper architectural critique (Shrivastav, 2026): the real flaw in standard RAG is not the retrieval mechanism but the gradient wall — the hard top-K step blocks end-to-end training regardless of which mechanism is used. Most RAG improvements are process patches on this missing feedback loop. CLaRa (Apple, Dec 2025) is the first system to break the wall via a differentiable top-k estimator. The wiki holds both frames in tension: the paradigm frame (best-fit use case per mechanism) and the gradient wall frame (which approaches enable true learning). [²⁵](sources/ai-engineering/gaurav-shrivastav-rag-fundamentally-broken.md)
 
 **BIM domain:** Coordenação BIM efetiva é um problema cultural e processual, não apenas tecnológico. Modelo federado é condição necessária, não suficiente. O critério correto para sequênciar decisões entre disciplinas é o menor custo total para o cliente, não quem chegou primeiro. [²](sources/bim-construction/francieli-wagner-bim-coordination.md)
 

@@ -44,6 +44,7 @@ Each entry follows this format:
 | [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] | Medium (Apr 2026): 2-click content acquisition pipeline for Claude-Obsidian Second Brain; Obsidian Web Clipper (5 templates); overnight Python script with tiered model routing (Gemini Flash/Ollama for tagging; Claude for synthesis) | 2026-04-26 |
 | [[ai-engineering/how-to-use-graphify-knowledge-graph]] | Medium (Apr 2026): Graphify — converts any folder into a persistent knowledge graph; 3-pass pipeline (AST parsing, local transcription, parallel LLM extraction); provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS); 71.5x token reduction via subgraph retrieval | 2026-04-26 |
 | [[ai-engineering/nfigay-ontology-marketing-vs-formal]] | Medium (Apr 2026): "ontology" as marketing term; what formal ontologies actually require (description logic, OWA, inference); vendor critique (Microsoft Fabric IQ, Palantir); Semantic Cartography as alternative paradigm | 2026-04-27 |
+| [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] | Medium/Generative AI (Apr 2026): RAG's structural flaw is the gradient wall — hard top-K selection blocks backpropagation; five approaches evaluated; CLaRa (Apple, Dec 2025) is the first to break it via differentiable retrieval | 2026-04-27 |
 
 ### Coaching & Leadership
 
@@ -88,7 +89,7 @@ Each entry follows this format:
 | [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases; content acquisition layer (Layer 0) via Obsidian Web Clipper | 2026-04-26 |
 | [[ai-engineering/ai-session-memory]] | AI session memory: three-tier memory model (context/session/domain), Mem0 + ChromaDB MCP pattern, hook production hazards, vectorless vs. semantic retrieval tension | 2026-04-25 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
-| [[ai-engineering/rag-approaches]] | Comparison of vector RAG vs vectorless RAG vs graph-based RAG (Graphify) vs 1M context — strengths, limitations, and hybrid strategy | 2026-04-26 |
+| [[ai-engineering/rag-approaches]] | Comparison of five RAG paradigms (vector, vectorless, graph, 1M context, CLaRa/differentiable) — retrieval mechanism frame + gradient wall frame; process-level improvements (Golden Retriever RAG, Instructed Retriever) | 2026-04-27 |
 | [[ai-engineering/mcp-architecture]] | MCP (Model Context Protocol) — AI-driven tool orchestration; tools not services; capability discovery; security model; failure modes; comparison with traditional REST APIs | 2026-04-22 |
 | [[ai-engineering/genai-security-workflow]] | 6-stage GenAI security workflow model (Gartner): each stage's threat profile, countermeasures, and cross-cutting principles (Human in the Loop, Guardrails, TRiSM) | 2026-04-22 |
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |

@@ -11,4 +11,5 @@ Update this file at the end of every clip ingest.
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 2_4.md`
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 3_4.md`
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 4_4.md`
+- `RAG Is Fundamentally Broken. Here's Why..md`
 - `Seamless Content Ingestion for Claude-Obsidian Second Brain.md`
