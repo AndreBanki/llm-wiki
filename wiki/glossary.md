@@ -357,8 +357,12 @@ Each entry follows this format:
 : Organização internacional que publica os contratos-padrão mais adotados em projetos de engenharia civil internacionais. Principais livros: Yellow Book (EPC/Plant), Red Book (Preço Unitário/Construction), Silver Book (Turn-key mais rígido/EPC Turnkey).
 
 **AltoQi Visus Planning**
-: Plataforma BIM de planejamento de obras da AltoQi. Integra modelo federado IFC, EAP, orçamento e cronograma 4D em um único ambiente. Workflow: importação de IFCs → análise de metadados → EAP (aba Quantitativo) → setorização → cronograma com predecessoras → simulação 4D → rastreamento planejado vs. executado → relatórios (curva S, histograma, Excel). Encaixa-se na Frente 1 (Planejamento e previsão) e Frente 4 (Execução e monitoramento) do mapa de IA na gestão de obras. O tipo contratual determina quais métricas são destacadas e para quais stakeholders.
+: Plataforma BIM de planejamento de obras da AltoQi. Integra modelo federado IFC, EAP, orçamento e cronograma 4D em um único ambiente. Workflow: importação de IFCs → análise de metadados → EAP (aba Quantitativo) → setorização → cronograma com predecessoras → simulação 4D → rastreamento planejado vs. executado → relatórios (curva S, histograma, Excel). Encaixa-se na Frente 1 (Planejamento e previsão) e Frente 4 (Execução e monitoramento) do mapa de IA na gestão de obras. O tipo contratual determina quais métricas são destacadas e para quais stakeholders. Em 2026, integra-se ao AltoQi Axis (camada de IA) para inteligência preditiva e orquestração automatizada.
 - See also: [[products/altoqi-visus-planning]], [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]]
+
+**AltoQi Axis**
+: Camada de inteligência artificial e automação do ecossistema AltoQi, lançada em 2026. Não é um produto separado — é uma infraestrutura transversal que integra IA em todos os produtos da plataforma (Eberick, Builder, Visus). Seis capacidades: (1) Orquestração de Fluxos de Trabalho, (2) Agentes de IA Especializados, (3) Aprendizado Contínuo, (4) Objetos de Dados Inteligentes, (5) Inteligência Preditiva, (6) Plataforma Programável com Nodes e MCP. Princípio: "A construção exige inteligência integrada. Não ferramentas isoladas."
+- See also: [[products/altoqi-axis]], [[bim-construction/construcao-40]]
 
 **Simulação 4D** *(4D BIM simulation)*
 : Vinculação do modelo BIM 3D a um cronograma de execução, permitindo visualizar o estado da construção em qualquer data ou como animação da sequência construtiva. O "4D" refere-se à adição do tempo (4ª dimensão) ao modelo geométrico. Usos: validação do sequenciamento, comunicação com stakeholders, identificação de conflitos de tempo-espaço.

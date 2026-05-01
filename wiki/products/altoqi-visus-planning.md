@@ -2,7 +2,7 @@
 title: AltoQi Visus Planning
 type: product
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-05-01
 sources: [gt-antac-visus-planning-objeto-aprendizagem.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, linkedin-alexander-mattos-contratos-engenharia-2026-04-25]
 tags: [altoqi, visus-planning, bim, planejamento-4d, simulacao, cronograma, eap, ifc, construção, produto]
 ---
@@ -128,6 +128,12 @@ Ver [[bim-construction/tipos-contrato-engenharia]] para a análise completa.
 
 ---
 
+## AltoQi Axis (2026)
+
+A partir de 2026, o Visus Planning integra-se ao **AltoQi Axis** — a camada de IA transversal do ecossistema AltoQi. Para o módulo Planning, o Axis adiciona alertas preditivos de risco e automação de sequenciamento. Ver a página dedicada: [[products/altoqi-axis]].
+
+---
+
 ## Contexto de Adoção no Brasil
 
 O Projeto Construa Brasil (MDIC) produziu objetos de aprendizagem BIM gratuitos usando o Visus Planning como ferramenta de referência para planejamento 4D — indicativo do posicionamento do produto no ecossistema BIM brasileiro de capacitação acadêmica e profissional.
@@ -136,9 +142,13 @@ O Projeto Construa Brasil (MDIC) produziu objetos de aprendizagem BIM gratuitos 
 
 ## Related Pages
 
+- [[products/altoqi-axis]] — camada de IA transversal do ecossistema AltoQi
+- [[bim-construction/construcao-40]] — paradigma de digitalização da cadeia construtiva
+- [[bim-construction/arquiteto-de-solucoes]] — perfil profissional híbrido
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] — tutorial completo dos 4 módulos
 - [[bim-construction/planejamento-preditivo-obras]] — conceito de planejamento preditivo
 - [[bim-construction/tipos-contrato-engenharia]] — dimensão contratual
 - [[bim-construction/bim-coordination]] — coordenação de modelos federados
 - [[bim-construction/jhonatan-lazarin-ia-gestao-obras]] — cinco frentes de IA na gestão de obras
 - [[bim-construction/alexander-mattos-contratos-engenharia]] — contratos como variável de produto
+- [[bim-construction/eduardo-bandeira-ponte-logica]] — artigo acadêmico sobre Construção 4.0

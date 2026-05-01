@@ -160,7 +160,8 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[products/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-04-26 |
+| [[products/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades (orquestração de fluxos, agentes especializados, aprendizado contínuo, objetos de dados inteligentes, inteligência preditiva, plataforma programável com Nodes/MCP); integra Eberick, Builder e Visus | 2026-05-01 |
+| [[products/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-05-01 |
 
 ---
 

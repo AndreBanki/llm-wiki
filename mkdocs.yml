@@ -147,6 +147,7 @@ nav:
   - Analyses:
     - Session Memory vs. Wiki Synergy: analyses/session-memory-vs-wiki-synergy.md
   - Products:
+    - AltoQi Axis: products/altoqi-axis.md
     - AltoQi Visus Planning: products/altoqi-visus-planning.md
   - Glossary: glossary.md
   

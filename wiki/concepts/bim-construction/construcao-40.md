@@ -126,6 +126,12 @@ A convergência LSF + infraestrutura lógica resolve o enigma da escalabilidade:
 
 ---
 
+## Materialização no Mercado: AltoQi Axis (2026)
+
+O AltoQi Axis é a primeira plataforma comercial brasileira que materializa a visão de Construção 4.0 como produto: uma camada de IA transversal com agentes especializados, objetos de dados inteligentes (ativos semânticos conectados e rastreáveis), aprendizado contínuo (cada obra eleva a maturidade), inteligência preditiva, e plataforma programável com Nodes e MCP. O princípio "o fluxo de dados precede o fluxo de materiais" torna-se operacional: projetos, modelos BIM, contratos, itens orçamentários e medições deixam de ser registros estáticos. Ver detalhes completos em [[products/altoqi-axis]].
+
+---
+
 ## Related Pages
 
 - [[bim-construction/arquiteto-de-solucoes]]
