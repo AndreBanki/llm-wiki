@@ -16,7 +16,7 @@ tags: [overview, synthesis]
 ## Current State
 
 **Source count:** 29  
-**Wiki pages:** 78 (index, log, overview, glossary + 29 sources + 34 concepts + 1 analysis + 4 products)  
+**Wiki pages:** 79 (index, log, overview, glossary + 29 sources + 34 concepts + 2 analyses + 4 products)  
 **Last ingest:** 2026-05-01 — AltoQi Axis — Formulário de Apresentação de Proposta FINEP 2026 (AltoQi Tecnologia em Informática)  
 **Last lint:** 2026-04-24
 

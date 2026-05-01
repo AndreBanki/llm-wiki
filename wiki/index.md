@@ -154,6 +154,7 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[session-memory-vs-wiki-synergy]] | Synergy analysis: how Mem0/session memory and the Karpathy LLM Wiki operate as complementary tiers; vectorless vs. semantic retrieval; knowledge promotion workflow; combined architecture | 2026-04-25 |
+| [[axis-planning-proximos-passos]] | Análise de produto: próximos passos de desenvolvimento do Axis e Visus Planning; simbiose Axis↔Planning; leitura de TRL por componente; sequência lógica de desenvolvimento; "o Axis é a camada de memória que o Planning sempre precisou" | 2026-05-01 |
 
 ---
 
