@@ -4,7 +4,7 @@ type: glossary
 created: 2026-04-07
 updated: 2026-05-01
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf]
 tags: [terminology, style, glossary]
 ---
 
@@ -395,6 +395,50 @@ Each entry follows this format:
 **Dados como Diferencial** *(data as differentiator)*
 : Framing proposto por Jhonatan Lazarin: o que impacta o resultado de uma obra não é a ferramenta de IA em si, mas como os dados são usados ao longo do processo. A IA só amplifica análise e controle quando aplicada sobre processos bem definidos e dados consistentes. Paralelo no wiki: "meaning precedes intelligence" (Palantir Ontology) — inteligência sem substrato semântico produz ruído, não insight.
 - See also: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]], [[ai-engineering/ontology-driven-architecture]]
+
+**Construção 4.0**
+: Paradigma de digitalização absoluta da cadeia de valor construtivo, que preconiza a transição de processos empíricos e artesanais para processos determinísticos e industrializados. Integra BIM 7D, ERP, RPA, IA e métodos construtivos a seco (Light Steel Frame) em uma infraestrutura lógica contínua. Conceito derivado da Indústria 4.0 aplicado à engenharia civil. Referência: Sawhney, Riley e Irix (2020).
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**Arquiteto de Soluções (Construção Civil)**
+: Profissional híbrido na interseção entre Engenharia Civil e Análise e Desenvolvimento de Sistemas (ADS). Projeta a infraestrutura lógica (BIM + ERP + RPA + APIs) que conecta o projeto virtual à execução física. Não é o programador que escreve código, mas o estrategista que define como dados fluem entre plataformas. Origem: Solutions Architect da TI (Bass, Clements e Kazman, 2021), adaptado ao ecossistema construtivo.
+- See also: [[bim-construction/arquiteto-de-solucoes]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**Fio Digital** *(Digital Thread)*
+: Conexão ininterrupta de dados do projeto BIM até a montagem final no canteiro, sem tradução humana intermediária. Na construção a seco: BIM → códigos CNC → fábrica (perfiladeira) → tags a laser → transporte → scan QR no canteiro → montagem guiada por modelo 3D.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/arquiteto-de-solucoes]]
+
+**Light Steel Frame (LSF)**
+: Sistema construtivo industrializado e a seco, estruturado em perfis de aço galvanizado enformados a frio. Intrinsecamente determinístico: cada componente possui dimensões milimétricas precisas, propriedades rastreáveis e local exato de fixação. No contexto da Construção 4.0, é o "hardware perfeito" para processos digitalizados — não aceita desvios nem improvisações.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**Three-Way Matching** *(Conciliação de Três Vias)*
+: Cruzamento automático de três documentos — Pedido de Compra (PO), Nota Fiscal (NF) e Canhoto de Recebimento de Materiais — para aprovação ou bloqueio de pagamento. Se quantidades e valores coincidem, o RPA aprova e agenda o pagamento; divergência suspende pagamento e alerta auditoria. Pilar da automação financeira no back-office da Construção 4.0.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**Zero Waste (Construção)** *(Desperdício Zero)*
+: Conceito de controle milimétrico de insumos guiado por software: a BOM exata do modelo BIM elimina superdimensionamento nas compras; sobra de materiais é classificada como Não Conformidade Técnica (erro de execução, não "economia"). Viabilizado por queries que cruzam consumo real vs. BOM teórica do modelo.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**Gêmeo Digital** *(Digital Twin)*
+: Réplica virtual de um ativo físico que recebe dados do mundo real de forma bidirecional, refletindo o estado atual da edificação. Diferente de um modelo BIM estático: o Digital Twin é um "organismo vivo" alimentado por atualizações de progresso e sensores IoT. No BIM 7D, engloba geometria (3D), tempo (4D), custos (5D), sustentabilidade (6D) e facilidades/ciclo de vida (7D).
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**BIM 7D**
+: Extensão máxima do Building Information Modeling: 3D (geometria) + 4D (tempo/cronograma) + 5D (custos) + 6D (sustentabilidade) + 7D (gestão de facilidades e ciclo de vida). No paradigma da Construção 4.0, o BIM 7D funciona como o banco de dados relacional central do empreendimento, não apenas como representação gráfica.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**RPA** *(Robotic Process Automation / Automação Robótica de Processos)*
+: Utilização de softwares ("bots") para executar tarefas transacionais repetitivas, imitando interações humanas com interfaces de sistemas digitais. No back-office da construção: automação de cotações, pedidos, notas fiscais, Three-Way Matching. Atua como "cola tecnológica" entre sistemas legados sem APIs nativas.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**CDE** *(Common Data Environment / Ambiente Comum de Dados)*
+: Repositório central em nuvem onde todas as informações do projeto são armazenadas e gerenciadas. O Arquiteto de Soluções configura permissões de acesso, rotinas de sincronização e protocolos de versionamento, garantindo que o canteiro acesse a última revisão e o back-office tenha dados precisos.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/bim-coordination]]
+
+**GUID** *(Globally Unique Identifier)*
+: Código alfanumérico único atribuído a cada objeto modelado no BIM, funcionando como chave primária (Primary Key) no banco de dados relacional da obra. Permite rastreabilidade individual de cada componente — do pedido de fabricação à fixação final. No LSF, cada montante de aço tem seu "CPF próprio".
+- See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
 
 ---
 

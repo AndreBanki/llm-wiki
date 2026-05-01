@@ -2,9 +2,9 @@
 title: Planejamento Preditivo de Obras
 type: concept
 created: 2026-04-22
-updated: 2026-04-26
-sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md]
-tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning, simulacao-4d, eap]
+updated: 2026-05-01
+sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf]
+tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning, simulacao-4d, eap, construção-4.0]
 ---
 
 # Planejamento Preditivo de Obras
@@ -169,6 +169,20 @@ A IA não substitui o engenheiro ou coordenador de obra. Ela fornece uma camada 
 
 ---
 
+## O Planejamento Preditivo na Construção 4.0
+
+A visão de Eduardo Bandeira (2026) enquadra o planejamento preditivo como um dos pilares da Construção 4.0 — o paradigma de digitalização absoluta da cadeia de valor construtivo. Nesse modelo, o planejamento preditivo opera sobre uma infraestrutura integrada:
+
+- **BIM 7D** como banco de dados central (não apenas representação 3D)
+- **ERP** recebendo BOM automática do modelo e fragmentando compras conforme cronograma 4D
+- **Scripts sentinelas (daemons)** monitorando ERP e cronogramas em busca de exceções operacionais
+- **Webhooks** disparando ações em cascata (fábrica → logística → canteiro) em tempo real
+- **Dashboards Cognitivos** com simulação "What-If" para a diretoria
+
+O resultado: alertas preditivos não são mais "sugestões" — eles disparam ações automatizadas na cadeia de suprimentos. Ver [[bim-construction/construcao-40]] para o paradigma completo.
+
+---
+
 ## Knowledge Gaps
 
 - Como estruturar o processo de captura de dados históricos em empresas que ainda usam planilhas?
@@ -179,8 +193,11 @@ A IA não substitui o engenheiro ou coordenador de obra. Ela fornece uma camada 
 
 ## Related Pages
 
+- [[bim-construction/construcao-40]]
+- [[bim-construction/arquiteto-de-solucoes]]
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/alessandro-lopes-planejamento-obra-40]]
+- [[bim-construction/eduardo-bandeira-ponte-logica]]
 - [[products/altoqi-visus-planning]]
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
 - [[ai-engineering/enterprise-ai-deployment]]

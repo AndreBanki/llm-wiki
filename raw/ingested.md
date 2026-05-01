@@ -16,6 +16,7 @@ Update this file at the end of every ingest.
 - `I Stopped Using Vector Databases for RAG _ PageIndex Vectorless RAG _ by Sweety Tripathi _ Apr, 2026 _ Generative AI.pdf`
 - `linkedin-post-jhonatan-lazarin-ia-gestao-obras` *(LinkedIn post PDF shared directly — no raw/ file)*
 - `O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf`
+- `O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf`
 - `Palantir's Real Secret Sauce — Ontologies _ by balaji bal _ Mar, 2026 _ Medium.pdf`
 - `Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf`
 - `Post _ LinkedIn_Compatibilização.pdf`

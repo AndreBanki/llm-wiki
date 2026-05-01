@@ -71,6 +71,7 @@ Each entry follows this format:
 | [[bim-construction/jhonatan-lazarin-ia-gestao-obras]] | LinkedIn post (Abr 2026): IA na gestão de obras — dados como diferencial, não a ferramenta; mapa das cinco frentes (planejamento, controle financeiro, equipes, execução, melhoria contínua); pré-condição: processos bem definidos + dados consistentes | 2026-04-25 |
 | [[bim-construction/alexander-mattos-contratos-engenharia]] | LinkedIn post (Abr 2026): tipos de contratos em engenharia (Turn-key/EPC, Preço Unitário, Administração, Aliança); contratos como modelos de alocação de risco; implicações para planejamento e AltoQi Visus Planning | 2026-04-25 |
 | [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] | GT TIC ANTAC / MDIC Construa Brasil (Mai 2025): workflow operacional completo do AltoQi Visus Planning — modelo federado IFC, EAP, cronograma 4D, setorização, simulação, rastreamento planejado vs. executado, relatórios | 2026-04-26 |
+| [[bim-construction/eduardo-bandeira-ponte-logica]] | Artigo técnico-científico (50 páginas, 2026): o Arquiteto de Soluções como ponte entre Eng. Civil e ADS na Construção 4.0; BIM 7D + ERP + RPA + IA + LSF; estudo de caso de integração com fornecedores de aço leve; Digital Thread; Zero Waste guiado por software; escalabilidade via processos padronizados | 2026-05-01 |
 
 ### Software Engineering
 
@@ -125,7 +126,9 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[bim-construction/bim-coordination]] | Coordenação BIM como problema cultural/processual; pares de maior risco de conflito entre disciplinas complementares; ferramentas Procore e Autodesk Construction Cloud | 2026-04-22 |
-| [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta"; Frente 4 confirmada no Visus Planning 2024 | 2026-04-26 |
+| [[bim-construction/construcao-40]] | Construção 4.0: paradigma de digitalização absoluta da cadeia construtiva; processos determinísticos vs. empíricos; BIM 7D, ERP, RPA, IA, LSF como pilares; Fio Digital (Digital Thread); Just-in-Time e Zero Waste; escalabilidade via processos padronizados | 2026-05-01 |
+| [[bim-construction/arquiteto-de-solucoes]] | Arquiteto de Soluções na construção civil: profissional híbrido (Eng. Civil + ADS); tradutor de gargalos físicos em requisitos lógicos; escopo (integração, governança, RPA, escalabilidade); Fio Digital como exemplo prático | 2026-05-01 |
+| [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta"; Frente 4 confirmada no Visus Planning 2024; enquadramento na Construção 4.0 | 2026-05-01 |
 | [[bim-construction/tipos-contrato-engenharia]] | Tipos de contrato em engenharia: Turn-key/EPC, Preço Unitário, Administração, Aliança; alocação de risco por modelo; implicações para planejamento e stakeholders (AltoQi Visus Planning) | 2026-04-25 |
 
 ### Software Engineering

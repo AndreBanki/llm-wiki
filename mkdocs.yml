@@ -92,6 +92,8 @@ nav:
       - Temperature: concepts/ai-engineering/temperature.md
     - BIM & Construction:
       - BIM Coordination: concepts/bim-construction/bim-coordination.md
+      - Construção 4.0: concepts/bim-construction/construcao-40.md
+      - Arquiteto de Soluções: concepts/bim-construction/arquiteto-de-solucoes.md
       - Planejamento Preditivo de Obras: concepts/bim-construction/planejamento-preditivo-obras.md
       - Tipos de Contrato em Engenharia: concepts/bim-construction/tipos-contrato-engenharia.md
     - Coaching & Leadership:
@@ -117,6 +119,7 @@ nav:
       - GenAI Security (Gartner): sources/ai-engineering/gartner-genai-security-workflow.md
       - PageIndex Vectorless RAG: sources/ai-engineering/pageindex-vectorless-rag.md
       - Palantir AIP Bootcamps: sources/ai-engineering/palantir-aip-bootcamps.md
+      - Palantir Ontologies (balaji bal): sources/ai-engineering/balajiBal-palantir-ontologies.md
       - Qwen 3.6 Plus 1T Tokens (Chew Loong Nian): sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md
       - MCP vs API (Vidvatta): sources/ai-engineering/vidvatta-mcp-vs-api-architecture.md
       - Semantic Memory + MCP (Rusnok): sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory.md
@@ -132,6 +135,7 @@ nav:
       - Alexander Mattos — Contratos em Engenharia: sources/bim-construction/alexander-mattos-contratos-engenharia.md
       - Jhonatan Lazarin — IA na Gestão de Obras: sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md
       - Visus Planning Tutorial (GT TIC ANTAC): sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md
+      - Eduardo Bandeira — A Ponte Lógica: sources/bim-construction/eduardo-bandeira-ponte-logica.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
