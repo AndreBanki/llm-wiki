@@ -2,8 +2,8 @@
 title: RAG Retrieval Approaches
 type: concept
 created: 2026-04-22
-updated: 2026-04-27
-sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md]
+updated: 2026-05-01
+sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md]
 tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking, gradient-wall, clara, differentiable-retrieval]
 ---
 
@@ -12,6 +12,10 @@ Overview of Retrieval-Augmented Generation (RAG) retrieval strategies, contrasti
 ## What Is RAG?
 
 Retrieval-Augmented Generation (RAG) is a pattern where an LLM's response is grounded in retrieved document content rather than relying solely on training data. The core challenge is the **retrieval step** — finding the right piece of content to feed to the LLM.
+
+> "The model is the simple part. Retrieval is the hard job that determines whether your RAG system is embarrassing or helpful." — Harika Yenuga
+
+**Practitioner diagnostic:** if your RAG system is underperforming, the first question to ask is not "which LLM should I use?" but: *"What does my retrieval recall look like at k=10 on a held-out evaluation set?"* Most teams have never measured it. They've been blaming the LLM for documents the retriever never surfaced.
 
 ## Two Analytical Frames
 
@@ -206,5 +210,7 @@ See [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] for the full s
 - [[ai-engineering/pageindex-vectorless-rag]] (source article)
 - [[ai-engineering/how-to-use-graphify-knowledge-graph]] (source article)
 - [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] (source article — gradient wall, CLaRa)
+- [[ai-engineering/harika-yenuga-five-llm-concepts-first-agents]] (source article — practitioner framing, recall@k=10 diagnostic)
 - [[ai-engineering/llm-model-economics]]
+- [[ai-engineering/llm-hallucination]]
 - [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] (source article)

@@ -84,8 +84,12 @@ nav:
       - AI Session Memory: concepts/ai-engineering/ai-session-memory.md
       - LLM Wiki Pattern: concepts/ai-engineering/llm-wiki-pattern.md
       - MCP Architecture: concepts/ai-engineering/mcp-architecture.md
+      - Context Window: concepts/ai-engineering/llm-context-window.md
+      - Hallucination: concepts/ai-engineering/llm-hallucination.md
+      - Obsidian Knowledge Graph: concepts/ai-engineering/obsidian-knowledge-graph.md
       - PageIndex: concepts/ai-engineering/pageindex.md
       - RAG Approaches: concepts/ai-engineering/rag-approaches.md
+      - Temperature: concepts/ai-engineering/temperature.md
     - BIM & Construction:
       - BIM Coordination: concepts/bim-construction/bim-coordination.md
       - Planejamento Preditivo de Obras: concepts/bim-construction/planejamento-preditivo-obras.md
@@ -120,6 +124,8 @@ nav:
       - Graphify Knowledge Graph (Bildea): sources/ai-engineering/how-to-use-graphify-knowledge-graph.md
       - Figay — Formal vs. Vendor Ontologies: sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md
       - Shrivastav — RAG Is Fundamentally Broken: sources/ai-engineering/gaurav-shrivastav-rag-fundamentally-broken.md
+      - Shereshevsky — Obsidian Vault as Knowledge Graph: sources/ai-engineering/shereshevsky-obsidian-vault-knowledge-graph.md
+      - Yenuga — Five LLM Concepts for First Agents: sources/ai-engineering/harika-yenuga-five-llm-concepts-first-agents.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
       - Alessandro Lopes — Planejamento de Obra 4.0: sources/bim-construction/alessandro-lopes-planejamento-obra-40.md

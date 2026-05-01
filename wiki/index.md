@@ -45,6 +45,8 @@ Each entry follows this format:
 | [[ai-engineering/how-to-use-graphify-knowledge-graph]] | Medium (Apr 2026): Graphify — converts any folder into a persistent knowledge graph; 3-pass pipeline (AST parsing, local transcription, parallel LLM extraction); provenance tagging (EXTRACTED/INFERRED/AMBIGUOUS); 71.5x token reduction via subgraph retrieval | 2026-04-26 |
 | [[ai-engineering/nfigay-ontology-marketing-vs-formal]] | Medium (Apr 2026): "ontology" as marketing term; what formal ontologies actually require (description logic, OWA, inference); vendor critique (Microsoft Fabric IQ, Palantir); Semantic Cartography as alternative paradigm | 2026-04-27 |
 | [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] | Medium/Generative AI (Apr 2026): RAG's structural flaw is the gradient wall — hard top-K selection blocks backpropagation; five approaches evaluated; CLaRa (Apple, Dec 2025) is the first to break it via differentiable retrieval | 2026-04-27 |
+| [[ai-engineering/shereshevsky-obsidian-vault-knowledge-graph]] | Medium/Graph Praxis (Apr 2026): Obsidian vault as implicit knowledge graph; 5 years / 5,000 notes; four-tier integration model (filesystem → MCP → graph analysis → sidebar); CLAUDE.md design patterns; graph metrics for PKM; compound maintenance; safety practices | 2026-05-01 |
+| [[ai-engineering/harika-yenuga-five-llm-concepts-first-agents]] | Medium/Generative AI pub (Apr 2026): practitioner guide to five LLM operating characteristics — context window as RAM, token measurement methodology, temperature as tail risk regulator, hallucination as system-layer problem, RAG recall@k diagnostic | 2026-05-01 |
 
 ### Coaching & Leadership
 
@@ -86,7 +88,7 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases; content acquisition layer (Layer 0) via Obsidian Web Clipper | 2026-04-26 |
+| [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases; content acquisition layer (Layer 0) via Obsidian Web Clipper; Obsidian-as-builder complementary perspective | 2026-05-01 |
 | [[ai-engineering/ai-session-memory]] | AI session memory: three-tier memory model (context/session/domain), Mem0 + ChromaDB MCP pattern, hook production hazards, vectorless vs. semantic retrieval tension | 2026-04-25 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
 | [[ai-engineering/rag-approaches]] | Comparison of five RAG paradigms (vector, vectorless, graph, 1M context, CLaRa/differentiable) — retrieval mechanism frame + gradient wall frame; process-level improvements (Golden Retriever RAG, Instructed Retriever) | 2026-04-27 |
@@ -95,9 +97,13 @@ Each entry follows this format:
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
-| [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure | 2026-04-22 |
+| [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure; CLAUDE.md design patterns for knowledge vaults (Active Context, Reference Don't Inline, Negative Instructions) | 2026-05-01 |
 | [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm | 2026-04-27 |
 | [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
+| [[ai-engineering/obsidian-knowledge-graph]] | Obsidian vault as implicit knowledge graph: vault-as-graph model, graph metrics for PKM (centrality, orphans, clusters, bridges), compound maintenance, CLAUDE.md design patterns, four-tier tool taxonomy | 2026-05-01 |
+| [[ai-engineering/llm-context-window]] | Context window as RAM: what consumes the budget (system prompt, history, tool schemas, tool results), 30–50K typical agent overhead, the core architectural question (see vs. retrieve), failure modes | 2026-05-01 |
+| [[ai-engineering/temperature]] | LLM temperature as tail risk and reproducibility regulator: near-zero for correctness tasks, higher only for diverse sampling; temperature=0 is not deterministic in hosted APIs | 2026-05-01 |
+| [[ai-engineering/llm-hallucination]] | Hallucination as pattern continuation feature: grounding, output constraints, and verification as system-layer controls; coding agent phantom API hazard | 2026-05-01 |
 
 ### Coaching & Leadership
 

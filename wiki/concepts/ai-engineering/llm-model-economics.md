@@ -2,8 +2,8 @@
 title: LLM Model Economics & Selection
 type: concept
 created: 2026-04-24
-updated: 2026-04-26
-sources: [Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
+updated: 2026-05-01
+sources: [Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md]
 tags: [llm-selection, token-economics, open-weight, frontier-models, cost-quality-tradeoff, openrouter, swe-bench, ai-engineering, tiered-model-routing]
 ---
 
@@ -14,6 +14,22 @@ Decision framework for choosing LLMs in production agent pipelines, balancing ca
 The gap between frontier closed-source models and top open-weight models has shrunk to the point where **the decision between them is now primarily economic rather than qualitative** for most workloads.
 
 > Open-weight models at Qwen 3.6 Plus's price point scored in the 40s on SWE-bench Verified a year ago. In early 2026: 78.8% — within 2 points of the best publicly available model.
+
+---
+
+## Token Measurement: Run Your Actual Workload
+
+Before estimating token costs for any system that scales, run a **representative sample of your actual workload** through the specific model's tokenizer. Word count estimates are systematically inaccurate — they undercount, typically by a significant margin.
+
+Three non-obvious tokenization facts that break naive estimates:
+
+| Fact | Detail |
+|---|---|
+| Code tokenizes worse than prose | A 200-line Python file ≈ 3K tokens (not 2K). Brackets, underscores, indentation, and identifiers all consume tokens. |
+| Non-English text: 2–4x penalty | Most production tokenizers are trained on English-heavy corpora. Japanese, Arabic, and Hindi text can tokenize at 2–4x the rate of equivalent English content — breaking cost models built on English benchmarks. |
+| Structured output costs more | JSON and XML schema enforcement is not free — structured output consistently consumes more tokens than equivalent prose. |
+
+The implication: teams building multilingual products or systems with heavy structured output must treat tokenization measurement as part of system design, not an afterthought.
 
 ---
 
@@ -179,3 +195,5 @@ See [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] for the concret
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/ai-agent-governance]]
 - [[ai-engineering/enterprise-ai-deployment]]
+- [[ai-engineering/llm-context-window]]
+- [[ai-engineering/harika-yenuga-five-llm-concepts-first-agents]] (source article — tokenization measurement methodology)

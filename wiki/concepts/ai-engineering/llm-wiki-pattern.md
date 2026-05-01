@@ -2,9 +2,9 @@
 title: LLM Wiki Pattern
 type: concept
 created: 2026-04-22
-updated: 2026-04-26
-sources: [article.md, tejas-sharma-karpathy-knowledge-system.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md]
-tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian, synthesis, pkm, content-acquisition, web-clipper]
+updated: 2026-05-01
+sources: [article.md, tejas-sharma-karpathy-knowledge-system.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md]
+tags: [llm-wiki, knowledge-management, ai-tools, rag, karpathy, cursor, obsidian, synthesis, pkm, content-acquisition, web-clipper, knowledge-graph]
 ---
 
 # LLM Wiki Pattern
@@ -137,7 +137,7 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 | Tool | Role |
 |---|---|
 | **Cursor AI** | Primary interface for talking to the AI agent; reads schema, runs ingest/query/lint |
-| **Obsidian** | Browser/viewer for the wiki — a *reader*, not a builder. You navigate what the AI built; you don't create notes inside it. Graph view shows knowledge connections visually. |
+| **Obsidian** | Browser/viewer for the wiki — a *reader*, not a builder. You navigate what the AI built; you don't create notes inside it. Graph view shows knowledge connections visually. **Complementary perspective (Shereshevsky):** Obsidian can also be the *builder* — a 5-year, 5,000-note vault is itself a knowledge graph that benefits from AI-assisted maintenance. The reader-vs-builder distinction depends on the layer: in the LLM Wiki pattern, Obsidian reads the AI-built wiki; in a personal vault, the human builds and the AI maintains. See [[ai-engineering/obsidian-knowledge-graph]]. |
 | **Obsidian Web Clipper** | Browser extension to clip web articles directly to `raw/clips/` — 2-click capture with auto-populated YAML frontmatter; 5 content-type templates |
 | Any AI agent | Claude, ChatGPT, Codex, etc. — paste `CLAUDE.md` into context if not using Cursor |
 
@@ -173,3 +173,5 @@ Compare to chat-based AI, which forgets everything after each session and re-der
 - [[glossary]] — canonical terms: LLM Wiki, schema file, knowledge compounding, ingest, lint, quarriable knowledge, synthesis problem
 - [[ai-engineering/creativeaininja-llm-wiki-cursor-obsidian]] — source article (Balu Kosuri; implementation walkthrough)
 - [[ai-engineering/tejas-sharma-karpathy-knowledge-system]] — source article (Tejas Sharma; synthesis problem framing, quarriable knowledge)
+- [[ai-engineering/shereshevsky-obsidian-vault-knowledge-graph]] — source article (Shereshevsky; vault-as-graph, compound maintenance, Obsidian-as-builder perspective)
+- [[ai-engineering/obsidian-knowledge-graph]] — concept: Obsidian vault as implicit knowledge graph; graph metrics for PKM

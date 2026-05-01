@@ -2,9 +2,9 @@
 title: Claude Code Skills
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [eric-luque-claude-code-skills.md]
-tags: [claude-code, skills, agentic-ai, context-engineering, ai-engineering]
+updated: 2026-05-01
+sources: [eric-luque-claude-code-skills.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md]
+tags: [claude-code, skills, agentic-ai, context-engineering, ai-engineering, claude-md, obsidian]
 ---
 
 Claude Code Skills are directory-based context packages that give an AI coding agent specialized knowledge, tools, and operational patterns for a specific task domain — turning a general-purpose model into a competent specialist for that domain.
@@ -185,6 +185,22 @@ Claude Opus 4.7 fundamentally changes the ROI calculation for skills:
 
 ---
 
+## CLAUDE.md Design Patterns for Knowledge Vaults
+
+When using Claude Code with large knowledge vaults (Obsidian, personal wikis), three non-obvious CLAUDE.md patterns emerge from production use (Shereshevsky, 5 years / 5,000+ notes):
+
+| Pattern | Technique | Why It Matters |
+|---|---|---|
+| **Active Context Refresh** | Update an "Active Context" section before each session; append a session log at end | Stale context sends Claude down yesterday's priorities — worse than no context |
+| **Reference, Don't Inline** | Link to separate notes for projects, interests, context — don't paste content into CLAUDE.md | Keeps root file focused; avoids burning tokens on irrelevant context |
+| **Negative Instructions** | Explicitly state "Never modify `_templates/`", "Never delete notes" | More effective than hoping Claude figures it out; learned the hard way |
+
+Complementary resource: `obsidian-skills` (Kepano / Steph Ango) — five skill files teaching Claude Code the full Obsidian format (wikilinks, callouts, Bases, Canvas, CLI). Without them, Claude treats `[[wikilinks]]` as broken Markdown.
+
+See [[ai-engineering/obsidian-knowledge-graph]] for the full vault-as-graph context.
+
+---
+
 ## Relationship to Other Concepts
 
 | Concept | Relationship |
@@ -193,11 +209,14 @@ Claude Opus 4.7 fundamentally changes the ROI calculation for skills:
 | [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki is itself a skills-like pattern: structured knowledge accumulation, gotcha-capture, and progressive indexing |
 | [[ai-engineering/rag-approaches]] | Progressive disclosure in skill folders parallels vectorless RAG: structure guides reasoning rather than brute-force similarity |
 | [[ai-engineering/enterprise-ai-deployment]] | "Start with one gotcha" mirrors "start with one working use case before architecting" — empirical, not theological |
+| [[ai-engineering/obsidian-knowledge-graph]] | CLAUDE.md is the skill file for vault operations; the three design patterns above are vault-specific skill-writing lessons |
 
 ## Related Pages
 
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/llm-wiki-pattern]]
+- [[ai-engineering/obsidian-knowledge-graph]]
+- [[ai-engineering/shereshevsky-obsidian-vault-knowledge-graph]]
 - [[ai-engineering/rag-approaches]]
 - [[ai-engineering/enterprise-ai-deployment]]
 - [[ai-engineering/eric-luque-claude-code-skills]]
