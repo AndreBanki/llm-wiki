@@ -96,6 +96,8 @@ nav:
       - Arquiteto de Soluções: concepts/bim-construction/arquiteto-de-solucoes.md
       - Planejamento Preditivo de Obras: concepts/bim-construction/planejamento-preditivo-obras.md
       - Tipos de Contrato em Engenharia: concepts/bim-construction/tipos-contrato-engenharia.md
+      - openBIM Standards: concepts/bim-construction/openbim-standards.md
+      - Regulatório BIM no Brasil: concepts/bim-construction/bim-regulatorio-brasil.md
     - Coaching & Leadership:
       - Coaching Modes: concepts/coaching-leadership/coaching-modes.md
       - Coaching Paradoxes: concepts/coaching-leadership/coaching-paradoxes.md
@@ -136,6 +138,7 @@ nav:
       - Jhonatan Lazarin — IA na Gestão de Obras: sources/bim-construction/jhonatan-lazarin-ia-gestao-obras.md
       - Visus Planning Tutorial (GT TIC ANTAC): sources/bim-construction/gt-antac-visus-planning-objeto-aprendizagem.md
       - Eduardo Bandeira — A Ponte Lógica: sources/bim-construction/eduardo-bandeira-ponte-logica.md
+      - AltoQi FINEP 2026 — Formulário de Proposta: sources/bim-construction/altoqi-finep-axis-2026.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
@@ -149,6 +152,8 @@ nav:
   - Products:
     - AltoQi Axis: products/altoqi-axis.md
     - AltoQi Visus Planning: products/altoqi-visus-planning.md
+    - AltoQi Plataforma CHECK: products/altoqi-check.md
+    - AltoQi — Perfil Institucional: products/altoqi-company.md
   - Glossary: glossary.md
   
 extra_css:

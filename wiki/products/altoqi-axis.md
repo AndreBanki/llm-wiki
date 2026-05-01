@@ -3,7 +3,7 @@ title: AltoQi Axis
 type: product
 created: 2026-05-01
 updated: 2026-05-01
-sources: []
+sources: [Formulário _ Projeto Finep_Axis_2026.pdf]
 tags: [altoqi, altoqi-axis, ia, agentes, automação, mcp, plataforma-programável, inteligência-preditiva, aprendizado-contínuo, objetos-dados-inteligentes, construção, produto]
 ---
 
@@ -69,6 +69,37 @@ O Axis não é um produto standalone — é a camada de IA que se integra transv
 
 ---
 
+## Arquitetura Técnica: Seis Componentes (Proposta FINEP 2026)
+
+A proposta de subvenção econômica apresentada à FINEP (2026) descreve o Axis através de seis componentes técnicos, cada um com seu TRL atual e meta. Este framing é complementar — não substituto — às Seis Capacidades Centrais acima: as capacidades descrevem o que o produto entrega ao usuário; os componentes descrevem como ele é construído internamente.
+
+| Comp. | Nome | TRL Atual → Meta |
+|---|---|---|
+| a | CDE *(Common Data Environment, ISO 19650-alinhado)* | 5→7 |
+| b | Motor de Orquestração de Processos BIM | 4→7 |
+| c | Plataforma CHECK *(verificação de conformidade BIM com IA)* | 3→7 |
+| d | Sistema de Coleta de Informações da Construção | 4→7 |
+| e | Ambiente de Entrega da Informação *(Transfere.GOV + Obras.GOV 2.0)* | 4→7 |
+| f | Agentes Especializados de IA | 3→7 |
+
+Componentes a–e formam a **camada interna** (estruturação dos dados → fonte única de verdade). Componente f é a **camada externa** (inteligência sobre esses dados → agentes e predição).
+
+Ver detalhes: [[products/altoqi-check]] (Componente c), [[bim-construction/openbim-standards]] (padrões IDS/bSDD que sustentam o Componente c), [[bim-construction/bim-regulatorio-brasil]] (Componente e e o contexto regulatório brasileiro), [[bim-construction/sources/altoqi-finep-axis-2026]]
+
+---
+
+## Modelos de Negócio
+
+| Modelo | Público-alvo |
+|---|---|
+| **SaaS** | Construtoras e incorporadoras (core) |
+| **DaaS** *(Data as a Service)* | Mercado imobiliário, seguradoras, fintechs |
+| **AIaaS com gain-sharing** | Grandes construtoras |
+| **Plataforma Governamental** | Governo federal / estados |
+| **Marketplace** | Ecossistema AEC |
+
+---
+
 ## Relevância para o Wiki
 
 O AltoQi Axis materializa, na prática de um produto brasileiro, vários conceitos documentados no wiki:
@@ -101,11 +132,16 @@ O AltoQi Axis materializa, na prática de um produto brasileiro, vários conceit
 ## Related Pages
 
 - [[products/altoqi-visus-planning]] — plataforma de planejamento 4D; principal módulo de gestão potencializado pelo Axis
+- [[products/altoqi-check]] — Componente c da arquitetura técnica: verificação de conformidade BIM com IA
+- [[products/altoqi-company]] — perfil institucional AltoQi: histórico FINEP, MPS.BR, portfólio
 - [[bim-construction/construcao-40]] — paradigma que o Axis materializa como produto comercial
+- [[bim-construction/openbim-standards]] — padrões IFC/IDS/BCF/bSDD que sustentam os componentes do Axis
+- [[bim-construction/bim-regulatorio-brasil]] — contexto regulatório; Componente e integra com plataformas governamentais
 - [[bim-construction/arquiteto-de-solucoes]] — perfil profissional que opera a plataforma programável do Axis
 - [[bim-construction/planejamento-preditivo-obras]] — conceito de planejamento preditivo; Axis operacionaliza via Inteligência Preditiva
 - [[bim-construction/jhonatan-lazarin-ia-gestao-obras]] — cinco frentes de IA na gestão de obras; Axis cobre todas
 - [[bim-construction/eduardo-bandeira-ponte-logica]] — artigo acadêmico sobre Construção 4.0; Axis valida a visão de Bandeira
+- [[bim-construction/sources/altoqi-finep-axis-2026]] — proposta FINEP 2026; fonte dos componentes técnicos, TRL e modelos de negócio
 - [[ai-engineering/mcp-architecture]] — MCP como protocolo de orquestração; Axis adota MCP na plataforma programável
 - [[ai-engineering/ontology-driven-architecture]] — "meaning precedes intelligence"; Objetos de Dados Inteligentes como camada semântica
 - [[ai-engineering/ai-agent-governance]] — governança de agentes; Axis adota human-in-the-loop by design

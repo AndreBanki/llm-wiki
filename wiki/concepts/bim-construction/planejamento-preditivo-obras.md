@@ -3,7 +3,7 @@ title: Planejamento Preditivo de Obras
 type: concept
 created: 2026-04-22
 updated: 2026-05-01
-sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf]
+sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf]
 tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning, simulacao-4d, eap, construção-4.0]
 ---
 
@@ -21,6 +21,25 @@ Uso de algoritmos e IA para transformar o planejamento de obras de um processo r
 O planejamento tradicional funciona — mas tem um teto. Ele nasce de dados históricos, planilhas e da experiência acumulada na cabeça de poucas pessoas. Em obras com alta complexidade (múltiplos fornecedores, projetos executivos que evoluem em campo, lead times imprevisíveis, prazos inegociáveis), esse teto é atingido.
 
 O planejamento preditivo estende esse teto usando padrões que o olho humano não enxerga com a mesma velocidade.
+
+---
+
+## A Raiz do Problema: Baixa Capacidade de Aprendizagem Operacional
+
+A proposta FINEP 2026 (AltoQi Axis) formaliza o diagnóstico com precisão clínica: **"baixa capacidade de aprendizagem operacional"**. É o mesmo problema que Alessandro Lopes chama de "surpresa", mas visto de um ângulo diferente — não o evento (a surpresa) mas a causa estrutural que o gera (a incapacidade de aprender com obras anteriores).
+
+Os dados de cada obra permanecem dispersos em arquivos, planilhas e e-mails. Decisões bem-sucedidas não viram regras reutilizáveis. Cada obra começa do zero — sem herdar os padrões de produtividade, os lead times reais dos fornecedores, ou os gargalos previsíveis de execução que a obra anterior já mapeou.
+
+> "Cada nova obra começa do zero porque os dados da anterior ficaram presos nela."
+
+| Sintoma | Causa raiz |
+|---|---|
+| Alertas preditivos imprecisos | Falta de histórico estruturado por tipo de serviço / fornecedor |
+| Planejador experiente é insubstituível | Conhecimento na cabeça de poucas pessoas, não em sistemas |
+| Cada obra repete os mesmos erros | Não-conformidades de execução não retroalimentam o planejamento |
+| Sistemas preditivos que não melhoram | Sem loop de dados de campo → cronograma |
+
+O planejamento preditivo endereça o sintoma (antecipa a surpresa). A solução sistêmica exige também endereçar a causa: construir a **infraestrutura de coleta e estruturação** que transforma dados de campo em aprendizagem organizacional. Essa é a camada que o AltoQi Axis adiciona — especialmente os Componentes d (coleta de dados de campo) e f (agentes de IA sobre dados estruturados). Ver [[products/altoqi-axis]] e [[bim-construction/sources/altoqi-finep-axis-2026]].
 
 ---
 
@@ -198,8 +217,10 @@ O resultado: alertas preditivos não são mais "sugestões" — eles disparam a�
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/alessandro-lopes-planejamento-obra-40]]
 - [[bim-construction/eduardo-bandeira-ponte-logica]]
+- [[products/altoqi-axis]] — infraestrutura que endereça a baixa capacidade de aprendizagem operacional
 - [[products/altoqi-visus-planning]]
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
+- [[bim-construction/sources/altoqi-finep-axis-2026]] — diagnóstico formal da "baixa capacidade de aprendizagem operacional"
 - [[ai-engineering/enterprise-ai-deployment]]
 - [[ai-engineering/aip-platform]]
 - [[ai-engineering/llm-wiki-pattern]]

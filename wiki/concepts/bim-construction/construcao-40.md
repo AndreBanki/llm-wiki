@@ -3,7 +3,7 @@ title: Construção 4.0
 type: concept
 created: 2026-05-01
 updated: 2026-05-01
-sources: [O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf]
+sources: [O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf]
 tags: [construção-4.0, digitalização, bim-7d, digital-twin, rpa, erp, lsf, light-steel-frame, processos-determinísticos, industrialização]
 ---
 
@@ -126,6 +126,30 @@ A convergência LSF + infraestrutura lógica resolve o enigma da escalabilidade:
 
 ---
 
+## Brecha do Ciclo de Vida
+
+Uma limitação estrutural documentada na proposta FINEP 2026: o BIM está concentrado nas fases iniciais da cadeia construtiva (concepção e projeto), com adoção ainda baixa nas fases de construção e operação. Consequência: a informação não acompanha o ciclo de vida completo do empreendimento, criando um abismo entre o modelo virtual e a execução física.
+
+> Diagnóstico: "Baixa capacidade de aprendizagem operacional" — dados de cada obra permanecem dispersos; decisões não retroalimentam projetos futuros; cada obra começa do zero.
+
+Essa brecha é exatamente o que o Axis endereça ao unificar projeto e execução sob um CDE (Common Data Environment) e ao coletar dados de campo no modelo (Componente d). Ver [[products/altoqi-axis]].
+
+---
+
+## Contexto Regulatório
+
+O arcabouço legal brasileiro cria demanda mandatória para a digitalização BIM descrita na Construção 4.0:
+
+| Instrumento | Ano | Relevância |
+|---|---|---|
+| **Estratégia BIM BR** | 2018 | Política nacional com metas até 2028; obras públicas obrigadas a usar BIM por fases |
+| **Decreto 10.306/2020** | 2020 | Entrega em IFC obrigatória em obras federais — padrão openBIM como requisito legal |
+| **Lei 14.133/2021, art. 19** | 2021 | Nova Lei de Licitações: BIM previsto nas contratações públicas |
+
+Os padrões openBIM (IFC, IDS, BCF, bSDD) são a infraestrutura técnica que viabiliza o compliance — o "idioma comum" entre ferramentas e o fisco. Ver detalhes em [[bim-construction/openbim-standards]] e [[bim-construction/bim-regulatorio-brasil]].
+
+---
+
 ## Materialização no Mercado: AltoQi Axis (2026)
 
 O AltoQi Axis é a primeira plataforma comercial brasileira que materializa a visão de Construção 4.0 como produto: uma camada de IA transversal com agentes especializados, objetos de dados inteligentes (ativos semânticos conectados e rastreáveis), aprendizado contínuo (cada obra eleva a maturidade), inteligência preditiva, e plataforma programável com Nodes e MCP. O princípio "o fluxo de dados precede o fluxo de materiais" torna-se operacional: projetos, modelos BIM, contratos, itens orçamentários e medições deixam de ser registros estáticos. Ver detalhes completos em [[products/altoqi-axis]].
@@ -139,4 +163,6 @@ O AltoQi Axis é a primeira plataforma comercial brasileira que materializa a vi
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/tipos-contrato-engenharia]]
 - [[bim-construction/eduardo-bandeira-ponte-logica]]
+- [[bim-construction/openbim-standards]] — padrões abertos que viabilizam o Fio Digital e a interoperabilidade
+- [[bim-construction/bim-regulatorio-brasil]] — arcabouço legal que cria demanda mandatória para a Construção 4.0
 - [[altoqi-visus-planning]]

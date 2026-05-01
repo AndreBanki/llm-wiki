@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 28  
-**Wiki pages:** 73 (index, log, overview, glossary + 28 sources + 32 concepts + 1 analysis + 2 products)  
-**Last ingest:** 2026-05-01 — Eduardo Bandeira (A Ponte Lógica: Arquiteto de Soluções na Construção 4.0)  
+**Source count:** 29  
+**Wiki pages:** 78 (index, log, overview, glossary + 29 sources + 34 concepts + 1 analysis + 4 products)  
+**Last ingest:** 2026-05-01 — AltoQi Axis — Formulário de Apresentação de Proposta FINEP 2026 (AltoQi Tecnologia em Informática)  
 **Last lint:** 2026-04-24
 
 ---
@@ -65,6 +65,7 @@ Integração de disciplinas complementares em projetos BIM. Foco no problema cul
 - **Zero Waste guiado por software** — BOM exata do BIM elimina superdimensionamento de compras; sobra de materiais = Não Conformidade Técnica; queries cruzam consumo real vs. teórico. Taxa de perda tradicional (15–30%) inaceitável na Construção 4.0 [²⁸](sources/bim-construction/eduardo-bandeira-ponte-logica.md)
 - **RPA no back-office da construção** — Automação de cotações, pedidos e notas fiscais; Three-Way Matching (PO + NF + Recebimento); "cola tecnológica" entre sistemas legados; estudo de caso detalhado de integração com fornecedores de aço leve (BIM → ERP → CNC → fábrica → logística → canteiro) [²⁸](sources/bim-construction/eduardo-bandeira-ponte-logica.md)
 - **AltoQi Axis (2026)** — Camada de IA transversal do ecossistema AltoQi (Eberick, Builder, Visus). Seis capacidades: Orquestração de Fluxos de Trabalho, Agentes de IA Especializados (human-in-the-loop), Aprendizado Contínuo ("cada obra começa em um nível mais alto de maturidade"), Objetos de Dados Inteligentes (ativos semânticos conectados e rastreáveis), Inteligência Preditiva, Plataforma Programável com Nodes e MCP. Materializa o paradigma de Construção 4.0 (Bandeira) e valida o princípio "meaning precedes intelligence" (ontologias) no domínio construtivo brasileiro
+- **AltoQi Axis — Framing FINEP 2026** [²⁹](sources/bim-construction/altoqi-finep-axis-2026.md) — A proposta FINEP formaliza o problema central como "baixa capacidade de aprendizagem operacional": dados de obra ficam fragmentados em silos, cada projeto recomeça do zero. A arquitetura de solução tem duas camadas: interna (CDE como fonte única de verdade + motor de orquestração + CHECK + coleta de campo + GOV) e externa (agentes de IA com TRL 3→7). O openBIM cluster (IFC/IDS/BCF/bSDD) é a fundação técnica. Ancoragem regulatória: Decreto 10.306/2020 (IFC obrigatório obras federais), Lei 14.133/2021 art.19, Estratégia BIM BR. Modelos de negócio: SaaS, DaaS, AIaaS com gain-sharing, Plataforma Governamental, Marketplace. Perfil institucional: 37+ anos, MPS.BR nível F, histórico de projetos FINEP anteriores.
 
 ### 3. Coaching and Leadership (Personal Development)
 

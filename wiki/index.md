@@ -72,6 +72,7 @@ Each entry follows this format:
 | [[bim-construction/alexander-mattos-contratos-engenharia]] | LinkedIn post (Abr 2026): tipos de contratos em engenharia (Turn-key/EPC, Preço Unitário, Administração, Aliança); contratos como modelos de alocação de risco; implicações para planejamento e AltoQi Visus Planning | 2026-04-25 |
 | [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] | GT TIC ANTAC / MDIC Construa Brasil (Mai 2025): workflow operacional completo do AltoQi Visus Planning — modelo federado IFC, EAP, cronograma 4D, setorização, simulação, rastreamento planejado vs. executado, relatórios | 2026-04-26 |
 | [[bim-construction/eduardo-bandeira-ponte-logica]] | Artigo técnico-científico (50 páginas, 2026): o Arquiteto de Soluções como ponte entre Eng. Civil e ADS na Construção 4.0; BIM 7D + ERP + RPA + IA + LSF; estudo de caso de integração com fornecedores de aço leve; Digital Thread; Zero Waste guiado por software; escalabilidade via processos padronizados | 2026-05-01 |
+| [[bim-construction/sources/altoqi-finep-axis-2026]] | FAP FINEP 2026: problema "baixa capacidade de aprendizagem operacional"; seis componentes técnicos com TRL (CDE 5→7, CHECK 3→7, Agentes IA 3→7); modelos de negócio SaaS/DaaS/AIaaS/Gov/Marketplace; openBIM cluster (IFC/IDS/BCF/bSDD); ancoragem regulatória (Estratégia BIM BR, Decreto 10.306, Lei 14.133); mapa competitivo; perfil institucional AltoQi (37+ anos, MPS.BR F) | 2026-05-01 |
 
 ### Software Engineering
 
@@ -130,6 +131,8 @@ Each entry follows this format:
 | [[bim-construction/arquiteto-de-solucoes]] | Arquiteto de Soluções na construção civil: profissional híbrido (Eng. Civil + ADS); tradutor de gargalos físicos em requisitos lógicos; escopo (integração, governança, RPA, escalabilidade); Fio Digital como exemplo prático | 2026-05-01 |
 | [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta"; Frente 4 confirmada no Visus Planning 2024; enquadramento na Construção 4.0 | 2026-05-01 |
 | [[bim-construction/tipos-contrato-engenharia]] | Tipos de contrato em engenharia: Turn-key/EPC, Preço Unitário, Administração, Aliança; alocação de risco por modelo; implicações para planejamento e stakeholders (AltoQi Visus Planning) | 2026-04-25 |
+| [[bim-construction/openbim-standards]] | openBIM Standards: padrões abertos da buildingSMART (IFC, IDS, BCF, bSDD); pipeline de conformidade; relação com Decreto 10.306/2020; openBIM como pré-condição para inteligência | 2026-05-01 |
+| [[bim-construction/bim-regulatorio-brasil]] | Regulatório BIM no Brasil: Estratégia BIM BR, Decreto 10.306/2020, Lei 14.133/2021, LGPD; ISO 19650; Transfere.GOV e Obras.GOV 2.0; metas por fases até 2028 | 2026-05-01 |
 
 ### Software Engineering
 
@@ -160,8 +163,10 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[products/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades (orquestração de fluxos, agentes especializados, aprendizado contínuo, objetos de dados inteligentes, inteligência preditiva, plataforma programável com Nodes/MCP); integra Eberick, Builder e Visus | 2026-05-01 |
+| [[products/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades + 6 componentes P&D (CDE 5→7, CHECK 3→7, Agentes IA 3→7); modelos SaaS/DaaS/AIaaS/Gov/Marketplace; integra Eberick, Builder e Visus | 2026-05-01 |
 | [[products/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-05-01 |
+| [[products/altoqi-check]] | AltoQi Axis Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3→7; IDS como instrumento contratual; integração com Componentes a/b/e/f do Axis | 2026-05-01 |
+| [[products/altoqi-company]] | AltoQi — Perfil Institucional: 37+ anos, 70.000+ clientes históricos, 10.000+ Visus ativos; MPS.BR nível F; SAFe + CI/CD; histórico FINEP; portfólio Eberick/Builder/Visus/Axis | 2026-05-01 |
 
 ---
 

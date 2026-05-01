@@ -4,7 +4,7 @@ type: glossary
 created: 2026-04-07
 updated: 2026-05-01
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf]
 tags: [terminology, style, glossary]
 ---
 
@@ -437,12 +437,52 @@ Each entry follows this format:
 - See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
 
 **CDE** *(Common Data Environment / Ambiente Comum de Dados)*
-: Repositório central em nuvem onde todas as informações do projeto são armazenadas e gerenciadas. O Arquiteto de Soluções configura permissões de acesso, rotinas de sincronização e protocolos de versionamento, garantindo que o canteiro acesse a última revisão e o back-office tenha dados precisos.
-- See also: [[bim-construction/construcao-40]], [[bim-construction/bim-coordination]]
+: Repositório central em nuvem onde todas as informações do projeto são armazenadas e gerenciadas. O Arquiteto de Soluções configura permissões de acesso, rotinas de sincronização e protocolos de versionamento, garantindo que o canteiro acesse a última revisão e o back-office tenha dados precisos. No AltoQi Axis, o CDE (Componente a) é alinhado à **ISO 19650** — padrão internacional para gestão de informação BIM em projetos colaborativos.
+- See also: [[bim-construction/construcao-40]], [[bim-construction/bim-coordination]], [[bim-construction/openbim-standards]]
 
 **GUID** *(Globally Unique Identifier)*
 : Código alfanumérico único atribuído a cada objeto modelado no BIM, funcionando como chave primária (Primary Key) no banco de dados relacional da obra. Permite rastreabilidade individual de cada componente — do pedido de fabricação à fixação final. No LSF, cada montante de aço tem seu "CPF próprio".
 - See also: [[bim-construction/construcao-40]], [[bim-construction/eduardo-bandeira-ponte-logica]]
+
+**IFC** *(Industry Foundation Classes)*
+: Formato de troca de modelos BIM entre disciplinas e sistemas. Norma ISO 16739; mantido pela buildingSMART International. Versão atual: IFC 4.3 (com suporte a infraestrutura linear). Analogia: o "PDF do BIM" — qualquer software deve conseguir exportar e importar modelos em IFC sem perda de dados semânticos. Mandatório no Brasil: Decreto 10.306/2020 exige entrega em IFC para obras federais.
+- See also: [[bim-construction/openbim-standards]], [[bim-construction/bim-regulatorio-brasil]]
+
+**openBIM**
+: Conjunto de padrões abertos desenvolvidos pela buildingSMART International para viabilizar interoperabilidade entre ferramentas BIM de diferentes fornecedores. Padrões centrais: IFC (troca de modelos), IDS (especificação de requisitos), BCF (comunicação de issues), bSDD (dicionário de propriedades). Princípio: dados de construção devem fluir entre sistemas sem depender de formatos proprietários.
+- See also: [[bim-construction/openbim-standards]]
+
+**IDS** *(Information Delivery Specification)*
+: Padrão openBIM para especificar formalmente o que deve ser entregue em um modelo BIM para uma finalidade específica. Arquivo XML validável automaticamente. Analogia: um contrato técnico digital — define quais propriedades devem estar presentes em quais objetos, com quais valores, em quais fases do projeto. Pode funcionar como especificação técnica formal em contratos. Núcleo da Plataforma CHECK (Componente c do AltoQi Axis).
+- See also: [[bim-construction/openbim-standards]], [[products/altoqi-check]]
+
+**BCF** *(BIM Collaboration Format)*
+: Formato openBIM para comunicação de issues, comentários e solicitações de revisão vinculados a objetos específicos de um modelo BIM. Analogia: GitHub Issues ou Jira, mas com coordenadas 3D — cada issue é ancorado ao objeto e ao viewpoint exatos no modelo. Usado pelo Motor de Orquestração de Processos BIM (Componente b do AltoQi Axis).
+- See also: [[bim-construction/openbim-standards]]
+
+**bSDD** *(buildingSMART Data Dictionary)*
+: Banco de dados internacional aberto de classificações, propriedades e definições para objetos de construção. Acesso via API REST pública. Analogia: o "dicionário enciclopédico" do BIM — define o que é um objeto, quais são suas propriedades padronizadas, em qual classe ele se encaixa. Usado pela Plataforma CHECK para verificar conformidade de propriedades de modelos com definições internacionais.
+- See also: [[bim-construction/openbim-standards]], [[products/altoqi-check]]
+
+**ISO 19650**
+: Padrão internacional (ISO) para gestão de informação usando BIM em projetos de infraestrutura e edificações. Duas partes: ISO 19650-1 (conceitos e princípios de gestão da informação) e ISO 19650-2 (fase de entrega de ativos — projeto e construção). O CDE (Componente a do AltoQi Axis) é projetado em conformidade com a ISO 19650, alinhando o produto com requisitos internacionais e com a Estratégia BIM BR.
+- See also: [[bim-construction/openbim-standards]], [[bim-construction/bim-regulatorio-brasil]]
+
+**Estratégia BIM BR**
+: Política nacional de BIM do Brasil (Decretos 9.377/2018 e 9.983/2019), com metas de digitalização até 2028. Define obrigatoriedade progressiva em obras públicas em três fases: Fase 1 (até 2021 — arquitetura, estrutura, fundações), Fase 2 (até 2024 — disciplinas complementares), Fase 3 (até 2028 — infraestrutura linear). Referencia ISO 19650 como padrão normativo de base.
+- See also: [[bim-construction/bim-regulatorio-brasil]]
+
+**MPS.BR** *(Melhoria de Processo do Software Brasileiro)*
+: Certificação brasileira de qualidade de processo de software, desenvolvida pela SOFTEX. Escala de G (inicial) a A (máximo); equivalente funcional ao CMMI. Pré-requisito para contratos de fornecimento de software ao governo federal. A AltoQi detém nível F desde 2016 — garante rastreabilidade de artefatos, baseline de configuração controlado e métricas formais de processo.
+- See also: [[products/altoqi-company]]
+
+**Plataforma CHECK**
+: Componente c do AltoQi Axis: plataforma de verificação automatizada de conformidade BIM com inteligência artificial. Opera sobre padrões openBIM — IDS e bSDD — para validar se modelos entregues satisfazem os requisitos de informação especificados para o projeto. TRL atual → meta: 3 → 7 (maior salto de maturidade no projeto FINEP 2026).
+- See also: [[products/altoqi-check]], [[bim-construction/openbim-standards]]
+
+**Capacidade de Aprendizagem Operacional**
+: Denominação formal (proposta FINEP 2026, AltoQi Axis) para a capacidade de uma organização ou plataforma de transformar dados de execução de obras em conhecimento reutilizável nas obras seguintes. Sua ausência — "baixa capacidade de aprendizagem operacional" — é o problema central que o Axis endereça: dados de cada obra permanecem dispersos; decisões não retroalimentam projetos futuros; cada obra começa do zero.
+- See also: [[bim-construction/planejamento-preditivo-obras]], [[products/altoqi-axis]], [[bim-construction/sources/altoqi-finep-axis-2026]]
 
 ---
 
