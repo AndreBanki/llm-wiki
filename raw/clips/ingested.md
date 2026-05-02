@@ -7,6 +7,7 @@ Update this file at the end of every clip ingest.
 
 - `Everyone Has an Ontology Now. Almost Nobody Has an Ontology..md`
 - `Five LLM concepts I keep explaining to engineers shipping their first agents.md`
+- `How to Develop An Open Source Ontology & AI Pipeline.md`
 - `How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md`
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 1_4.md`
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 2_4.md`

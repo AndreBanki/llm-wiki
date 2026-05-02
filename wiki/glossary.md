@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-01
+updated: 2026-05-02
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -233,6 +233,19 @@ Each entry follows this format:
 **Active Context** *(CLAUDE.md pattern)*
 : A dedicated section in CLAUDE.md that the user updates before each session with current priorities, open questions, and recent focus areas. Prevents stale context from sending the AI down yesterday's priorities. Complementary to session-end logs (appended by Claude for cross-session continuity). A manual, deterministic equivalent of automated session memory tools like Mem0.
 - See also: [[ai-engineering/obsidian-knowledge-graph]], [[ai-engineering/claude-code-skills]], [[ai-engineering/ai-session-memory]]
+
+**Semantic Layer** *(data semantic layer)*
+: A middle tier that maps technical database tables to business-meaningful terms via configuration (typically YAML). Enables non-technical users to query "Revenue" instead of `SUM(orders.price)`. Tools: Cube.js, dbt Semantic Layer, AtScale. Related to but less rigorous than a formal ontology — provides business-term mapping without description logic, inference, or the Open World Assumption. In the context of open-source Palantir alternatives, the semantic layer replaces the Ontology's metadata and business-term navigation functions.
+- Contrasted with: formal ontology (has inference and formal semantics); schema (describes data structure, not business meaning)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+**Data Lakehouse Medallion Architecture** *(Bronze/Silver/Gold)*
+: A three-tier data organization pattern for data lakehouses: Bronze (raw ingested data, as-is from sources), Silver (cleaned and validated), Gold (business-ready tables mapped to semantic entities). Popularized by Databricks. The Gold layer feeds the semantic layer or ontology. Pre-condition for any open-source ontology build: "Palantir doesn't map to messy data — it maps to cleaned datasets."
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+**Write-Back** *(action framework, write-back pattern)*
+: A UI-triggered operation that modifies underlying data (not just reads). In Palantir's Ontology, this is the "Actions" layer — clicking "Approve Invoice" triggers a database update and logs the change. In open-source stacks, implemented via Retool/Streamlit buttons calling database mutations. Distinguishes an operational system from a read-only analytics layer.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
 
 ---
 
