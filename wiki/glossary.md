@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-02
+updated: 2026-05-03
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -787,6 +787,45 @@ Each entry follows this format:
 **Governance without Ontology**
 : A system in which data access, ownership, and compliance are enforced through policy, but the system itself has no model of the domain's real-world entities and valid operations. Per balaji bal: "Governance without ontology is bureaucracy without physics." Policy can regulate access; only an ontology can enforce what actions are *meaningful and valid*.
 - See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/genai-security-workflow]]
+
+**Protégé** *(Stanford Protégé)*
+: The industry-standard, free, open-source ontology editor developed by Stanford University. The reference tool for building OWL ontologies with full Description Logic support. Supports class hierarchies, object and data properties, individuals, class expressions, and reasoning via Pellet (Stardog) or HermiT. Used by universities and Fortune 500 companies. The canonical tool when formal inference and provability are required.
+- Install: download from protege.stanford.edu
+- Key feature: the reasoner (Pellet/HermiT) automatically classifies individuals into defined classes based on axioms — this is what separates formal ontology from a labeled property graph
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]]
+
+**OrionBelt** *(OrionBelt Ontology Builder)*
+: A browser-based ontology editor built with Streamlit and rdflib, designed for practitioners who build ontologies occasionally rather than full-time ontology engineers. Ships with OWL-RL inference (not full DL), a dedicated SKOS page, bulk class/property creation (paste names as CSV), checkpointed undo, diff-before-import, and five starter templates. Positioned between Protégé (full DL, expert UX) and vendor ontologies (no inference at all).
+- Install: `pip install orionbelt-ontology-builder` / demo: orionbelt.streamlit.app
+- Companion: OrionBelt Analytics generates ontologies from database schemas (PostgreSQL, Snowflake, Dremio)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]]
+
+**SKOS** *(Simple Knowledge Organization System)*
+: A W3C standard for representing controlled vocabularies, taxonomies, and thesauri in RDF. Conceptually distinct from OWL class hierarchies: SKOS models relationships between *terms* (hierarchical navigation, associative links) rather than logical types and their inference rules. Key relationships: `skos:broader` / `skos:narrower` (hierarchical, inverses automatically maintained), `skos:related` (associative), `skos:prefLabel` / `skos:altLabel` (preferred and alternate terms, multilingual).
+- Use case: standardized vocabulary for material types, activity categories, contract types, regulatory classifications — terms that need consistency and interoperability but not full OWL inference
+- Contrasted with: OWL class hierarchy (logical inference); data dictionary / glossary (informal, not RDF)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]]
+
+**Controlled Vocabulary**
+: A standardized set of terms and the relationships between them, managed to enforce consistent use of terminology across a system or organization. SKOS is the standard format for publishing controlled vocabularies as linked data. Examples: medical subject headings, UNESCO Thesaurus, material classification systems in BIM. Simpler than a formal ontology — no inference — but essential for consistent data entry, search, and interoperability.
+- See also: [[ai-engineering/ontology-driven-architecture]]
+
+**OWL-RL** *(OWL Rule Language profile)*
+: A rule-based tractable profile of OWL that is computationally simpler than full OWL DL. Supports class inference via rules but without the full Description Logic expressiveness of OWL DL. Practically: OWL-RL catches most real-world modeling errors and enables basic classification, but cannot prove all the theorems a full DL reasoner can. Used by OrionBelt; more formal than vendor ontologies, less formal than Protégé + HermiT.
+- See also: [[ai-engineering/ontology-driven-architecture]]
+
+**Defined Class (OWL)**
+: An OWL class defined by *necessary and sufficient* conditions (using `owl:equivalentClass`), as opposed to a *primitive class* defined by only necessary conditions (`rdfs:subClassOf`). When an individual satisfies all conditions of a defined class, the reasoner automatically classifies it as a member — without being explicitly told. This is the core mechanism of OWL inference. Example: `VegetarianDish ≡ Dish ∧ (isVegetarian value true)`.
+- Contrasted with: database view (similar output, but computed at query time, not derived by a reasoner)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]]
+
+**DL Query** *(Description Logic Query)*
+: An interactive querying interface within Protégé that accepts Description Logic class expressions and returns matching individuals and classes. Analogous to SQL for relational databases but operates over OWL axioms and reasoner-derived knowledge. Allows complex questions like "find all restaurants that serve at least one vegetarian dish under $15" using logical expressions rather than SQL syntax.
+- See also: [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]]
+
+**Schema.org / FOAF / Dublin Core** *(standard ontology reuse vocabularies)*
+: Three widely adopted standard vocabularies that provide reusable properties before building custom ones. **Schema.org** — general web content (names, addresses, organizations, events, products). **FOAF (Friend of a Friend)** — people, identities, social relationships, online accounts. **Dublin Core** — document metadata (title, creator, subject, description, publisher, date). Best practice: check these before defining `hasName`, `hasAddress`, etc. in a custom ontology.
+- See also: [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]]
 
 **Full Spectrum AI**
 : Palantir's term for the maturity spectrum of enterprise AI deployment, from chat-style interaction at one end to fully automated, event-driven intelligent primitives embedded in business applications at the other. Most enterprises start at the chat end and must be guided toward automation.

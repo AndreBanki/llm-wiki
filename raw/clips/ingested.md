@@ -5,6 +5,7 @@ Update this file at the end of every clip ingest.
 
 ## Ingested
 
+- `Building Your First Ontology_ A Hands-On Tutorial.md`
 - `Everyone Has an Ontology Now. Almost Nobody Has an Ontology..md`
 - `Five LLM concepts I keep explaining to engineers shipping their first agents.md`
 - `How to Develop An Open Source Ontology & AI Pipeline.md`
@@ -15,3 +16,4 @@ Update this file at the end of every clip ingest.
 - `Planejamento da Construção com AltoQi Visus Planning_ objeto de aprendizagem módulo 4_4.md`
 - `RAG Is Fundamentally Broken. Here's Why..md`
 - `Seamless Content Ingestion for Claude-Obsidian Second Brain.md`
+- `You Don't Need a PhD to Build an Ontology.md`

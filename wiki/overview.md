@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 30  
-**Wiki pages:** 80 (index, log, overview, glossary + 30 sources + 34 concepts + 2 analyses + 4 products)  
-**Last ingest:** 2026-05-02 — How to Develop An Open Source Ontology & AI Pipeline (Dhiraj Patra)  
+**Source count:** 32  
+**Wiki pages:** 82 (index, log, overview, glossary + 32 sources + 34 concepts + 2 analyses + 4 products)  
+**Last ingest:** 2026-05-03 — Pankaj Kumar (Protégé tutorial) + Ralfo Becher (OrionBelt/SKOS)  
 **Last lint:** 2026-04-24
 
 ---
@@ -48,6 +48,8 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **The Formal Semantics Gap** — No vendor "ontology" (Microsoft Fabric IQ, Palantir, SAP) commits to formal semantics: description logic, inference, or the Open World Assumption. Palantir's Ontology is the most sophisticated offering but remains a "well-governed conceptual map" — not semantic reasoning in the logical sense. Whether the gap matters depends on what the system must *prove*. Both views held in tension: Bal says it is deterministic in practice; Figay says it cannot formally prove anything [²⁴](sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md)
 - **Semantic Cartography** — A competing paradigm: universal semantic representation is a structural impossibility; the appropriate response is to build tools that navigate the coexistence of multiple, legitimate, incompatible representations — mapping where they align, diverge, and what the interoperability consequences are (Dr Nicolas Figay — CAISE 2025 / I-ESA 2026) [²⁴](sources/ai-engineering/nfigay-ontology-marketing-vs-formal.md)
 - **Open-Source Ontology Implementation** — Palantir's Ontology capabilities can be approximated with open-source tools: Airbyte + dbt (ingestion via Bronze/Silver/Gold medallion layers) → Neo4j (entity graph) → Cube.js or dbt Semantic Layer (business-term mapping via YAML) → Retool/Streamlit (write-back actions) → MLflow + Neo4j GDS (AI integration). Total ownership and flexibility at the cost of integration effort. Critical note: this approach replicates Palantir's practical capabilities but still lacks formal inference — the term "ontology" here means "well-organized semantic layer," not formal ontology [³⁰](sources/ai-engineering/dhiraj-patra-open-source-ontology-pipeline.md)
+- **Protégé: Industry-Standard Formal Ontology Tool** — Protégé (Stanford, free) is the reference environment for building OWL ontologies with full Description Logic inference. Core workflow: paper exercise first (list classes, relationships, attributes, rules) → build in Protégé → run Pellet/HermiT reasoner for automatic individual classification → DL Query → export Turtle/RDF/XML. The inference demo (VegetarianDish automatically classified from `isVegetarian=true`) concretely demonstrates what Figay means by "real formal ontology" — this is structurally different from any vendor product [³¹](sources/ai-engineering/pankaj-kumar-building-first-ontology-tutorial.md)
+- **OrionBelt + SKOS: Lightweight Ontology Tooling** — OrionBelt (Streamlit/rdflib) reduces the UX barrier for occasional ontology builders: bulk class creation, real checkpointed undo, diff-before-import, OWL-RL inference, and a dedicated SKOS page for controlled vocabularies. SKOS (Simple Knowledge Organization System) fills the gap between informal glossary and full OWL ontology: standardized, RDF-serializable vocabularies of terms with `skos:broader` / `skos:narrower` relationships. For the Axis project: material types, activity categories, contract types, and regulatory classifications are natural SKOS concept schemes [³²](sources/ai-engineering/ralfo-becher-you-dont-need-phd-ontology.md)
 - **Enterprise AI Deployment** — The bootcamp model for rapid value + capability building; the "learn to fish, eat a fish" principle; expert feedback loops as IP compounding; chat-to-automation as the key mindset shift [¹⁰](sources/ai-engineering/palantir-aip-bootcamps.md)
 
 ### 2. Coordenação de Projetos BIM (Construção Civil)
@@ -177,7 +179,7 @@ A comprehensive survey of distributed systems, scaling patterns, database strate
 
 O wiki tem cobertura inicial do conceito de ontologia (via Palantir/balaji bal e AIP Bootcamps), mas ela é **superficial em relação à profundidade que o tema merece**. Ontologia é o mecanismo que transforma sistemas de IA em agentes confiáveis — e o wiki ainda não cobre:
 
-- **Implementação prática de ontologias** — como se constrói uma ontologia operacional para um domínio real? Quais ferramentas (SPARQL, OWL, Property Graph, RDF)? Quais padrões de modelagem?
+- ~~**Implementação prática de ontologias**~~ ✅ endereçado: Protégé workflow completo (Kumar, 2025) + OrionBelt como alternativa leve (Becher, 2026); SKOS para vocabulários controlados; paper exercise como metodologia de design
 - **Ontologia vs. Knowledge Graph** — qual a diferença entre um ontology-driven system e um knowledge graph? Quando usar cada abordagem?
 - **Ontologias em sistemas não-Palantir** — como empresas que não usam AIP implementam camadas semânticas equivalentes? Existem padrões open-source?
 - **Ontologia e RAG** — qual a relação entre um ontology-driven retrieval e as abordagens de RAG já documentadas no wiki (vectorless, vector)? Uma ontologia pode substituir o índice?

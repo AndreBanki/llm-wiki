@@ -2,9 +2,9 @@
 title: Ontology-Driven Architecture
 type: concept
 created: 2026-04-24
-updated: 2026-05-02
-sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md]
-tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography, semantic-layer, open-source]
+updated: 2026-05-03
+sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md]
+tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography, semantic-layer, open-source, skos, protege, orionbelt, tools]
 ---
 
 # Ontology-Driven Architecture
@@ -218,11 +218,103 @@ The Palantir Ontology's capabilities can be approximated with open-source tools.
 
 ---
 
+## Practitioner Tooling: Building Ontologies
+
+*Sources: [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]], [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]]*
+
+The formal/informal spectrum described above is reflected in the available tooling. Two primary tools exist for practitioners who need to build ontologies without full-time ontology engineering backgrounds.
+
+### The Design Process: Paper Before Software
+
+Regardless of tool, the recommended methodology (Pankaj Kumar) starts before any software:
+
+1. **List classes** — the 5–10 "things" that exist in the domain (entities)
+2. **Draw relationships** — labeled arrows between concepts (object properties)
+3. **List attributes** — what information describes each class (data properties)
+4. **Articulate rules** — what logical constraints and state transitions exist (axioms)
+
+> "If you can explain your domain to another person, you can model it in an ontology. The formal languages just give structure to knowledge you already have."
+
+This maps directly to the four ontology components: entities → classes; relationships → object properties; constraints/state transitions → axioms and restrictions.
+
+### Tool Comparison
+
+| Dimension | Protégé | OrionBelt |
+|---|---|---|
+| **Created by** | Stanford University | Ralfo Becher (open-source) |
+| **Interface** | Desktop application | Browser-based (Streamlit) |
+| **Reasoner** | Pellet / HermiT (full OWL DL) | OWL-RL (built in) |
+| **Formal semantics** | Full Description Logic ✅ | OWL-RL (subset of OWL DL) ⚠️ |
+| **SWRL / complex axioms** | Supported | Not supported |
+| **SKOS support** | Via plugins | Dedicated SKOS page ✅ |
+| **Bulk operations** | Manual one-by-one | Paste names (one per line or CSV) ✅ |
+| **Undo** | Limited | Checkpointed; bulk rolls back as single step ✅ |
+| **Import diff** | No | Shows new/conflicts/prefix changes before applying ✅ |
+| **Best for** | Formal ontology engineering; full DL inference | Practical domain modeling; fast iteration; SKOS vocabulary |
+| **Install** | Download from protege.stanford.edu | `pip install orionbelt-ontology-builder` |
+
+**Formal semantics position:** Protégé + Pellet/HermiT operates fully in OWL DL — this is the real formal inference that Figay says almost nobody achieves. OrionBelt with OWL-RL is a meaningful step above vendor "ontologies" (which have no inference at all), but still not full DL. The practical choice: start with OrionBelt for speed and accessibility; migrate to Protégé when formal provability is required.
+
+### The Inference Demonstration
+
+The canonical proof of formal inference in Protégé:
+1. Define a class: `VegetarianDish` ≡ `Dish and (isVegetarian value true)`
+2. Create individual: `MargheritaPizza` as a `Dish` with `isVegetarian = true`
+3. Run reasoner (Pellet/HermiT)
+4. Result: `MargheritaPizza` is **automatically classified** as a `VegetarianDish` — never stated explicitly
+
+This is the mechanistic difference between an informal ontology (a labeled property graph) and a formal one (a system that can prove new facts). The Palantir Ontology would require an action rule to be manually written; a formal ontology derives the classification.
+
+### Common Design Mistakes
+
+| Mistake | Wrong approach | Right approach |
+|---|---|---|
+| Too many classes | `ItalianRestaurant`, `ChineseRestaurant`… | One `Restaurant` + `specializesIn` → `CuisineType` |
+| Class vs. individual | `Restaurant` as individual | `Restaurant` as class, `MamasTrattoria` as individual |
+| Overly complex properties | `serves_spicy_vegetarian_dishes` | Combine simple: `serves` + `hasSpiciness` + `isVegetarian` |
+| Reinventing the wheel | Custom `hasName` | Import Schema.org, FOAF, or Dublin Core |
+
+### Standard Ontology Reuse Libraries
+
+Before defining custom properties, check established vocabularies:
+- **Schema.org** — general web content: names, addresses, organizations, events
+- **FOAF (Friend of a Friend)** — people, identities, social relationships
+- **Dublin Core** — document metadata: title, creator, subject, description
+
+---
+
+## SKOS: Controlled Vocabularies
+
+*Source: [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]]*
+
+**SKOS (Simple Knowledge Organization System)** is a W3C standard for representing controlled vocabularies, taxonomies, and thesauri in RDF. It is conceptually distinct from OWL class hierarchies:
+
+| | OWL Class Hierarchy | SKOS Concept Scheme |
+|---|---|---|
+| **Models** | Logical types and individuals | Vocabulary terms and their semantic relationships |
+| **Relationship** | `rdfs:subClassOf` (logical subsumption) | `skos:broader` / `skos:narrower` (hierarchical navigation) |
+| **Use case** | Domain ontology (what exists, what can change) | Controlled vocabulary (authorized terminology, thesaurus) |
+| **Inference** | Reasoner derives new class memberships | Validates cycles, missing labels, hierarchy consistency |
+| **Examples** | "A VegetarianDish is a Dish where isVegetarian=true" | UNESCO Thesaurus, medical subject headings, classification systems |
+
+SKOS is directly relevant to the Axis project: material types, activity categories, contract types, and regulatory classifications are all natural SKOS concept schemes — structured vocabularies that don't need full OWL inference but need consistent, navigable, interoperable terminology.
+
+**Key SKOS relationships:**
+- `skos:Concept` — a unit of thought (a term)
+- `skos:ConceptScheme` — a collection of concepts
+- `skos:broader` / `skos:narrower` — hierarchical; inverses automatically maintained
+- `skos:related` — associative (not hierarchical)
+- `skos:prefLabel` / `skos:altLabel` — preferred and alternate terms (multilingual support)
+
+---
+
 ## Connections to Other Concepts
 
 - **[[ai-engineering/aip-platform]]** — Palantir AIP uses the Ontology to ground AI in real-world operational events; this page deepens and critiques the ontology layer of that concept
 - **[[ai-engineering/nfigay-ontology-marketing-vs-formal]]** — primary source for the Formal Semantics Gap and Semantic Cartography sections above
 - **[[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]** — primary source for the Open-Source Implementation Pathway section
+- **[[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]]** — primary source for the Practitioner Tooling and paper exercise sections above; Protégé workflow
+- **[[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]]** — primary source for OrionBelt and SKOS sections above
 - **[[ai-engineering/mcp-architecture]]** — MCP (Model Context Protocol) is a complementary deterministic interface: MCP defines what *tools* an agent can call; an ontology defines what *reality states* are valid. Both move AI from text-reasoning to structured-world-reasoning
 - **[[ai-engineering/ai-agent-governance]]** — Ontologies are the enforcement mechanism that makes guardrails deterministic; the four-component governance stack (guardrails, observability, FinOps, execution control) is structurally stronger when built on an ontology — and weaker when the ontology lacks formal semantics
 - **[[ai-engineering/genai-security-workflow]]** — The Gartner framework's data governance stage is necessary but, per both sources, insufficient; formal ontologies would complete what governance alone cannot enforce
