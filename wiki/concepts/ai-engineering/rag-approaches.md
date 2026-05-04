@@ -2,8 +2,8 @@
 title: RAG Retrieval Approaches
 type: concept
 created: 2026-04-22
-updated: 2026-05-01
-sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md]
+updated: 2026-05-04
+sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf]
 tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking, gradient-wall, clara, differentiable-retrieval]
 ---
 
@@ -163,6 +163,16 @@ A fourth retrieval approach where the document corpus is represented as a **pers
 - **Token compression**: serves ~300-token subgraphs instead of full raw files — claimed 71.5x reduction
 - **Multi-hop**: topology-clustered graph enables following chains of relationships, not just single-document traversal
 
+### BIM-Specific Execution Pattern (BIMConverse, 2024)
+
+An applied thesis implementation in architecture/construction shows how GraphRAG patterns are operationalized for IFC archives:
+
+- Revit -> IFC -> Neo4j LPG (via IfcOpenShell + TopologicPy + custom extraction)
+- Natural language question -> Cypher translation -> graph execution -> JSON -> natural language answer
+- Demonstrated over ~60 real residential projects, with strong quantitative and relational querying but noticeable sensitivity to prompt precision, context retention, and parameter naming heterogeneity
+
+This case reinforces a practical distinction: many production "GraphRAG" implementations in domain systems behave as NL-to-graph-query mediators over explicit graph databases. They can provide strong grounding and low hallucination risk without necessarily implementing the full graph-community summarization pipeline associated with some Microsoft GraphRAG variants.
+
 ### Best for
 
 - Large codebases with complex dependency graphs
@@ -209,6 +219,7 @@ See [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] for the full s
 - [[ai-engineering/pageindex]]
 - [[ai-engineering/pageindex-vectorless-rag]] (source article)
 - [[ai-engineering/how-to-use-graphify-knowledge-graph]] (source article)
+- [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]] (source article — BIM GraphRAG implementation)
 - [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] (source article — gradient wall, CLaRa)
 - [[ai-engineering/harika-yenuga-five-llm-concepts-first-agents]] (source article — practitioner framing, recall@k=10 diagnostic)
 - [[ai-engineering/llm-model-economics]]

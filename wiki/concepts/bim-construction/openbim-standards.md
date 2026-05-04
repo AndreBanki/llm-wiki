@@ -2,8 +2,8 @@
 title: openBIM Standards
 type: concept
 created: 2026-05-01
-updated: 2026-05-01
-sources: [Formulário _ Projeto Finep_Axis_2026.pdf]
+updated: 2026-05-04
+sources: [Formulário _ Projeto Finep_Axis_2026.pdf, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf]
 tags: [openbim, ifc, ids, bcf, bsdd, buildsmart, interoperabilidade, conformidade-bim, construção, bim]
 ---
 
@@ -91,6 +91,28 @@ Paralelo com o domínio de IA: a mesma lógica de "meaning precedes intelligence
 
 ---
 
+## Ponte para Consultas Naturais: IFC + Grafo + Cypher
+
+O estudo do BIMConverse (IAAC, 2024) adiciona uma camada prática importante a este conceito: openBIM não serve apenas para interoperabilidade entre softwares, mas também como base para consultas naturais orientadas a conhecimento.
+
+Pipeline observado:
+
+1. Revit exportado para IFC (padronização)
+2. IFC parseado com IfcOpenShell e enriquecido com relações implícitas via TopologicPy
+3. Conversão para grafo de propriedades rotuladas (Neo4j)
+4. Pergunta em linguagem natural traduzida para Cypher
+5. Resultado JSON convertido para resposta natural
+
+Principais implicações para o wiki:
+
+- O valor do IFC vai além do intercâmbio: ele vira substrate para raciocínio relacional e não só visualização.
+- A combinação IFC + LPG + Cypher reduz dependência de query manual em ferramentas BIM tradicionais.
+- A qualidade das respostas passa a depender fortemente da qualidade semântica dos parâmetros modelados (nomenclatura consistente, classes bem atribuídas), reforçando governança de dados BIM.
+
+Ver: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
+
+---
+
 ## Related Pages
 
 - [[bim-construction/construcao-40]]
@@ -100,4 +122,5 @@ Paralelo com o domínio de IA: a mesma lógica de "meaning precedes intelligence
 - [[products/altoqi-axis]]
 - [[products/altoqi-visus-planning]]
 - [[bim-construction/sources/altoqi-finep-axis-2026]]
+- [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
 - [[glossary]]

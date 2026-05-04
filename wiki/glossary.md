@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-03
+updated: 2026-05-04
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf]
 tags: [terminology, style, glossary]
 ---
 
@@ -460,6 +460,26 @@ Each entry follows this format:
 **IFC** *(Industry Foundation Classes)*
 : Formato de troca de modelos BIM entre disciplinas e sistemas. Norma ISO 16739; mantido pela buildingSMART International. Versão atual: IFC 4.3 (com suporte a infraestrutura linear). Analogia: o "PDF do BIM" — qualquer software deve conseguir exportar e importar modelos em IFC sem perda de dados semânticos. Mandatório no Brasil: Decreto 10.306/2020 exige entrega em IFC para obras federais.
 - See also: [[bim-construction/openbim-standards]], [[bim-construction/bim-regulatorio-brasil]]
+
+**IfcOpenShell**
+: Biblioteca open-source para leitura, parsing e manipulação de arquivos IFC. Base técnica frequente para extração estruturada de entidades, propriedades e relações explícitas em pipelines BIM-data. No contexto BIMConverse, é o extrator primário da camada IFC antes da materialização em grafo.
+- See also: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
+
+**TopologicPy**
+: Biblioteca Python para modelagem topológica/geometria computacional aplicada a arquitetura e urbanismo. Em pipelines IFC->grafo, complementa o parsing explícito com inferência de relações espaciais implícitas (adjacência, conectividade, topologia).
+- See also: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
+
+**Neo4j**
+: Banco de dados de grafos do tipo Labeled Property Graph (LPG), com nós, relações direcionadas e propriedades. Frequentemente usado para consultas multi-hop, pathfinding e modelagem de domínios altamente relacionais. Em BIMConverse, armazena o grafo derivado de IFC e executa as consultas Cypher.
+- See also: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+**Cypher**
+: Linguagem declarativa de consulta para grafos (OpenCypher), centrada em padrões de caminho entre nós e relações. No contexto de NL querying sobre BIM, o LLM converte perguntas naturais em Cypher executável sobre o grafo IFC.
+- See also: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
+
+**NeoConverse / BIMConverse**
+: Interface de chat para consulta de grafos via LLM. NeoConverse é a base fornecida pela Neo4j; BIMConverse é a versão customizada do projeto IAAC para consultas naturais em arquivos IFC convertidos para LPG. Fluxo típico: pergunta NL -> Cypher -> JSON -> resposta NL.
+- See also: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
 
 **openBIM**
 : Conjunto de padrões abertos desenvolvidos pela buildingSMART International para viabilizar interoperabilidade entre ferramentas BIM de diferentes fornecedores. Padrões centrais: IFC (troca de modelos), IDS (especificação de requisitos), BCF (comunicação de issues), bSDD (dicionário de propriedades). Princípio: dados de construção devem fluir entre sistemas sem depender de formatos proprietários.
