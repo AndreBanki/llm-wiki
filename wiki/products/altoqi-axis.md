@@ -2,7 +2,7 @@
 title: AltoQi Axis
 type: product
 created: 2026-05-01
-updated: 2026-05-01
+updated: 2026-05-04
 sources: [Formulário _ Projeto Finep_Axis_2026.pdf]
 tags: [altoqi, altoqi-axis, ia, agentes, automação, mcp, plataforma-programável, inteligência-preditiva, aprendizado-contínuo, objetos-dados-inteligentes, construção, produto]
 ---
@@ -85,6 +85,14 @@ A proposta de subvenção econômica apresentada à FINEP (2026) descreve o Axis
 Componentes a–e formam a **camada interna** (estruturação dos dados → fonte única de verdade). Componente f é a **camada externa** (inteligência sobre esses dados → agentes e predição).
 
 Ver detalhes: [[products/altoqi-check]] (Componente c), [[bim-construction/openbim-standards]] (padrões IDS/bSDD que sustentam o Componente c), [[bim-construction/bim-regulatorio-brasil]] (Componente e e o contexto regulatório brasileiro), [[bim-construction/sources/altoqi-finep-axis-2026]]
+
+---
+
+## Roadmap Sistêmico de TRL (2→7)
+
+No framing de portfólio e produto, os componentes do Axis iniciam em TRLs distintos; no framing sistêmico da proposta FINEP, a solução integrada é tratada como evolução de TRL 2 para TRL 7. A progressão prevista é sequencial: consolidação de arquitetura e casos de uso para viabilizar provas de conceito representativas (2→3), validação funcional em laboratório com metas de desempenho e estabilidade (3→4), integração em fluxo único e validação em ambiente relevante de obra com governança e interoperabilidade openBIM (4→5), demonstração contínua das funções críticas em pilotos ampliados (5→6) e demonstração operacional do sistema com repetibilidade entre projetos e ganhos mensuráveis (6→7).
+
+Este roadmap complementa a tabela de TRL por componente: em vez de substituir os níveis individuais, fornece a visão de maturidade da solução AXIS como plataforma completa.
 
 ---
 

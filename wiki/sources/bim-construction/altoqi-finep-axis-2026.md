@@ -2,7 +2,7 @@
 title: "AltoQi Axis — Formulário de Apresentação de Proposta FINEP 2026"
 type: source
 created: 2026-05-01
-updated: 2026-05-01
+updated: 2026-05-04
 source_url: https://docs.google.com/document/d/1jOValoo1mQn_ZsdjJX3a3hbLK1OCU4zC/edit#heading=h.sksfp4x72nyr
 source_type: grant-application
 author: AltoQi Tecnologia em Informática
@@ -48,6 +48,32 @@ Diagnóstico de base (citando publicação Springer): o BIM está concentrado na
 | f | **Agentes Especializados de IA** | 3→7 | Operam sobre dados estruturados dos demais componentes para geração de insights, alertas preditivos e automação de rotinas |
 
 **Nota arquitetural:** Componentes a–e formam a camada interna (dados estruturados → fonte única de verdade). Componente f é a camada externa (inteligência sobre esses dados).
+
+---
+
+## Evolução Sistêmica de Maturidade (TRL 2→7)
+
+Além dos TRLs por componente, o enquadramento sistêmico do AXIS considera a solução como um todo partindo de TRL 2 e chegando a TRL 7 ao final do projeto, com progressão orientada por redução de risco tecnológico e evidência operacional em cada etapa.
+
+### TRL 2 → TRL 3
+
+No avanço para TRL 3, a prioridade é consolidar a arquitetura integrada do AXIS e eliminar ambiguidades de escopo técnico que poderiam comprometer as provas de conceito. Isso inclui definição de requisitos críticos, priorização de casos de uso de maior impacto e estabelecimento de uma base semântica comum com padrões openBIM (IFC, IDS, BCF e bSDD), de modo que os experimentos já nasçam integráveis ao sistema futuro.
+
+### TRL 3 → TRL 4
+
+Na transição para TRL 4, as provas de conceito são convertidas em protótipos funcionais validados em laboratório, com dados sintéticos e históricos anonimizados, instrumentação técnica e métricas de desempenho. O foco é assegurar acurácia, latência e estabilidade mínimas dos componentes críticos antes de sua exposição a cenários operacionais mais variáveis.
+
+### TRL 4 → TRL 5
+
+O salto para TRL 5 ocorre com integração incremental dos módulos em fluxo único e validação em ambiente relevante de obra, com processos e artefatos representativos. Nesta etapa, a mitigação de risco depende de robustez de interoperabilidade openBIM, governança de dados por versionamento e auditoria, e qualificação contínua das entradas para evitar propagação de inconsistências.
+
+### TRL 5 → TRL 6
+
+Para atingir TRL 6, o AXIS é demonstrado em pilotos ampliados com as funções críticas operando de forma contínua: atualização de dados de campo, verificação automatizada de conformidade, alertas preditivos de desvio e acionamento de workflows por eventos do cronograma. A maturidade é medida por indicadores técnicos e operacionais, com monitoramento contínuo e mecanismos de contingência quando necessário.
+
+### TRL 6 → TRL 7
+
+Na etapa final, o AXIS é demonstrado como protótipo sistêmico em ambiente operacional real, com uso por perfis efetivos de engenharia, planejamento, gestão e conformidade, além de integração com sistemas corporativos e, quando aplicável, plataformas governamentais. A comprovação do TRL 7 é baseada em repetibilidade entre projetos e ganhos mensuráveis em previsibilidade, tempo de resposta, redução de retrabalho e confiabilidade da informação.
 
 ---
 
