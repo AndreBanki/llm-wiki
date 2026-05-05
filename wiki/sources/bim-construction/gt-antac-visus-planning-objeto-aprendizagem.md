@@ -226,7 +226,7 @@ IFCs → Modelo Federado
 
 ## Related Pages
 
-- [[products/altoqi-visus-planning]]
+- [[projects/altoqi-visus-planning]]
 - [[bim-construction/planejamento-preditivo-obras]]
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/tipos-contrato-engenharia]]

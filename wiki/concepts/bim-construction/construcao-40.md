@@ -132,7 +132,7 @@ Uma limitação estrutural documentada na proposta FINEP 2026: o BIM está conce
 
 > Diagnóstico: "Baixa capacidade de aprendizagem operacional" — dados de cada obra permanecem dispersos; decisões não retroalimentam projetos futuros; cada obra começa do zero.
 
-Essa brecha é exatamente o que o Axis endereça ao unificar projeto e execução sob um CDE (Common Data Environment) e ao coletar dados de campo no modelo (Componente d). Ver [[products/altoqi-axis]].
+Essa brecha é exatamente o que o Axis endereça ao unificar projeto e execução sob um CDE (Common Data Environment) e ao coletar dados de campo no modelo (Componente d). Ver [[projects/altoqi-axis]].
 
 ---
 
@@ -152,7 +152,7 @@ Os padrões openBIM (IFC, IDS, BCF, bSDD) são a infraestrutura técnica que via
 
 ## Materialização no Mercado: AltoQi Axis (2026)
 
-O AltoQi Axis é a primeira plataforma comercial brasileira que materializa a visão de Construção 4.0 como produto: uma camada de IA transversal com agentes especializados, objetos de dados inteligentes (ativos semânticos conectados e rastreáveis), aprendizado contínuo (cada obra eleva a maturidade), inteligência preditiva, e plataforma programável com Nodes e MCP. O princípio "o fluxo de dados precede o fluxo de materiais" torna-se operacional: projetos, modelos BIM, contratos, itens orçamentários e medições deixam de ser registros estáticos. Ver detalhes completos em [[products/altoqi-axis]].
+O AltoQi Axis é a primeira plataforma comercial brasileira que materializa a visão de Construção 4.0 como produto: uma camada de IA transversal com agentes especializados, objetos de dados inteligentes (ativos semânticos conectados e rastreáveis), aprendizado contínuo (cada obra eleva a maturidade), inteligência preditiva, e plataforma programável com Nodes e MCP. O princípio "o fluxo de dados precede o fluxo de materiais" torna-se operacional: projetos, modelos BIM, contratos, itens orçamentários e medições deixam de ser registros estáticos. Ver detalhes completos em [[projects/altoqi-axis]].
 
 ---
 

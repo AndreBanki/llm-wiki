@@ -113,6 +113,7 @@ Descrevem projetos formais de desenvolvimento — escopo de evolução, componen
 | Página | Projeto | Descrição |
 |---|---|---|
 | [[projects/finep-mais-inovacao-brasil-2026]] | FINEP Mais Inovação Brasil 2026 | Subvenção econômica FINEP/MCTI: 6 componentes (TRL 3→7), roadmap sistêmico TRL 2→7, modelos de negócio, mapa competitivo |
+| [[projects/mpd-visus-evolucao-plataforma]] | MPD — Evolução da Plataforma Visus | Proposta de evolução de produto orientada a ciclo de vida contratual (procurement + execução + medição + pagamento) com Pacote como objeto central |
 
 ---
 
@@ -122,6 +123,7 @@ Descrevem projetos formais de desenvolvimento — escopo de evolução, componen
 - [[projects/altoqi-visus-planning]]
 - [[projects/altoqi-check]]
 - [[projects/finep-mais-inovacao-brasil-2026]]
+- [[projects/mpd-visus-evolucao-plataforma]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/arquiteto-de-solucoes]]
 - [[bim-construction/planejamento-preditivo-obras]]

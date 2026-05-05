@@ -130,7 +130,7 @@ Ver [[bim-construction/tipos-contrato-engenharia]] para a análise completa.
 
 ## AltoQi Axis (2026)
 
-A partir de 2026, o Visus Planning integra-se ao **AltoQi Axis** — a camada de IA transversal do ecossistema AltoQi. Para o módulo Planning, o Axis adiciona alertas preditivos de risco e automação de sequenciamento. Ver a página dedicada: [[products/altoqi-axis]].
+A partir de 2026, o Visus Planning integra-se ao **AltoQi Axis** — a camada de IA transversal do ecossistema AltoQi. Para o módulo Planning, o Axis adiciona alertas preditivos de risco e automação de sequenciamento. Ver a página dedicada: [[projects/altoqi-axis]].
 
 ---
 
@@ -145,9 +145,11 @@ O Projeto Construa Brasil (MDIC) produziu objetos de aprendizagem BIM gratuitos 
 - [[projects/finep-mais-inovacao-brasil-2026]] — proposta de P&D que define a evolução do Planning via Componentes d e e
 - [[projects/altoqi-axis]] — camada de IA transversal que potencializa o Planning
 - [[projects/altoqi-company]] — perfil institucional e índice de projetos
+- [[projects/mpd-visus-evolucao-plataforma]] — proposta de evolução orientada a procurement/contratos; expande o papel do Planning como input da timeline de pacotes
 - [[bim-construction/construcao-40]] — paradigma de digitalização da cadeia construtiva
 - [[bim-construction/arquiteto-de-solucoes]] — perfil profissional híbrido
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] — tutorial completo dos 4 módulos
+- [[bim-construction/visus-evolucao-mpd-analise-produto]] — análise AS IS/TO BE integral da MPD; detalha gatilhos de contratação dependentes do cronograma do Planning
 - [[bim-construction/planejamento-preditivo-obras]] — conceito de planejamento preditivo
 - [[bim-construction/tipos-contrato-engenharia]] — dimensão contratual
 - [[bim-construction/bim-coordination]] — coordenação de modelos federados

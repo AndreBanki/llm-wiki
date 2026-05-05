@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-04
+updated: 2026-05-05
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -246,6 +246,42 @@ Each entry follows this format:
 **Write-Back** *(action framework, write-back pattern)*
 : A UI-triggered operation that modifies underlying data (not just reads). In Palantir's Ontology, this is the "Actions" layer — clicking "Approve Invoice" triggers a database update and logs the change. In open-source stacks, implemented via Retool/Streamlit buttons calling database mutations. Distinguishes an operational system from a read-only analytics layer.
 - See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+---
+
+## BIM / Procurement e Gestão Contratual
+
+**Pacote de Entrega** *(Pacote)*
+: Unidade central de gestão de escopo na obra, usada desde a viabilidade até a execução. No framing MPD/Visus, é um objeto persistente que agrupa projetos, memorial, quantitativos, critérios de qualidade, cronograma e condições contratuais. Hierarquia-alvo: Obra → Pacote → Contrato → Marco de Medição.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]], [[projects/mpd-visus-evolucao-plataforma]]
+
+**Gate 4** *(Pacotes para Contratação + Execução)*
+: Gate crítico do método de pacotes em que os projetos executivos coordenados são convertidos em pacotes operacionais para contratação e execução. Representa o maior ponto de transformação de informação no ciclo de vida do empreendimento.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]]
+
+**Carta Convite** *(procurement de obra)*
+: Documento de cotação enviado a fornecedores com escopo técnico, lista de projetos/revisões, plano de ataque, cronograma, quantitativos e condições contratuais/comerciais. No AS IS MPD é montada manualmente; no TO BE Visus é gerada a partir do pacote.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]]
+
+**Mapa de Cotações** *(equalização de propostas)*
+: Estrutura comparativa para nivelar propostas de fornecedores com condições heterogêneas (frete, impostos, BDI, INSS, prazo de pagamento), permitindo ranking e decisão justificada de fechamento.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]], [[projects/mpd-visus-evolucao-plataforma]]
+
+**Boletim de Medição (BM)**
+: Registro periódico de medição contratual por item/valor submetido pelo fornecedor, validado pela obra e usado como gatilho para pagamento no ERP após aprovação.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]]
+
+**Glosa** *(medição contratual)*
+: Desconto aplicado no Boletim de Medição quando há divergência de medição, não conformidade de qualidade ou documentação incompleta.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]]
+
+**DataBook Contratual**
+: Repositório histórico de execução por contrato/fornecedor com evidências de qualidade (fotos, laudos, checklists), medições aprovadas/rejeitadas e decisões associadas. Base para aprendizado entre obras e qualificação de fornecedores.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]]
+
+**EAP Mínima Obrigatória por Pacotes**
+: Restrição estrutural proposta para Cost Management: todos os itens de custo devem se ancorar em uma hierarquia mínima comum (Obra → Pacote → Contrato), viabilizando visão macro de portfólio na Control Tower e interoperabilidade entre módulos.
+- See also: [[bim-construction/visus-evolucao-mpd-analise-produto]], [[projects/mpd-visus-evolucao-plataforma]]
 
 ---
 
@@ -515,7 +551,7 @@ Each entry follows this format:
 
 **Capacidade de Aprendizagem Operacional**
 : Denominação formal (proposta FINEP 2026, AltoQi Axis) para a capacidade de uma organização ou plataforma de transformar dados de execução de obras em conhecimento reutilizável nas obras seguintes. Sua ausência — "baixa capacidade de aprendizagem operacional" — é o problema central que o Axis endereça: dados de cada obra permanecem dispersos; decisões não retroalimentam projetos futuros; cada obra começa do zero.
-- See also: [[bim-construction/planejamento-preditivo-obras]], [[projects/altoqi-axis]], [[bim-construction/sources/altoqi-finep-axis-2026]]
+- See also: [[bim-construction/planejamento-preditivo-obras]], [[projects/altoqi-axis]], [[bim-construction/altoqi-finep-axis-2026]]
 
 ---
 

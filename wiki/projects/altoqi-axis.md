@@ -137,6 +137,7 @@ O AltoQi Axis materializa, na prática de um produto brasileiro, vários conceit
 - [[projects/altoqi-check]] — Componente c da arquitetura técnica: verificação de conformidade BIM com IA
 - [[projects/altoqi-visus-planning]] — plataforma de planejamento 4D; principal módulo de gestão potencializado pelo Axis
 - [[projects/altoqi-company]] — perfil institucional AltoQi e índice de projetos
+- [[projects/mpd-visus-evolucao-plataforma]] — caso de evolução orientado a procurement/contratos; explicita como Axis agrega valor preditivo sobre dados contratuais
 - [[bim-construction/construcao-40]] — paradigma que o Axis materializa como produto comercial
 - [[bim-construction/openbim-standards]] — padrões IFC/IDS/BCF/bSDD que sustentam os componentes do Axis
 - [[bim-construction/bim-regulatorio-brasil]] — contexto regulatório; Componente e integra com plataformas governamentais
@@ -144,7 +145,8 @@ O AltoQi Axis materializa, na prática de um produto brasileiro, vários conceit
 - [[bim-construction/planejamento-preditivo-obras]] — conceito de planejamento preditivo; Axis operacionaliza via Inteligência Preditiva
 - [[bim-construction/jhonatan-lazarin-ia-gestao-obras]] — cinco frentes de IA na gestão de obras; Axis cobre todas
 - [[bim-construction/eduardo-bandeira-ponte-logica]] — artigo acadêmico sobre Construção 4.0; Axis valida a visão de Bandeira
-- [[bim-construction/sources/altoqi-finep-axis-2026]] — proposta FINEP 2026; fonte dos componentes técnicos, TRL e modelos de negócio
+- [[bim-construction/altoqi-finep-axis-2026]] — proposta FINEP 2026; fonte dos componentes técnicos, TRL e modelos de negócio
+- [[bim-construction/visus-evolucao-mpd-analise-produto]] — análise AS IS/TO BE da MPD; evidencia o gap de procurement como fronteira de evolução do ecossistema Visus + Axis
 - [[ai-engineering/mcp-architecture]] — MCP como protocolo de orquestração; Axis adota MCP na plataforma programável
 - [[ai-engineering/ontology-driven-architecture]] — "meaning precedes intelligence"; Objetos de Dados Inteligentes como camada semântica
 - [[ai-engineering/ai-agent-governance]] — governança de agentes; Axis adota human-in-the-loop by design

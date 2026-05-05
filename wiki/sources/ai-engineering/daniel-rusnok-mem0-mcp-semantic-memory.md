@@ -157,4 +157,4 @@ Data persists between sessions, projects, and reboots. It's just a SQLite file.
 - [[ai-engineering/llm-wiki-pattern]] — The Karpathy system this source complements
 - [[ai-engineering/ai-agent-governance]] — Broader governance concerns for AI automation
 - [[ai-engineering/claude-code-skills]] — Another pattern for Claude Code context management
-- [[ai-engineering/semantic-memory-vs-wiki]] — Analysis of the architectural tension between these approaches
+- [[analyses/session-memory-vs-wiki-synergy]] — Analysis of the architectural tension between these approaches

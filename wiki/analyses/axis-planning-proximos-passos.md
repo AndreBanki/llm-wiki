@@ -33,19 +33,19 @@ O Axis é composto por seis componentes técnicos, cada um com um nível de matu
 
 Três componentes estão demonstrados em ambiente relevante e precisam de robustez e escala, não de pesquisa nova:
 
-- **[[products/altoqi-axis|Componente b — Motor de Orquestração]]** coordena workflows multi-stakeholder com gatilhos automáticos por marcos do cronograma e issues vinculados a objetos do modelo via BCF. O próximo passo é tornar esses gatilhos confiáveis em ambiente de produção com múltiplos projetos simultâneos.
+- **[[projects/altoqi-axis]] (Componente b — Motor de Orquestração)** coordena workflows multi-stakeholder com gatilhos automáticos por marcos do cronograma e issues vinculados a objetos do modelo via BCF. O próximo passo é tornar esses gatilhos confiáveis em ambiente de produção com múltiplos projetos simultâneos.
 
-- **[[products/altoqi-axis|Componente d — Coleta de Campo]]** captura dados de execução no canteiro — formulários, fotos, leituras de QR/RFID — e os vincula ao modelo BIM. É o componente mais urgente operacionalmente: sem ele, o Axis tem inteligência sobre dados históricos de projeto, mas não sobre o que está acontecendo na obra agora. O gêmeo digital permanece um arquivo, não uma ferramenta ativa. O QR scan de uma peça montada no canteiro deveria atualizar automaticamente o percentual de execução no modelo virtual — enquanto isso não acontece, o loop entre execução física e modelo digital permanece quebrado.
+- **[[projects/altoqi-axis]] (Componente d — Coleta de Campo)** captura dados de execução no canteiro — formulários, fotos, leituras de QR/RFID — e os vincula ao modelo BIM. É o componente mais urgente operacionalmente: sem ele, o Axis tem inteligência sobre dados históricos de projeto, mas não sobre o que está acontecendo na obra agora. O gêmeo digital permanece um arquivo, não uma ferramenta ativa. O QR scan de uma peça montada no canteiro deveria atualizar automaticamente o percentual de execução no modelo virtual — enquanto isso não acontece, o loop entre execução física e modelo digital permanece quebrado.
 
-- **[[products/altoqi-axis|Componente e — Ambiente de Entrega da Informação]]** produz dashboards de gestão e integra com plataformas governamentais (Transfere.GOV e Obras.GOV 2.0). O avanço aqui abre o mercado público — o Decreto 10.306/2020 torna o IFC obrigatório em obras federais, e a Lei 14.133/2021 prevê BIM nas contratações públicas, criando demanda estrutural por um ambiente de entrega que já fale a linguagem dessas plataformas.
+- **[[projects/altoqi-axis]] (Componente e — Ambiente de Entrega da Informação)** produz dashboards de gestão e integra com plataformas governamentais (Transfere.GOV e Obras.GOV 2.0). O avanço aqui abre o mercado público — o Decreto 10.306/2020 torna o IFC obrigatório em obras federais, e a Lei 14.133/2021 prevê BIM nas contratações públicas, criando demanda estrutural por um ambiente de entrega que já fale a linguagem dessas plataformas.
 
 ### Componentes de ruptura (TRL 3→7)
 
 Dois componentes têm o maior salto de maturidade e são os de maior risco técnico — e também os de maior diferencial percebido pelo cliente:
 
-- **[[products/altoqi-check|Componente c — Plataforma CHECK]]** realiza verificação automatizada de conformidade BIM usando IDS *(Information Delivery Specification)* e bSDD *(buildingSMART Data Dictionary)*. O IDS define o que deve ser entregue em cada fase do projeto — quais propriedades cada elemento precisa ter, com quais valores, em qual formato. O bSDD fornece o dicionário de propriedades para essa verificação. Hoje, a conformidade de um modelo BIM contra os requisitos do projeto é verificada manualmente — ou não é verificada. O CHECK automatiza essa etapa: dado um contrato ou conjunto de requisitos, o sistema verifica se o modelo IFC os satisfaz elemento a elemento. O próximo passo de desenvolvimento é a geração automática de regras IDS a partir de linguagem contratual — LLMs que leem o caderno de encargos e produzem as regras de verificação sem intervenção humana.
+- **[[projects/altoqi-check]] (Componente c — Plataforma CHECK)** realiza verificação automatizada de conformidade BIM usando IDS *(Information Delivery Specification)* e bSDD *(buildingSMART Data Dictionary)*. O IDS define o que deve ser entregue em cada fase do projeto — quais propriedades cada elemento precisa ter, com quais valores, em qual formato. O bSDD fornece o dicionário de propriedades para essa verificação. Hoje, a conformidade de um modelo BIM contra os requisitos do projeto é verificada manualmente — ou não é verificada. O CHECK automatiza essa etapa: dado um contrato ou conjunto de requisitos, o sistema verifica se o modelo IFC os satisfaz elemento a elemento. O próximo passo de desenvolvimento é a geração automática de regras IDS a partir de linguagem contratual — LLMs que leem o caderno de encargos e produzem as regras de verificação sem intervenção humana.
 
-- **[[products/altoqi-axis|Componente f — Agentes Especializados de IA]]** operam sobre os dados estruturados dos demais componentes para gerar alertas preditivos, automatizar rotinas e simular cenários. Um agente que monitora o CDE *(Common Data Environment)* e o cronograma em busca de exceções pode emitir alertas como "70% de probabilidade de atraso na atividade X se o material não chegar até quinta" — não como heurística manual, mas como inferência sobre padrões de obras anteriores. A qualidade dos agentes é diretamente proporcional à qualidade dos dados nos componentes a–e: agentes inteligentes sobre dados ruins produzem alertas ruins.
+- **[[projects/altoqi-axis]] (Componente f — Agentes Especializados de IA)** operam sobre os dados estruturados dos demais componentes para gerar alertas preditivos, automatizar rotinas e simular cenários. Um agente que monitora o CDE *(Common Data Environment)* e o cronograma em busca de exceções pode emitir alertas como "70% de probabilidade de atraso na atividade X se o material não chegar até quinta" — não como heurística manual, mas como inferência sobre padrões de obras anteriores. A qualidade dos agentes é diretamente proporcional à qualidade dos dados nos componentes a–e: agentes inteligentes sobre dados ruins produzem alertas ruins.
 
 ---
 
@@ -88,10 +88,10 @@ Ordenada por dependência funcional — cada fase desbloqueia a próxima:
 
 | Fase | Componente | O que entrega | O que desbloqueia no Planning |
 |---|---|---|---|
-| **1** | [[products/altoqi-axis\|d — Campo]] (4→7) | Coleta automática de dado de execução no canteiro | Frente 4 automática; fim da entrada manual |
-| **2** | [[products/altoqi-axis\|b — Orquestração]] (4→7) | Gatilhos automáticos por marcos do cronograma | Procurement triggers; alertas de marco |
-| **3** | [[products/altoqi-check\|c — CHECK]] (3→7) | Verificação IDS automática antes da importação | Qualidade garantida de IFC na entrada; IDS contratual |
-| **4** | [[products/altoqi-axis\|f — Agentes IA]] (3→7) | Predição e automação sobre dados estruturados | Frente 1 preditiva; Frente 5 via aprendizado acumulado |
+| **1** | [[projects/altoqi-axis]] (d — Campo, 4→7) | Coleta automática de dado de execução no canteiro | Frente 4 automática; fim da entrada manual |
+| **2** | [[projects/altoqi-axis]] (b — Orquestração, 4→7) | Gatilhos automáticos por marcos do cronograma | Procurement triggers; alertas de marco |
+| **3** | [[projects/altoqi-check]] (c — CHECK, 3→7) | Verificação IDS automática antes da importação | Qualidade garantida de IFC na entrada; IDS contratual |
+| **4** | [[projects/altoqi-axis]] (f — Agentes IA, 3→7) | Predição e automação sobre dados estruturados | Frente 1 preditiva; Frente 5 via aprendizado acumulado |
 | **5** | DaaS / Marketplace | Dados anonimizados como produto; integrações de terceiros | Planning vira nó de uma rede de dados de obras |
 
 A ordem importa: os agentes (fase 4) só são úteis se os dados nos componentes anteriores forem confiáveis. O CHECK (fase 3) garante qualidade de entrada. O Campo (fase 1) garante que o dado de execução real chegue ao sistema. Inverter essa ordem produz inteligência artificial sobre dados ruins.
@@ -110,10 +110,10 @@ Isso significa que o Planning não é apenas um dos módulos que o Axis potencia
 
 ## Related Pages
 
-- [[products/altoqi-axis]] — arquitetura dos seis componentes; seis capacidades de produto
-- [[products/altoqi-visus-planning]] — workflow operacional; posicionamento nas cinco frentes
-- [[products/altoqi-check]] — Componente c; verificação de conformidade upstream
-- [[bim-construction/sources/altoqi-finep-axis-2026]] — proposta FINEP; TRL por componente; modelos de negócio
+- [[projects/altoqi-axis]] — arquitetura dos seis componentes; seis capacidades de produto
+- [[projects/altoqi-visus-planning]] — workflow operacional; posicionamento nas cinco frentes
+- [[projects/altoqi-check]] — Componente c; verificação de conformidade upstream
+- [[bim-construction/altoqi-finep-axis-2026]] — proposta FINEP; TRL por componente; modelos de negócio
 - [[bim-construction/eduardo-bandeira-ponte-logica]] — Fio Digital; Digital Twin vivo; scripts sentinelas
 - [[bim-construction/planejamento-preditivo-obras]] — conceito de planejamento preditivo; cinco frentes de IA
 - [[bim-construction/construcao-40]] — paradigma de digitalização; processos determinísticos vs. empíricos

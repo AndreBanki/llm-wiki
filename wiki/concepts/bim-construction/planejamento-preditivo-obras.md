@@ -39,7 +39,7 @@ Os dados de cada obra permanecem dispersos em arquivos, planilhas e e-mails. Dec
 | Cada obra repete os mesmos erros | Não-conformidades de execução não retroalimentam o planejamento |
 | Sistemas preditivos que não melhoram | Sem loop de dados de campo → cronograma |
 
-O planejamento preditivo endereça o sintoma (antecipa a surpresa). A solução sistêmica exige também endereçar a causa: construir a **infraestrutura de coleta e estruturação** que transforma dados de campo em aprendizagem organizacional. Essa é a camada que o AltoQi Axis adiciona — especialmente os Componentes d (coleta de dados de campo) e f (agentes de IA sobre dados estruturados). Ver [[products/altoqi-axis]] e [[bim-construction/sources/altoqi-finep-axis-2026]].
+O planejamento preditivo endereça o sintoma (antecipa a surpresa). A solução sistêmica exige também endereçar a causa: construir a **infraestrutura de coleta e estruturação** que transforma dados de campo em aprendizagem organizacional. Essa é a camada que o AltoQi Axis adiciona — especialmente os Componentes d (coleta de dados de campo) e f (agentes de IA sobre dados estruturados). Ver [[projects/altoqi-axis]] e [[bim-construction/altoqi-finep-axis-2026]].
 
 ---
 
@@ -142,7 +142,7 @@ Fonte: [[bim-construction/jhonatan-lazarin-ia-gestao-obras]]
 
 **Relevância para Visus Planning:** o produto se encaixa primariamente na **Frente 1 (Planejamento e previsão)**, com potencial para a **Frente 4 (Execução e monitoramento)** à medida que dados de campo são integrados.
 
-> **Atualização (2026-04-26):** O Visus Planning 2024 já tem capacidade de Frente 4 implementada — rastreamento de planejado vs. executado com percentuais por atividade e Gantt comparativo. Ver [[products/altoqi-visus-planning]] e [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] para o workflow operacional completo.
+> **Atualização (2026-04-26):** O Visus Planning 2024 já tem capacidade de Frente 4 implementada — rastreamento de planejado vs. executado com percentuais por atividade e Gantt comparativo. Ver [[projects/altoqi-visus-planning]] e [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] para o workflow operacional completo.
 
 ---
 
@@ -217,10 +217,10 @@ O resultado: alertas preditivos não são mais "sugestões" — eles disparam a�
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/alessandro-lopes-planejamento-obra-40]]
 - [[bim-construction/eduardo-bandeira-ponte-logica]]
-- [[products/altoqi-axis]] — infraestrutura que endereça a baixa capacidade de aprendizagem operacional
-- [[products/altoqi-visus-planning]]
+- [[projects/altoqi-axis]] — infraestrutura que endereça a baixa capacidade de aprendizagem operacional
+- [[projects/altoqi-visus-planning]]
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
-- [[bim-construction/sources/altoqi-finep-axis-2026]] — diagnóstico formal da "baixa capacidade de aprendizagem operacional"
+- [[bim-construction/altoqi-finep-axis-2026]] — diagnóstico formal da "baixa capacidade de aprendizagem operacional"
 - [[ai-engineering/enterprise-ai-deployment]]
 - [[ai-engineering/aip-platform]]
 - [[ai-engineering/llm-wiki-pattern]]

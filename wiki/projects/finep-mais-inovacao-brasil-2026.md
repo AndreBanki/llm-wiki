@@ -162,7 +162,9 @@ Ver: [[bim-construction/bim-regulatorio-brasil]], [[bim-construction/openbim-sta
 - [[projects/altoqi-axis]] — linha de produto Axis: AS-IS e visão (Componentes a, b, f)
 - [[projects/altoqi-check]] — Plataforma CHECK: AS-IS e visão (Componente c)
 - [[projects/altoqi-visus-planning]] — Visus Planning: AS-IS e visão (Componentes d, e)
+- [[projects/mpd-visus-evolucao-plataforma]] — proposta aplicada de evolução do Visus em cliente enterprise; valida o eixo procurement + gestão contratual de execução
 - [[bim-construction/altoqi-finep-axis-2026]] — fonte primária: FAP completo (42 páginas)
+- [[bim-construction/visus-evolucao-mpd-analise-produto]] — análise operacional detalhada da MPD que complementa o framing do FAP no nível de fluxo de obra
 - [[bim-construction/construcao-40]] — paradigma que o projeto materializa
 - [[bim-construction/planejamento-preditivo-obras]] — problema central abordado
 - [[bim-construction/openbim-standards]] — padrões IFC/IDS/BCF/bSDD que sustentam os componentes

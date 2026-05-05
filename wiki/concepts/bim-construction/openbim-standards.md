@@ -41,7 +41,7 @@ Conexão com [[bim-construction/construcao-40]]: o Fio Digital — a cadeia inin
 - **Analogia:** um contrato técnico digital — define quais propriedades devem estar presentes em quais objetos, com quais valores, em quais fases do projeto
 - **Exemplo de uso:** "Para aprovação de fundações na fase CD, todos os objetos `IfcPile` devem ter a propriedade `LoadBearing = True` e o campo `FireRating` preenchido"
 - **No Axis:** núcleo da Plataforma CHECK — o IDS é o instrumento de verificação automatizada; um modelo que satisfaz o IDS é tecnicamente conformante
-- **Implicação contratual:** o IDS pode funcionar como especificação técnica formal anexa a contratos — ver [[products/altoqi-check]]
+- **Implicação contratual:** o IDS pode funcionar como especificação técnica formal anexa a contratos — ver [[projects/altoqi-check]]
 
 ### BCF *(BIM Collaboration Format)*
 
@@ -118,9 +118,9 @@ Ver: [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/bim-regulatorio-brasil]]
-- [[products/altoqi-check]]
-- [[products/altoqi-axis]]
-- [[products/altoqi-visus-planning]]
-- [[bim-construction/sources/altoqi-finep-axis-2026]]
+- [[projects/altoqi-check]]
+- [[projects/altoqi-axis]]
+- [[projects/altoqi-visus-planning]]
+- [[bim-construction/altoqi-finep-axis-2026]]
 - [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
 - [[glossary]]

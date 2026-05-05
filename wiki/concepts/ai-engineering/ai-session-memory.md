@@ -81,7 +81,7 @@ Local embeddings; only fact extraction calls the cloud API.
 
 Both solve knowledge retention; neither is a substitute for the other. The tension is real: the LLM Wiki argument is that structure + index enables precise navigation without vectors. Mem0's argument is that unstructured decisions benefit from semantic search because you can't predict which keywords you'll use when querying.
 
-See [[ai-engineering/semantic-memory-vs-wiki]] for a detailed comparison.
+See [[analyses/session-memory-vs-wiki-synergy]] for a detailed comparison.
 
 ---
 
@@ -123,5 +123,5 @@ AI-generated automation code passes a dry-run and fails under real-world concurr
 - [[ai-engineering/claude-code-skills]] — Another context engineering pattern for Claude Code
 - [[ai-engineering/ai-agent-governance]] — Production risk framework for AI automation
 - [[ai-engineering/rag-approaches]] — The vectorless vs. vector retrieval tension at the architectural level
-- [[ai-engineering/semantic-memory-vs-wiki]] — Analysis of how session memory and the LLM Wiki complement each other
+- [[analyses/session-memory-vs-wiki-synergy]] — Analysis of how session memory and the LLM Wiki complement each other
 - [[sources/ai-engineering/daniel-rusnok-mem0-mcp-semantic-memory]] — Source article

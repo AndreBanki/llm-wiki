@@ -143,6 +143,7 @@ nav:
       - Eduardo Bandeira — A Ponte Lógica: sources/bim-construction/eduardo-bandeira-ponte-logica.md
       - AltoQi FINEP 2026 — Formulário de Proposta: sources/bim-construction/altoqi-finep-axis-2026.md
       - BIMConverse — GraphRAG for IFC Queries (IAAC): sources/bim-construction/bimconverse-graphrag-ifc-natural-language-queries.md
+      - MPD — Evolução da Plataforma Visus (AS IS/TO BE): sources/bim-construction/visus-evolucao-mpd-analise-produto.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
@@ -162,6 +163,7 @@ nav:
       - AltoQi Plataforma CHECK: projects/altoqi-check.md
     - Propostas de P&D:
       - FINEP Mais Inovação Brasil 2026: projects/finep-mais-inovacao-brasil-2026.md
+      - MPD — Evolução da Plataforma Visus: projects/mpd-visus-evolucao-plataforma.md
   - Glossary: glossary.md
   
 extra_css:

@@ -19,6 +19,7 @@ Each entry follows this format:
 |---|---|---|
 | [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-24 |
 | [[glossary]] | Living terminology, definitions, and style conventions | 2026-04-07 |
+| [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-05 |
 
 ---
 
@@ -75,8 +76,9 @@ Each entry follows this format:
 | [[bim-construction/alexander-mattos-contratos-engenharia]] | LinkedIn post (Abr 2026): tipos de contratos em engenharia (Turn-key/EPC, Preço Unitário, Administração, Aliança); contratos como modelos de alocação de risco; implicações para planejamento e AltoQi Visus Planning | 2026-04-25 |
 | [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] | GT TIC ANTAC / MDIC Construa Brasil (Mai 2025): workflow operacional completo do AltoQi Visus Planning — modelo federado IFC, EAP, cronograma 4D, setorização, simulação, rastreamento planejado vs. executado, relatórios | 2026-04-26 |
 | [[bim-construction/eduardo-bandeira-ponte-logica]] | Artigo técnico-científico (50 páginas, 2026): o Arquiteto de Soluções como ponte entre Eng. Civil e ADS na Construção 4.0; BIM 7D + ERP + RPA + IA + LSF; estudo de caso de integração com fornecedores de aço leve; Digital Thread; Zero Waste guiado por software; escalabilidade via processos padronizados | 2026-05-01 |
-| [[bim-construction/sources/altoqi-finep-axis-2026]] | FAP FINEP 2026: problema "baixa capacidade de aprendizagem operacional"; seis componentes técnicos com TRL (CDE 5→7, CHECK 3→7, Agentes IA 3→7) + enquadramento sistêmico TRL 2→7 com transições de maturidade; modelos de negócio SaaS/DaaS/AIaaS/Gov/Marketplace; openBIM cluster (IFC/IDS/BCF/bSDD); ancoragem regulatória (Estratégia BIM BR, Decreto 10.306, Lei 14.133); mapa competitivo; perfil institucional AltoQi (37+ anos, MPS.BR F) | 2026-05-04 |
+| [[bim-construction/altoqi-finep-axis-2026]] | FAP FINEP 2026: problema "baixa capacidade de aprendizagem operacional"; seis componentes técnicos com TRL (CDE 5→7, CHECK 3→7, Agentes IA 3→7) + enquadramento sistêmico TRL 2→7 com transições de maturidade; modelos de negócio SaaS/DaaS/AIaaS/Gov/Marketplace; openBIM cluster (IFC/IDS/BCF/bSDD); ancoragem regulatória (Estratégia BIM BR, Decreto 10.306, Lei 14.133); mapa competitivo; perfil institucional AltoQi (37+ anos, MPS.BR F) | 2026-05-04 |
 | [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]] | IAAC Blog (Set 2024): pipeline GraphRAG para IFC com Neo4j/Cypher; Revit→IFC→LPG; interface BIMConverse (NeoConverse + GPT-4o); testes em ~60 projetos reais; forças, limitações e próximos passos para consultas naturais em BIM | 2026-05-04 |
+| [[bim-construction/visus-evolucao-mpd-analise-produto]] | Documento interno AltoQi/MPD (Mai 2026): análise AS IS/TO BE completa da evolução do Visus para procurement + gestão contratual de execução; metodologia de pacotes, gap analysis por módulo, roadmap priorizado P1–P6, integração DocuSign/Senior Mega, narrativa "ciclo de vida de contrato" | 2026-05-05 |
 
 ### Software Engineering
 
@@ -173,6 +175,7 @@ Each entry follows this format:
 | [[projects/altoqi-check]] | Linha de produto | Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3 (AS-IS) | 2026-05-01 |
 | [[projects/altoqi-visus-planning]] | Linha de produto | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); baseline AS-IS | 2026-05-01 |
 | [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; cluster openBIM (IFC/IDS/BCF/bSDD); modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo | 2026-05-05 |
+| [[projects/mpd-visus-evolucao-plataforma]] | Proposta de evolução de produto | MPD Engenharia: evolução do Visus para ciclo de vida contratual (procurement + execução + medição + pagamento) com Pacote como objeto central; dependências de EAP obrigatória, portal de fornecedores, mapa de cotações, BM digital e integrações DocuSign/ERP | 2026-05-05 |
 
 ---
 

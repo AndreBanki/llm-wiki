@@ -99,10 +99,12 @@ Ver: [[bim-construction/bim-regulatorio-brasil]]
 - [[projects/finep-mais-inovacao-brasil-2026]] — proposta de P&D que define o escopo de evolução do CHECK (Componente c, TRL 3→7)
 - [[projects/altoqi-axis]] — plataforma que hospeda o CHECK; Componentes a, b, e, f integram com o CHECK
 - [[projects/altoqi-company]] — perfil institucional e índice de projetos
+- [[projects/mpd-visus-evolucao-plataforma]] — proposta aplicada de evolução do Visus; demanda regras verificáveis em procurement/execução que se beneficiam da camada CHECK
 - [[bim-construction/openbim-standards]]
 - [[bim-construction/bim-regulatorio-brasil]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/tipos-contrato-engenharia]]
 - [[bim-construction/bim-coordination]]
 - [[bim-construction/altoqi-finep-axis-2026]]
+- [[bim-construction/visus-evolucao-mpd-analise-produto]]
 - [[glossary]]
