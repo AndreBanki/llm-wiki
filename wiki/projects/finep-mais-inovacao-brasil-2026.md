@@ -35,6 +35,8 @@ Proposta de subvenção econômica submetida ao programa **FINEP/MCTI "Mais Inov
 
 A raiz técnica do problema: o BIM está concentrado nas fases iniciais do empreendimento (concepção e projeto), com adoção ainda baixa nas fases de construção e operação. Consequência: a informação não acompanha o ciclo de vida completo, criando um abismo entre o modelo virtual e a execução física.
 
+Diagnóstico de base do FAP: o projeto não trata apenas de automatizar tarefas isoladas, mas de construir a infraestrutura de dados e interoperabilidade que permite transformar execução de obra em aprendizagem acumulada.
+
 Ver: [[bim-construction/planejamento-preditivo-obras]], [[bim-construction/construcao-40]]
 
 ---
@@ -54,10 +56,12 @@ O projeto não é circunscrito a um único produto — ele propõe a evolução 
 
 ## Arquitetura de Solução: Seis Componentes
 
-A solução é estruturada em duas camadas arquiteturais:
+A solução é estruturada em duas camadas arquiteturais. Esse framing é central para a leitura correta da proposta: os componentes não são módulos independentes, mas partes de um fluxo em que dados estruturados vêm primeiro e inteligência vem depois.
 
-- **Camada interna (a–e):** estruturação dos dados → fonte única de verdade (CDE como hub)
-- **Camada externa (f):** inteligência sobre esses dados → agentes e predição
+| Camada | Função | Resultado esperado |
+|---|---|---|
+| **Interna (a-e)** | Estruturação inteligente dos dados, interoperabilidade e governança | Fonte única de verdade para projeto, obra, conformidade e gestão |
+| **Externa (f)** | Operação de agentes especializados de IA sobre a base estruturada | Alertas preditivos, automação de rotinas e aprendizado contínuo entre obras |
 
 | Comp. | Nome | TRL Atual → Meta | Descrição |
 |---|---|---|---|
@@ -67,6 +71,15 @@ A solução é estruturada em duas camadas arquiteturais:
 | **d** | Sistema de Coleta de Informações da Construção | 4→7 | Coleta de dados de campo (formulários, fotos, IoT) vinculada ao modelo BIM; fecha o loop entre execução e modelo |
 | **e** | Ambiente de Entrega da Informação | 4→7 | Dashboards de gestão + integração com plataformas governamentais (Transfere.GOV + Obras.GOV 2.0) |
 | **f** | Agentes Especializados de IA | 3→7 | Operam sobre dados estruturados dos demais componentes para geração de insights, alertas preditivos e automação de rotinas |
+
+### Leitura da Proposta: Componentes de P&D vs. Capacidades de Produto
+
+O FAP descreve o projeto em **seis componentes técnicos** porque o objetivo do documento é demonstrar escopo de P&D, evolução de maturidade e redução de risco tecnológico. Isso não substitui a leitura de produto do Axis, que aparece no wiki como **seis capacidades** voltadas à proposta de valor e ao posicionamento comercial.
+
+As duas leituras são complementares:
+
+- **Capacidades** respondem "o que a plataforma entrega ao mercado".
+- **Componentes** respondem "o que precisa ser desenvolvido, integrado e validado para entregar isso com TRL 7".
 
 ---
 
@@ -103,6 +116,21 @@ Sistema demonstrado com uso por perfis efetivos (engenharia, planejamento, gest�
 
 ---
 
+## Padrões openBIM Adotados
+
+Os padrões openBIM não aparecem no FAP como detalhe de interoperabilidade apenas. Eles funcionam como a base técnica que torna verificável, auditável e escalável a proposta.
+
+| Padrão | Papel no Projeto | Componente mais diretamente dependente |
+|---|---|---|
+| **IFC** *(Industry Foundation Classes)* | Formato de troca e estruturação de modelos entre disciplinas e sistemas; base da interoperabilidade do ecossistema | **a** CDE / **d** Campo / **e** Entrega |
+| **IDS** *(Information Delivery Specification)* | Especifica formalmente o que deve ser entregue em cada fase; transforma requisito de informação em regra verificável | **c** CHECK |
+| **BCF** *(BIM Collaboration Format)* | Encapsula issues, comentários e viewpoints vinculados aos objetos do modelo; suporta workflows multi-stakeholder | **b** Orquestração |
+| **bSDD** *(buildingSMART Data Dictionary)* | Dicionário de propriedades para validação semântica e conformidade | **c** CHECK |
+
+Sem esse cluster openBIM, a proposta perderia a capacidade de conectar projeto, execução, conformidade e inteligência em um fluxo único.
+
+---
+
 ## Ancoragem Regulatória
 
 | Instrumento | Ano | Relevância |
@@ -124,15 +152,7 @@ Ver: [[bim-construction/bim-regulatorio-brasil]], [[bim-construction/openbim-sta
 | CDE | Autodesk Construction Cloud, Bentley ProjectWise, Trimble Connect, BIMcloud | Integração nativa com ferramentas AltoQi + foco Brasil |
 | Coordenação de modelos | Solibri, Revizto, BIMcollab | CHECK com IA (não apenas clash detection) |
 | Gestão de execução | Procore, Oracle Aconex | Pipeline completo do projeto à execução; aprendizado contínuo por obra |
-| IA Generativa AEC | Autodesk Forma | Dados de obras reais de 70.000+ clientes como vantagem de treinamento |
-
----
-
-## Perfil do Proponente
-
-Ver página completa: [[projects/altoqi-company]]
-
-A AltoQi tem histórico consistente de projetos com financiamento público — AMPEG (anos 90), PAPPE, Redes FINEP, Subvenção 2007 (~R$1,8M), Premio FINEP Inovação Tecnológica 1999. MPS.BR nível F (desde 2016) valida capacidade de execução e conformidade com exigências de prestação de contas.
+| IA Generativa AEC | Autodesk Forma | Dados de obras reais da base instalada AltoQi como vantagem de treinamento |
 
 ---
 

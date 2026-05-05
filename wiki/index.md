@@ -172,7 +172,7 @@ Each entry follows this format:
 | [[projects/altoqi-axis]] | Linha de produto | AltoQi Axis: camada de IA transversal; 6 capacidades (orquestração, agentes, aprendizado contínuo, objetos inteligentes, preditivo, plataforma programável); baseline AS-IS | 2026-05-05 |
 | [[projects/altoqi-check]] | Linha de produto | Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3 (AS-IS) | 2026-05-01 |
 | [[projects/altoqi-visus-planning]] | Linha de produto | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); baseline AS-IS | 2026-05-01 |
-| [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo; ancoragem regulatória | 2026-05-05 |
+| [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; cluster openBIM (IFC/IDS/BCF/bSDD); modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo | 2026-05-05 |
 
 ---
 

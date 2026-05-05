@@ -1,5 +1,9 @@
 ﻿# Wiki Log
 
+## [2026-05-05] query | revisão da página do projeto FINEP com consolidação do conteúdo técnico
+Pages updated: `wiki/projects/finep-mais-inovacao-brasil-2026.md` — página reestruturada para incorporar conteúdo técnico relevante do texto-base FINEP: framing em duas camadas (interna/externa), distinção entre componentes de P&D e capacidades de produto, seção explícita de padrões openBIM e remoção da caracterização institucional duplicada do proponente; `wiki/index.md` — resumo da página FINEP atualizado para refletir o cluster openBIM
+Output filed: yes — revisão incorporada à página existente; caracterização institucional mantida em `wiki/projects/altoqi-company.md`
+
 ## [2026-05-04] query | seção FINEP — evolução TRL 2→7 com foco em risco tecnológico e mitigação
 Pages updated: `wiki/sources/bim-construction/altoqi-finep-axis-2026.md` — nova seção "Evolução Sistêmica de Maturidade (TRL 2→7)" com transições TRL em formato narrativo, incorporando risco tecnológico e abordagem de mitigação por etapa; `wiki/projects/altoqi-axis.md` — nova seção "Roadmap Sistêmico de TRL (2→7)" conectando visão por componente à visão integrada da solução; `wiki/index.md` — resumos e datas atualizados para refletir o novo conteúdo TRL sistêmico
 Output filed: yes — conteúdo integrado às páginas existentes do projeto FINEP/Axis (sem criação de nova página)
