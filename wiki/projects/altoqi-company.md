@@ -92,13 +92,38 @@ Competir com ecossistemas globais (Autodesk Construction Cloud, Bentley ProjectW
 
 ---
 
+## Índice de Projetos
+
+Esta página funciona como ponto de entrada para o conjunto de projetos do wiki relacionados à AltoQi. Os projetos se dividem em dois tipos:
+
+### Linhas de Produto
+
+Descrevem cada produto ou plataforma — baseline AS-IS, capacidades, arquitetura e visão de evolução.
+
+| Página | Produto | Descrição |
+|---|---|---|
+| [[projects/altoqi-axis]] | AltoQi Axis | Camada de IA transversal: 6 capacidades, CDE, orquestração, agentes, plataforma programável |
+| [[projects/altoqi-check]] | Plataforma CHECK | Verificação automatizada de conformidade BIM com IA; IDS + bSDD |
+| [[projects/altoqi-visus-planning]] | AltoQi Visus Planning | Plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas) |
+
+### Propostas de P&D
+
+Descrevem projetos formais de desenvolvimento — escopo de evolução, componentes técnicos, TRL, roadmap e contexto de financiamento. Cada proposta referencia as linhas de produto envolvidas como seu ponto de partida AS-IS.
+
+| Página | Projeto | Descrição |
+|---|---|---|
+| [[projects/finep-mais-inovacao-brasil-2026]] | FINEP Mais Inovação Brasil 2026 | Subvenção econômica FINEP/MCTI: 6 componentes (TRL 3→7), roadmap sistêmico TRL 2→7, modelos de negócio, mapa competitivo |
+
+---
+
 ## Related Pages
 
-- [[products/altoqi-axis]]
-- [[products/altoqi-visus-planning]]
-- [[products/altoqi-check]]
+- [[projects/altoqi-axis]]
+- [[projects/altoqi-visus-planning]]
+- [[projects/altoqi-check]]
+- [[projects/finep-mais-inovacao-brasil-2026]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/arquiteto-de-solucoes]]
 - [[bim-construction/planejamento-preditivo-obras]]
 - [[bim-construction/bim-regulatorio-brasil]]
-- [[bim-construction/sources/altoqi-finep-axis-2026]]
+- [[bim-construction/altoqi-finep-axis-2026]]

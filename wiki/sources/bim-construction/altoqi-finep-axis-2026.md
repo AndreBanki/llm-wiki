@@ -1,4 +1,4 @@
----
+﻿---
 title: "AltoQi Axis — Formulário de Apresentação de Proposta FINEP 2026"
 type: source
 created: 2026-05-01
@@ -129,7 +129,7 @@ Ver: [[bim-construction/bim-regulatorio-brasil]]
 
 ## Perfil Institucional AltoQi (Resumo)
 
-Ver página completa: [[products/altoqi-company]]
+Ver página completa: [[projects/altoqi-company]]
 
 | Indicador | Valor |
 |---|---|
@@ -147,7 +147,7 @@ Ver página completa: [[products/altoqi-company]]
 
 ### Adiciona
 - Nome formal do problema: "baixa capacidade de aprendizagem operacional" (não existia no wiki)
-- Seis componentes técnicos com TRL (distinto das "6 capacidades" de marketing de [[products/altoqi-axis]])
+- Seis componentes técnicos com TRL (distinto das "6 capacidades" de marketing de [[projects/altoqi-axis]])
 - Dois novos modelos de negócio: DaaS e AIaaS com gain-sharing
 - Cluster openBIM: IDS, BCF, bSDD (IFC existia na wiki só como menção)
 - Contexto regulatório brasileiro completo: Estratégia BIM BR, Decreto 10.306, Lei 14.133
@@ -157,7 +157,7 @@ Ver página completa: [[products/altoqi-company]]
 ### Reforça
 - Construção 4.0 / CDE / Fio Digital ([[bim-construction/construcao-40]])
 - Planejamento preditivo como antídoto para o "zero reset" a cada obra ([[bim-construction/planejamento-preditivo-obras]])
-- Axis como materialização da Construção 4.0 ([[products/altoqi-axis]])
+- Axis como materialização da Construção 4.0 ([[projects/altoqi-axis]])
 
 ### Reconcilia
 - Dois framings do Axis: "6 capacidades" (marketing/produto) e "6 componentes" (P&D/FINEP) — complementares, diferentes audiências, ambos válidos
@@ -166,10 +166,10 @@ Ver página completa: [[products/altoqi-company]]
 
 ## Related Pages
 
-- [[products/altoqi-axis]]
-- [[products/altoqi-check]]
-- [[products/altoqi-company]]
-- [[products/altoqi-visus-planning]]
+- [[projects/altoqi-axis]]
+- [[projects/altoqi-check]]
+- [[projects/altoqi-company]]
+- [[projects/altoqi-visus-planning]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/planejamento-preditivo-obras]]
 - [[bim-construction/openbim-standards]]

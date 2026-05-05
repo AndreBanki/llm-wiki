@@ -142,7 +142,9 @@ O Projeto Construa Brasil (MDIC) produziu objetos de aprendizagem BIM gratuitos 
 
 ## Related Pages
 
-- [[products/altoqi-axis]] — camada de IA transversal do ecossistema AltoQi
+- [[projects/finep-mais-inovacao-brasil-2026]] — proposta de P&D que define a evolução do Planning via Componentes d e e
+- [[projects/altoqi-axis]] — camada de IA transversal que potencializa o Planning
+- [[projects/altoqi-company]] — perfil institucional e índice de projetos
 - [[bim-construction/construcao-40]] — paradigma de digitalização da cadeia construtiva
 - [[bim-construction/arquiteto-de-solucoes]] — perfil profissional híbrido
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]] — tutorial completo dos 4 módulos

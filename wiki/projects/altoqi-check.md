@@ -96,12 +96,13 @@ Ver: [[bim-construction/bim-regulatorio-brasil]]
 
 ## Related Pages
 
-- [[products/altoqi-axis]]
-- [[products/altoqi-company]]
+- [[projects/finep-mais-inovacao-brasil-2026]] — proposta de P&D que define o escopo de evolução do CHECK (Componente c, TRL 3→7)
+- [[projects/altoqi-axis]] — plataforma que hospeda o CHECK; Componentes a, b, e, f integram com o CHECK
+- [[projects/altoqi-company]] — perfil institucional e índice de projetos
 - [[bim-construction/openbim-standards]]
 - [[bim-construction/bim-regulatorio-brasil]]
 - [[bim-construction/construcao-40]]
 - [[bim-construction/tipos-contrato-engenharia]]
 - [[bim-construction/bim-coordination]]
-- [[bim-construction/sources/altoqi-finep-axis-2026]]
+- [[bim-construction/altoqi-finep-axis-2026]]
 - [[glossary]]

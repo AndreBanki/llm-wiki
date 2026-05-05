@@ -164,14 +164,15 @@ Each entry follows this format:
 
 ## Projects
 
-*Um projeto por produto em evolução. Inclui baseline AS-IS, roadmap, e progressão TRL.*
+*Dois tipos: **Linhas de Produto** (baseline AS-IS + visão) e **Propostas de P&D** (escopo de evolução + roadmap TRL). Ver índice completo: [[projects/altoqi-company]]*
 
-| Page | Summary | Updated |
-|---|---|---|
-| [[projects/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades + 6 componentes P&D (CDE 5→7, CHECK 3→7, Agentes IA 3→7); roadmap sistêmico TRL 2→7 no contexto FINEP; modelos SaaS/DaaS/AIaaS/Gov/Marketplace; integra Eberick, Builder e Visus | 2026-05-04 |
-| [[projects/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-05-01 |
-| [[projects/altoqi-check]] | AltoQi Axis Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3→7; IDS como instrumento contratual; integração com Componentes a/b/e/f do Axis | 2026-05-01 |
-| [[projects/altoqi-company]] | AltoQi — Perfil Institucional: 37+ anos, 70.000+ clientes históricos, 10.000+ Visus ativos; MPS.BR nível F; SAFe + CI/CD; histórico FINEP; portfólio Eberick/Builder/Visus/Axis | 2026-05-01 |
+| Page | Tipo | Summary | Updated |
+|---|---|---|---|
+| [[projects/altoqi-company]] | Índice institucional | AltoQi — 37+ anos, 70.000+ clientes históricos, 10.000+ Visus ativos; MPS.BR nível F; SAFe + CI/CD; índice de linhas de produto e propostas de P&D | 2026-05-05 |
+| [[projects/altoqi-axis]] | Linha de produto | AltoQi Axis: camada de IA transversal; 6 capacidades (orquestração, agentes, aprendizado contínuo, objetos inteligentes, preditivo, plataforma programável); baseline AS-IS | 2026-05-05 |
+| [[projects/altoqi-check]] | Linha de produto | Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3 (AS-IS) | 2026-05-01 |
+| [[projects/altoqi-visus-planning]] | Linha de produto | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); baseline AS-IS | 2026-05-01 |
+| [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo; ancoragem regulatória | 2026-05-05 |
 
 ---
 
