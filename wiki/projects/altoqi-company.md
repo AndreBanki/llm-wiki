@@ -1,6 +1,6 @@
 ---
 title: AltoQi — Perfil Institucional
-type: product
+type: project
 created: 2026-05-01
 updated: 2026-05-01
 sources: [Formulário _ Projeto Finep_Axis_2026.pdf]

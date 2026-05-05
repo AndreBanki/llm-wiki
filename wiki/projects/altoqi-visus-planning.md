@@ -1,6 +1,6 @@
 ---
 title: AltoQi Visus Planning
-type: product
+type: project
 created: 2026-04-26
 updated: 2026-05-01
 sources: [gt-antac-visus-planning-objeto-aprendizagem.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, linkedin-alexander-mattos-contratos-engenharia-2026-04-25]

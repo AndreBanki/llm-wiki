@@ -1,4 +1,4 @@
-# Wiki Index
+﻿# Wiki Index
 
 Master catalog of all pages. The LLM reads this first when answering queries to find relevant pages. Updated on every ingest.
 
@@ -162,16 +162,16 @@ Each entry follows this format:
 
 ---
 
-## Products
+## Projects
 
-*One entry per product or tool documented.*
+*Um projeto por produto em evolução. Inclui baseline AS-IS, roadmap, e progressão TRL.*
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[products/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades + 6 componentes P&D (CDE 5→7, CHECK 3→7, Agentes IA 3→7); roadmap sistêmico TRL 2→7 no contexto FINEP; modelos SaaS/DaaS/AIaaS/Gov/Marketplace; integra Eberick, Builder e Visus | 2026-05-04 |
-| [[products/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-05-01 |
-| [[products/altoqi-check]] | AltoQi Axis Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3→7; IDS como instrumento contratual; integração com Componentes a/b/e/f do Axis | 2026-05-01 |
-| [[products/altoqi-company]] | AltoQi — Perfil Institucional: 37+ anos, 70.000+ clientes históricos, 10.000+ Visus ativos; MPS.BR nível F; SAFe + CI/CD; histórico FINEP; portfólio Eberick/Builder/Visus/Axis | 2026-05-01 |
+| [[projects/altoqi-axis]] | AltoQi Axis: camada de IA transversal do ecossistema AltoQi (2026); 6 capacidades + 6 componentes P&D (CDE 5→7, CHECK 3→7, Agentes IA 3→7); roadmap sistêmico TRL 2→7 no contexto FINEP; modelos SaaS/DaaS/AIaaS/Gov/Marketplace; integra Eberick, Builder e Visus | 2026-05-04 |
+| [[projects/altoqi-visus-planning]] | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); posicionamento nas 5 frentes de IA; dimensão contratual como variável de configuração | 2026-05-01 |
+| [[projects/altoqi-check]] | AltoQi Axis Plataforma CHECK: verificação automatizada de conformidade BIM com IA; IDS + bSDD; TRL 3→7; IDS como instrumento contratual; integração com Componentes a/b/e/f do Axis | 2026-05-01 |
+| [[projects/altoqi-company]] | AltoQi — Perfil Institucional: 37+ anos, 70.000+ clientes históricos, 10.000+ Visus ativos; MPS.BR nível F; SAFe + CI/CD; histórico FINEP; portfólio Eberick/Builder/Visus/Axis | 2026-05-01 |
 
 ---
 

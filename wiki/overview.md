@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 type: overview
 created: 2026-04-07
@@ -16,7 +16,7 @@ tags: [overview, synthesis]
 ## Current State
 
 **Source count:** 33  
-**Wiki pages:** 83 (index, log, overview, glossary + 33 sources + 34 concepts + 2 analyses + 4 products)  
+**Wiki pages:** 83 (index, log, overview, glossary + 33 sources + 34 concepts + 2 analyses + 4 projects)  
 **Last ingest:** 2026-05-04 — BIMConverse (GraphRAG for IFC Natural Language Queries)  
 **Last lint:** 2026-04-24
 

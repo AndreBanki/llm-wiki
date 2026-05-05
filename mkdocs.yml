@@ -154,11 +154,11 @@ nav:
   - Analyses:
     - Session Memory vs. Wiki Synergy: analyses/session-memory-vs-wiki-synergy.md
     - Axis e Planning — Próximos Passos: analyses/axis-planning-proximos-passos.md
-  - Products:
-    - AltoQi Axis: products/altoqi-axis.md
-    - AltoQi Visus Planning: products/altoqi-visus-planning.md
-    - AltoQi Plataforma CHECK: products/altoqi-check.md
-    - AltoQi — Perfil Institucional: products/altoqi-company.md
+  - Projects:
+    - AltoQi Axis: projects/altoqi-axis.md
+    - AltoQi Visus Planning: projects/altoqi-visus-planning.md
+    - AltoQi Plataforma CHECK: projects/altoqi-check.md
+    - AltoQi — Perfil Institucional: projects/altoqi-company.md
   - Glossary: glossary.md
   
 extra_css:

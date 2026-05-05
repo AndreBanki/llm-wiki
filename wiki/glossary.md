@@ -1,4 +1,4 @@
----
+﻿---
 title: Glossary
 type: glossary
 created: 2026-04-07
@@ -371,35 +371,35 @@ Each entry follows this format:
 
 **AltoQi Visus Planning**
 : Plataforma BIM de planejamento de obras da AltoQi. Integra modelo federado IFC, EAP, orçamento e cronograma 4D em um único ambiente. Workflow: importação de IFCs → análise de metadados → EAP (aba Quantitativo) → setorização → cronograma com predecessoras → simulação 4D → rastreamento planejado vs. executado → relatórios (curva S, histograma, Excel). Encaixa-se na Frente 1 (Planejamento e previsão) e Frente 4 (Execução e monitoramento) do mapa de IA na gestão de obras. O tipo contratual determina quais métricas são destacadas e para quais stakeholders. Em 2026, integra-se ao AltoQi Axis (camada de IA) para inteligência preditiva e orquestração automatizada.
-- See also: [[products/altoqi-visus-planning]], [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]]
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/tipos-contrato-engenharia]], [[bim-construction/planejamento-preditivo-obras]]
 
 **AltoQi Axis**
 : Camada de inteligência artificial e automação do ecossistema AltoQi, lançada em 2026. Não é um produto separado — é uma infraestrutura transversal que integra IA em todos os produtos da plataforma (Eberick, Builder, Visus). Seis capacidades: (1) Orquestração de Fluxos de Trabalho, (2) Agentes de IA Especializados, (3) Aprendizado Contínuo, (4) Objetos de Dados Inteligentes, (5) Inteligência Preditiva, (6) Plataforma Programável com Nodes e MCP. Princípio: "A construção exige inteligência integrada. Não ferramentas isoladas."
-- See also: [[products/altoqi-axis]], [[bim-construction/construcao-40]]
+- See also: [[projects/altoqi-axis]], [[bim-construction/construcao-40]]
 
 **Simulação 4D** *(4D BIM simulation)*
 : Vinculação do modelo BIM 3D a um cronograma de execução, permitindo visualizar o estado da construção em qualquer data ou como animação da sequência construtiva. O "4D" refere-se à adição do tempo (4ª dimensão) ao modelo geométrico. Usos: validação do sequenciamento, comunicação com stakeholders, identificação de conflitos de tempo-espaço.
-- See also: [[products/altoqi-visus-planning]]
+- See also: [[projects/altoqi-visus-planning]]
 
 **EAP** *(Estrutura Analítica de Projeto / Work Breakdown Structure — WBS)*
 : Decomposição hierárquica do escopo de um projeto em pacotes de trabalho gerenciáveis. No Visus Planning, a EAP é definida na aba de Quantitativo e alimenta simultaneamente o orçamento e o planejamento. Critérios de hierarquia são baseados nas propriedades IFC dos elementos (disciplina, pavimento, entidade, ambiente). Até 5 níveis.
-- See also: [[products/altoqi-visus-planning]]
+- See also: [[projects/altoqi-visus-planning]]
 
 **Predecessora** *(predecessor task, dependência de atividade)*
 : Relação de dependência entre atividades de um cronograma. Tipos principais: TI (Término a Início — padrão); II (Início a Início — atividades começam juntas); com latência (espera N dias entre as atividades). Uma atividade pode ter múltiplas predecessoras.
-- See also: [[products/altoqi-visus-planning]]
+- See also: [[projects/altoqi-visus-planning]]
 
 **Setorização** *(sectoring, zoning)*
 : Técnica de divisão de uma obra em setores ou trechos para planejamento granular. No Visus Planning, quando os IFCs não contêm propriedade de setor, a setorização é feita por seleção de elementos via coordenadas X/Y e atribuição do campo "Ambiente" nos metadados. O campo Ambiente passa então a ser um critério de hierarquia na EAP.
-- See also: [[products/altoqi-visus-planning]]
+- See also: [[projects/altoqi-visus-planning]]
 
 **Modelo Federado** *(federated model, modelo integrado)*
 : Modelo BIM resultante da agregação de múltiplos modelos IFC de diferentes disciplinas (arquitetura, estrutura, instalações elétrica e hidráulica, canteiro de obras) em um único ambiente de visualização e análise. Cada disciplina mantém seu IFC separado; a federação os sobrepõe. Fundamento da coordenação BIM e do planejamento 4D.
-- See also: [[products/altoqi-visus-planning]], [[bim-construction/bim-coordination]]
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/bim-coordination]]
 
 **Curva S** *(S-curve)*
 : Representação gráfica do avanço acumulado de uma obra (físico ou financeiro) ao longo do tempo. A curva tem formato de S porque o ritmo de execução acelera no meio do projeto e desacelera nas pontas (início de mobilização e final de acabamentos). Instrumento de controle: a comparação entre curva S planejada e realizada indica se a obra está adiantada ou atrasada.
-- See also: [[products/altoqi-visus-planning]]
+- See also: [[projects/altoqi-visus-planning]]
 
 **Projeto Construa Brasil**
 : Iniciativa do MDIC (Ministério do Desenvolvimento, Indústria, Comércio e Serviços) para modernização do setor da construção civil brasileiro via capacitação em BIM. Produz Objetos de Aprendizagem BIM (OA BIM) disponibilizados gratuitamente no Portal BIM Acadêmico. Os OA BIMs são material pedagógico estruturado para docentes, estudantes e profissionais — ponto de partida para disciplinas e exercícios.
@@ -487,7 +487,7 @@ Each entry follows this format:
 
 **IDS** *(Information Delivery Specification)*
 : Padrão openBIM para especificar formalmente o que deve ser entregue em um modelo BIM para uma finalidade específica. Arquivo XML validável automaticamente. Analogia: um contrato técnico digital — define quais propriedades devem estar presentes em quais objetos, com quais valores, em quais fases do projeto. Pode funcionar como especificação técnica formal em contratos. Núcleo da Plataforma CHECK (Componente c do AltoQi Axis).
-- See also: [[bim-construction/openbim-standards]], [[products/altoqi-check]]
+- See also: [[bim-construction/openbim-standards]], [[projects/altoqi-check]]
 
 **BCF** *(BIM Collaboration Format)*
 : Formato openBIM para comunicação de issues, comentários e solicitações de revisão vinculados a objetos específicos de um modelo BIM. Analogia: GitHub Issues ou Jira, mas com coordenadas 3D — cada issue é ancorado ao objeto e ao viewpoint exatos no modelo. Usado pelo Motor de Orquestração de Processos BIM (Componente b do AltoQi Axis).
@@ -495,7 +495,7 @@ Each entry follows this format:
 
 **bSDD** *(buildingSMART Data Dictionary)*
 : Banco de dados internacional aberto de classificações, propriedades e definições para objetos de construção. Acesso via API REST pública. Analogia: o "dicionário enciclopédico" do BIM — define o que é um objeto, quais são suas propriedades padronizadas, em qual classe ele se encaixa. Usado pela Plataforma CHECK para verificar conformidade de propriedades de modelos com definições internacionais.
-- See also: [[bim-construction/openbim-standards]], [[products/altoqi-check]]
+- See also: [[bim-construction/openbim-standards]], [[projects/altoqi-check]]
 
 **ISO 19650**
 : Padrão internacional (ISO) para gestão de informação usando BIM em projetos de infraestrutura e edificações. Duas partes: ISO 19650-1 (conceitos e princípios de gestão da informação) e ISO 19650-2 (fase de entrega de ativos — projeto e construção). O CDE (Componente a do AltoQi Axis) é projetado em conformidade com a ISO 19650, alinhando o produto com requisitos internacionais e com a Estratégia BIM BR.
@@ -507,15 +507,15 @@ Each entry follows this format:
 
 **MPS.BR** *(Melhoria de Processo do Software Brasileiro)*
 : Certificação brasileira de qualidade de processo de software, desenvolvida pela SOFTEX. Escala de G (inicial) a A (máximo); equivalente funcional ao CMMI. Pré-requisito para contratos de fornecimento de software ao governo federal. A AltoQi detém nível F desde 2016 — garante rastreabilidade de artefatos, baseline de configuração controlado e métricas formais de processo.
-- See also: [[products/altoqi-company]]
+- See also: [[projects/altoqi-company]]
 
 **Plataforma CHECK**
 : Componente c do AltoQi Axis: plataforma de verificação automatizada de conformidade BIM com inteligência artificial. Opera sobre padrões openBIM — IDS e bSDD — para validar se modelos entregues satisfazem os requisitos de informação especificados para o projeto. TRL atual → meta: 3 → 7 (maior salto de maturidade no projeto FINEP 2026).
-- See also: [[products/altoqi-check]], [[bim-construction/openbim-standards]]
+- See also: [[projects/altoqi-check]], [[bim-construction/openbim-standards]]
 
 **Capacidade de Aprendizagem Operacional**
 : Denominação formal (proposta FINEP 2026, AltoQi Axis) para a capacidade de uma organização ou plataforma de transformar dados de execução de obras em conhecimento reutilizável nas obras seguintes. Sua ausência — "baixa capacidade de aprendizagem operacional" — é o problema central que o Axis endereça: dados de cada obra permanecem dispersos; decisões não retroalimentam projetos futuros; cada obra começa do zero.
-- See also: [[bim-construction/planejamento-preditivo-obras]], [[products/altoqi-axis]], [[bim-construction/sources/altoqi-finep-axis-2026]]
+- See also: [[bim-construction/planejamento-preditivo-obras]], [[projects/altoqi-axis]], [[bim-construction/sources/altoqi-finep-axis-2026]]
 
 ---
 

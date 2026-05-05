@@ -32,7 +32,7 @@ wiki/
     product-org-design/
     bim-construction/
   features/             ← one page per product feature documented
-  products/             ← one page per product or tool
+  projects/             ← one page per product evolution project
   personas/             ← one page per user persona or audience segment
   concepts/             ← one page per core concept, organized by domain category
     ai-engineering/
@@ -52,6 +52,7 @@ Create subdirectories as needed. If a page doesn't fit existing categories, prop
 | Type | Location | Purpose |
 |---|---|---|
 | **Source** | `wiki/sources/<category>/` | Summary of a raw document — key facts, quotes, metadata |
+| **Project** | `wiki/projects/` | A product evolution project: AS-IS baseline, roadmap, TRL progression |
 | **Concept** | `wiki/concepts/<category>/` | A domain idea: definition, related terms, common misconceptions |
 | **Style Rule** | `wiki/style/` | A writing convention: when to apply it, examples, exceptions |
 | **Analysis** | `wiki/analyses/` | A synthesized output: comparison, gap analysis, outline |
@@ -65,7 +66,7 @@ Every wiki page must have this YAML frontmatter:
 ```yaml
 ---
 title: <page title>
-type: source | feature | product | persona | concept | style | analysis
+type: source | feature | project | persona | concept | style | analysis
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources: [list of raw source filenames that informed this page]
