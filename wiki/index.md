@@ -79,6 +79,7 @@ Each entry follows this format:
 | [[bim-construction/altoqi-finep-axis-2026]] | FAP FINEP 2026: problema "baixa capacidade de aprendizagem operacional"; seis componentes técnicos com TRL (CDE 5→7, CHECK 3→7, Agentes IA 3→7) + enquadramento sistêmico TRL 2→7 com transições de maturidade; modelos de negócio SaaS/DaaS/AIaaS/Gov/Marketplace; openBIM cluster (IFC/IDS/BCF/bSDD); ancoragem regulatória (Estratégia BIM BR, Decreto 10.306, Lei 14.133); mapa competitivo; perfil institucional AltoQi (37+ anos, MPS.BR F) | 2026-05-04 |
 | [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]] | IAAC Blog (Set 2024): pipeline GraphRAG para IFC com Neo4j/Cypher; Revit→IFC→LPG; interface BIMConverse (NeoConverse + GPT-4o); testes em ~60 projetos reais; forças, limitações e próximos passos para consultas naturais em BIM | 2026-05-04 |
 | [[bim-construction/visus-evolucao-mpd-analise-produto]] | Documento interno AltoQi/MPD (Mai 2026): análise AS IS/TO BE completa da evolução do Visus para procurement + gestão contratual de execução; metodologia de pacotes, gap analysis por módulo, roadmap priorizado P1–P6, integração DocuSign/Senior Mega, narrativa "ciclo de vida de contrato" | 2026-05-05 |
+| [[bim-construction/documento-parana-governanca-obras]] | Edital publicado pelo Governo do Estado do Paraná (SGSD): solução integrada de software para governança de obras públicas em 11 secretarias; ciclo DFD→ETP→projeto BIM→orçamento→licitação→execução→medição→transparência; POC 45 critérios / 500 pontos; Estratégia BIM Paraná; UTEA; SIM-AM TCE-PR | 2026-05-08 |
 
 ### Software Engineering
 
@@ -138,7 +139,7 @@ Each entry follows this format:
 | [[bim-construction/planejamento-preditivo-obras]] | Planejamento preditivo de obras: IA como antevisão; frente de obra como unidade de análise; cronograma inteligente; mapa das cinco frentes de IA na gestão de obras; "dados como diferencial, não a ferramenta"; Frente 4 confirmada no Visus Planning 2024; enquadramento na Construção 4.0 | 2026-05-01 |
 | [[bim-construction/tipos-contrato-engenharia]] | Tipos de contrato em engenharia: Turn-key/EPC, Preço Unitário, Administração, Aliança; alocação de risco por modelo; implicações para planejamento e stakeholders (AltoQi Visus Planning) | 2026-04-25 |
 | [[bim-construction/openbim-standards]] | openBIM Standards: padrões abertos da buildingSMART (IFC, IDS, BCF, bSDD); pipeline de conformidade; relação com Decreto 10.306/2020; openBIM como pré-condição para inteligência; ponte para consultas naturais IFC via grafos (BIMConverse) | 2026-05-04 |
-| [[bim-construction/bim-regulatorio-brasil]] | Regulatório BIM no Brasil: Estratégia BIM BR, Decreto 10.306/2020, Lei 14.133/2021, LGPD; ISO 19650; Transfere.GOV e Obras.GOV 2.0; metas por fases até 2028 | 2026-05-01 |
+| [[bim-construction/bim-regulatorio-brasil]] | Regulatório BIM no Brasil: Estratégia BIM BR, Decreto 10.306/2020, Lei 14.133/2021, LGPD; ISO 19650; Transfere.GOV e Obras.GOV 2.0; Estratégia BIM Paraná (Decreto 10.086/2022 + Decreto 10.585/2025, UTEAs, SIM-AM TCE-PR, R$55M); fluxo DFD→ETP→TR; metas por fases até 2028 | 2026-05-08 |
 
 ### Software Engineering
 
@@ -176,6 +177,7 @@ Each entry follows this format:
 | [[projects/altoqi-visus-planning]] | Linha de produto | AltoQi Visus Planning: plataforma BIM de planejamento 4D; workflow operacional completo (8 etapas); baseline AS-IS | 2026-05-01 |
 | [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; cluster openBIM (IFC/IDS/BCF/bSDD); modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo | 2026-05-05 |
 | [[projects/mpd-visus-evolucao-plataforma]] | Proposta de evolução de produto | MPD Engenharia: evolução do Visus para ciclo de vida contratual (procurement + execução + medição + pagamento) com Pacote como objeto central; dependências de EAP obrigatória, portal de fornecedores, mapa de cotações, BM digital e integrações DocuSign/ERP | 2026-05-05 |
+| [[projects/proposta-parana-governanca-obras]] | Proposta de licitação | Edital Governo do Estado do Paraná — proposta AltoQi para plataforma integrada de governança de obras públicas; ciclo completo DFD→execução→SIM-AM; 11 secretarias; 50 licenças desktop + 1 web perpétua; POC 45 critérios / 500 pontos | 2026-05-08 |
 
 ---
 

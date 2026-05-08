@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-05
+updated: 2026-05-08
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -282,6 +282,46 @@ Each entry follows this format:
 **EAP Mínima Obrigatória por Pacotes**
 : Restrição estrutural proposta para Cost Management: todos os itens de custo devem se ancorar em uma hierarquia mínima comum (Obra → Pacote → Contrato), viabilizando visão macro de portfólio na Control Tower e interoperabilidade entre módulos.
 - See also: [[bim-construction/visus-evolucao-mpd-analise-produto]], [[projects/mpd-visus-evolucao-plataforma]]
+
+**UTEA** *(Unidade Técnica de Engenharia e Arquitetura)*
+: Estrutura organizacional criada pelo Decreto Estadual nº 10.585/2025 do Governo do Paraná. As UTEAs são unidades descentralizadas de engenharia e arquitetura em cada secretaria ou órgão estadual que executa obras públicas, responsáveis pela gestão técnica local no novo modelo de governança de obras do estado.
+- Contexto: GT Obras Públicas (Decreto nº 10.585/2025); modelo de governança descentralizado do Paraná
+- See also: [[bim-construction/documento-parana-governanca-obras]], [[bim-construction/bim-regulatorio-brasil]]
+
+**SIM-AM TCE-PR** *(Sistema de Monitoramento de Atos Municipais — Tribunal de Contas do Estado do Paraná)*
+: Ferramenta do TCE-PR para prestação de contas de obras públicas estaduais e municipais. Plataformas de gestão de obras no Paraná devem exportar dados neste formato para cumprir os requisitos do tribunal. Distinto do Transferegov (federal): SIM-AM é estadual e voltado para accountability do tribunal de contas.
+- Contraste: Transferegov (federal, convênios da União) vs. SIM-AM TCE-PR (estadual, prestação de contas ao TCE)
+- See also: [[bim-construction/documento-parana-governanca-obras]], [[bim-construction/bim-regulatorio-brasil]]
+
+**Eventograma**
+: Instrumento de planejamento de obras que organiza o cronograma por **eventos** (marcos físicos da execução), em contraposição ao cronograma físico-financeiro por atividades de tempo. O eventograma permite associar medições financeiras diretamente à conclusão de eventos da obra, criando rastreabilidade entre entrega física e pagamento. O edital do Paraná exige eventograma, cronograma do eventograma, e medições vinculadas a eventos do eventograma como funcionalidades da plataforma.
+- Relacionado: cronograma físico-financeiro (tempo), Boletim de Medição (BM), frentes de obra
+- See also: [[bim-construction/documento-parana-governanca-obras]]
+
+**DFD** *(Documento de Formalização de Demanda)*
+: Primeiro documento obrigatório na cadeia de contratação pública pela Lei 14.133/2021. Formaliza a necessidade de contratação antes do processo licitatório. No fluxo de obras públicas: DFD → ETP (Estudo Técnico Preliminar) → TR (Termo de Referência) → Edital. O DFD é a origem de toda a cadeia; o ETP é seu desenvolvimento técnico; o TR é a especificação que vai ao edital.
+- Cadeia: DFD → ETP → TR → Edital (Lei 14.133/2021, art. 18)
+- See also: [[bim-construction/documento-parana-governanca-obras]], [[bim-construction/bim-regulatorio-brasil]]
+
+**ETP** *(Estudo Técnico Preliminar)*
+: Documento obrigatório pela Lei 14.133/2021 (art. 18) que fundamenta técnica e economicamente uma contratação pública. Contém 12 tópicos obrigatórios: necessidade da contratação, previsão no plano anual, requisitos, estimativa de quantidades, levantamento de mercado, descrição da solução, justificativa de parcelamento, resultados pretendidos, providências prévias, contratações correlatas, impactos ambientais, e posicionamento conclusivo. Gerado a partir do DFD; fundamenta o TR.
+- Cadeia: DFD → **ETP** → TR → Edital
+- See also: [[bim-construction/documento-parana-governanca-obras]], [[bim-construction/bim-regulatorio-brasil]]
+
+**Estratégia BIM Paraná**
+: Política estadual de BIM do Governo do Estado do Paraná, ancorada no Decreto Estadual nº 10.086/2022, alinhada com a Estratégia BIM BR federal. Prevê R$ 55 milhões de investimento no biênio 2025-2026, oito iniciativas de aceleração, e criação do Selo Paraná de Boas Práticas em BIM. Implementação gradual: projeto → execução → fiscalização → manutenção.
+- Relacionado: Estratégia BIM BR (federal), Decreto 10.306/2020 (federal), Lei 14.133/2021
+- See also: [[bim-construction/bim-regulatorio-brasil]], [[bim-construction/documento-parana-governanca-obras]]
+
+**POC em Licitação** *(Prova de Conceito — habilitação técnica)*
+: Mecanismo formal de qualificação técnica em editais de licitação de software. A empresa licitante deve demonstrar ao vivo (ou em ambiente controlado) que seu produto atende os requisitos funcionais especificados, item por item, segundo roteiro e pontuação definidos no edital. No edital do Paraná: 45 critérios, 500 pontos, avaliando maturidade técnica, aderência e capacidade de entrega. Reduz o risco de contratar uma solução incompatível.
+- Distinto de: POC de produto interno (validação interna de requisitos); POC em P&D (prova de conceito tecnológica)
+- See also: [[bim-construction/documento-parana-governanca-obras]]
+
+**RBAC** *(Role-Based Access Control / Controle de Acesso Baseado em Papéis)*
+: Modelo de controle de acesso onde permissões são atribuídas a papéis (roles), e usuários recebem papéis. No contexto de obras públicas, o RBAC é requisito de compliance: técnicos do CREA/CAU aprovam projetos, fiscais aprovam medições, gestores de contrato autorizam pagamentos — cada ação restrita a quem tem a responsabilidade técnica e institucional correspondente. O edital do Paraná exige RBAC com trilha de auditoria (logs) de todas as ações.
+- Requisito não-funcional crítico em sistemas públicos: compliance, accountability, LGPD
+- See also: [[bim-construction/documento-parana-governanca-obras]]
 
 ---
 

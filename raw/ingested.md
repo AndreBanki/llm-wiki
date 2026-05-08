@@ -7,6 +7,7 @@ Update this file at the end of every ingest.
 
 - `BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf`
 - `Como a estrutura de time molda o seu produto - Gyaco.pdf`
+- `documento_parana.md`
 - `Formulário _ Projeto Finep_Axis_2026.pdf`
 - `Gartner - Implement AI Security in the Generative IA Workflow.pdf`
 - `Gmail - [The Works] The paradoxes of being a coach.pdf`

@@ -2,8 +2,8 @@
 title: Regulatório BIM no Brasil
 type: concept
 created: 2026-05-01
-updated: 2026-05-01
-sources: [Formulário _ Projeto Finep_Axis_2026.pdf]
+updated: 2026-05-08
+sources: [Formulário _ Projeto Finep_Axis_2026.pdf, documento_parana.md]
 tags: [bim, regulatório, estratégia-bim-br, decreto-10306, lei-14133, lgpd, obras-públicas, governo, brasil, construção, iso-19650]
 ---
 
@@ -114,10 +114,53 @@ Além dos instrumentos legais, o setor conta com iniciativas voluntárias:
 
 ---
 
+## Estratégia BIM Paraná
+
+Política estadual de BIM lançada pelo Governo do Estado do Paraná, alinhada com a Estratégia BIM BR federal e ancorada no **Decreto Estadual nº 10.086/2022**.
+
+**Biênio 2025-2026:**
+- Investimento anunciado: **R$ 55 milhões** para ampliar uso e formação em BIM nas obras públicas estaduais
+- Oito iniciativas planejadas de aceleração
+- Criação do **Selo Paraná de Boas Práticas em BIM**
+- Utilização de Atas de Registro de Preços para agilizar aquisição de softwares BIM
+- Implementação gradual: projeto → execução → fiscalização → manutenção
+
+**Decreto nº 10.585/2025:** Criou o **GT Obras Públicas** e as **UTEAs** (Unidades Técnicas de Engenharia e Arquitetura) — estruturas descentralizadas de engenharia e arquitetura em cada secretaria estadual que executará obras públicas.
+
+**Relevância para AltoQi:** O edital de governança de obras publicado pelo SGSD/Paraná é a primeira contratação estadual documentada no wiki que exige a plataforma Visus + Eberick + Builder como solução integrada. Ver [[bim-construction/documento-parana-governanca-obras]].
+
+---
+
+## SIM-AM TCE-PR
+
+**SIM-AM** (Sistema de Monitoramento de Atos Municipais / Módulo de Acompanhamento) é a ferramenta do **Tribunal de Contas do Estado do Paraná (TCE-PR)** para prestação de contas de obras públicas estaduais e municipais.
+
+O edital do Paraná exige que todos os acompanhamentos de obra gerem arquivos para envio ao TCE-PR via SIM-AM, utilizando os leiautes dos manuais de integração do Tribunal na versão mais atualizada.
+
+**Distinção com Transferegov:** Transferegov é federal (convênios da União); SIM-AM TCE-PR é estadual (prestação de contas ao tribunal de contas do estado). As duas integrações são independentes e complementares.
+
+---
+
+## Fluxo Documental DFD → ETP → TR (Lei 14.133/2021)
+
+A Lei 14.133/2021 estrutura uma cadeia documental obrigatória para contratações públicas:
+
+| Documento | Sigla | Função |
+|---|---|---|
+| **Documento de Formalização de Demanda** | DFD | Origem de toda contratação; formaliza a necessidade antes do processo licitatório |
+| **Estudo Técnico Preliminar** | ETP | 12 tópicos obrigatórios (art. 18); fundamenta a contratação tecnicamente e economicamente; gerado a partir do DFD |
+| **Termo de Referência** | TR | Especificação técnica que integra o edital; gerado a partir do ETP aprovado |
+
+O edital do Paraná exige que a plataforma cubra a cadeia completa: o módulo de solicitações gera o DFD automaticamente, que inicia o ETP, que por sua vez alimenta o TR da licitação — tudo integrado ao projeto BIM e orçamento.
+
+---
+
 ## Related Pages
 
 - [[bim-construction/construcao-40]]
 - [[bim-construction/openbim-standards]]
+- [[bim-construction/documento-parana-governanca-obras]]
+- [[projects/proposta-parana-governanca-obras]]
 - [[bim-construction/tipos-contrato-engenharia]]
 - [[projects/altoqi-axis]]
 - [[projects/altoqi-check]]
