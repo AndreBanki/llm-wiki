@@ -60,9 +60,17 @@ Append an entry to `wiki/log.md`:
 
 ```
 ## [YYYY-MM-DD] query | <question summary>
-Pages consulted: [list of pages]
+
+**Pages consulted**
+- [wiki/concepts/category/filename.md](concepts/category/filename.md)
+- [wiki/sources/category/filename.md](sources/category/filename.md)
+
+**Pages updated** *(if any)*
+- [wiki/analyses/filename.md](analyses/filename.md) — what changed
+
 Output filed: yes/no — <filename if yes>
 ```
+Rules: each path must be a markdown link (link text = full `wiki/...` path; link target = relative path from `wiki/`). Omit `wiki/index.md`, `wiki/overview.md`, and `mkdocs.yml` from Pages updated.
 
 ## Output Format
 

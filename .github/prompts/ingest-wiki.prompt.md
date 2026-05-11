@@ -34,10 +34,21 @@ When the user says "ingest [source]" (or once the source has been auto-detected)
 14. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
-   Pages created: ...
-   Pages updated: ...
-   Key additions: ...
+
+   **Pages created**
+   - [wiki/sources/category/filename.md](sources/category/filename.md) — description
+
+   **Pages updated**
+   - [wiki/concepts/category/filename.md](concepts/category/filename.md) — what changed
+   - [wiki/glossary.md](glossary.md) — N new terms
+
+   **Key additions**
+   Prose description of the most important insights and cross-domain connections.
    ```
+   Rules:
+   - Each page path must be a markdown link. The link text uses the full `wiki/...` path; the link target uses the relative path from `wiki/` (e.g. `sources/category/file.md`).
+   - **Omit** purely bureaucratic updates: `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`, and `raw/ingested.md` should NOT appear in Pages updated.
+   - List each section (`Pages created`, `Pages updated`, `Key additions`) as a bold header on its own line.
 15. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with:
    - Subject: `[LLM Wiki] Ingest complete: <source title>`
    - Body:
@@ -70,10 +81,21 @@ Clips are MD files saved by the Obsidian Web Clipper into `raw/clips/`. They alr
 14. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>
-   Pages created: ...
-   Pages updated: ...
-   Key additions: ...
+
+   **Pages created**
+   - [wiki/sources/category/filename.md](sources/category/filename.md) — description
+
+   **Pages updated**
+   - [wiki/concepts/category/filename.md](concepts/category/filename.md) — what changed
+   - [wiki/glossary.md](glossary.md) — N new terms
+
+   **Key additions**
+   Prose description of the most important insights and cross-domain connections.
    ```
+   Rules:
+   - Each page path must be a markdown link. The link text uses the full `wiki/...` path; the link target uses the relative path from `wiki/` (e.g. `sources/category/file.md`).
+   - **Omit** purely bureaucratic updates: `wiki/index.md`, `wiki/overview.md`, `mkdocs.yml`, and `raw/ingested.md` should NOT appear in Pages updated.
+   - List each section (`Pages created`, `Pages updated`, `Key additions`) as a bold header on its own line.
 15. **After all wiki changes are complete, send a completion email to andre.banki@gmail.com using the Resend MCP tool**, with:
    - Subject: `[LLM Wiki] Ingest complete: <source title>`
    - Body:

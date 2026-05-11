@@ -2,8 +2,8 @@
 title: "Topologia de Times (Team Topology)"
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
-sources: [gyaco-conway-team-structure.md]
+updated: 2026-05-11
+sources: [gyaco-conway-team-structure.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md]
 tags: [product-management, organization-design, team-topology, marketplace]
 ---
 
@@ -74,7 +74,21 @@ The Lopes real estate marketplace reorganization (documented in [[product-org-de
 
 ---
 
+## AI-Native Delivery Implication
+
+When execution latency drops (idea -> spec -> PR in under an hour), team topology still matters, but the bottleneck moves:
+
+- From coordination overhead (handoffs, ticket decomposition, PRD rituals)
+- To orchestration quality (context files, constraints, human review gates)
+
+This raises the leverage of user-centric and outcome-centric teams. With faster implementation loops, structure quality and framing quality have even greater impact on what gets built.
+
+See [[product-org-design/ai-native-product-orchestration]].
+
+---
+
 ## Related Pages
 
 - [[product-org-design/conways-law]]
 - [[product-org-design/gyaco-conway-team-structure]]
+- [[product-org-design/ai-native-product-orchestration]]

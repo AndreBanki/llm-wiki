@@ -102,9 +102,14 @@ Append an entry to `wiki/log.md`:
 
 ```
 ## [YYYY-MM-DD] lint
+
 Issues found: X contradictions, Y stale items, Z orphans, ...
-Fixes applied: [list of pages modified]
+
+**Fixes applied**
+- [wiki/concepts/category/filename.md](concepts/category/filename.md) — what was fixed
+- [wiki/sources/category/filename.md](sources/category/filename.md) — what was fixed
 ```
+Rules: each path must be a markdown link (link text = full `wiki/...` path; link target = relative path from `wiki/`). Omit `wiki/index.md`, `wiki/overview.md`, and `mkdocs.yml`.
 
 ## Output Format
 
