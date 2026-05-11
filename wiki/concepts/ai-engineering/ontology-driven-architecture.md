@@ -2,8 +2,8 @@
 title: Ontology-Driven Architecture
 type: concept
 created: 2026-04-24
-updated: 2026-05-03
-sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md]
+updated: 2026-05-11
+sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md"]
 tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography, semantic-layer, open-source, skos, protege, orionbelt, tools]
 ---
 
@@ -125,6 +125,66 @@ This was unfashionable for most of the 2010s. In hindsight, it was prescient. Th
 > "Meaning had to be encoded up front, explicitly, and shared across the system."
 
 Core principle: **Meaning precedes intelligence.**
+
+---
+
+## Microsoft Fabric IQ: Implementation Architecture
+
+*Source: Pankaj Kumar, "Microsoft vs Palantir: Two Paths to Enterprise Ontology" (Jan 2026) — [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]*
+
+While Palantir pioneered enterprise ontology for intelligence work, Microsoft Fabric IQ represents the post-Palantir implementation optimized for agentic systems. The architecture has three layers.
+
+### Layer 1: The Ontology Item
+
+A first-class Fabric artifact — alongside data lakehouse, Power BI models, and pipelines — that defines:
+
+1. **Entity Types** — business concepts with typed properties and constraints (not table schemas)
+2. **Typed Relationships** — semantic links with named relationship types (not just foreign keys)
+3. **Business Rules** — executable conditions defining valid states and triggering automated actions
+4. **Permitted Actions** — what agents can do, with role preconditions and audit trail requirements
+
+### Layer 2: Semantic Bindings to OneLake
+
+The ontology connects to physical data in OneLake through a **three-tier binding model**:
+
+| Tier | What it is |
+|---|---|
+| **Logical Definition** | Pure ontology concept; no physical mapping yet |
+| **Physical Binding** | Mapping entity properties to OneLake SQL queries |
+| **Computed Properties** | Real-time enrichment from ML endpoints or external APIs; configurable cache |
+
+This makes the ontology a **semantic abstraction layer** over physical data — not documentation about it. When an agent asks "Who are our high-risk enterprise customers?", it reasons at the ontology level; the platform generates the SQL.
+
+### Layer 3: Semantic Contracts for Agent Grounding
+
+Agents don't receive database connections, schema documentation, or example queries. They receive **semantic permissions** — a contract specifying which entities they can read/write and which actions they can execute. From this contract the agent automatically inherits:
+- What entities mean (from ontology definitions)
+- How they relate (from relationship graph)
+- What's valid (from business rules)
+- What it can do (from permitted actions)
+
+The runtime flow: **Semantic Query Planning** (natural language → entity resolution → permission check) → **Physical Execution** (optimized SQL against OneLake) → **Semantic Response** (typed entities, not raw rows). The agent never sees SQL.
+
+### Palantir vs. Microsoft: Two Philosophies
+
+| Dimension | Palantir | Microsoft Fabric IQ |
+|---|---|---|
+| **Primary Goal** | Enable human analysts to find connections | Enable AI agents to take autonomous actions |
+| **Structure** | Graph (nodes/edges, traversal-optimized) | Semantic model (entities/rules, reasoning-optimized) |
+| **Decision making** | Human analyzes, system presents | Agent reasons, system validates |
+| **Ecosystem** | Proprietary platform | Open (Power BI, MCP, Azure) |
+| **Ontology builders** | Palantir consultants | Business analysts evolving Power BI models |
+| **Best for** | Intelligence work, fraud investigation | Operational AI, business process automation |
+
+### The Strategic Argument
+
+> "Who owns the semantic layer matters more than which ontology technology you use."
+
+If ontology lives inside an AI vendor's platform: it can only ground that vendor's agents; other tools must rebuild semantic understanding independently. If ontology lives in the data platform: every tool in the ecosystem — BI, agents, apps, APIs — can consume it. Microsoft's bet: **ontology as infrastructure, not feature.**
+
+The democratization play: business analysts who already built millions of Power BI semantic models can evolve them into full ontologies. This makes ontology-building accessible at enterprise scale without dedicated ontology engineers.
+
+The timing argument: in 2015–2020 Palantir's human-analyst-driven graph exploration was the right answer (AI wasn't ready for autonomous decisions). In 2025+, the bottleneck shifts: the question is how to let 100 AI agents collaborate reliably — and semantic contracts solve this.
 
 ---
 
@@ -319,3 +379,4 @@ SKOS is directly relevant to the Axis project: material types, activity categori
 - **[[ai-engineering/ai-agent-governance]]** — Ontologies are the enforcement mechanism that makes guardrails deterministic; the four-component governance stack (guardrails, observability, FinOps, execution control) is structurally stronger when built on an ontology — and weaker when the ontology lacks formal semantics
 - **[[ai-engineering/genai-security-workflow]]** — The Gartner framework's data governance stage is necessary but, per both sources, insufficient; formal ontologies would complete what governance alone cannot enforce
 - **[[product-org-design/conways-law]]** — "Meaning must be encoded upfront" mirrors "strategy must precede structure"; both reject emergent, unplanned design in favor of deliberate upfront modeling
+- **[[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]** — primary source for the Microsoft Fabric IQ implementation architecture section above; same author as the Protégé tutorial; provides the non-Palantir implementation case that was listed as a knowledge gap

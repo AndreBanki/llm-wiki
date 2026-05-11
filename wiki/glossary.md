@@ -4,7 +4,7 @@ type: glossary
 created: 2026-04-07
 updated: 2026-05-08
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md"]
 tags: [terminology, style, glossary]
 ---
 
@@ -246,6 +246,27 @@ Each entry follows this format:
 **Write-Back** *(action framework, write-back pattern)*
 : A UI-triggered operation that modifies underlying data (not just reads). In Palantir's Ontology, this is the "Actions" layer — clicking "Approve Invoice" triggers a database update and logs the change. In open-source stacks, implemented via Retool/Streamlit buttons calling database mutations. Distinguishes an operational system from a read-only analytics layer.
 - See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+**Microsoft Fabric IQ** *(Microsoft Fabric semantic intelligence layer)*
+: Microsoft's ontology-based semantic intelligence layer within the Microsoft Fabric data platform. Implements a three-layer architecture: (1) **Ontology Item** — first-class Fabric artifact defining entity types, typed relationships, business rules, and permitted actions; (2) **Semantic Integration with OneLake** — semantic bindings connect ontology concepts to physical data; (3) **Agent Integration via Semantic Contracts** — agents query the ontology, not raw data. Optimized for operational AI agents and autonomous business process automation. Critiqued by Figay (2026) for lacking formal semantics (no description logic, no inference, no OWA) — but operationally effective for agent coordination within governed domains. Allows business analysts to evolve existing Power BI semantic models into full ontologies.
+- Contrasted with: Palantir Ontology (graph-first, human-analyst-optimized, intelligence focus, proprietary)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/nfigay-ontology-marketing-vs-formal]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
+
+**Ontology Item** *(Microsoft Fabric IQ)*
+: A first-class Fabric object — alongside the data lakehouse, Power BI models, and data pipelines — that defines a formal semantic model of a business domain. Specifies four things: entity types (business concepts with typed properties and constraints), typed relationships (semantic links with named relationship types), business rules (executable conditions defining valid states and triggering automated actions), and permitted actions (what agents are allowed to do, with role preconditions and audit trail requirements). The Ontology Item is not metadata about data; it is a model of reality that data gets bound to.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
+
+**Semantic Bindings** *(Microsoft Fabric IQ)*
+: Microsoft's three-tier mechanism for connecting ontology definitions to physical data in OneLake: (1) Logical Definition — pure ontology concept with no physical mapping; (2) Physical Binding — entity properties mapped to OneLake SQL queries; (3) Computed Properties — real-time enrichment from ML model endpoints or external APIs, with configurable caching (e.g., 5 minutes). The binding layer makes the ontology a live semantic abstraction over physical data, not documentation. When agents query entity properties, semantic bindings transparently resolve the query to the appropriate physical data source.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
+
+**Semantic Contracts** *(Microsoft Fabric IQ agent interface)*
+: The mechanism by which AI agents in Microsoft Fabric are grounded in the ontology rather than in raw database schemas. A semantic contract specifies: which entities an agent can read, which it can write, which actions it can execute, and the data scope it sees. The agent inherits business meaning, relationship graph, business rules, and permitted actions from the ontology — eliminating prompt engineering about schemas and RAG pipeline wiring. Grounding via semantic contract is the Microsoft alternative to RAG pipelines for enterprise agents. Runtime: semantic query planning → physical execution → semantic response (typed entities, not raw rows).
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/ai-agent-governance]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
+
+**OneLake** *(Microsoft Fabric data layer)*
+: Microsoft Fabric's unified logical data lake — a single repository underlying all Fabric workloads (Power BI, Data Factory, Synapse Analytics, Fabric IQ). When Fabric IQ's semantic bindings connect an Ontology Item to "physical data," OneLake is that physical data layer. All semantic queries resolve ultimately to OneLake; the Ontology Item provides the semantic abstraction above it. Not a separate product — it is the unified physical data substrate of Microsoft Fabric.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
 
 ---
 
@@ -596,6 +617,25 @@ Each entry follows this format:
 ---
 
 ## Product Management / Organizational Design
+
+**Execution Collapse**
+: Framing for the sharp reduction in cycle time and cost from product intent to production-ready code in AI-native delivery pipelines. In this model, execution becomes fast enough that coordination overhead (PRDs, handoff rituals) is no longer the primary bottleneck.
+- Note: in this wiki, treated as a directional operating pattern rather than a proven universal baseline
+- See also: [[product-org-design/ai-native-product-orchestration]]
+
+**Product Note** *(AI-native PM workflow)*
+: A short strategic artifact (typically 3-4 paragraphs) that captures user intent, target outcome, and metrics to move, without implementation detail. In AI-native workflows, it replaces long PRDs as the seed input for downstream specification generation.
+- Contrasted with: long-form PRD
+- See also: [[product-org-design/ai-native-product-orchestration]]
+
+**Context Files** *(product_area_context.md / code_context.md)*
+: Constraint artifacts injected into AI generation workflows to reduce ambiguity and bound autonomy. `product_area_context.md` carries business rules; `code_context.md` carries technical constraints and architectural realities.
+- Role: primary control layer before autonomous coding starts
+- See also: [[product-org-design/ai-native-product-orchestration]], [[ai-engineering/ai-agent-governance]]
+
+**PM as Editor-in-Chief**
+: The role shift where PMs do not draft every technical spec from scratch, but review and correct AI-generated functional logic before execution. Review quality becomes a core governance gate.
+- See also: [[product-org-design/ai-native-product-orchestration]]
 
 **Lei de Conway** *(Conway's Law)*
 : "Organizations that design systems tend to produce systems that mirror the communication structures of those organizations." (Melvin Conway, 1968.) Team structure shapes product structure — when structure is wrong, it works silently against strategy.

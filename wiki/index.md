@@ -51,6 +51,7 @@ Each entry follows this format:
 | [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]] | Medium (Apr 2026): open-source Palantir Ontology alternative; module-by-module replacement table (Neo4j, dbt, Cube.js, Streamlit, MLflow); semantic layer concept; medallion architecture; illustrates informal "ontology" usage that nfigay critiques | 2026-05-02 |
 | [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]] | Medium (Dec 2025): hands-on Protégé tutorial — paper exercise methodology; classes/properties/individuals/reasoner workflow; inference demonstration (VegetarianDish); common beginner mistakes; Schema.org/FOAF/Dublin Core reuse | 2026-05-03 |
 | [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]] | Medium (Apr 2026): OrionBelt Ontology Builder (Streamlit/rdflib) — lightweight Protégé alternative; bulk operations, diff-before-import, checkpointed undo; dedicated SKOS page for controlled vocabularies; OWL-RL inference | 2026-05-03 |
+| [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]] | Towards AI (Jan 2026): Microsoft Fabric IQ vs Palantir — three-layer implementation (Ontology Item, Semantic Bindings to OneLake, Semantic Contracts for agents); who owns the semantic layer; democratization via Power BI; convergence thesis | 2026-05-11 |
 
 ### Coaching & Leadership
 
@@ -65,6 +66,7 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[product-org-design/gyaco-conway-team-structure]] | Gyaco article (Joca Torres): Conway's Law, Reverse Conway Maneuver critique, Lopes case study — structure must follow strategy and architecture | 2026-04-22 |
+| [[product-org-design/shailesh-sharma-anthropic-pm-execution-collapse]] | Medium (Apr 2026): AI-native PM workflow — Execution Collapse concept; Product Note replaces PRD; context files as constraint layer; PM as Editor-in-Chief; 45-minute idea-to-PR cycle | 2026-05-11 |
 
 ### BIM & Construction
 
@@ -107,7 +109,7 @@ Each entry follows this format:
 | [[ai-engineering/aip-platform]] | Palantir AIP: enterprise AI platform; Ontology as semantic data model; full spectrum AI from chat to automation; empirical AI architecture; AIP Bootcamp format | 2026-04-22 |
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure; CLAUDE.md design patterns for knowledge vaults (Active Context, Reference Don't Inline, Negative Instructions) | 2026-05-01 |
-| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm; open-source implementation pathway (Neo4j, dbt, Cube.js, Streamlit); practitioner tooling (Protégé, OrionBelt); SKOS for controlled vocabularies | 2026-05-03 |
+| [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-04-24 || [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; Palantir (graph/intelligence) vs. Microsoft Fabric IQ (semantic contracts/operations) implementation comparison; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm; open-source implementation pathway; practitioner tooling (Protégé, OrionBelt); SKOS | 2026-05-11 |
 | [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
 | [[ai-engineering/obsidian-knowledge-graph]] | Obsidian vault as implicit knowledge graph: vault-as-graph model, graph metrics for PKM (centrality, orphans, clusters, bridges), compound maintenance, CLAUDE.md design patterns, four-tier tool taxonomy | 2026-05-01 |
 | [[ai-engineering/llm-context-window]] | Context window as RAM: what consumes the budget (system prompt, history, tool schemas, tool results), 30–50K typical agent overhead, the core architectural question (see vs. retrieve), failure modes | 2026-05-01 |
@@ -128,6 +130,7 @@ Each entry follows this format:
 |---|---|---|
 | [[product-org-design/conways-law]] | Lei de Conway + Manobra Reversa de Conway — team structure shapes product; reverse maneuver is valid but incomplete without strategy | 2026-04-22 |
 | [[product-org-design/team-topology]] | Organizing principles for product teams: system-centric vs. user-centric vs. capability-centric; Lopes three-sided marketplace case | 2026-04-22 |
+| [[product-org-design/ai-native-product-orchestration]] | AI-native PM operating model: PM as Orchestrator/Editor-in-Chief; Product Note → context files → LLM spec → autonomous PR; execution latency as the new bottleneck; constraint-first generation; failure modes | 2026-05-11 |
 
 ### BIM & Construction
 

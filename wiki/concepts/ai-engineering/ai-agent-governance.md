@@ -2,8 +2,8 @@
 title: AI Agent Governance
 type: concept
 created: 2026-04-22
-updated: 2026-04-24
-sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf]
+updated: 2026-05-11
+sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md]
 tags: [ai-governance, agent-architecture, finops, observability, decision-architecture, ai-engineering]
 ---
 
@@ -107,6 +107,18 @@ This works until it doesn't. When it fails, it's not a bug — it's a wrong deci
 
 ---
 
+## Product-Side Governance Interface
+
+In AI-native product delivery, governance begins before code generation:
+
+- PMs define non-negotiable business rules in `product_area_context.md`
+- Engineering defines technical constraints in `code_context.md`
+- PM review of the functional spec acts as a human checkpoint before autonomous execution
+
+This is the product-management implementation of architecture-of-decision: deciding which judgments remain human and which actions may be delegated safely.
+
+---
+
 ## Related pages
 
 - [[ai-engineering/eric-luque-claude-opus-47-operator-risk]]
@@ -115,3 +127,4 @@ This works until it doesn't. When it fails, it's not a bug — it's a wrong deci
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/genai-security-workflow]]
 - [[ai-engineering/llm-model-economics]]
+- [[product-org-design/ai-native-product-orchestration]]

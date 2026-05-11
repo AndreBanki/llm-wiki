@@ -105,6 +105,7 @@ nav:
     - Product & Org Design:
       - Conway's Law: concepts/product-org-design/conways-law.md
       - Team Topology: concepts/product-org-design/team-topology.md
+      - AI-Native Product Orchestration: concepts/product-org-design/ai-native-product-orchestration.md
     - Software Engineering:
       - Caching, CDN & Proxy: concepts/software-engineering/caching-cdn-proxy.md
       - CAP Theorem: concepts/software-engineering/cap-theorem-and-consistency.md
@@ -134,6 +135,7 @@ nav:
       - Patra — Open Source Ontology Pipeline: sources/ai-engineering/dhiraj-patra-open-source-ontology-pipeline.md
       - Kumar — Building Your First Ontology (Protégé): sources/ai-engineering/pankaj-kumar-building-first-ontology-tutorial.md
       - Becher — You Don't Need a PhD to Build an Ontology (OrionBelt): sources/ai-engineering/ralfo-becher-you-dont-need-phd-ontology.md
+      - Kumar — Microsoft vs Palantir Enterprise Ontology: sources/ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
       - Alessandro Lopes — Planejamento de Obra 4.0: sources/bim-construction/alessandro-lopes-planejamento-obra-40.md
@@ -151,6 +153,7 @@ nav:
       - MBS — Two Questions: sources/coaching-leadership/mbs-two-questions-for-great-conversation.md
     - Product & Org Design:
       - GYACO — Conway & Team Structure: sources/product-org-design/gyaco-conway-team-structure.md
+      - Sharma — Anthropic PMs Ship Features in 45 Minutes: sources/product-org-design/shailesh-sharma-anthropic-pm-execution-collapse.md
     - Software Engineering:
       - System Design for Beginners: sources/software-engineering/shivambhadani-system-design-for-beginners.md
   - Analyses:
