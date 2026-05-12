@@ -10,10 +10,9 @@ When the user says "ingest the new file" (or similar phrasing without specifying
 ## Workflow
 
 1. Read `raw/ingested.md` to get the list of already-ingested PDFs
-2. Read `raw/clips/ingested.md` to get the list of already-ingested clips
-3. List all PDFs in `raw/` (non-recursive) that are not in `raw/ingested.md` — **do not treat `.md` files in `raw/` root as ingestable sources**
-4. List all `.md` files in `raw/clips/` (excluding `ingested.md` itself) that are not in `raw/clips/ingested.md`
-5. Combine both lists
+2. List all PDFs in `raw/` (non-recursive) that are not in `raw/ingested.md` — **do not treat `.md` files in `raw/` root as ingestable sources**
+3. List all `.md` files currently in `raw/clips/` (non-recursive)
+4. Combine both lists
 
 ## Decision
 

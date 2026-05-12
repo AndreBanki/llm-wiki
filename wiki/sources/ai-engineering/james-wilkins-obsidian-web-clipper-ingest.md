@@ -105,7 +105,7 @@ A command-line tool that interfaces with a running Obsidian instance. Used inste
 
 This wiki implements a structurally identical pattern:
 - `raw/clips/` is the Inbox equivalent
-- `raw/clips/ingested.md` tracks which clips have been processed (mirrors the `ingested` checkbox in Wilkins' system)
+- Clips are moved from `raw/clips/` to `raw/` after ingestion, so inbox contents always represent pending clips
 - The Copilot agent fills the role of the overnight Python script — performing tagging, summarization, and wiki page generation
 - The `copilot-instructions.md` schema file is the equivalent of Wilkins' "ingest routine brief"
 

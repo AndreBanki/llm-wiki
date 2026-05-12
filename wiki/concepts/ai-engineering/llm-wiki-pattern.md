@@ -63,7 +63,7 @@ The pipeline that gets documents *into* `raw/` in the first place. Often the inv
 - Notes land in an Obsidian Inbox folder overnight processing handles the rest
 - Overnight Python script (Gemini Flash or local Ollama) tags and summarizes each note, then moves it from Inbox → Wiki via Obsidian CLI (preserving wikilinks)
 
-**Key design insight (Wilkins):** *The best system is one you actually use.* Automation lowers the capture barrier to near zero; the tradeoff is less curation per source. The `ingested` checkbox on each clip mirrors the `raw/clips/ingested.md` tracking file in this wiki.
+**Key design insight (Wilkins):** *The best system is one you actually use.* Automation lowers the capture barrier to near zero; the tradeoff is less curation per source. In this wiki, `raw/clips/` is treated as an inbox: clips are ingested and then moved to `raw/`, so inbox contents always represent pending clips.
 
 See [[ai-engineering/james-wilkins-obsidian-web-clipper-ingest]] for full implementation details.
 

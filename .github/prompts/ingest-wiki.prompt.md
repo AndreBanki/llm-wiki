@@ -77,7 +77,7 @@ Clips are MD files saved by the Obsidian Web Clipper into `raw/clips/`. They alr
 10. Update `wiki/index.md` — add new pages, update summaries of changed pages
 11. Update `wiki/overview.md` if the source shifts the big picture — same superscript citation convention as PDF Ingest
 12. Update `mkdocs.yml` — add any new pages to the `nav` section under the correct category
-13. Add the clip filename (with extension) to `raw/clips/ingested.md` (alphabetically within the Ingested list). Remove the `*(none yet)*` placeholder if present
+13. Move the ingested clip file from `raw/clips/` to `raw/` after all wiki updates are complete. If a file with the same name already exists in `raw/`, rename the moved file with a `-clip` suffix before the extension
 14. Append an entry to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | <source title>

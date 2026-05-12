@@ -53,15 +53,18 @@ try {
         $filename = $ev.SourceEventArgs.Name
         Remove-Event -EventIdentifier $ev.EventIdentifier
 
-        # Ignore the ingested.md tracking file
-        if ($ev.SourceIdentifier -eq "ClipCreated" -and $filename -eq "ingested.md") { continue }
-
         Write-Host "[$(Get-Date -Format 'HH:mm:ss')] New file detected: $filename" -ForegroundColor Green
 
         Show-ToastNotification -Title "LLM Wiki — Ingesting…" -Message $filename
 
         Start-Sleep -Seconds 2  # wait for file to finish writing
-        Start-Process -FilePath "claude" -ArgumentList '"ingest the new file"' -WorkingDirectory $PSScriptRoot
+        if ($ev.SourceIdentifier -eq "ClipCreated") {
+          $prompt = "ingest clip file '$filename' from raw/clips; after the ingest is complete, move the original file to raw/ and keep raw/clips only as an inbox"
+        } else {
+          $prompt = "ingest the new file"
+        }
+
+        Start-Process -FilePath "claude" -ArgumentList ('"' + $prompt + '"') -WorkingDirectory $PSScriptRoot
     }
 } finally {
     Unregister-Event -SourceIdentifier ClipCreated -ErrorAction SilentlyContinue

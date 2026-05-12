@@ -36,7 +36,7 @@ class IngestHandler(FileSystemEventHandler):
         print(f"[{time.strftime('%H:%M:%S')}] New file detected: {path.name}")
         time.sleep(2)  # wait for file to finish writing
         self._notify(path.name)
-        self._launch_claude()
+        self._launch_claude(path)
 
     def _notify(self, filename: str):
         try:
@@ -52,9 +52,18 @@ class IngestHandler(FileSystemEventHandler):
         except ImportError:
             print("(winotify not installed — skipping toast)")
 
-    def _launch_claude(self):
+    def _launch_claude(self, path: Path):
+        if path.parent == CLIPS_DIR:
+            prompt = (
+                f'ingest clip file "{path.name}" from raw/clips; '
+                'after the ingest is complete, move the original file to raw/ '
+                'and keep raw/clips only as an inbox'
+            )
+        else:
+            prompt = "ingest the new file"
+
         subprocess.Popen(
-            ["claude", "ingest the new file"],
+            ["claude", prompt],
             cwd=str(WORKSPACE),
             creationflags=subprocess.CREATE_NEW_CONSOLE,
         )
@@ -64,7 +73,7 @@ if __name__ == "__main__":
     print(f"Watching: {RAW_DIR} (PDFs) and {CLIPS_DIR} (clips)")
     observer = Observer()
     observer.schedule(IngestHandler({".pdf"}), str(RAW_DIR), recursive=False)
-    observer.schedule(IngestHandler({".md"}, {"ingested.md"}), str(CLIPS_DIR), recursive=False)
+    observer.schedule(IngestHandler({".md"}), str(CLIPS_DIR), recursive=False)
     observer.start()
     try:
         while True:
