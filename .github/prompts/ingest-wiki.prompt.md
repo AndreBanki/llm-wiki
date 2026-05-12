@@ -103,6 +103,36 @@ Clips are MD files saved by the Obsidian Web Clipper into `raw/clips/`. They alr
      - **Pages updated:** list each modified file with a one-line description of what changed
      - A short paragraph on the most important cross-domain connection or insight added by this ingest
 
+## Meeting Transcript Ingest Workflow
+
+Meeting transcripts are `.srt`, `.vtt`, or `.txt` files exported from Fireflies, Teams, Zoom, or similar tools. They may also be raw text pastes from such platforms. The ingest workflow mirrors PDF Ingest with these differences:
+
+1. **Do not ask for the URL** if the user already provided a Fireflies/recording URL — include it in the source page Metadata table as the original URL. If no URL was provided, omit the field.
+2. Read the transcript file from `raw/` (the SRT or text file)
+3. Read `wiki/index.md` and relevant existing pages to understand what is already known
+4. **Before making any changes, send an ingest briefing email** following the same format as PDF Ingest
+5. Discuss key takeaways with the user (ask 1-3 clarifying questions if needed)
+6. Create a summary page in `wiki/sources/` named after the transcript filename (without extension)
+
+### Source Page Organization for Meeting Transcripts
+
+**Do not organize the source page chronologically and do not attribute statements to individual speakers.**
+
+The page must be organized by product-decision relevance, structured as a synthesis for a product development team to study. Use the following structure:
+
+1. **Executive Summary** — 2-4 sentences capturing the meeting's core output
+2. **Strategic Context** — why this meeting happened, what decision or problem it addressed
+3. **Gap Taxonomy** — insights grouped by theme or product layer (e.g., fundamentals, operability, integration, UX). Group related signals together regardless of when they were raised in the conversation.
+4. **Competitive Signals** — any mentions of competing products, market benchmarks, or user comparisons
+5. **Product Tensions** — unresolved trade-offs, disagreements, or decisions left open
+6. **Roadmap Hypotheses** — short-term, medium-term, and long-term opportunity signals, framed as hypotheses to validate
+7. **Risks and Dependencies** — blockers, external dependencies, or preconditions raised during the meeting
+8. **Open Questions** — questions explicitly left unanswered, or inferred from gaps in the discussion
+
+Depth matters: each section should be substantive. Prefer structured lists over prose where there are multiple items. Capture nuance — the source page should be useful for someone who was not in the meeting.
+
+7. Follow steps 7–15 of the PDF Ingest Workflow (update related pages, glossary, index, overview, mkdocs, ingested.md, log, completion email)
+
 ## Notes
 
 - A single ingest may touch 5–15 wiki pages. That is expected.
