@@ -4,7 +4,7 @@ type: glossary
 created: 2026-04-07
 updated: 2026-05-12
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt, "PRDs are Dead.md"]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt, "PRDs are Dead.md", "How to Extract High-Value Knowledge Graph Relationships.md"]
 tags: [terminology, style, glossary]
 ---
 
@@ -267,6 +267,36 @@ Each entry follows this format:
 **OneLake** *(Microsoft Fabric data layer)*
 : Microsoft Fabric's unified logical data lake — a single repository underlying all Fabric workloads (Power BI, Data Factory, Synapse Analytics, Fabric IQ). When Fabric IQ's semantic bindings connect an Ontology Item to "physical data," OneLake is that physical data layer. All semantic queries resolve ultimately to OneLake; the Ontology Item provides the semantic abstraction above it. Not a separate product — it is the unified physical data substrate of Microsoft Fabric.
 - See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]
+
+**Competency Questions** *(knowledge graph design)*
+: Canonical questions that a knowledge graph must be able to answer before extraction starts. They define scope, prioritize relationship types, and prevent graph sprawl. In KG design, extraction quality is judged by whether edges improve answers to competency questions, not by edge count.
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]], [[ai-engineering/ontology-driven-architecture]]
+
+**Relationship Schema** *(predicate schema, relation schema)*
+: Controlled definition of relationship types in a graph: canonical predicate names, allowed subject/object entity types, directionality, validation constraints, and expected evidence sources. Purpose: collapse synonym chaos (for example, `works for`, `employee at`, `has employer`) into a canonical relation such as `worksFor`.
+- Failure mode prevented: semantically duplicate predicates and reversed-direction edges
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]]
+
+**Predicate Normalization** *(relation canonicalization)*
+: Post-extraction step that maps raw natural-language relation phrases into a controlled canonical predicate vocabulary while preserving directionality. Example: `is employed by`, `works for`, `employee at` -> `worksFor`.
+- Key rule: normalize semantics without losing edge direction (`owns` is not equivalent to `ownedBy`)
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]], [[ai-engineering/how-to-use-graphify-knowledge-graph]]
+
+**Distant Supervision** *(relation extraction)*
+: Training strategy that auto-generates relation labels from an existing knowledge base instead of fully manual annotation. Useful for scaling relation extraction with limited labeling budget; common downside is noisy labels, requiring confidence scoring and downstream validation.
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]]
+
+**Relationship Value Score** *(edge value scoring)*
+: Priority score that combines extraction confidence with business usefulness signals such as source authority, use-case importance, reusability, freshness, and specificity. Distinguishes "likely true" from "highly useful" when triaging which edges to publish, review, or refresh first.
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]]
+
+**SHACL** *(Shapes Constraint Language)*
+: W3C constraint language for validating RDF graphs against structural and semantic rules expressed as shapes. Typical use in KG pipelines: enforce entity/predicate constraints, cardinality, datatype checks, and graph consistency before production publishing.
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]]
+
+**PROV-O** *(W3C PROV Ontology)*
+: W3C ontology for representing provenance: what source supports a claim, how it was produced, when it was extracted, by which process, and verification status. In relationship extraction workflows, PROV-O underpins auditability and trust for high-value edges.
+- See also: [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]], [[ai-engineering/how-to-use-graphify-knowledge-graph]]
 
 ---
 
@@ -877,6 +907,22 @@ Each entry follows this format:
 **Execution Control**
 : A governance mechanism that separates the AI's suggestion scope (unlimited) from its execution scope (explicitly constrained). The principle: AI can suggest everything; it executes only within approved boundaries. Requires defined action limits, decision scope, rollback automation, and human checkpoints for irreversible actions.
 - See also: [[ai-engineering/ai-agent-governance]]
+
+**Managed Agent Runtime** *(hosted agent runtime)*
+: A fully managed runtime where the model provider operates key agent infrastructure components: orchestration loop, durable state, sandbox lifecycle, retry/recovery behavior, and secret mediation. Developers define agent behavior and tools, while runtime operations are outsourced to the platform. Primary tradeoff: faster delivery and lower infra burden versus reduced control over execution internals and portability.
+- See also: [[ai-engineering/ai-agent-governance]], [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]]
+
+**Control-Surface Migration** *(agent platform governance)*
+: The governance shift that occurs when execution capabilities move from team-owned infrastructure to provider-managed runtimes. Decision boundaries, observability depth, and policy enforcement points relocate upward into the platform stack. Architecture-of-decision must then include vendor boundary design, not only prompt/policy design.
+- See also: [[ai-engineering/ai-agent-governance]]
+
+**Middleware Squeeze Risk** *(agent infra economics)*
+: Market risk for horizontal agent-infrastructure products when foundation model providers absorb orchestration, runtime, and safety primitives into first-party managed offerings. Generic orchestration value compresses; surviving differentiation usually moves to domain depth, compliance specialization, or cross-provider portability.
+- See also: [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]], [[ai-engineering/llm-model-economics]]
+
+**Session-Hour Metering** *(runtime occupancy pricing)*
+: Pricing model where cost accrues by active agent runtime duration (session-hours) in addition to token usage. FinOps implication: runtime occupancy becomes a first-class cost driver alongside token volume.
+- See also: [[ai-engineering/llm-model-economics]], [[ai-engineering/ai-agent-governance]], [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]]
 
 ---
 

@@ -2,8 +2,8 @@
 title: AI Agent Governance
 type: concept
 created: 2026-04-22
-updated: 2026-05-11
-sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md]
+updated: 2026-05-12
+sources: [O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, Anthropic’s Managed Agents wipe out thousands of AI startups overnight.md]
 tags: [ai-governance, agent-architecture, finops, observability, decision-architecture, ai-engineering]
 ---
 
@@ -107,6 +107,26 @@ This works until it doesn't. When it fails, it's not a bug — it's a wrong deci
 
 ---
 
+## Managed Runtime Consolidation Risk
+
+Hosted agent runtimes from foundation labs add a second governance challenge beyond model behavior: **control-surface migration**.
+
+When orchestration, retries, durable state, secret mediation, and sandbox execution move into a vendor-managed runtime:
+
+- Teams reduce infrastructure burden and speed up delivery
+- But decision boundaries move upward into provider primitives
+- Middleware differentiation narrows for generic orchestration layers
+
+Governance implication: architecture-of-decision now includes **vendor boundary design**.
+
+- What decision rights remain local?
+- Which controls are enforced by your stack vs. provider stack?
+- How portable is your agent behavior across providers?
+
+FinOps implication: cost control is no longer token-only. Some managed runtimes add **session-hour metering** on top of model usage, making runtime occupancy itself a budgeted resource.
+
+---
+
 ## Product-Side Governance Interface
 
 In AI-native product delivery, governance begins before code generation:
@@ -127,4 +147,5 @@ This is the product-management implementation of architecture-of-decision: decid
 - [[ai-engineering/mcp-architecture]]
 - [[ai-engineering/genai-security-workflow]]
 - [[ai-engineering/llm-model-economics]]
+- [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]]
 - [[product-org-design/ai-native-product-orchestration]]

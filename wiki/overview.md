@@ -15,9 +15,9 @@ tags: [overview, synthesis]
 
 ## Current State
 
-**Source count:** 38  
-**Wiki pages:** 92 (index, log, overview, glossary + 38 sources + 35 concepts + 2 analyses + 7 projects)  
-**Last ingest:** 2026-05-12 — Brainstorm Visus Planning (reunião interna AltoQi)  
+**Source count:** 42  
+**Wiki pages:** 94 (index, log, overview, glossary + 42 sources + 37 concepts + 3 analyses + 8 projects)  
+**Last ingest:** 2026-05-12 — Anthropic's Managed Agents wipe out thousands of AI startups overnight  
 **Last lint:** 2026-04-24
 
 ---
@@ -37,6 +37,7 @@ Contrast between traditional vector-based RAG and reasoning-based (vectorless) R
 - **Claude Code Skills** — Directory-based context packages for AI coding agents; a skill is a folder (not a file): entry-point .md + config.json + scripts + templates + references + examples; 9 categories from library reference to infrastructure runbooks; the *gotchas section* is the most valuable content; folder structure enables progressive disclosure as context engineering; Opus 4.7 makes well-written skills dramatically more effective [¹¹](sources/ai-engineering/eric-luque-claude-code-skills.md)
 - **AI as Operator** — Claude Opus 4.7 marks the transition from copilot (AI suggests, human validates) to operator (AI interprets, decides, executes — human arrives after); long context enables systemic visibility, meaning errors cascade globally not locally [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
 - **AI Agent Governance** — The new CTO/Principal responsibility: architecture of decision (where AI can/cannot decide); four-component production stack: real guardrails (executable policy), agent observability (what, why, cost), AI FinOps (budget control), execution control (suggest everything; execute within bounds) [¹²](sources/ai-engineering/eric-luque-claude-opus-47-operator-risk.md)
+- **Managed Runtime Consolidation** — Foundation-model vendors are now packaging orchestration harnesses, durable state, sandbox execution, and secret mediation as native managed runtimes. This shifts governance from only model behavior to control-surface migration: teams must decide which decision and execution boundaries remain local vs. delegated to provider primitives. It also expands AI FinOps from token-only accounting to runtime occupancy accounting when session-hour charges apply [³⁹](sources/ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption.md)
 - **LLM Model Economics** — As of early 2026, the gap between frontier closed models and top open-weight models is now primarily economic rather than qualitative; Qwen 3.6 Plus (78.8% SWE-bench) is available at $0.28/M input tokens vs. $5.00/M for Claude Opus 4.6 (80.8%) — a 17x cost differential that is business-critical at agent pipeline scale [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)
 - **Tiered Model Routing** — Within a single pipeline, different tasks warrant different model tiers: routine tasks (tagging, summarization, classification) belong to cheap/local models (Gemini Flash, Ollama); synthesis and complex reasoning belong to frontier models (Claude). "Don't use a nuclear reactor to toast bread" — preserve frontier quota for where the capability gap is material [²¹](sources/ai-engineering/james-wilkins-obsidian-web-clipper-ingest.md)
 - **OpenRouter** — Inference routing platform aggregating open-weight and closed models under a single OpenAI-compatible API; enables per-task model routing (open-weight for volume, frontier for hard tasks) without infrastructure changes [¹⁴](sources/ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens.md)

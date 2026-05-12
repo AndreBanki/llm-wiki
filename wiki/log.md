@@ -4,6 +4,32 @@ Append-only chronological record of all activity: ingests, queries, and lint pas
 
 To view recent activity: `grep "^## \[" log.md | tail -10`
 
+## [2026-05-12] ingest | "Anthropic's Managed Agents wipe out thousands of AI startups overnight" (Ashraff Hathibelagal)
+
+**Pages created**
+- [wiki/sources/ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption.md](sources/ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption.md) — source summary separating factual capability claims (hosted runtime primitives and pricing model) from market interpretation (middleware compression and startup wipeout thesis)
+
+**Pages updated**
+- [wiki/concepts/ai-engineering/ai-agent-governance.md](concepts/ai-engineering/ai-agent-governance.md) — new section on managed-runtime consolidation risk, control-surface migration, and vendor-boundary design as part of architecture-of-decision
+- [wiki/glossary.md](glossary.md) — 4 new terms: Managed Agent Runtime, Control-Surface Migration, Middleware Squeeze Risk, Session-Hour Metering
+
+**Key additions**
+This ingest adds a missing strategic layer to the AI-engineering corpus: governance is no longer only about prompt constraints, guardrails, and execution permissions inside a team-owned stack. When orchestration/state/sandbox controls become provider primitives, governance must also model where control surfaces physically live. The cross-domain insight is a direct bridge between AI Agent Governance and LLM Model Economics: hosted agent runtimes turn infrastructure design choices into pricing-model exposure (token volume + runtime occupancy), making architectural boundaries and FinOps boundaries the same design problem.
+
+## [2026-05-12] ingest | "How to Extract High-Value Knowledge Graph Relationships" (QuarkAndCode)
+
+**Pages created**
+- [wiki/sources/ai-engineering/quarkandcode-high-value-knowledge-graph-relationships.md](sources/ai-engineering/quarkandcode-high-value-knowledge-graph-relationships.md) — source summary: relationship quality framework for production KGs; competency-question-first framing; extraction sequence (schema -> extraction -> normalization -> provenance -> scoring -> validation -> review); hybrid method stack (rules, OpenIE, supervised, distant supervision, LLM-assisted)
+
+**Pages updated**
+- [wiki/index.md](index.md) — inclusão da nova source em AI Engineering
+- [mkdocs.yml](../mkdocs.yml) — inclusão da nova source no menu de navegação de Sources -> AI Engineering
+- [wiki/glossary.md](glossary.md) — 7 novos termos: Competency Questions, Relationship Schema, Predicate Normalization, Distant Supervision, Relationship Value Score, SHACL, PROV-O
+- [raw/ingested.md](../raw/ingested.md) — marcação do clip como ingerido
+
+**Key additions**
+Esta ingestão adiciona ao domínio AI Engineering uma camada operacional que faltava entre ontologia e execução: como extrair relações de alto valor com qualidade auditável. O material conecta semântica e operação por meio de quatro mecanismos concretos: schema de relações (predicados canônicos + direção), proveniência rastreável (PROV-O), validação formal (SHACL) e priorização por valor de uso (não apenas confiança estatística). Na prática, reforça um princípio recorrente do wiki: vantagem não vem de volume de dados, mas de estrutura semântica verificável e governável.
+
 ## [2026-05-12] ingest | "ObrasGov MGI/SERPRO — docs do workshop de requisitos" + análise comparativa com Paraná
 
 **Pages created**

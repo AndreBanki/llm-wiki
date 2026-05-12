@@ -140,3 +140,20 @@ Depth matters: each section should be substantive. Prefer structured lists over 
 - Briefing emails are sent **before** making wiki changes to allow the user to provide feedback.
 - Completion emails are sent **after** all wiki changes are complete.
 - **Log consolidation:** if the user requests refinements or deepening of pages created in the same session (before committing), fold the updates into the existing `wiki/log.md` entry — do NOT append a separate refinement entry.
+
+## Mandatory Final Verification Gate (Do Not Skip)
+
+Before declaring any ingest complete, run this verification checklist and only finish if all items pass:
+
+1. **Briefing email sent**
+   - Confirm one email was sent to `andre.banki@gmail.com` with subject `[LLM Wiki] Ingest briefing: <source title>`
+2. **Completion email sent**
+   - Confirm one email was sent to `andre.banki@gmail.com` with subject `[LLM Wiki] Ingest complete: <source title>`
+3. **Clip file movement (Clip Ingest only)**
+   - Confirm source file no longer exists in `raw/clips/`
+   - Confirm file exists in `raw/` (or `-clip` suffix variant when collision handling was required)
+4. **Ingest tracking updated**
+   - Confirm source filename appears in `raw/ingested.md`
+
+If any item fails, fix it immediately before returning the final response.
+Never claim ingest completion when this gate has not passed.

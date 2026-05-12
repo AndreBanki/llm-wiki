@@ -18,7 +18,7 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-24 |
-| [[glossary]] | Living terminology, definitions, and style conventions | 2026-04-07 |
+| [[glossary]] | Living terminology, definitions, and style conventions | 2026-05-12 |
 | [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-12 |
 
 ---
@@ -52,6 +52,8 @@ Each entry follows this format:
 | [[ai-engineering/pankaj-kumar-building-first-ontology-tutorial]] | Medium (Dec 2025): hands-on Protégé tutorial — paper exercise methodology; classes/properties/individuals/reasoner workflow; inference demonstration (VegetarianDish); common beginner mistakes; Schema.org/FOAF/Dublin Core reuse | 2026-05-03 |
 | [[ai-engineering/ralfo-becher-you-dont-need-phd-ontology]] | Medium (Apr 2026): OrionBelt Ontology Builder (Streamlit/rdflib) — lightweight Protégé alternative; bulk operations, diff-before-import, checkpointed undo; dedicated SKOS page for controlled vocabularies; OWL-RL inference | 2026-05-03 |
 | [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]] | Towards AI (Jan 2026): Microsoft Fabric IQ vs Palantir — three-layer implementation (Ontology Item, Semantic Bindings to OneLake, Semantic Contracts for agents); who owns the semantic layer; democratization via Power BI; convergence thesis | 2026-05-11 |
+| [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]] | Medium (Apr 2026): Anthropic Managed Agents as model-native hosted runtime; vertical stack consolidation; middleware squeeze risk; runtime+token pricing implications | 2026-05-12 |
+| [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]] | Medium (Apr 2026): practical framework for extracting high-value knowledge-graph relationships; competency-question-first design; hybrid extraction stack (rules/OpenIE/supervised/distant supervision/LLM); predicate normalization; provenance, scoring, SHACL validation, and human-in-the-loop review | 2026-05-12 |
 
 ### Coaching & Leadership
 

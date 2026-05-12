@@ -17,6 +17,7 @@ Update this file at the end of every ingest.
 - `How I Added Persistent Semantic Memory to Claude Code in 15 Minutes — Daniel Rusnok — Medium.pdf`
 - `How Palantir AIP Bootcamps Work _ Palantir Blog.pdf`
 - `How to Build the Knowledge System Andrej Karpathy Uses (And What It's Actually For) _ by Tejas Sharma _ Apr, 2026 _ Level Up Coding.pdf`
+- `How to Extract High-Value Knowledge Graph Relationships.md`
 - `I Stopped Using Vector Databases for RAG _ PageIndex Vectorless RAG _ by Sweety Tripathi _ Apr, 2026 _ Generative AI.pdf`
 - `linkedin-post-jhonatan-lazarin-ia-gestao-obras` *(LinkedIn post PDF shared directly — no raw/ file)*
 - `O Claude Opus 4.7 não é um upgrade. É o começo de um problema que você ainda não viu.pdf`
