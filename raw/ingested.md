@@ -6,6 +6,7 @@ Update this file at the end of every ingest.
 ## Ingested
 
 - `BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf`
+- `Brainstorm-Visus-Planning-132375ed-2f4a.srt`
 - `Como a estrutura de time molda o seu produto - Gyaco.pdf`
 - `documento_parana.md`
 - `Formulário _ Projeto Finep_Axis_2026.pdf`

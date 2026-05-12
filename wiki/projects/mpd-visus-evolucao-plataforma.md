@@ -2,8 +2,8 @@
 title: "MPD Engenharia — Evolução da Plataforma Visus"
 type: project
 created: 2026-05-05
-updated: 2026-05-05
-sources: [visus-evolucao-mpd-analise-produto.md]
+updated: 2026-05-12
+sources: [visus-evolucao-mpd-analise-produto.md, Brainstorm-Visus-Planning-132375ed-2f4a.srt]
 tags: [mpd, altoqi, visus, procurement, contratos, execucao, medicao, pacote-entrega, roadmapping, projeto]
 ---
 
@@ -61,5 +61,6 @@ Transformar o Visus de uma plataforma centrada em BIM + planejamento em uma cama
 - [[projects/altoqi-company]]
 - [[bim-construction/altoqi-finep-axis-2026]]
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
+- [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
 - [[bim-construction/tipos-contrato-engenharia]]
 - [[bim-construction/planejamento-preditivo-obras]]

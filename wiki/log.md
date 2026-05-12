@@ -6,6 +6,19 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-05-12] ingest | "Brainstorm Visus Planning" (reunião interna AltoQi)
+
+**Pages created**
+- [wiki/sources/bim-construction/brainstorm-visus-planning-132375ed-2f4a.md](sources/bim-construction/brainstorm-visus-planning-132375ed-2f4a.md) — síntese estruturada do workshop interno com diagnóstico de posicionamento do Planning, dores de adoção e hipóteses de priorização por valor x esforço
+
+**Pages updated**
+- [wiki/projects/altoqi-visus-planning.md](projects/altoqi-visus-planning.md) — nova seção com sinais de mercado interno e leitura de roadmap baseada no workshop
+- [wiki/concepts/bim-construction/planejamento-preditivo-obras.md](concepts/bim-construction/planejamento-preditivo-obras.md) — nova seção sobre barreiras de adoção (operabilidade) como pré-condição de tração para camadas preditivas
+- [wiki/glossary.md](glossary.md) — 4 novos termos: Caminho Crítico, Linha de Base, Linha de Balanço, Replanejamento
+
+**Key additions**
+Esta ingestão adiciona um tipo de evidência que faltava no domínio BIM: voz operacional interna consolidada de Produto + Serviços + Desenvolvimento sobre o Visus Planning. O principal insight é o gap entre proposta de valor e execução: a integração cronograma+modelo+custo segue sendo o diferencial mais forte, mas sem fundamentos de planejamento considerados "inegociáveis" pelo mercado (linha de base, caminho crítico, linha de balanço) e sem redução de carga operacional, a promessa integrada perde tração no uso real. Conexão com o restante do wiki: complementa o caso MPD (procurement/contratos) com dores transversais de adoção e reforça o princípio já presente em outros domínios de que inteligência sem operabilidade não compõe vantagem competitiva.
+
 ## [2026-05-11] ingest | "Microsoft vs Palantir: Two Paths to Enterprise Ontology" (Pankaj Kumar)
 
 **Pages created**

@@ -19,7 +19,7 @@ Each entry follows this format:
 |---|---|---|
 | [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-24 |
 | [[glossary]] | Living terminology, definitions, and style conventions | 2026-04-07 |
-| [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-05 |
+| [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-12 |
 
 ---
 
@@ -82,6 +82,7 @@ Each entry follows this format:
 | [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]] | IAAC Blog (Set 2024): pipeline GraphRAG para IFC com Neo4j/Cypher; Revit→IFC→LPG; interface BIMConverse (NeoConverse + GPT-4o); testes em ~60 projetos reais; forças, limitações e próximos passos para consultas naturais em BIM | 2026-05-04 |
 | [[bim-construction/visus-evolucao-mpd-analise-produto]] | Documento interno AltoQi/MPD (Mai 2026): análise AS IS/TO BE completa da evolução do Visus para procurement + gestão contratual de execução; metodologia de pacotes, gap analysis por módulo, roadmap priorizado P1–P6, integração DocuSign/Senior Mega, narrativa "ciclo de vida de contrato" | 2026-05-05 |
 | [[bim-construction/documento-parana-governanca-obras]] | Edital publicado pelo Governo do Estado do Paraná (SGSD): solução integrada de software para governança de obras públicas em 11 secretarias; ciclo DFD→ETP→projeto BIM→orçamento→licitação→execução→medição→transparência; POC 45 critérios / 500 pontos; Estratégia BIM Paraná; UTEA; SIM-AM TCE-PR | 2026-05-08 |
+| [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]] | Reunião interna AltoQi (Mai 2026): diagnóstico de posicionamento do Visus Planning; dores recorrentes de adoção (linha de base, caminho crítico, linha de balanço, EAP de planejamento), tensão integração vs usabilidade, e priorização por valor x esforço | 2026-05-12 |
 
 ### Software Engineering
 

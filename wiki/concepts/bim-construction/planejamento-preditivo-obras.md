@@ -2,8 +2,8 @@
 title: Planejamento Preditivo de Obras
 type: concept
 created: 2026-04-22
-updated: 2026-05-01
-sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf]
+updated: 2026-05-12
+sources: [Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, linkedin-post-jhonatan-lazarin-ia-gestao-obras, gt-antac-visus-planning-objeto-aprendizagem.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, Brainstorm-Visus-Planning-132375ed-2f4a.srt]
 tags: [bim, construção, planejamento, cronograma, ia-preditiva, algoritmos, frente-de-obra, gargalos, antevisão, controle-financeiro, gestão-de-equipes, visus-planning, simulacao-4d, eap, construção-4.0]
 ---
 
@@ -159,6 +159,29 @@ Este princípio ecoa o que o wiki já documentou em outros domínios:
 
 ---
 
+## Barreiras de Adoção no Planejamento (evidência de campo interna)
+
+A reunião interna de 11/05/2026 reforça um ponto crítico para a evolução do planejamento preditivo no produto: antes de sofisticar camadas de IA, o fluxo de planejamento precisa remover fricções operacionais percebidas como "básicas" pelo usuário final.
+
+Principais barreiras citadas:
+
+- ausência de linha de base e caminho crítico em fluxo nativo
+- ausência de linha de balanço
+- replanejamento em massa e versionamento de cenários ainda limitados
+- manutenção manual alta (predecessoras, datas, feriados)
+- tensão entre EAP de orçamento e EAP de planejamento em clientes com maior maturidade
+
+Leitura conceitual: planejamento preditivo exige duas camadas simultâneas.
+
+1. Camada de inteligência (modelos e alertas)
+2. Camada de operabilidade (rituais e interface para manter o cronograma vivo)
+
+Sem a camada 2, a camada 1 perde tração em uso real.
+
+Fonte: [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
+
+---
+
 ## Relação com Coordenação BIM
 
 O planejamento preditivo de obras é complementar — não substituto — da coordenação BIM:
@@ -219,6 +242,7 @@ O resultado: alertas preditivos não são mais "sugestões" — eles disparam a�
 - [[bim-construction/eduardo-bandeira-ponte-logica]]
 - [[projects/altoqi-axis]] — infraestrutura que endereça a baixa capacidade de aprendizagem operacional
 - [[projects/altoqi-visus-planning]]
+- [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
 - [[bim-construction/gt-antac-visus-planning-objeto-aprendizagem]]
 - [[bim-construction/altoqi-finep-axis-2026]] — diagnóstico formal da "baixa capacidade de aprendizagem operacional"
 - [[ai-engineering/enterprise-ai-deployment]]

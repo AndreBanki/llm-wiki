@@ -1,0 +1,4985 @@
+
+Meeting created at: 11th May, 2026 - 3:30 PM1
+00:00:28,685 --> 00:00:29,285
+Amanda Geraldo Andrighi: Boa tarde.
+
+2
+00:00:29,925 --> 00:00:30,445
+Jorgiana Maria Weiber Lievore: Tarde.
+
+3
+00:00:31,425 --> 00:00:32,885
+Karine Christiane Cunha de Souza: Tarde.
+
+4
+00:00:33,665 --> 00:00:34,545
+Edvanio Pacheco Teixeira: Boa tarde, pessoal.
+
+5
+00:00:35,585 --> 00:00:36,485
+Ingrid Zitto: Boa tarde.
+
+6
+00:00:36,585 --> 00:00:37,645
+Jorgiana Maria Weiber Lievore: Boa tarde, Banque.
+
+7
+00:00:38,545 --> 00:00:43,085
+Karine Christiane Cunha de Souza: Boa tarde.
+
+8
+00:00:44,045 --> 00:00:45,365
+Karine Christiane Cunha de Souza: Tarde.
+
+9
+00:00:46,805 --> 00:00:48,365
+Jorgiana Maria Weiber Lievore: Deu uma esfriada até agora.
+
+10
+00:00:50,225 --> 00:00:52,985
+Jorgiana Maria Weiber Lievore: Foi de banho nem camiseta, como sempre.
+
+11
+00:00:55,865 --> 00:00:57,005
+Rodrigo Ramos de Souza: Verão ainda.
+
+12
+00:01:00,207 --> 00:01:04,346
+Rodrigo Ramos de Souza: Eu e a Ingrid estamos.
+
+13
+00:01:06,187 --> 00:01:06,967
+Edvanio Pacheco Teixeira: Do lado, né?
+
+14
+00:01:07,067 --> 00:01:10,627
+Edvanio Pacheco Teixeira: Olha só, ela toda...
+
+15
+00:01:11,107 --> 00:01:14,107
+Rodrigo Ramos de Souza: Eu.
+
+16
+00:01:16,847 --> 00:01:17,467
+Peter Ruiz Paredes: E a Amanda também?
+
+17
+00:01:17,547 --> 00:01:20,307
+Peter Ruiz Paredes: Só de olhar pra ti, então.
+
+18
+00:01:20,827 --> 00:01:25,147
+Ingrid Zitto: A gente tá na mesma sala, mas não na mesma estação, né?
+
+19
+00:01:35,493 --> 00:01:36,073
+Bruna Durieux Ferreira: Oi, oi.
+
+20
+00:01:36,153 --> 00:01:36,813
+Bruna Durieux Ferreira: Boa tarde.
+
+21
+00:01:37,713 --> 00:01:38,593
+Rodrigo Ramos de Souza: Boa tarde.
+
+22
+00:01:39,073 --> 00:01:39,853
+Karine Christiane Cunha de Souza: Boa tarde.
+
+23
+00:01:41,553 --> 00:01:42,233
+Karine Christiane Cunha de Souza: Oi, gente.
+
+24
+00:01:42,353 --> 00:01:43,193
+Karine Christiane Cunha de Souza: Boa tarde.
+
+25
+00:01:44,673 --> 00:01:45,193
+Rodrigo Ramos de Souza: Oi.
+
+26
+00:01:46,213 --> 00:01:50,473
+Karine Christiane Cunha de Souza: Pra quem tá aqui, tá no friozinho.
+
+27
+00:01:50,753 --> 00:01:50,913
+Karine Christiane Cunha de Souza: Oi.
+
+28
+00:01:51,933 --> 00:01:55,313
+Jorgiana Maria Weiber Lievore: Pra quem tá aqui, tá você e a Bruna aqui pra falar uma coisa muito rápida.
+
+29
+00:01:56,213 --> 00:02:04,113
+Jorgiana Maria Weiber Lievore: Eu preciso do Ramiro pra uma reunião com o metrô pra fazer uma conexão do Power BI com o COS.
+
+30
+00:02:06,087 --> 00:02:08,107
+Karine Christiane Cunha de Souza: Tá, vamos conversar depois sobre isso.
+
+31
+00:02:09,327 --> 00:02:12,047
+Jorgiana Maria Weiber Lievore: Eu precisava ir pra amanhã às 10 horas da manhã.
+
+32
+00:02:16,467 --> 00:02:21,107
+Karine Christiane Cunha de Souza: Porra, Jout, desculpa.
+
+33
+00:02:21,327 --> 00:02:23,807
+Karine Christiane Cunha de Souza: Poxa, Jout, eu já cheguei a vacalhando, Jout.
+
+34
+00:02:24,527 --> 00:02:28,067
+Karine Christiane Cunha de Souza: Pra brincar, eu tô em Floripa, eu já vou te mandar chocolate.
+
+35
+00:02:30,067 --> 00:02:34,267
+Karine Christiane Cunha de Souza: Não, na sequência a gente combina direitinho.
+
+36
+00:02:34,447 --> 00:02:35,287
+Karine Christiane Cunha de Souza: Amanhã às 10 horas?
+
+37
+00:02:37,188 --> 00:02:42,928
+Karine Christiane Cunha de Souza: Depois a gente conversa bem certinho, pode deixar.
+
+38
+00:02:44,728 --> 00:02:46,608
+Karine Christiane Cunha de Souza: Gente, vamos esperar só mais uns minutinhos.
+
+39
+00:02:46,608 --> 00:02:48,648
+Karine Christiane Cunha de Souza: Aqui que a gente tem gente entrando ainda.
+
+40
+00:02:50,008 --> 00:02:56,008
+Karine Christiane Cunha de Souza: Vamos ter umas baixas que tem pessoal doente que não vai poder participar.
+
+41
+00:02:59,028 --> 00:03:05,248
+Karine Christiane Cunha de Souza: E igual a gente vai gravar também depois se o pessoal quiser assistir.
+
+42
+00:03:05,768 --> 00:03:10,172
+Karine Christiane Cunha de Souza: Gente, alguém Não conseguiu acessar ali o bordezinho que eu compartilhei.
+
+43
+00:03:10,792 --> 00:03:11,932
+Karine Christiane Cunha de Souza: Vou botar o link aqui de novo.
+
+44
+00:03:12,452 --> 00:03:15,692
+Karine Christiane Cunha de Souza: Enquanto isso...
+
+45
+00:03:25,632 --> 00:03:28,632
+Karine Christiane Cunha de Souza: Pessoal,.
+
+46
+00:03:30,712 --> 00:03:32,832
+Karine Christiane Cunha de Souza: Quem não acessou, testa aí, por favor.
+
+47
+00:03:32,952 --> 00:03:34,352
+Karine Christiane Cunha de Souza: Botei o link aqui no chat.
+
+48
+00:03:49,919 --> 00:03:51,579
+Karine Christiane Cunha de Souza: Alguém com alguma dificuldade, não?
+
+49
+00:03:53,179 --> 00:03:55,139
+Karine Christiane Cunha de Souza: Certo, tô vendo vocês aqui.
+
+50
+00:04:07,339 --> 00:04:12,499
+Karine Christiane Cunha de Souza: Dois, três, quatro, cinco, seis, sete, oito, nove, dez, onze.
+
+51
+00:04:12,659 --> 00:04:13,619
+Karine Christiane Cunha de Souza: Quem que tá ali com a moto?
+
+52
+00:04:13,759 --> 00:04:14,479
+Karine Christiane Cunha de Souza: Quem que não tá?
+
+53
+00:04:17,499 --> 00:04:19,418
+Karine Christiane Cunha de Souza: Quer mais uma reagente?
+
+54
+00:04:21,172 --> 00:04:22,552
+Karine Christiane Cunha de Souza: Tem o Libra e tem alguém Auto.
+
+55
+00:04:22,552 --> 00:04:23,952
+Karine Christiane Cunha de Souza: Key, vocês sabem quem é?
+
+56
+00:04:25,952 --> 00:04:28,152
+Rodrigo Ramos de Souza: Não sabemos.
+
+57
+00:04:29,372 --> 00:04:32,812
+Rodrigo Ramos de Souza: Dá rapa fora.
+
+58
+00:04:34,212 --> 00:04:35,292
+Rodrigo Ramos de Souza: Depois volta.
+
+59
+00:04:36,252 --> 00:04:40,372
+Amanda Geraldo Andrighi: Eu tô com o do time de Cersei aqui, mas daí tá Cersei e Auto Key.
+
+60
+00:04:43,812 --> 00:04:46,512
+Rodrigo Ramos de Souza: Não, mas ela tá falando do Teans, né?
+
+61
+00:04:47,232 --> 00:04:48,452
+Amanda Geraldo Andrighi: perdão, perdão.
+
+62
+00:04:49,842 --> 00:04:54,942
+Karine Christiane Cunha de Souza: A Libra é...
+
+63
+00:04:57,562 --> 00:05:00,562
+Karine Christiane Cunha de Souza: Diz que essa pessoa.
+
+64
+00:05:00,562 --> 00:05:04,462
+Bruna Durieux Ferreira: Não tem uma conta no Teams, não é possível verificar a identidade desse AutoQI.
+
+65
+00:05:05,842 --> 00:05:07,422
+Rodrigo Ramos de Souza: É, e a logo...
+
+66
+00:05:07,422 --> 00:05:09,402
+Rodrigo Ramos de Souza: Tá aqui a logo da AutoQI na imagem.
+
+67
+00:05:10,602 --> 00:05:12,262
+Rodrigo Ramos de Souza: Se ela não se pronunciar em 10.
+
+68
+00:05:12,262 --> 00:05:13,042
+Rodrigo Ramos de Souza: Segundos ela será...
+
+69
+00:05:13,042 --> 00:05:14,142
+Rodrigo Ramos de Souza: Acho que é o Marcos.
+
+70
+00:05:14,462 --> 00:05:15,082
+Karine Christiane Cunha de Souza: Acho que é o Marcos.
+
+71
+00:05:15,082 --> 00:05:17,982
+Karine Christiane Cunha de Souza: Será que é?
+
+72
+00:05:18,547 --> 00:05:24,307
+Jorgiana Maria Weiber Lievore: No time de consultoria que normalmente entra junto pra gravar e transcrever as regras.
+
+73
+00:05:27,447 --> 00:05:32,027
+Karine Christiane Cunha de Souza: Não, aqui da IA que eu botei é a Libra que tá ali como FL, mas...
+
+74
+00:05:32,027 --> 00:05:34,367
+Jorgiana Maria Weiber Lievore: É que deve ser de alguma outra pessoa, entendeu?
+
+75
+00:05:34,427 --> 00:05:36,927
+Rodrigo Ramos de Souza: Pode ser.
+
+76
+00:05:37,447 --> 00:05:39,947
+Karine Christiane Cunha de Souza: Tô tentando, mas meu negócio não me deixa chegar no...
+
+77
+00:05:39,947 --> 00:05:40,667
+Karine Christiane Cunha de Souza: Ai, meu Deus.
+
+78
+00:05:43,187 --> 00:05:43,827
+Karine Christiane Cunha de Souza: Bom, saindo.
+
+79
+00:05:44,247 --> 00:05:46,107
+Rodrigo Ramos de Souza: Remove.
+
+80
+00:05:47,217 --> 00:05:48,337
+Rodrigo Ramos de Souza: Pedido cada mês.
+
+81
+00:05:48,457 --> 00:05:49,237
+Rodrigo Ramos de Souza: Pedido cada mês.
+
+82
+00:05:50,077 --> 00:05:50,857
+Karine Christiane Cunha de Souza: Tchau, Renata.
+
+83
+00:05:52,737 --> 00:05:53,177
+Rodrigo Ramos de Souza: Oi,.
+
+84
+00:05:55,277 --> 00:05:58,357
+Karine Christiane Cunha de Souza: Jout, sabe se a Lara e o Márcio vão conseguir participar?
+
+85
+00:05:58,897 --> 00:06:00,157
+Karine Christiane Cunha de Souza: Eles tinham aceitado.
+
+86
+00:06:03,397 --> 00:06:06,317
+Karine Christiane Cunha de Souza: Mas vamos lá, gente, achar horário.
+
+87
+00:06:06,317 --> 00:06:07,517
+Karine Christiane Cunha de Souza: Livre com todos vocês.
+
+88
+00:06:07,597 --> 00:06:09,677
+Karine Christiane Cunha de Souza: Foi uma tarefa, tipo, impossível.
+
+89
+00:06:10,037 --> 00:06:12,877
+Karine Christiane Cunha de Souza: Então, eu vi que vários tinham compromisso antes.
+
+90
+00:06:14,417 --> 00:06:16,617
+Karine Christiane Cunha de Souza: Pessoal, vou botar, vocês dão minutinho em comum.
+
+91
+00:06:24,308 --> 00:06:26,288
+Karine Christiane Cunha de Souza: Deixa eu ver aqui se eles vão conseguir, viu?
+
+92
+00:06:28,048 --> 00:06:30,248
+Karine Christiane Cunha de Souza: E só pra eu me coordenar também,.
+
+93
+00:06:30,408 --> 00:06:33,528
+Karine Christiane Cunha de Souza: A Gabriela e a Amanda são os sérvices, é isso?
+
+94
+00:06:34,468 --> 00:06:35,648
+Karine Christiane Cunha de Souza: Sim.
+
+95
+00:06:38,188 --> 00:06:41,448
+Karine Christiane Cunha de Souza: Prazer em ver vocês.
+
+96
+00:06:46,108 --> 00:06:50,248
+Karine Christiane Cunha de Souza: Olha, ele conseguiu entrar conosco.
+
+97
+00:06:56,472 --> 00:07:01,272
+Karine Christiane Cunha de Souza: Gente, estão aí uns minutinhos tarde pra quem não podia entrar.
+
+98
+00:07:01,752 --> 00:07:03,312
+Karine Christiane Cunha de Souza: Eu vou gravar também, tá?
+
+99
+00:07:04,792 --> 00:07:09,012
+Karine Christiane Cunha de Souza: Vou gravar depois se alguém quiser assistir.
+
+100
+00:07:10,192 --> 00:07:11,992
+Bruna Durieux Ferreira: Acho que tu interrompeu a gravação.
+
+101
+00:07:12,752 --> 00:07:15,072
+Karine Christiane Cunha de Souza: Eu não interrompi, eu não fiz nada, só voltei pra gravar, gente.
+
+102
+00:07:15,392 --> 00:07:16,512
+Bruna Durieux Ferreira: É que já tava gravando.
+
+103
+00:07:17,012 --> 00:07:18,992
+Karine Christiane Cunha de Souza: tá.
+
+104
+00:07:21,683 --> 00:07:23,703
+Karine Christiane Cunha de Souza: Eu só leio o aviso da próxima vez, né?
+
+105
+00:07:23,823 --> 00:07:26,943
+Karine Christiane Cunha de Souza: Só prova viva de que ninguém lê os avisos que dá, viu, gente?
+
+106
+00:07:29,483 --> 00:07:31,943
+Karine Christiane Cunha de Souza: Devo ver uma coisa bem séria.
+
+107
+00:07:33,343 --> 00:07:34,303
+Karine Christiane Cunha de Souza: Mas vamos lá, gente.
+
+108
+00:07:34,603 --> 00:07:36,983
+Karine Christiane Cunha de Souza: Que que é a ideia nossa aqui hoje?
+
+109
+00:07:37,643 --> 00:07:42,283
+Karine Christiane Cunha de Souza: Então, a ideia é a gente falar pouquinho sobre o nosso projeto de planejamento, né?
+
+110
+00:07:42,363 --> 00:07:44,623
+Karine Christiane Cunha de Souza: Então, foca bastante aqui no Visusplane.
+
+111
+00:07:45,623 --> 00:07:48,503
+Karine Christiane Cunha de Souza: Vou compartilhar minha tela, tá?
+
+112
+00:07:48,603 --> 00:07:50,983
+Karine Christiane Cunha de Souza: Pra trazer pouquinho mais de dinâmica.
+
+113
+00:07:53,155 --> 00:07:54,735
+Karine Christiane Cunha de Souza: Agora tá gravando, é isso, Bruna?
+
+114
+00:07:55,035 --> 00:07:55,255
+Amanda Geraldo Andrighi: Foi?
+
+115
+00:07:56,215 --> 00:07:57,355
+Bruna Durieux Ferreira: Eu botei pra gravar de novo.
+
+116
+00:07:57,915 --> 00:07:58,495
+Karine Christiane Cunha de Souza: Tá bom.
+
+117
+00:07:58,775 --> 00:08:01,315
+Karine Christiane Cunha de Souza: Eu tentei também, mas hoje ele não tá me obedecendo.
+
+118
+00:08:01,455 --> 00:08:02,755
+Karine Christiane Cunha de Souza: Então, que bom que você botou.
+
+119
+00:08:02,875 --> 00:08:04,435
+Karine Christiane Cunha de Souza: Agora sim estamos gravando, então.
+
+120
+00:08:05,955 --> 00:08:09,295
+Karine Christiane Cunha de Souza: Eu separei aqui uma dinâmica, tá, pessoal?
+
+121
+00:08:09,395 --> 00:08:15,155
+Karine Christiane Cunha de Souza: Pra gente conversar pouquinho e trazer.
+
+122
+00:08:15,155 --> 00:08:17,055
+Karine Christiane Cunha de Souza: Os inputs de vocês aqui, então, pra.
+
+123
+00:08:17,055 --> 00:08:18,975
+Karine Christiane Cunha de Souza: Esse projeto que é tão importante pra gente.
+
+124
+00:08:20,763 --> 00:08:24,003
+Karine Christiane Cunha de Souza: Primeiro, então, quero agradecer bastante o tempo de vocês aqui.
+
+125
+00:08:24,103 --> 00:08:27,143
+Karine Christiane Cunha de Souza: Eu sei que não tá fácil a gente achar duas horas na agenda aí, né?
+
+126
+00:08:27,823 --> 00:08:30,383
+Karine Christiane Cunha de Souza: Provavelmente a gente não vai...
+
+127
+00:08:30,383 --> 00:08:38,962
+Karine Christiane Cunha de Souza: Quer dizer, a dinâmica não tem duas horas, mas como a gente tem várias pessoas que gostam bastante de falar aqui, eu deixei uma folguinha nas agendas, tá?
+
+128
+00:08:39,503 --> 00:08:42,703
+Karine Christiane Cunha de Souza: E eu conto muito com toda essa...
+
+129
+00:08:42,703 --> 00:08:45,343
+Karine Christiane Cunha de Souza: Esse gosto de vocês aí por contar,.
+
+130
+00:08:45,463 --> 00:08:48,443
+Karine Christiane Cunha de Souza: Por falar, por a gente trazer ideias novas, tá?
+
+131
+00:08:48,483 --> 00:08:49,983
+Karine Christiane Cunha de Souza: Senão a dinâmica não fica boa.
+
+132
+00:08:51,526 --> 00:08:55,406
+Karine Christiane Cunha de Souza: Preparei aqui alguns momentos pra gente, tá?
+
+133
+00:08:55,546 --> 00:08:56,926
+Karine Christiane Cunha de Souza: E como eu tava falando aqui, a.
+
+134
+00:08:56,926 --> 00:09:00,066
+Karine Christiane Cunha de Souza: Gente tá olhando muito sobre o business planning, tá?
+
+135
+00:09:00,126 --> 00:09:02,506
+Karine Christiane Cunha de Souza: Então aqui olhar pra ele, né?
+
+136
+00:09:02,506 --> 00:09:06,526
+Karine Christiane Cunha de Souza: Se a gente tá trabalhando nele como uma aposta estratégica ou são features incrementais.
+
+137
+00:09:06,526 --> 00:09:08,666
+Karine Christiane Cunha de Souza: Que melhoram o produto, tá?
+
+138
+00:09:08,666 --> 00:09:24,367
+Karine Christiane Cunha de Souza: Então pra todo mundo tá na mesma página, a gente teve projeto estratégico que veio lá no planejamento, onde a gente se propôs a olhar para toda essa parte do planejamento, gestão de contratos e medição de obras em BIM, então sem esquecer de que a gente está.
+
+139
+00:09:24,367 --> 00:09:27,787
+Karine Christiane Cunha de Souza: Sempre falando do BIM aqui junto com as nossas soluções.
+
+140
+00:09:29,247 --> 00:09:39,607
+Karine Christiane Cunha de Souza: Hoje eu tentei separar para a gente falar e focar bastante na etapa do planejamento, então naturalmente aparecem coisas de contratos, naturalmente aparecem coisas de controle, de execução,.
+
+141
+00:09:39,747 --> 00:09:42,627
+Karine Christiane Cunha de Souza: Mas para a gente tentar focar aqui nessa parte do planejamento mesmo.
+
+142
+00:09:43,417 --> 00:09:45,597
+Karine Christiane Cunha de Souza: Porque, como vocês sabem, depois a gente.
+
+143
+00:09:45,597 --> 00:09:49,737
+Karine Christiane Cunha de Souza: Vai desdobrar tudo isso pra roadmap e etc.
+
+144
+00:09:51,377 --> 00:09:54,997
+Karine Christiane Cunha de Souza: Então, trazendo pouquinho mais aqui de.
+
+145
+00:09:54,997 --> 00:09:57,977
+Karine Christiane Cunha de Souza: Contexto de novo pra todo mundo estar na mesma página.
+
+146
+00:09:58,597 --> 00:10:01,017
+Karine Christiane Cunha de Souza: Quando a gente fez o desenho da.
+
+147
+00:10:01,017 --> 00:10:04,437
+Karine Christiane Cunha de Souza: Evolução do portfólio lá atrás, a gente.
+
+148
+00:10:04,437 --> 00:10:06,677
+Karine Christiane Cunha de Souza: Pensou em sair do projeto por orçamento.
+
+149
+00:10:06,677 --> 00:10:09,797
+Karine Christiane Cunha de Souza: E levar dados pra tomada decisão.
+
+150
+00:10:10,477 --> 00:10:25,325
+Karine Christiane Cunha de Souza: E a gente percebeu que de cara faltou a informação do quando as coisas são executadas e quando os materiais são consumidos e quando está previsto, então a gente viu que faltava uma questão muito relacionada aqui à data, por isso a.
+
+151
+00:10:25,325 --> 00:10:29,285
+Karine Christiane Cunha de Souza: Gente resolveu focar aqui olhando para o Visus Plenum.
+
+152
+00:10:30,105 --> 00:10:41,480
+Karine Christiane Cunha de Souza: Trazendo do que ele é hoje, então a gente criou, e eu brinco com o Ed, que ele foi protótipo que deu certo, Ed botou uma Vocês acham que deu pra fazer isso?
+
+153
+00:10:41,560 --> 00:10:42,980
+Karine Christiane Cunha de Souza: Deu pra fazer montão de coisa?
+
+154
+00:10:43,880 --> 00:10:48,380
+Karine Christiane Cunha de Souza: Então foi muito interessante pra gente já começar a ver esse planejamento de longo.
+
+155
+00:10:48,380 --> 00:10:53,100
+Karine Christiane Cunha de Souza: Prazo vinculado ao orçamento e vinculado ao modelo B.
+
+156
+00:10:53,860 --> 00:10:56,620
+Karine Christiane Cunha de Souza: Esse foi o palco do que a.
+
+157
+00:10:56,620 --> 00:10:58,100
+Karine Christiane Cunha de Souza: Gente trouxe ele até aqui.
+
+158
+00:10:58,720 --> 00:11:00,220
+Karine Christiane Cunha de Souza: A gente fez esse primeiro projeto lá.
+
+159
+00:11:00,220 --> 00:11:04,980
+Karine Christiane Cunha de Souza: Atrás e não seguiu evoluindo muito com esse produto.
+
+160
+00:11:07,285 --> 00:11:09,825
+Karine Christiane Cunha de Souza: Não teve destaque ali no roadmap, a.
+
+161
+00:11:09,825 --> 00:11:12,065
+Karine Christiane Cunha de Souza: Gente fez coisas bem pontuais, mas agora.
+
+162
+00:11:12,065 --> 00:11:13,285
+Karine Christiane Cunha de Souza: É hora da gente olhar de novo.
+
+163
+00:11:13,285 --> 00:11:16,605
+Karine Christiane Cunha de Souza: Pra ele e trazer ele pro Lofoten.
+
+164
+00:11:17,685 --> 00:11:28,745
+Karine Christiane Cunha de Souza: E a brincadeira aqui do que ele não é, ele não é, o business planning não é project, ele não se propõe a ser project, ele não se propõe a fazer planejamento de.
+
+165
+00:11:28,745 --> 00:11:31,245
+Karine Christiane Cunha de Souza: Curto prazo, então não é esse o.
+
+166
+00:11:31,245 --> 00:11:39,435
+Karine Christiane Cunha de Souza: Caminho que a gente pretende seguir olhando, né, de onde estamos e pra onde vamos nesse horizonte aqui de curto e médio prazo.
+
+167
+00:11:41,175 --> 00:11:46,115
+Karine Christiane Cunha de Souza: E aí, gente, pra gente discutir.
+
+168
+00:11:46,115 --> 00:11:49,055
+Karine Christiane Cunha de Souza: Pouquinho mais sobre a insônia, eu trouxe quatro pilares aqui, tá?
+
+169
+00:11:49,115 --> 00:11:51,995
+Karine Christiane Cunha de Souza: Então, muita gente olhar o que é o gap do que ele tem hoje.
+
+170
+00:11:53,175 --> 00:11:56,655
+Karine Christiane Cunha de Souza: E aqui eu sei que a gente tem muitos, né?
+
+171
+00:11:56,695 --> 00:12:00,655
+Karine Christiane Cunha de Souza: Então, o pessoal de estética, se vocês tiverem pessoal de suporte, conseguindo entrar também.
+
+172
+00:12:01,515 --> 00:12:05,355
+Karine Christiane Cunha de Souza: Eu sei que a vida real aí na frente com o cliente, a gente levanta muitos gaps.
+
+173
+00:12:06,652 --> 00:12:08,172
+Karine Christiane Cunha de Souza: Por favor, tragam bastante.
+
+174
+00:12:09,172 --> 00:12:21,912
+Karine Christiane Cunha de Souza: Queria contar com a experiência de todos vocês aqui pra gente pensar também quais são as oportunidades, né, que são os diferenciais que a gente tem desse produto e as oportunidades que a gente tem quando olha pra ele também.
+
+175
+00:12:22,312 --> 00:12:24,372
+Karine Christiane Cunha de Souza: Então aqui, o time aí de seus.
+
+176
+00:12:24,372 --> 00:12:35,852
+Karine Christiane Cunha de Souza: Engenheiros, Peter aí representando o que deve, é muito importante, né, esse lado que vocês vão trazer aí também, tanto qual seja o valor e onde ela bate na trave, onde ela se diferencia.
+
+177
+00:12:37,111 --> 00:12:40,431
+Karine Christiane Cunha de Souza: E pouco sobre riscos que a gente veio assumindo ao longo desse caminho.
+
+178
+00:12:41,271 --> 00:12:48,811
+Karine Christiane Cunha de Souza: Então, para cada desses pelares, eu reservei aqui uma dinâmica que a gente ia fazendo juntos.
+
+179
+00:12:49,591 --> 00:12:57,151
+Karine Christiane Cunha de Souza: Por isso eu pedi para vocês acessarem ali o borde do Miro, que esse brinquedo, eu nem sei aonde, temos tantos.
+
+180
+00:12:57,151 --> 00:13:01,371
+Karine Christiane Cunha de Souza: Representantes de tantos lugares diferentes aqui hoje, que eu nem sei onde está todo mundo.
+
+181
+00:13:02,011 --> 00:13:04,938
+Karine Christiane Cunha de Souza: Então, a dinâmica vai ser toda online.
+
+182
+00:13:05,298 --> 00:13:07,418
+Karine Christiane Cunha de Souza: Alguns daqui participaram quando a gente fez.
+
+183
+00:13:07,418 --> 00:13:11,858
+Karine Christiane Cunha de Souza: A outra que era híbrida lá no Ártico, mas a ideia hoje é que todo mundo remota.
+
+184
+00:13:12,258 --> 00:13:15,058
+Karine Christiane Cunha de Souza: Então, por favor, acessem o linkzinho do.
+
+185
+00:13:15,058 --> 00:13:17,938
+Karine Christiane Cunha de Souza: MIROS, que a gente vai conduzindo por ali também.
+
+186
+00:13:19,318 --> 00:13:29,038
+Karine Christiane Cunha de Souza: E pra gente começar então aqui, pessoal, esquentar neste dia frio, eu queria que a gente começasse olhando aqui os gaps.
+
+187
+00:13:30,178 --> 00:13:33,198
+Karine Christiane Cunha de Souza: Eu deixei algumas perguntinhas aqui pra gente nortear.
+
+188
+00:13:33,929 --> 00:13:35,489
+Karine Christiane Cunha de Souza: Que que é a ideia desse momento?
+
+189
+00:13:36,009 --> 00:13:37,489
+Karine Christiane Cunha de Souza: Cada acessa ali, eu miro.
+
+190
+00:13:37,829 --> 00:13:39,469
+Karine Christiane Cunha de Souza: Vocês vão ter, tem o primeiro quadrinho.
+
+191
+00:13:40,929 --> 00:13:42,569
+Karine Christiane Cunha de Souza: Aqui, ó.
+
+192
+00:13:42,989 --> 00:13:44,869
+Karine Christiane Cunha de Souza: Ó os títulos e quadrinhos que estão vendo aqui.
+
+193
+00:13:45,169 --> 00:13:46,309
+Karine Christiane Cunha de Souza: Ó, meu Deus, sem pagamento.
+
+194
+00:13:46,609 --> 00:13:47,149
+Karine Christiane Cunha de Souza: Deixa eu ver.
+
+195
+00:13:47,449 --> 00:13:50,249
+Karine Christiane Cunha de Souza: A taxa vermelha, essa eu vi, não precisa ver.
+
+196
+00:13:51,149 --> 00:13:53,129
+Karine Christiane Cunha de Souza: É...
+
+197
+00:13:53,129 --> 00:13:57,029
+Karine Christiane Cunha de Souza: Podem pegar cardzinho e colocando aqui as ideias, tá?
+
+198
+00:13:57,129 --> 00:13:59,909
+Karine Christiane Cunha de Souza: Listando aqui quais são os gaps que vocês veem hoje, tá?
+
+199
+00:14:00,609 --> 00:14:02,669
+Karine Christiane Cunha de Souza: Pra gente discutir depois.
+
+200
+00:14:05,114 --> 00:14:10,214
+Karine Christiane Cunha de Souza: Quando a gente estiver pensando em GAP, essa é individual, cada pode fazer.
+
+201
+00:14:10,214 --> 00:14:14,434
+Karine Christiane Cunha de Souza: Seus post-it e sai botando aqui dentro do quadrinho.
+
+202
+00:14:14,574 --> 00:14:16,134
+Karine Christiane Cunha de Souza: A Bruna depois vai me ajudando, né Bruna?
+
+203
+00:14:16,214 --> 00:14:18,774
+Karine Christiane Cunha de Souza: A gente vai agrupando aqui as que forem semelhantes.
+
+204
+00:14:20,354 --> 00:14:24,954
+Karine Christiane Cunha de Souza: Separei algumas perguntinhas aqui pra gente ir.
+
+205
+00:14:24,954 --> 00:14:27,014
+Karine Christiane Cunha de Souza: Norteando junto aqui nessa discussão.
+
+206
+00:14:29,482 --> 00:14:33,102
+Karine Christiane Cunha de Souza: Algumas do tipo, onde a gente perde valor hoje no planejamento, né?
+
+207
+00:14:33,102 --> 00:14:34,962
+Karine Christiane Cunha de Souza: Então, onde o cliente de repente abrilhou.
+
+208
+00:14:34,962 --> 00:14:37,502
+Karine Christiane Cunha de Souza: O olho e ele viu que bateu na trave.
+
+209
+00:14:37,602 --> 00:14:39,822
+Karine Christiane Cunha de Souza: Quais são essas fricções reais aqui, né?
+
+210
+00:14:39,842 --> 00:14:42,842
+Karine Christiane Cunha de Souza: Então, quando eu tô fazendo uma implementação, quando eu tô atendendo cliente, enfim.
+
+211
+00:14:43,682 --> 00:14:47,022
+Karine Christiane Cunha de Souza: Quando eu tô fazendo a proposta, onde que a gente tem uma fricção real?
+
+212
+00:14:47,682 --> 00:14:51,422
+Karine Christiane Cunha de Souza: E aqui eu digo uma fricção real, porque eu sei que nós temos muitas ideias, pessoal.
+
+213
+00:14:51,542 --> 00:14:53,062
+Karine Christiane Cunha de Souza: A gente acha bastante coisa.
+
+214
+00:14:53,862 --> 00:14:57,562
+Karine Christiane Cunha de Souza: Mas pra gente tentar, né, trazer muito do que a gente vem pegando mesmo.
+
+215
+00:14:57,562 --> 00:15:00,415
+Karine Christiane Cunha de Souza: Ali junto no contexto com o cliente.
+
+216
+00:15:00,695 --> 00:15:05,735
+Karine Christiane Cunha de Souza: Quais são as principais dúvidas e reclamações.
+
+217
+00:15:05,735 --> 00:15:07,075
+Karine Christiane Cunha de Souza: Que vêm quando a gente está falando.
+
+218
+00:15:07,075 --> 00:15:08,135
+Karine Christiane Cunha de Souza: Ali do business planning?
+
+219
+00:15:09,095 --> 00:15:13,815
+Karine Christiane Cunha de Souza: Onde esse fluxo de planejamento está quebrando nessa jornada de usuário?
+
+220
+00:15:14,175 --> 00:15:17,375
+Karine Christiane Cunha de Souza: Então, time de produtos, eu sei que pensou bastante nesse fluxo também.
+
+221
+00:15:17,535 --> 00:15:19,815
+Karine Christiane Cunha de Souza: Vocês também podem preencher os post-its.
+
+222
+00:15:25,270 --> 00:15:28,690
+Karine Christiane Cunha de Souza: Qual funcionalidade foi a adiada que mais impacta?
+
+223
+00:15:28,910 --> 00:15:30,310
+Karine Christiane Cunha de Souza: Então, eu sei que algumas pessoas já.
+
+224
+00:15:30,310 --> 00:15:33,510
+Karine Christiane Cunha de Souza: Trouxeram muitas sugestões que a gente não atendeu ainda.
+
+225
+00:15:33,850 --> 00:15:37,250
+Karine Christiane Cunha de Souza: Eu sei que a gente já quis fazer monte de coisa que a gente ainda não conseguiu fazer.
+
+226
+00:15:38,010 --> 00:15:43,490
+Karine Christiane Cunha de Souza: Então, trazer essas funcionalidades que a gente viu, que a gente já conhece e ainda não trabalhou sobre elas.
+
+227
+00:15:44,630 --> 00:15:48,750
+Karine Christiane Cunha de Souza: E aquela perguntinha danada, né, que eu.
+
+228
+00:15:48,750 --> 00:15:57,741
+Karine Christiane Cunha de Souza: Vou confessar que eu quase tirei ela da Guiné, Mas no final do ano eu espero que a resposta seja bem diferente.
+
+229
+00:15:58,201 --> 00:16:02,501
+Karine Christiane Cunha de Souza: Se hoje o Mises Planning sumisse, o.
+
+230
+00:16:02,501 --> 00:16:06,821
+Karine Christiane Cunha de Souza: Que o cliente perderia de verdade e o que ele nem sentiria falta?
+
+231
+00:16:08,061 --> 00:16:16,501
+Karine Christiane Cunha de Souza: Hoje a gente já tem esse cenário queria doer muito no cliente perder e o que talvez ele nem percebesse também.
+
+232
+00:16:17,301 --> 00:16:26,798
+Karine Christiane Cunha de Souza: Eu queria que agora a gente fosse se fosse preenchendo ali os cardizinhos.
+
+233
+00:16:27,638 --> 00:16:27,838
+Bruna Durieux Ferreira: E depois...
+
+234
+00:16:27,838 --> 00:16:29,178
+Bruna Durieux Ferreira: Mira, já tá bombando, Karine.
+
+235
+00:16:29,858 --> 00:16:32,098
+Karine Christiane Cunha de Souza: Imaginei, que bom.
+
+236
+00:16:32,698 --> 00:16:35,398
+Karine Christiane Cunha de Souza: E depois vocês pensassem aí em.
+
+237
+00:16:35,398 --> 00:16:38,598
+Karine Christiane Cunha de Souza: Ou dois GAPs pra trazer e compartilhar.
+
+238
+00:16:38,598 --> 00:16:39,458
+Karine Christiane Cunha de Souza: Aqui com a gente, tá?
+
+239
+00:16:39,658 --> 00:16:47,198
+Karine Christiane Cunha de Souza: Não vale só escrever abobrinha com lemon pepper, bota lá, escolhe algumas principais aqui.
+
+240
+00:16:47,198 --> 00:16:51,078
+Karine Christiane Cunha de Souza: Pra gente poder dividir, discutir pouquinho, tá certo?
+
+241
+00:16:52,885 --> 00:16:54,105
+Karine Christiane Cunha de Souza: É, eu vou botar timer aqui.
+
+242
+00:16:54,105 --> 00:16:56,525
+Karine Christiane Cunha de Souza: Pra gente, então que bom que já tá bombando.
+
+243
+00:16:57,205 --> 00:16:59,285
+Karine Christiane Cunha de Souza: E aí cinco minutinhos eu...
+
+244
+00:16:59,285 --> 00:17:04,385
+Karine Christiane Cunha de Souza: Eu travo vocês de volta aqui pra prestar atenção em mim, tá bom?
+
+245
+00:17:06,204 --> 00:17:11,345
+Karine Christiane Cunha de Souza: Vou fazer assim, ó, vou deixar a teta ali, vou parar aqui de compartilhar.
+
+246
+00:17:12,464 --> 00:17:17,625
+Karine Christiane Cunha de Souza: Que depois eu vou botar nas salinhas, eu vou deixar...
+
+247
+00:17:17,625 --> 00:17:20,645
+Karine Christiane Cunha de Souza: Aqui no chat pessoal, com o cardzinho.
+
+248
+00:17:21,910 --> 00:17:25,250
+Karine Christiane Cunha de Souza: Eu ia botar as perguntinhas ali.
+
+249
+00:17:26,390 --> 00:17:27,290
+Emilly Hirt: E a sorvete.
+
+250
+00:17:28,069 --> 00:17:29,910
+Karine Christiane Cunha de Souza: Adorei.
+
+251
+00:17:31,690 --> 00:17:36,290
+Karine Christiane Cunha de Souza: E deixei o tagzinho também passando aqui pra gente.
+
+252
+00:18:31,925 --> 00:18:36,125
+Edvanio Pacheco Teixeira: Eu tô rindo do quadradinho de Gapes que tava assim, é tiros de casa.
+
+253
+00:18:36,125 --> 00:18:37,505
+Karine Christiane Cunha de Souza: Que eu vi tudo.
+
+254
+00:18:38,545 --> 00:18:43,645
+Karine Christiane Cunha de Souza: Tá bom, eu entendo que a vida é real.
+
+255
+00:18:44,225 --> 00:18:47,845
+Rodrigo Ramos de Souza: Aumenta o moral, diminui os tics ali, né?
+
+256
+00:18:48,565 --> 00:18:53,385
+Karine Christiane Cunha de Souza: O que eu não deixei é o.
+
+257
+00:18:53,385 --> 00:18:57,165
+Karine Christiane Cunha de Souza: Sponsor muito grande, que é pra ser objetivo da escrita.
+
+258
+00:22:40,257 --> 00:22:50,097
+Karine Christiane Cunha de Souza: Não importa, estamos acabando aqui o tempinho e tem gente escrevendo, então vou deixar aqui para o pessoal concluir, tá?
+
+259
+00:23:15,593 --> 00:23:17,153
+Karine Christiane Cunha de Souza: É a Amanda que tá com o serviço?
+
+260
+00:23:17,833 --> 00:23:21,553
+Karine Christiane Cunha de Souza: Acho que tem vários com serviços.
+
+261
+00:23:21,833 --> 00:23:23,673
+Amanda Geraldo Andrighi: É, eu acho que o Rodrigo deve estar também.
+
+262
+00:23:24,293 --> 00:23:25,893
+Rodrigo Ramos de Souza: Eu tô com...
+
+263
+00:23:25,893 --> 00:23:27,493
+Rodrigo Ramos de Souza: Vezes tem developer.
+
+264
+00:23:28,293 --> 00:23:30,013
+Rodrigo Ramos de Souza: Não sei porquê, mas é o Miro, né?
+
+265
+00:23:30,873 --> 00:23:32,473
+Rodrigo Ramos de Souza: Entrou developer pra mim aqui.
+
+266
+00:23:33,373 --> 00:23:34,153
+Rodrigo Ramos de Souza: Acabei não logando.
+
+267
+00:23:37,373 --> 00:23:38,153
+Karine Christiane Cunha de Souza: Não tem problema.
+
+268
+00:23:39,213 --> 00:23:39,873
+Karine Christiane Cunha de Souza: Pergunta aí, pessoal.
+
+269
+00:23:39,953 --> 00:23:41,873
+Karine Christiane Cunha de Souza: Acho que o resto do pessoal já...
+
+270
+00:23:41,873 --> 00:23:43,193
+Karine Christiane Cunha de Souza: Já se acomodou aqui.
+
+271
+00:23:48,398 --> 00:23:50,898
+Karine Christiane Cunha de Souza: A última escrita e aí a gente.
+
+272
+00:23:50,898 --> 00:23:53,518
+Karine Christiane Cunha de Souza: Vai para a parte de compartilhamento, gente.
+
+273
+00:23:53,738 --> 00:23:59,898
+Karine Christiane Cunha de Souza: Então, vocês podem levantar a mãozinha aí para quem quiser compartilhar primeiro, começar, né,.
+
+274
+00:23:59,938 --> 00:24:01,938
+Karine Christiane Cunha de Souza: Falando do seu pepezinho.
+
+275
+00:24:03,698 --> 00:24:08,458
+Karine Christiane Cunha de Souza: Senão, eu vou chamando, né, escolhendo aqui quem estiver mais bonito na minha tela.
+
+276
+00:24:09,118 --> 00:24:14,618
+Karine Christiane Cunha de Souza: Então, eu dou para vocês o benefício de se escolherem a vez.
+
+277
+00:24:16,917 --> 00:24:21,517
+Karine Christiane Cunha de Souza: Deixa eu parar aqui o cronômetro também.
+
+278
+00:24:23,677 --> 00:24:24,057
+Karine Christiane Cunha de Souza: Pronto.
+
+279
+00:24:26,437 --> 00:24:29,237
+Karine Christiane Cunha de Souza: Então, vou começar.
+
+280
+00:24:30,137 --> 00:24:34,097
+Karine Christiane Cunha de Souza: Rodrigo, você está com o microfone aberto, Rodrigo.
+
+281
+00:24:34,157 --> 00:24:36,177
+Karine Christiane Cunha de Souza: Olha que interessante, Rodrigo.
+
+282
+00:24:36,197 --> 00:24:36,977
+Rodrigo Ramos de Souza: Que loucura.
+
+283
+00:24:38,077 --> 00:24:38,997
+Peter Ruiz Paredes: Acontece, né?
+
+284
+00:24:39,317 --> 00:24:39,857
+Rodrigo Ramos de Souza: Mas vamos lá.
+
+285
+00:24:41,357 --> 00:24:42,877
+Rodrigo Ramos de Souza: Deixa eu compartilhar minha tela aqui.
+
+286
+00:24:43,037 --> 00:24:43,617
+Rodrigo Ramos de Souza: Então, é isso.
+
+287
+00:24:44,828 --> 00:24:46,168
+Karine Christiane Cunha de Souza: Você pode compartilhar se quiser, ou você.
+
+288
+00:24:46,168 --> 00:24:49,408
+Karine Christiane Cunha de Souza: Pode só falar e comentar aí sobre o que você acha que é relevante.
+
+289
+00:24:50,168 --> 00:24:57,748
+Rodrigo Ramos de Souza: Algum desses que eu acabei colocando, é que algumas coisas a gente já tinha até anotado, né, pra quando viesse a reunião.
+
+290
+00:24:58,227 --> 00:25:03,227
+Rodrigo Ramos de Souza: Então alguns dos tópicos que a gente viu com os clientes e acabaram solicitando, alguns deles aqui.
+
+291
+00:25:03,767 --> 00:25:06,807
+Rodrigo Ramos de Souza: Então deixa eu até comentar alguns que eu fui lembrando e fui colocando.
+
+292
+00:25:07,227 --> 00:25:15,707
+Rodrigo Ramos de Souza: Muito solicitado a questão do caminho crítico, questão de planejamento, a possibilidade de conseguir visualizar esse caminho crítico dentro do planning.
+
+293
+00:25:16,667 --> 00:25:34,168
+Rodrigo Ramos de Souza: A parte da impressão do Gantt, a gente consegue acessar o Gantt, mas não consegue fazer muita coisa com ele, que seja pra mandar plotar, pra botar na parede, enfim, isso é bem comum, geralmente na execução de obra, ter esse planejamento impresso na parede ali, o pessoal riscar e fazer diversas alterações.
+
+294
+00:25:34,688 --> 00:25:41,248
+Rodrigo Ramos de Souza: Questão de digitar diretamente as predecessoras, que no planning a gente tem que acessar as predecessoras e ir selecionando uma por uma, né?
+
+295
+00:25:41,731 --> 00:25:46,651
+Rodrigo Ramos de Souza: E o pessoal acaba fazendo essa comparação com project que é mais simples de digitar.
+
+296
+00:25:46,911 --> 00:25:53,591
+Rodrigo Ramos de Souza: O pessoal já está acostumado, então pensei, ó, vou trazer pra mesa também essa questão de digitar diretamente as predecessoras.
+
+297
+00:25:54,531 --> 00:25:57,371
+Rodrigo Ramos de Souza: Outro tópico seria essa parte do vínculo com o tracking.
+
+298
+00:25:57,871 --> 00:26:06,248
+Rodrigo Ramos de Souza: Já que a gente tem a possibilidade de atualizar o planning, a questão da evolução da obra, como todas as porcentagens, Por que não já fazer esse vínculo com o track?
+
+299
+00:26:06,328 --> 00:26:12,508
+Rodrigo Ramos de Souza: Eu acho que já tem alguma coisa em andamento, pelo que eu imagino que já esteja.
+
+300
+00:26:13,168 --> 00:26:21,588
+Rodrigo Ramos de Souza: Então seria interessante ter realmente esse vínculo para que não precisasse ficar atualizando uma outra solução, replicando as informações.
+
+301
+00:26:21,928 --> 00:26:26,028
+Rodrigo Ramos de Souza: Esse último aqui é algo que aconteceu na Unila, no caso.
+
+302
+00:26:26,168 --> 00:26:30,828
+Rodrigo Ramos de Souza: A gente tem aqui a possibilidade de criar novo planejamento a partir da alteração de uma database.
+
+303
+00:26:31,008 --> 00:26:36,295
+Rodrigo Ramos de Souza: A gente tinha uma database, que era o planejamento deles, A gente sabe que a obra nem sempre segue o planejamento.
+
+304
+00:26:36,455 --> 00:26:41,215
+Rodrigo Ramos de Souza: É raro, mas acontece com alguma frequência de ter que ir jogando pra frente algumas atividades, né?
+
+305
+00:26:41,715 --> 00:26:50,415
+Rodrigo Ramos de Souza: E eles queriam apenas, olha, eu quero colocar uma nova data aqui e todo o planejamento ele empurrar pra frente uma semana, duas, quinze, enfim, né?
+
+306
+00:26:50,855 --> 00:26:56,995
+Rodrigo Ramos de Souza: Quantos dias forem necessários e não ter que editar uma por uma, todas as atividades uma por uma, entendeu?
+
+307
+00:26:57,435 --> 00:27:02,035
+Rodrigo Ramos de Souza: Então eles só queriam realmente jogar todo o planejamento pra frente, então a gente não tinha essa possibilidade.
+
+308
+00:27:03,018 --> 00:27:10,418
+Rodrigo Ramos de Souza: E aí, por último, é que era o que a gente já estava discutindo, eu e a Amanda, que é essa atualização automática das datas conforme produtividade.
+
+309
+00:27:10,598 --> 00:27:15,478
+Rodrigo Ramos de Souza: Já que a gente tem o quantitativo, temos a produtividade via composição.
+
+310
+00:27:16,018 --> 00:27:24,458
+Rodrigo Ramos de Souza: Então, digamos que o meu quantitativo deu que eu preciso de mil horas homens para fazer uma alvenaria, por exemplo, sabendo a produtividade.
+
+311
+00:27:25,158 --> 00:27:36,598
+Rodrigo Ramos de Souza: Que é metro quadrado por hora, por exemplo, supondo aqui, eu precisaria de mil horas, então ele já iria, para essa atividade, ele já iria estender ali no planejamento uma sugestão do Visus Olibus.
+
+312
+00:27:37,118 --> 00:27:41,658
+Rodrigo Ramos de Souza: Para esse serviço, eu precisaria de duas semanas, três, quatro, cinco, enfim.
+
+313
+00:27:42,358 --> 00:27:52,658
+Rodrigo Ramos de Souza: Essa informação já teria vínculo até com o próprio histograma de mão de obra, que já está lá a informação, a gente só traria ela para fazer essa automatização, aí como seria, a gente pode discutir depois.
+
+314
+00:27:53,305 --> 00:27:57,985
+Rodrigo Ramos de Souza: E também a possibilidade de ter alguns indicadores informando se o planejamento está superdimensionado ou não.
+
+315
+00:27:58,545 --> 00:28:00,905
+Rodrigo Ramos de Souza: Digamos que eu tenha mil horas-homem que eu vou precisar.
+
+316
+00:28:01,445 --> 00:28:05,565
+Rodrigo Ramos de Souza: Eu coloquei que vai começar dia 1º de maio e vai terminar dia 30 de julho, por exemplo.
+
+317
+00:28:06,285 --> 00:28:15,405
+Rodrigo Ramos de Souza: Digamos que eu tenha dias a mais, não precisaria desse tempo todo para fazer essa atividade dentro da disponibilidade de mão de obra que eu teria.
+
+318
+00:28:15,545 --> 00:28:24,546
+Rodrigo Ramos de Souza: Então, seria essa possibilidade de ter esses indicadores, saber se realmente precisa ou não precisa desse tempo todo, ou se eu vou ter que contratar ou não pessoas a mais.
+
+319
+00:28:24,706 --> 00:28:35,866
+Rodrigo Ramos de Souza: Então, esses são alguns pontos aqui que a gente acabou trazendo junto com os clientes ou o nylon deles, que acabou caindo bastante nessa questão de automação e ajuste de cronograma que já tinham ali existentes.
+
+320
+00:28:36,706 --> 00:28:39,786
+Karine Christiane Cunha de Souza: Boa, esse é caso bem interreal mesmo ali.
+
+321
+00:28:40,806 --> 00:29:03,239
+Rodrigo Ramos de Souza: A gente teve, até a Amanda teve depois com eles bastante, essa questão de planejamento, das dificuldades que eles encontraram, que eles até faziam essa ponte com project, que era project de 3 mil linhas, enfim, algo que eles tinham sempre que ficar ajustando, eles tinham uma data base, eles queriam, de semana a semana, de 15 em 15 dias, eles tinham que atualizar pra ter uma noção realmente, de quando a obra ia finalizar.
+
+322
+00:29:03,539 --> 00:29:06,979
+Rodrigo Ramos de Souza: Sempre com os perrengues que aconteciam lá.
+
+323
+00:29:07,559 --> 00:29:09,099
+Rodrigo Ramos de Souza: Era raro, mas acontecia.
+
+324
+00:29:09,219 --> 00:29:09,639
+Rodrigo Ramos de Souza: Mas é isso.
+
+325
+00:29:10,639 --> 00:29:15,895
+Karine Christiane Cunha de Souza: É, a obra sendo obra Deixa até que eu compartilhe do lado de cá, pessoal, aí vocês só vão me dizendo.
+
+326
+00:29:15,895 --> 00:29:17,035
+Karine Christiane Cunha de Souza: Pra cima ou pra baixo, não precisa.
+
+327
+00:29:17,035 --> 00:29:21,275
+Karine Christiane Cunha de Souza: Mudar o compartilhamento, mas...
+
+328
+00:29:21,695 --> 00:29:22,755
+Karine Christiane Cunha de Souza: Muito obrigada, Rodrigo.
+
+329
+00:29:22,935 --> 00:29:24,795
+Karine Christiane Cunha de Souza: Deixa eu até fazer comentário aqui.
+
+330
+00:29:24,795 --> 00:29:26,535
+Karine Christiane Cunha de Souza: Antes de chamar o próximo, né?
+
+331
+00:29:26,895 --> 00:29:28,995
+Karine Christiane Cunha de Souza: O Ed ainda botou que tem comando e tal.
+
+332
+00:29:29,615 --> 00:29:31,815
+Karine Christiane Cunha de Souza: Pessoal, neste momento não tem nem o.
+
+333
+00:29:31,815 --> 00:29:38,095
+Karine Christiane Cunha de Souza: Certo nem o errado, não tem o que já tem e o que não tem, porque se o cliente lá na ponta não sabe é porque não tá bom alguma coisa, tá?
+
+334
+00:29:38,707 --> 00:29:50,027
+Karine Christiane Cunha de Souza: Ou não tá bom o lugar do comando, ou porque o comando não tá bom, ou porque a nossa divulgação não tá boa, ou porque o nosso, sei lá, artigo de suporte não tá bom, mas tem alguma coisa no processo que não tá ok porque não tá chegando.
+
+335
+00:29:50,027 --> 00:29:56,147
+Karine Christiane Cunha de Souza: Lá na ponta e, de fato, sendo utilizado ali pelo cliente, tá?
+
+336
+00:29:56,247 --> 00:30:02,752
+Karine Christiane Cunha de Souza: Então é sem filtro mesmo, não tem quem é criado E aqui o Rodrigo.
+
+337
+00:30:02,752 --> 00:30:03,892
+Karine Christiane Cunha de Souza: Citou o nome da Amanda.
+
+338
+00:30:03,992 --> 00:30:05,712
+Karine Christiane Cunha de Souza: Amanda, me fizer uma propaganda de que.
+
+339
+00:30:05,712 --> 00:30:06,912
+Karine Christiane Cunha de Souza: Você é uma pessoa que entende muito.
+
+340
+00:30:06,912 --> 00:30:10,032
+Karine Christiane Cunha de Souza: Desse quadrado aqui, então...
+
+341
+00:30:10,032 --> 00:30:11,872
+Karine Christiane Cunha de Souza: Quero escrever pontinho aqui também.
+
+342
+00:30:12,625 --> 00:30:15,305
+Amanda Geraldo Andrighi: O meu é aquele roxinho ali que tá em cima do Rodrigo.
+
+343
+00:30:15,565 --> 00:30:16,325
+Amanda Geraldo Andrighi: Eu fui que nem ele.
+
+344
+00:30:16,705 --> 00:30:20,385
+Amanda Geraldo Andrighi: Veio a reunião, eu já fui, né, chuva de ideias e fui anotando ali.
+
+345
+00:30:21,165 --> 00:30:24,905
+Amanda Geraldo Andrighi: Vou começar com o que eu acho que a gente acaba perdendo hoje o.
+
+346
+00:30:24,905 --> 00:30:25,965
+Amanda Geraldo Andrighi: Valor dentro do planning.
+
+347
+00:30:27,645 --> 00:30:31,445
+Amanda Geraldo Andrighi: Além da simplicidade, tem algumas atividades que a gente tem que fazer ali dentro.
+
+348
+00:30:31,445 --> 00:30:33,345
+Amanda Geraldo Andrighi: Que elas poderiam ser mais fáceis.
+
+349
+00:30:33,865 --> 00:30:40,565
+Amanda Geraldo Andrighi: Então, que nem o Rodrigo já mencionou, essa questão da gente ter que clicar cada uma das predecessoras em vez da gente poder digitar ali número.
+
+350
+00:30:40,942 --> 00:30:48,082
+Amanda Geraldo Andrighi: A mesma coisa para a data delas, a gente não consegue editar, a gente tem que entrar no calendário, ficar mudando ano, ficar mudando mês.
+
+351
+00:30:48,202 --> 00:30:50,102
+Amanda Geraldo Andrighi: Isso também acaba sendo muito humoroso.
+
+352
+00:30:50,422 --> 00:30:52,922
+Amanda Geraldo Andrighi: E com relação principalmente aos feriados.
+
+353
+00:30:53,002 --> 00:30:55,102
+Amanda Geraldo Andrighi: Aos feriados a gente não tem repetição anual.
+
+354
+00:30:55,602 --> 00:30:57,302
+Amanda Geraldo Andrighi: Isso é uma dor muito grande para os clientes.
+
+355
+00:30:57,422 --> 00:31:01,102
+Amanda Geraldo Andrighi: Eles sempre me perguntam, vou ter que registrar três natais se a minha obra tiver três anos?
+
+356
+00:31:01,202 --> 00:31:04,662
+Amanda Geraldo Andrighi: E eu tenho que falar para eles, é, infelizmente sim, você vai ter que registrar três natais.
+
+357
+00:31:05,360 --> 00:31:09,240
+Amanda Geraldo Andrighi: E uma sugestão que veio agora também de cliente é poder fazer esse.
+
+358
+00:31:09,240 --> 00:31:11,960
+Amanda Geraldo Andrighi: Upload dos feriados por planilha, igual a.
+
+359
+00:31:11,960 --> 00:31:14,260
+Amanda Geraldo Andrighi: Gente já tem ali para os quantitativos,.
+
+360
+00:31:14,360 --> 00:31:16,040
+Amanda Geraldo Andrighi: Eu acredito que seria possível.
+
+361
+00:31:16,540 --> 00:31:19,700
+Amanda Geraldo Andrighi: Então, algumas coisinhas que a gente conseguisse ganhar produtividade.
+
+362
+00:31:20,520 --> 00:31:25,620
+Amanda Geraldo Andrighi: Outra coisa que vem bastante é que a gente só tem vínculo entre as atividades, né?
+
+363
+00:31:25,860 --> 00:31:29,620
+Amanda Geraldo Andrighi: Se a gente vai colocar ali, é sempre término e início, término e início.
+
+364
+00:31:29,862 --> 00:31:36,602
+Amanda Geraldo Andrighi: Eu não consigo colocar uma predecessora e dizer que elas vão ser início-início ou término-término, porque isso vai influenciar.
+
+365
+00:31:37,262 --> 00:31:45,502
+Amanda Geraldo Andrighi: Então, se eu quero que elas sejam término-término, eu não posso colocá-las como predecessora e eu tenho que sempre cuidar para que a data delas seja a mesma.
+
+366
+00:31:45,522 --> 00:31:47,222
+Amanda Geraldo Andrighi: Então, eu tenho que ficar alimentando duas.
+
+367
+00:31:47,222 --> 00:31:49,702
+Amanda Geraldo Andrighi: Atividades duplamente, em vez de só criar.
+
+368
+00:31:49,702 --> 00:31:51,602
+Amanda Geraldo Andrighi: O vínculo nelas e mudar a data de uma.
+
+369
+00:31:53,116 --> 00:31:58,496
+Amanda Geraldo Andrighi: Outro ponto ali é a IAP de planejamento, mas isso acaba sendo uma dificuldade dos clientes.
+
+370
+00:31:58,696 --> 00:32:04,336
+Amanda Geraldo Andrighi: Eu sei que hoje a gente consegue ter diferentes visões ali dentro, mas é muito comum a gente ter a nossa.
+
+371
+00:32:04,336 --> 00:32:08,056
+Amanda Geraldo Andrighi: IAP de orçamento totalmente diferente da IAP de planejamento.
+
+372
+00:32:08,296 --> 00:32:19,998
+Amanda Geraldo Andrighi: Isso era uma dor muito grande da Unila, porque o orçamento deles não era tão detalhado e quando a gente chegava em uma sessão específica, eles quebravam essa sessão em setor A, B, C, 1, 2, 3.
+
+373
+00:32:20,498 --> 00:32:27,878
+Amanda Geraldo Andrighi: Então, ficava muito difícil, às vezes, até de a gente criar uma outra visão, porque a gente tinha que fazer quantitativo do zero, uma regra do zero,.
+
+374
+00:32:27,938 --> 00:32:29,278
+Amanda Geraldo Andrighi: A gente perdia esse trabalho.
+
+375
+00:32:30,118 --> 00:32:34,658
+Amanda Geraldo Andrighi: Então, a gente entra aqui nessa parte da EP realmente num limbo.
+
+376
+00:32:35,185 --> 00:32:40,865
+Amanda Geraldo Andrighi: Outro ponto que veio da Unila e de outros clientes também é a extração de quantitativos por período.
+
+377
+00:32:41,325 --> 00:32:43,105
+Amanda Geraldo Andrighi: Hoje a gente já tem uma planilha.
+
+378
+00:32:43,105 --> 00:32:47,925
+Amanda Geraldo Andrighi: Ali dentro do planning que ele vai trazer para nós as atividades e do lado ele dá a data de início.
+
+379
+00:32:47,925 --> 00:32:49,485
+Amanda Geraldo Andrighi: E de fim, mas o que eles.
+
+380
+00:32:49,485 --> 00:32:57,576
+Amanda Geraldo Andrighi: Queriam era basicamente, como a gente tem a barra de pesquisar ali, pesquisar uma data, por exemplo, hoje, e ele me trazer todas as atividades que eu preciso.
+
+381
+00:32:57,576 --> 00:32:59,816
+Amanda Geraldo Andrighi: Para hoje, ou todos os insumos, ou.
+
+382
+00:32:59,816 --> 00:33:01,016
+Amanda Geraldo Andrighi: Em vez de uma data, período.
+
+383
+00:33:01,236 --> 00:33:03,596
+Amanda Geraldo Andrighi: A semana que vem, eu quero saber todas as minhas atividades.
+
+384
+00:33:04,276 --> 00:33:08,716
+Amanda Geraldo Andrighi: Mês que vem, eu quero saber tudo que eu preciso ter comprado ali dentro da obra para eu poder passar ali.
+
+385
+00:33:08,716 --> 00:33:10,376
+Amanda Geraldo Andrighi: Para o meu setor de compras.
+
+386
+00:33:10,736 --> 00:33:13,356
+Amanda Geraldo Andrighi: Então, que esses relatórios fossem pouco mais automáticos.
+
+387
+00:33:13,776 --> 00:33:20,536
+Amanda Geraldo Andrighi: Hoje, a gente acaba com os clientes dando a opção para eles distraírem a planilha, a gente auxilia eles a automatizar.
+
+388
+00:33:20,536 --> 00:33:22,816
+Amanda Geraldo Andrighi: O relatório que sai, Mas eu vejo.
+
+389
+00:33:22,816 --> 00:33:28,876
+Amanda Geraldo Andrighi: Que é mais interessante realmente essa questão que eu comentei no início, coisas que a gente conseguisse trazer produtividade ali para o próprio plano.
+
+390
+00:33:30,116 --> 00:33:35,576
+Amanda Geraldo Andrighi: E, por último, pouco do que o Rodrigo já comentou ali, que é a duração a partir de homens-hora.
+
+391
+00:33:36,156 --> 00:33:38,576
+Amanda Geraldo Andrighi: Só colocando ponto, reforçando o que.
+
+392
+00:33:38,576 --> 00:33:42,696
+Amanda Geraldo Andrighi: O Rodrigo já falou, a gente ter talvez a opção de a gente poder.
+
+393
+00:33:42,696 --> 00:33:46,576
+Amanda Geraldo Andrighi: Definir qual que vai ser essa duração, se eu quero que ela seja...
+
+394
+00:33:46,576 --> 00:33:49,856
+Amanda Geraldo Andrighi: Ele me dê a quantidade de pessoas a partir da duração que eu coloque, ou.
+
+395
+00:33:49,856 --> 00:33:51,748
+Amanda Geraldo Andrighi: O inverso, E o que é muito.
+
+396
+00:33:51,748 --> 00:33:53,928
+Amanda Geraldo Andrighi: Comum também para algumas construtoras é que.
+
+397
+00:33:53,928 --> 00:33:56,608
+Amanda Geraldo Andrighi: Eles acabam utilizando ali os coeficientes de.
+
+398
+00:33:56,608 --> 00:33:59,588
+Amanda Geraldo Andrighi: Produtividade para eles se basearem para orçamento.
+
+399
+00:33:59,768 --> 00:34:22,077
+Amanda Geraldo Andrighi: Então, não é, às vezes, o período final que eles vão utilizar, mas eles vão se basear naquilo ali para poder colocar mais ou menos, ou, não, eu vou trabalhar, às vezes, com uma equipe de produção, eu sei que eu consigo colocar menos, Então, em vez de hoje já sair relatório, mas em vez de sair para relatório, para uma planilha, fazer essa análise, ter que voltar a alimentar manualmente ali o planning, seria bom.
+
+400
+00:34:22,757 --> 00:34:32,257
+Amanda Geraldo Andrighi: E, por último, uma dor que daí acaba relacionando muito com o orçamento, na verdade, alguns insumos, que daí a gente faria o caminho inverso, a gente quantificaria.
+
+401
+00:34:32,257 --> 00:34:34,577
+Amanda Geraldo Andrighi: Eles a partir do planejamento, em vez.
+
+402
+00:34:34,577 --> 00:34:37,897
+Amanda Geraldo Andrighi: De colocá-los unitariamente como locação de equipamentos.
+
+403
+00:34:38,288 --> 00:34:44,788
+Amanda Geraldo Andrighi: Então, gruas, muitas vezes a gente tem dificuldade lá dentro do coste, porque não, eu quero que seja em função da duração da minha obra.
+
+404
+00:34:45,188 --> 00:34:46,428
+Amanda Geraldo Andrighi: Então, eu tenho que colocar lá.
+
+405
+00:34:46,428 --> 00:34:49,288
+Amanda Geraldo Andrighi: Quantitativo manual ou eu tenho que criar uma regra específica.
+
+406
+00:34:49,688 --> 00:34:56,007
+Amanda Geraldo Andrighi: Depois que eu alimento o planning, eu tenho que voltar e, se eu ganhei tempo na minha obra, reduzir aquele período de locação.
+
+407
+00:34:56,668 --> 00:34:58,908
+Amanda Geraldo Andrighi: Esses eram os pontos que eu tinha aqui anotado.
+
+408
+00:35:00,548 --> 00:35:01,048
+Karine Christiane Cunha de Souza: É, boa.
+
+409
+00:35:01,688 --> 00:35:04,348
+Karine Christiane Cunha de Souza: Nem tinha me dado conta do equipamento aí.
+
+410
+00:35:06,301 --> 00:35:09,721
+Karine Christiane Cunha de Souza: Meninas do CERN, vocês, quem está mais.
+
+411
+00:35:09,721 --> 00:35:11,841
+Karine Christiane Cunha de Souza: Aqui conosco, querem complementar também?
+
+412
+00:35:12,041 --> 00:35:14,101
+Karine Christiane Cunha de Souza: Isa, Gabi, deixa eu ver o que.
+
+413
+00:35:14,101 --> 00:35:15,241
+Karine Christiane Cunha de Souza: Tem, Emílio está aqui ainda.
+
+414
+00:35:16,601 --> 00:35:17,381
+Karine Christiane Cunha de Souza: Rodi?
+
+415
+00:35:18,981 --> 00:35:45,930
+Isabella Duraes: Não, eu acho que essas questões aí que o Rodi e a Amanda já passaram são coisas que a gente já vem discutindo, principalmente com esse projeto da UNILO Então, da minha parte, uma coisa que talvez seja pouco mais simples, mas que também é uma demanda dos clientes, é com relação a conseguir ter planejamento com uma estrutura de API diferente do orçamento.
+
+416
+00:35:46,150 --> 00:36:01,405
+Isabella Duraes: Então, na hora de importar ali, principalmente pelo Project, eles muitas vezes optam por utilizar só o Project, porque às vezes o planejamento tem algumas etapas ali que são diferentes da parte de orçamento.
+
+417
+00:36:02,425 --> 00:36:06,005
+Isabella Duraes: E acho que é isso, né?
+
+418
+00:36:06,305 --> 00:36:10,325
+Isabella Duraes: E no mais, eram os mesmos pontos ali da Amanda e do Rodrigo.
+
+419
+00:36:11,665 --> 00:36:16,725
+Emilly Hirt: Da minha parte, só a duração em horas para a gente atender a construção modular.
+
+420
+00:36:22,475 --> 00:36:29,295
+Karine Christiane Cunha de Souza: É só pontinho que eu esqueci.
+
+421
+00:36:29,295 --> 00:36:30,775
+Amanda Geraldo Andrighi: E que às vezes é uma dor.
+
+422
+00:36:30,775 --> 00:36:34,995
+Amanda Geraldo Andrighi: De alguns clientes, é que depois que a gente coloca a composição e a.
+
+423
+00:36:34,995 --> 00:36:36,675
+Amanda Geraldo Andrighi: Gente vai utilizar para organizar a IAP.
+
+424
+00:36:36,675 --> 00:36:39,435
+Amanda Geraldo Andrighi: Por grupo de serviço e serviço, aparece.
+
+425
+00:36:39,435 --> 00:36:41,655
+Amanda Geraldo Andrighi: No orçamento mas não aparece no planejamento.
+
+426
+00:36:42,175 --> 00:36:43,515
+Amanda Geraldo Andrighi: Daí às vezes eles querem entrar nesse.
+
+427
+00:36:43,515 --> 00:36:45,975
+Amanda Geraldo Andrighi: Nível detalhe, então é só uma.
+
+428
+00:36:45,975 --> 00:36:48,615
+Amanda Geraldo Andrighi: Informação que não chega ali na aba de orçamento.
+
+429
+00:36:52,124 --> 00:36:55,304
+Karine Christiane Cunha de Souza: Não sei se entendi, mas Bruna, Marcos,.
+
+430
+00:36:55,684 --> 00:36:58,404
+Karine Christiane Cunha de Souza: Ingrid e Ed, se vocês tiverem entendido, tá bom.
+
+431
+00:37:00,484 --> 00:37:03,444
+Karine Christiane Cunha de Souza: Eu sou mais limitada, gente, nessa parte.
+
+432
+00:37:04,044 --> 00:37:11,704
+Ingrid Zitto: Amanda, só para confirmar, não chega na de planejamento, né?
+
+433
+00:37:11,764 --> 00:37:12,864
+Ingrid Zitto: Na de orçamento, né?
+
+434
+00:37:13,364 --> 00:37:13,444
+Amanda Geraldo Andrighi: Tá.
+
+435
+00:37:13,544 --> 00:37:14,824
+Amanda Geraldo Andrighi: Perdão, na de planejamento.
+
+436
+00:37:15,504 --> 00:37:16,424
+Ingrid Zitto: Tá, vai ficar claro.
+
+437
+00:37:16,704 --> 00:37:17,264
+Karine Christiane Cunha de Souza: Obrigada.
+
+438
+00:37:18,564 --> 00:37:19,104
+Karine Christiane Cunha de Souza: Beleza.
+
+439
+00:37:21,301 --> 00:37:24,981
+Karine Christiane Cunha de Souza: Gabriela, queres complementar mais alguma coisa?
+
+440
+00:37:26,081 --> 00:37:36,021
+Gabrielly de Oliveira Soares Pereira: Acho que é mais o que o pessoal falou, mas eu tava muito ali no Projeto Downhill também junto com o Rodrigo e com a Amanda, então os feedbacks são os mesmos ali.
+
+441
+00:37:37,721 --> 00:37:41,741
+Karine Christiane Cunha de Souza: Podemos mudar o diário então, pessoal?
+
+442
+00:37:42,961 --> 00:37:45,881
+Karine Christiane Cunha de Souza: Meninas aí, Lara e Ju, vocês podem.
+
+443
+00:37:45,881 --> 00:37:48,101
+Karine Christiane Cunha de Souza: Compartilhar pouquinho com a gente agora?
+
+444
+00:37:51,406 --> 00:37:55,186
+Karine Christiane Cunha de Souza: Uma listagem de cinco páginas, assim Tô.
+
+445
+00:37:55,186 --> 00:37:57,106
+Lara Mylena da Silva: Brincando, tô brincando, galera—.
+
+446
+00:37:57,106 --> 00:37:58,666
+Rodrigo Ramos de Souza: Calma, vai brincar—.
+
+447
+00:37:58,666 --> 00:38:00,226
+Karine Christiane Cunha de Souza: Tô brincando—.
+
+448
+00:38:00,226 --> 00:38:02,186
+Karine Christiane Cunha de Souza: Tô brincando, mas nem tanto, tá bom—.
+
+449
+00:38:02,186 --> 00:38:07,326
+Lara Mylena da Silva: Tá, aqui eu separei os pontos que mais chegam, né?
+
+450
+00:38:07,946 --> 00:38:10,786
+Lara Mylena da Silva: Aqui a gente acaba sofrendo muito para vender o plano, tá?
+
+451
+00:38:11,306 --> 00:38:23,847
+Lara Mylena da Silva: Eu acho, inclusive, que a gente não vende plano A gente vende o cost e aí o plano tem uma coisa que é muito bom E a gente só tem que ter cuidado em como a gente vai ajustar para não perder isso, que é o físico financeiro.
+
+452
+00:38:24,407 --> 00:38:31,047
+Lara Mylena da Silva: Então, da mesma maneira que a gente fica querendo se desassociar do orçamento, quando a gente fizer isso daí vai surgir o contrário.
+
+453
+00:38:31,367 --> 00:38:36,187
+Lara Mylena da Silva: Se associar ao orçamento, que eu acho que é o maior valor que a gente entrega hoje dentro do planning, e sobe.
+
+454
+00:38:36,667 --> 00:38:37,587
+Karine Christiane Cunha de Souza: Eu estou recebendo.
+
+455
+00:38:38,047 --> 00:38:44,027
+Lara Mylena da Silva: Mas o primeiro ponto é que eu sempre achei mega estranho o sistema ser dentro do costo.
+
+456
+00:38:44,087 --> 00:38:56,824
+Lara Mylena da Silva: Para mim nunca fez sentido e o cliente realmente fica Se perguntando como que eles vão fazer essa gestão O planejamento sempre foi setor diferente de orçamento E aí o cliente pergunta justamente, tá, como é que vocês pensaram essa logística?
+
+457
+00:38:57,444 --> 00:39:05,384
+Lara Mylena da Silva: O cara tá fazendo orçamento aqui, aí ele vai me mandar para o meu setor de planejamento Depois eu mando de volta para ele Então assim, isso nunca ficou muito claro aqui para a.
+
+458
+00:39:05,384 --> 00:39:08,564
+Karine Christiane Cunha de Souza: Gente E sim, eu acredito em muito,.
+
+459
+00:39:08,564 --> 00:39:13,324
+Lara Mylena da Silva: Muito mesmo assim que uma melhoria que a gente poderia fazer É desapartar, né?
+
+460
+00:39:13,364 --> 00:39:16,944
+Lara Mylena da Silva: Eu entendo que até então nem fazia muito sentido porque ainda dava muito MPB, né?
+
+461
+00:39:17,738 --> 00:39:27,578
+Lara Mylena da Silva: Então vocês fazendo essas melhorias, se der para desapartar o módulo, seria bem legal ali para a gente vender separado mesmo, são setores diferentes para que a gente tenha entendimento de qual que é o fluxo e luto.
+
+462
+00:39:28,578 --> 00:39:30,318
+Lara Mylena da Silva: Caminhão crítico, acho que já falaram.
+
+463
+00:39:30,938 --> 00:39:33,478
+Lara Mylena da Silva: Toda reunião que a gente apresenta, a primeira pergunta que sai.
+
+464
+00:39:34,158 --> 00:39:36,458
+Lara Mylena da Silva: Segunda pergunta logo em seguida é a linha de base.
+
+465
+00:39:36,718 --> 00:39:41,158
+Lara Mylena da Silva: Então realmente isso daqui entrega muito valor, isso aqui tem que ter para quem faz análise e planejamento.
+
+466
+00:39:42,578 --> 00:39:50,665
+Lara Mylena da Silva: Mesmo que a gente libere uma nova versão sem isso, que vai continuar sendo recorrente, Ferramentas mais dinâmicas ali de produtividade, né?
+
+467
+00:39:50,865 --> 00:39:54,965
+Lara Mylena da Silva: Até os concorrentes nossos usam muito esse what-if, né?
+
+468
+00:39:55,505 --> 00:40:06,585
+Lara Mylena da Silva: Ou seja, estimular cenários, mexer em alguns parâmetros, brincar com o planejamento para ver se acha denominador mais interessante sem diretamente mexer no planejamento, né?
+
+469
+00:40:07,045 --> 00:40:09,865
+Lara Mylena da Silva: Então eu vejo nossos concorrentes se posicionando muito forte nisso daí.
+
+470
+00:40:10,405 --> 00:40:13,565
+Lara Mylena da Silva: E aí a gente liberar uma versão só para chegar no mesmo patamar.
+
+471
+00:40:14,445 --> 00:40:24,139
+Lara Mylena da Silva: Daqui a pouco a gente vai começar a ver essas questões dos concorrentes externos já fazerem, já terem camada de A, já terem inteligência.
+
+472
+00:40:24,279 --> 00:40:29,059
+Lara Mylena da Silva: Então, se a gente pudesse abraçar isso pouquinho mais para se posicionar melhor, seria interessante.
+
+473
+00:40:30,299 --> 00:40:36,359
+Lara Mylena da Silva: O nosso físico financeiro é rígido, justamente ele é o que vê do orçamento.
+
+474
+00:40:36,859 --> 00:41:05,793
+Lara Mylena da Silva: Me preocupa muito como é que a gente conseguiria desassociar isso sem perder a associação do entendo, mas algo que sempre vem aqui é que o físico financeiro eles usam muito para ver Como se fosse fase de compra, fase desembolso Só que, por exemplo, louços e metais eles poderiam agrupar como pacote que já foi comprado, já aconteceu o desembolso Físico financeiro dele não é diluído ali à medida que o serviço vai sendo executado Então tá, como é que a gente poderia meio que abrir a composição, né?
+
+475
+00:41:06,273 --> 00:41:24,750
+Lara Mylena da Silva: Seria como se, beleza, tem o serviço, execução, bacia sanitária Ali dentro eu tenho o material que é a mão de obra É como se a gente estivesse desapartando, tô abrindo a composição e dizendo que esse daqui eu tô arrancando fora E que ela foi pra uma outra data Então acho que a gente teria que talvez abrir a composição, né?
+
+476
+00:41:25,470 --> 00:41:28,730
+Lara Mylena da Silva: Pra conseguir fazer isso, muito o que o CINH faz hoje, né?
+
+477
+00:41:28,730 --> 00:41:44,841
+Lara Mylena da Silva: O da TOPS também Poder exportar as informações, isso aqui é bem crítico Todo cliente realmente precisa ali pra impressão Nem que seja exportar em PDF mesmo Aqui, deixa eu ver o que mais.
+
+478
+00:41:45,381 --> 00:41:55,341
+Lara Mylena da Silva: Essa análise de valor agregado, isso nunca ficou claro e já teve cliente, só que cliente maior, que pergunta, tá, mas e onde é que eu estou tirando esse valor para retroalimentar aí?
+
+479
+00:41:55,941 --> 00:42:03,041
+Lara Mylena da Silva: Hoje a gente coloca a porcentagem de avanço da obra, aí ele calcula o orçamento em relação àquela porcentagem de avanço.
+
+480
+00:42:03,581 --> 00:42:12,221
+Lara Mylena da Silva: Aí tem uma outra coluna que eu preciso preencher de quanto de fato eu desembolsei para aí daí sim ele calcular a análise de valor agregado e trazer a curva essa.
+
+481
+00:42:12,715 --> 00:42:17,375
+Lara Mylena da Silva: Todo cliente mais maduro que eu apresento, ele pergunta, tá, mas sua ID é integrada de que setor?
+
+482
+00:42:17,675 --> 00:42:22,655
+Lara Mylena da Silva: Compras, tu tá puxando o meu RP, eu vou ter que inserir isso aqui manualmente, sabe?
+
+483
+00:42:23,075 --> 00:42:28,775
+Lara Mylena da Silva: Então, acho que a gente precisa deixar claro como que é isso daqui e se a gente vai abraçar isso daqui também, né?
+
+484
+00:42:31,435 --> 00:42:35,695
+Lara Mylena da Silva: Tá, e aqui essa questão da produtividade, que acho que todo mundo já falou também, né?
+
+485
+00:42:35,715 --> 00:42:43,597
+Lara Mylena da Silva: A gente já tem os índices de alívio de obra, às vezes eles têm índices de troca também, É isso, eu acho o que veio mais rápido assim na mente.
+
+486
+00:42:45,457 --> 00:42:46,797
+Karine Christiane Cunha de Souza: Boa.
+
+487
+00:42:48,877 --> 00:42:51,337
+Karine Christiane Cunha de Souza: Jo, queres complementar alguma coisa aqui?
+
+488
+00:42:52,617 --> 00:43:05,337
+Jorgiana Maria Weiber Lievore: As coisas que eu tinha levantado aqui já foram ditas também, como a Lara comentou, as primeiras coisas que perguntam quando a gente apresenta o plenum é caminho crítico, linha de base também, né, pedem muito.
+
+489
+00:43:08,065 --> 00:43:43,005
+Jorgiana Maria Weiber Lievore: Exportação do Gantt e do vídeo da construção digital do empreendimento também pedem bastante E a Lara comentou também sobre a análise de cenários, brincar com os cenários possíveis do planejamento E alguns clientes pedem também que essa exportação do vídeo da construção digital seja de diferentes cenários também Como, por exemplo, do executado, se ele conseguiria pegar a data que a gente preenche do executado para montar o vídeo do 4D.
+
+490
+00:43:45,365 --> 00:44:25,256
+Lara Mylena da Silva: pessoal, uma coisa também aqui, até a gente apresentou para a MGI meio que gambiarra lá na hora, a Karen viu, que é todo cliente pergunta, tá, muito legal, mas eu consigo ver, tipo, destacado em verde o que já foi, em vermelho o que não foi, amarelo está em andamento, É o que a gente tava fazendo hoje, eu tava criando parâmetro de status na obra Aí eu tava alimentando manualmente, então eu colocava, sei lá, executado E aí eu criava uma aplicação com filtro de cor que tudo que contém executado naquele parâmetro Ele ia destacar em tal cor Só que, assim, se a gente conseguisse numa dessa, numa coluna daquela do Plane Esse status e andamento, né?
+
+491
+00:44:25,416 --> 00:44:32,216
+Lara Mylena da Silva: E como aquela linha em tese já tá associada ao modelo Não conseguisse trazer alguma coisa com cores, assim, certeza que.
+
+492
+00:44:32,216 --> 00:44:35,732
+Ingrid Zitto: A galera ia brigar muito hoje Concordo,.
+
+493
+00:44:36,132 --> 00:44:42,392
+Jorgiana Maria Weiber Lievore: Eu esperei bastante essa parte do cenário visual ali do modelo executado e planejado.
+
+494
+00:44:43,012 --> 00:44:50,812
+Lara Mylena da Silva: Aí, claro, né, assim, trazendo esse dinheiro já vão pedir para comparar sobre o outro, então assim, o pessoal, se eu traz o dinheiro, já vem pedindo 10.
+
+495
+00:44:52,392 --> 00:44:56,292
+Karine Christiane Cunha de Souza: Vamos lá, depois a gente vai distribuir estalecas, pessoal, para botar mesmo, né?
+
+496
+00:44:58,032 --> 00:45:01,072
+Karine Christiane Cunha de Souza: Tipo, vai lá, manda, quero trazer, manda aqui em compramento.
+
+497
+00:45:02,107 --> 00:45:04,007
+Amanda Geraldo Andrighi: Perdão, gente, é que as meninas foram.
+
+498
+00:45:04,007 --> 00:45:10,727
+Amanda Geraldo Andrighi: Falando, eu fui lembrando de outros cenários aqui, principalmente ali com a Unila, quando a gente está falando de filtro de cores também.
+
+499
+00:45:11,367 --> 00:45:17,147
+Amanda Geraldo Andrighi: Acontece que quando a gente aplica filtro de cor sobre elemento, eu não consigo reaplicar outro filtro em cima.
+
+500
+00:45:17,267 --> 00:45:23,907
+Amanda Geraldo Andrighi: Então, exemplo, eu tenho pilar, estou fazendo meu planejamento, eu coloquei a cor, por exemplo, primeiro para ver o.
+
+501
+00:45:23,907 --> 00:45:25,427
+Amanda Geraldo Andrighi: Avanço da minha equipe de armação.
+
+502
+00:45:25,947 --> 00:45:28,327
+Amanda Geraldo Andrighi: Depois, em seguida, vai vir minha equipe de carpintaria.
+
+503
+00:45:28,887 --> 00:45:31,107
+Amanda Geraldo Andrighi: Então, minha equipe de armação é vermelho, carpintaria é azul.
+
+504
+00:45:31,469 --> 00:45:36,009
+Amanda Geraldo Andrighi: Se eu definir que a armação é vermelho, depois ele não vai pintar em cima de azul.
+
+505
+00:45:36,109 --> 00:45:40,669
+Amanda Geraldo Andrighi: Ele só vai acender uma cor, mas eu não consigo ver daí o caminho que foi da minha segunda equipe.
+
+506
+00:45:41,089 --> 00:45:42,509
+Amanda Geraldo Andrighi: Então, se a gente conseguisse fazer essa.
+
+507
+00:45:42,509 --> 00:45:44,929
+Amanda Geraldo Andrighi: Sobreposição de cores, também seria interessante.
+
+508
+00:45:50,209 --> 00:45:52,089
+Rodrigo Ramos de Souza: É, hoje o Navis faz isso.
+
+509
+00:45:52,369 --> 00:45:54,609
+Rodrigo Ramos de Souza: No caso, na época, eles comparavam com o Navis.
+
+510
+00:45:55,955 --> 00:46:00,435
+Rodrigo Ramos de Souza: Algo que eles falaram, não, olha aqui a gente consegue botar, tem uma legenda com as cores dentro do vídeo ali.
+
+511
+00:46:00,775 --> 00:46:04,295
+Rodrigo Ramos de Souza: Falei, não, ok, interessante, vamos analisar isso aqui.
+
+512
+00:46:04,755 --> 00:46:08,595
+Rodrigo Ramos de Souza: Eles sempre comparam com alguma coisa que eles possuem ali, né, mas a gente.
+
+513
+00:46:08,595 --> 00:46:10,615
+Rodrigo Ramos de Souza: Meio que falava que cada ferramenta tinha.
+
+514
+00:46:10,615 --> 00:46:13,375
+Rodrigo Ramos de Souza: A sua função específica ali.
+
+515
+00:46:14,615 --> 00:46:17,535
+Karine Christiane Cunha de Souza: Essa parte visual é inevitável, comparar com nada dele.
+
+516
+00:46:17,995 --> 00:46:25,295
+Karine Christiane Cunha de Souza: Peter, você está aqui conosco, quer trazer algum ponto aí?
+
+517
+00:46:26,667 --> 00:46:30,847
+Karine Christiane Cunha de Souza: Não sei se chamei ele bem na.
+
+518
+00:46:30,847 --> 00:46:32,567
+Karine Christiane Cunha de Souza: Hora que ele fechou a câmera, assim, né?
+
+519
+00:46:32,647 --> 00:46:35,127
+Karine Christiane Cunha de Souza: Tipo, sacanagem, chama a pessoa que vai buscar água.
+
+520
+00:46:35,187 --> 00:46:35,507
+Peter Ruiz Paredes: É, sacanagem.
+
+521
+00:46:35,907 --> 00:46:37,027
+Peter Ruiz Paredes: Eu fui pegar água aqui.
+
+522
+00:46:38,107 --> 00:46:38,737
+Karine Christiane Cunha de Souza: Então, eu coloquei...
+
+523
+00:46:38,737 --> 00:46:39,467
+Karine Christiane Cunha de Souza: Ó, adivinha aí.
+
+524
+00:46:40,227 --> 00:46:42,367
+Peter Ruiz Paredes: É, eu coloquei aqui dois pontos, né?
+
+525
+00:46:42,547 --> 00:46:49,487
+Peter Ruiz Paredes: Eu tentei ser bem enxuto ali, mas, tipo, não queria escrever ruim no nacional, por isso que escrevi dois pontos bem enxutos aqui.
+
+526
+00:46:49,907 --> 00:46:50,927
+Peter Ruiz Paredes: Deixa eu só trocar de fone aqui,.
+
+527
+00:46:50,967 --> 00:46:51,747
+Rodrigo Ramos de Souza: A ver se é o que caiu.
+
+528
+00:46:52,227 --> 00:46:59,637
+Peter Ruiz Paredes: Coloquei essa tarefa com alta carga operacional, E aí eu vou trazer paralelo ali do que eu escuto muito, sabe?
+
+529
+00:47:00,157 --> 00:47:06,057
+Peter Ruiz Paredes: Quando a gente fala de planning, assim, é inevitável que o pessoal comece a falar do project.
+
+530
+00:47:06,797 --> 00:47:08,617
+Peter Ruiz Paredes: E não porque ele seja bom, tá?
+
+531
+00:47:08,717 --> 00:47:09,877
+Peter Ruiz Paredes: Ele é péssimo, na verdade.
+
+532
+00:47:10,077 --> 00:47:13,337
+Peter Ruiz Paredes: Todos eles odeiam o project.
+
+533
+00:47:14,153 --> 00:47:16,553
+Peter Ruiz Paredes: Só que ele é o mais familiar que eles têm.
+
+534
+00:47:16,693 --> 00:47:24,413
+Peter Ruiz Paredes: A gente tem que ter esse cuidado, porque o project demanda muita tarefinha operacional.
+
+535
+00:47:25,053 --> 00:47:28,413
+Peter Ruiz Paredes: Tem que configurar não sei o que, tem que cadastrar não sei o que.
+
+536
+00:47:28,733 --> 00:47:36,193
+Peter Ruiz Paredes: Até eu chegar no planejamento, meu Deus do céu, demorou horas antes mesmo de eu cair direto onde eu deveria cair, que é planejar a obra.
+
+537
+00:47:36,631 --> 00:47:47,031
+Peter Ruiz Paredes: Então, tipo, quando o cliente nos traz esse paralelo assim, porque no planning isso, porque no project isso, no project aquilo, tá, vamos tentar escutar o que ele tá querendo dizer por trás disso.
+
+538
+00:47:47,532 --> 00:47:59,212
+Peter Ruiz Paredes: Que, na verdade, se a gente for muito no pé da letra, a gente vai acabar criando algo que vai demandar muita carga operacional dele e que, infelizmente, ele não tem esse tempo, tá?
+
+539
+00:47:59,652 --> 00:48:02,612
+Peter Ruiz Paredes: Se, por exemplo, qual que vai ser a persona do planning?
+
+540
+00:48:02,752 --> 00:48:04,252
+Peter Ruiz Paredes: Vai ser alguém que tá dentro da obra?
+
+541
+00:48:04,512 --> 00:48:06,392
+Peter Ruiz Paredes: Pior ainda, tipo, o pessoal da obra.
+
+542
+00:48:06,392 --> 00:48:07,652
+Rodrigo Ramos de Souza: Que não tempo pra coisa nenhuma.
+
+543
+00:48:07,912 --> 00:48:14,152
+Peter Ruiz Paredes: O pessoal que tava na Unila sabe muito bem, assim, a gente sentar com o pessoal do mesmo banco, vem aqui, vou te mostrar aqui, vai mexer aqui no vício.
+
+544
+00:48:14,633 --> 00:48:21,773
+Peter Ruiz Paredes: O pessoal tem muita vontade de mexer no vício, mas não tem meia horazinha pra se dedicar e aprender a mexer no vício.
+
+545
+00:48:22,293 --> 00:48:29,913
+Peter Ruiz Paredes: A mesma coisa também é com o Plane, que demandaria altíssima carga de coisinha pra configurar e tudo mais.
+
+546
+00:48:30,428 --> 00:48:38,548
+Peter Ruiz Paredes: E até estava falando isso com o Ed da outra vez, o nosso mercado tem textão por ferramenta difícil.
+
+547
+00:48:38,848 --> 00:48:41,948
+Peter Ruiz Paredes: Parece que quanto mais difícil e inteligente parecer ser, melhor é.
+
+548
+00:48:42,508 --> 00:48:56,708
+Peter Ruiz Paredes: Só que, na verdade, nesse tempo que a gente está se entrando, em tempos escuros da IA, tipo, quanto mais simplificado aquilo for, melhor para esse mercado, porque esse mercado não tem muito tempo para mexer.
+
+549
+00:48:57,209 --> 00:49:04,809
+Peter Ruiz Paredes: Então, mais cuidado assim pra não sobrecarregar essa galera que já não tempo, ou aparentemente não tempo, tá?
+
+550
+00:49:05,369 --> 00:49:08,429
+Peter Ruiz Paredes: Pra mexer num planning da vida, pra criar o planejamento.
+
+551
+00:49:09,629 --> 00:49:18,789
+Peter Ruiz Paredes: E principalmente porque quando a gente fala de planning, o de planejamento, no instrumento de planning, a gente possui diversas etapas de planejamento.
+
+552
+00:49:19,109 --> 00:49:26,729
+Peter Ruiz Paredes: Uma coisa é eu criar o meu planejamento inicial, vou chamar assim, e conforme a obra vai acontecendo, aí que o bicho pega.
+
+553
+00:49:26,989 --> 00:49:29,949
+Peter Ruiz Paredes: No sentido de, tipo, tá, quem que vai atualizar esse troço ali?
+
+554
+00:49:30,009 --> 00:49:40,927
+Peter Ruiz Paredes: E a maioria deles, tipo, Acaba virando adereço de obra ali, porque ninguém tempo pra atualizar ele, e aí fica lá, deriva como algo que foi entregue, mas ninguém utilizou.
+
+555
+00:49:41,447 --> 00:49:51,007
+Peter Ruiz Paredes: Então, essa conexão com o que acontece no dia-a-dia, de forma facilitada, até o Ed falou que existe ali uma conexão com o tracking, né?
+
+556
+00:49:51,627 --> 00:49:56,687
+Peter Ruiz Paredes: Legal, mas a gente precisa entender o que tá acontecendo, né?
+
+557
+00:49:57,318 --> 00:49:59,138
+Peter Ruiz Paredes: Mas, enfim, só esse ponto, tá?
+
+558
+00:49:59,298 --> 00:50:10,258
+Peter Ruiz Paredes: De tipo, quando eu falo assim, essa carga operacional é justamente muito conectada com o MSX Project, porque o pessoal faz muito essa comparação.
+
+559
+00:50:10,538 --> 00:50:11,678
+Peter Ruiz Paredes: Fala, isso tem lá.
+
+560
+00:50:12,298 --> 00:50:14,618
+Peter Ruiz Paredes: Parece que estão despedindo esse recurso.
+
+561
+00:50:14,798 --> 00:50:24,678
+Peter Ruiz Paredes: Só que vamos ter esse cuidado pra não virar, tipo, pra não estar sobrecarregando ele com monte de atividadezinha operacional.
+
+562
+00:50:25,381 --> 00:50:31,261
+Peter Ruiz Paredes: Daqui a pouco ele tá configurando o software pra, tipo, depois começar ali o planejamento dele.
+
+563
+00:50:31,721 --> 00:50:39,161
+Peter Ruiz Paredes: Então, só esse ponto ali, entender bem quem vai estar usando o Plane, em que contexto, pra fazer essas conexões, tá?
+
+564
+00:50:40,321 --> 00:50:53,781
+Peter Ruiz Paredes: O outro, tá ligado, é que com esse ponto que eu coloquei, visão de linha de base também, que é uma visão muito mais estratégica, até a Lara trouxe isso, coloquei aqui de forma bem simplificada.
+
+565
+00:50:54,710 --> 00:50:59,110
+Peter Ruiz Paredes: Que é no sentido desenhar esse cenário.
+
+566
+00:50:59,190 --> 00:51:05,110
+Peter Ruiz Paredes: E não é só desenhar esse cenário, atualizar o planejamento dele conforme for acontecendo e manter esse histórico ali.
+
+567
+00:51:05,930 --> 00:51:09,770
+Peter Ruiz Paredes: Então, e isso funcionar de uma forma bem intuitiva.
+
+568
+00:51:10,750 --> 00:51:22,590
+Peter Ruiz Paredes: Por exemplo, lá no Emesis Project, ele é bem limitado no sentido de tipo, eu posso ter 11 linhas, não linha de base, 11 atualizações foram a linha de base.
+
+569
+00:51:23,498 --> 00:51:41,418
+Peter Ruiz Paredes: Então, a linha de base é importante para desenhar esses cenários, para, de fato, eu ver o quanto impacta, não só a nível de tempo, e o que a Lara trouxe também foi cirúrgica nesse sentido, senão também o quanto impacta financeiramente uma mudança de planejamento, ou atraso, ou potencial atraso.
+
+570
+00:51:41,898 --> 00:51:42,878
+Peter Ruiz Paredes: Isso é bem importante.
+
+571
+00:51:43,478 --> 00:51:47,298
+Peter Ruiz Paredes: Então, por isso que eu coloquei ali a linha de base também como ponto bem importante.
+
+572
+00:51:47,858 --> 00:51:52,274
+Peter Ruiz Paredes: E outro ponto, olhando para cá, Acabei que não coloquei ali, mas vou cadastrar.
+
+573
+00:51:52,734 --> 00:52:00,854
+Peter Ruiz Paredes: Mas olhando ali para uma camada mais estratégica, não apenas para quem opera o planning, tá?
+
+574
+00:52:01,394 --> 00:52:03,074
+Peter Ruiz Paredes: É uma visão de portfólio.
+
+575
+00:52:03,593 --> 00:52:06,493
+Peter Ruiz Paredes: Que é muito no sentido de...
+
+576
+00:52:06,493 --> 00:52:10,113
+Peter Ruiz Paredes: Aqui a gente tá falando muito de quem tá operando, de quem tá no dia-a-dia da obra.
+
+577
+00:52:10,513 --> 00:52:13,693
+Peter Ruiz Paredes: Só que, normalmente, quem tá no dia-a-dia da obra ou tá em uma ou duas obras.
+
+578
+00:52:14,653 --> 00:52:23,413
+Peter Ruiz Paredes: Só quem tá na camada estratégica, se for, por exemplo, uma incorporadora ou uma construtora, em paralelo tá tocando seis, sete, oito obras.
+
+579
+00:52:23,573 --> 00:52:30,193
+Peter Ruiz Paredes: Então, essa visão de portfólio pra eles também é bem importante, é uma visão mais simplificada.
+
+580
+00:52:31,184 --> 00:52:34,784
+Peter Ruiz Paredes: Se quiser adentrar, entra no planejamento da obra.
+
+581
+00:52:35,324 --> 00:52:37,804
+Peter Ruiz Paredes: Mas também é ponto que o pessoal traz muito.
+
+582
+00:52:38,004 --> 00:52:42,604
+Peter Ruiz Paredes: Como que eu consigo ter minha visão de portfólio para saber de forma global como que está indo as coisas.
+
+583
+00:52:43,284 --> 00:52:44,984
+Peter Ruiz Paredes: Acho que principalmente esses três pontos, Karine.
+
+584
+00:52:45,744 --> 00:52:46,464
+Ingrid Zitto: Boa.
+
+585
+00:52:46,684 --> 00:52:48,904
+Karine Christiane Cunha de Souza: Últimos pontos aqui para acrescentar também.
+
+586
+00:52:50,784 --> 00:52:52,364
+Karine Christiane Cunha de Souza: Deixa eu ver, pessoal.
+
+587
+00:52:52,484 --> 00:52:54,484
+Karine Christiane Cunha de Souza: O produto é de...
+
+588
+00:52:54,484 --> 00:52:56,704
+Karine Christiane Cunha de Souza: Querem complementar com mais alguma coisa?
+
+589
+00:52:56,864 --> 00:53:00,424
+Karine Christiane Cunha de Souza: Quem que ainda não fez falar, né?
+
+590
+00:53:01,778 --> 00:53:06,478
+Bruna Durieux Ferreira: Acho que o pessoal trouxe coisas bem aderentes aí.
+
+591
+00:53:07,258 --> 00:53:25,938
+Bruna Durieux Ferreira: Uma coisa que acho que não falaram tanto, mas que agora que eu lembrei, inclusive não botei em card, mas que é a distribuição do valor no tempo de forma linear, o desembolso ali do orçamento.
+
+592
+00:53:27,398 --> 00:53:29,798
+Bruna Durieux Ferreira: Isso aí é uma coisa que às vezes vocês trazem também.
+
+593
+00:53:30,888 --> 00:53:35,748
+Bruna Durieux Ferreira: Mas achei tudo bem coerente isso que o Peter falou ali do Project perfeito.
+
+594
+00:53:35,868 --> 00:53:40,288
+Bruna Durieux Ferreira: Às vezes eu olho aquela EAP do Project e fico, tá, mas será que ele fez desse jeito?
+
+595
+00:53:40,428 --> 00:53:42,388
+Bruna Durieux Ferreira: Porque não é o único jeito que dá para fazer lá?
+
+596
+00:53:42,988 --> 00:53:47,148
+Bruna Durieux Ferreira: E várias vezes a resposta do cliente vem como, sim, fiz desse jeito, porque eu só conseguia fazer assim lá.
+
+597
+00:53:47,628 --> 00:53:52,888
+Bruna Durieux Ferreira: Tanto que se pega o mesmo cliente com uma EAP do Project e uma da Prevision, geralmente são completamente diferentes.
+
+598
+00:53:53,288 --> 00:54:05,335
+Bruna Durieux Ferreira: Então, a gente está olhando para isso, que é ponto bem importante, o que o Peter falou, a gente não trazer coisas necessárias, só por causa de uma limitação do outro software que ele faz daquele jeito porque é o único jeito que dá.
+
+599
+00:54:10,555 --> 00:54:38,706
+Edvanio Pacheco Teixeira: Eu acho que só complementaria, eu acho que tem uma pegada muito grande no que tem hoje de usabilidade, porque, por exemplo, se eu pegar esse exemplo da EAP diferente, vou voltar passo atrás antes, a Lara comentou ponto hoje, A grande força está conectado ao orçamento, porque tu consegue cruzar os dois nas duas direções, que é coisa que não está sendo explorada, mas pode.
+
+600
+00:54:38,866 --> 00:54:45,046
+Edvanio Pacheco Teixeira: Tanto calcular o tempo nas atividades, validar se está ok ou não, que é outras necessidades que tem ali.
+
+601
+00:54:46,266 --> 00:54:52,566
+Edvanio Pacheco Teixeira: E se a gente desassociar as duas totalmente, tem duas coisas que não têm correlação nenhuma uma com a outra.
+
+602
+00:54:54,646 --> 00:54:56,506
+Edvanio Pacheco Teixeira: Mas só que assim, dá de fazer hoje.
+
+603
+00:54:56,933 --> 00:55:03,533
+Edvanio Pacheco Teixeira: Separado, ter duas visões, só porque nenhum usuário entendeu e nem internamente também como usar nesse conceito.
+
+604
+00:55:03,653 --> 00:55:10,473
+Edvanio Pacheco Teixeira: Então, acho que pega bastante na questão de usabilidade, de como tornar isso de jeito amigável, né?
+
+605
+00:55:10,553 --> 00:55:18,193
+Edvanio Pacheco Teixeira: Acho que vai também que o Peter falou lá, não adianta também botar monte de coisa difícil, o cara não tempo pra isso, ninguém tempo pra isso, vai ficar complicado ali.
+
+606
+00:55:18,853 --> 00:55:32,001
+Edvanio Pacheco Teixeira: Então, parece que nesse conjunto todo, além dos novos recursos, tem uma pegada gigante de como tornar isso Simples, usabilidade mesmo, não tem outra coisa para descrever quase.
+
+607
+00:55:32,601 --> 00:55:35,341
+Edvanio Pacheco Teixeira: Quase é feature nova e usabilidade desse processo.
+
+608
+00:55:36,041 --> 00:55:37,981
+Bruna Durieux Ferreira: Ainda mais com o IA, né?
+
+609
+00:55:38,321 --> 00:55:40,801
+Bruna Durieux Ferreira: Porque se não tinha tempo, agora não tempo nem vontade.
+
+610
+00:55:41,681 --> 00:55:43,301
+Bruna Durieux Ferreira: De fazer na mão.
+
+611
+00:55:44,021 --> 00:55:52,541
+Karine Christiane Cunha de Souza: Não tinha tempo, não tinha vontade e tem preguiça de pensar, então tá fácil a missão.
+
+612
+00:55:52,941 --> 00:55:55,981
+Karine Christiane Cunha de Souza: Mais algum ponto, pessoal?
+
+613
+00:55:58,544 --> 00:56:05,184
+Karine Christiane Cunha de Souza: Eu vi que foram surgindo, além de gaps mesmo, várias falas pouquinho focadas.
+
+614
+00:56:05,184 --> 00:56:06,684
+Karine Christiane Cunha de Souza: Aqui nosso diferencial.
+
+615
+00:56:07,744 --> 00:56:12,924
+Karine Christiane Cunha de Souza: Deixa eu trazer aqui as perguntinhas também.
+
+616
+00:56:13,304 --> 00:56:15,004
+Bruna Durieux Ferreira: Eu coloquei ele no Miro, Karine.
+
+617
+00:56:15,804 --> 00:56:21,594
+Karine Christiane Cunha de Souza: Mas a ideia agora é a gente.
+
+618
+00:56:21,594 --> 00:56:24,004
+Karine Christiane Cunha de Souza: Pensar então pouquinho aqui em outros.
+
+619
+00:56:24,004 --> 00:56:26,384
+Karine Christiane Cunha de Souza: Diferenciais além dos que vocês já falaram também.
+
+620
+00:56:27,518 --> 00:56:36,338
+Karine Christiane Cunha de Souza: Então pensar muito assim, né, porque o cliente escolheria planejar no Visus e não no Project, não no Prevision e não no Agilene, né, em tantas ferramentas que.
+
+621
+00:56:36,338 --> 00:56:37,178
+Karine Christiane Cunha de Souza: Tem aí no mercado.
+
+622
+00:56:38,038 --> 00:56:40,738
+Karine Christiane Cunha de Souza: E aqui, pessoal, eu entendo que às vezes não vai ser por uma feature.
+
+623
+00:56:40,738 --> 00:56:45,758
+Karine Christiane Cunha de Souza: Do planejamento, né, mas por outras questões de plataforma e etc.
+
+624
+00:56:46,138 --> 00:56:48,478
+Karine Christiane Cunha de Souza: Então não precisam se limitar só pensando.
+
+625
+00:56:48,478 --> 00:56:49,838
+Karine Christiane Cunha de Souza: Em features mesmo, assim, né.
+
+626
+00:56:53,557 --> 00:56:56,037
+Karine Christiane Cunha de Souza: E aqui é bem importante, principalmente ali,.
+
+627
+00:56:56,397 --> 00:56:58,957
+Karine Christiane Cunha de Souza: Né, o pessoal do serviço indivíduo desdeve.
+
+628
+00:56:58,957 --> 00:57:13,497
+Karine Christiane Cunha de Souza: Tudo assim, mas quando a gente tá apresentando ali, e, claro, o pessoal do serviço também deve passar por esses momentos quando tá apresentando, assim, qual o tipo demonstração, qual a funcionalidade que gera aquele momento ao, né, que faz o.
+
+629
+00:57:13,497 --> 00:57:16,037
+Karine Christiane Cunha de Souza: Cliente se interessar ali pelo uso.
+
+630
+00:57:16,877 --> 00:57:21,197
+Karine Christiane Cunha de Souza: E da mesma forma que gera aquele silêncio constrangedor, tá, que eu entendo que.
+
+631
+00:57:21,197 --> 00:57:26,070
+Karine Christiane Cunha de Souza: Às vezes ele pergunte, pede uma coisa Tipo assim.
+
+632
+00:57:27,570 --> 00:57:30,790
+Karine Christiane Cunha de Souza: Contra quem a gente está perdendo o.
+
+633
+00:57:30,790 --> 00:57:35,490
+Karine Christiane Cunha de Souza: Negócio quando o planejamento é critério decisão, que é algo que vem surgindo muitas vezes.
+
+634
+00:57:35,750 --> 00:57:40,610
+Karine Christiane Cunha de Souza: Ele não é o único critério decisão, mas eu entendo que ele vem ganhando cada vez mais importância no cenário.
+
+635
+00:57:41,570 --> 00:57:44,430
+Karine Christiane Cunha de Souza: E se vocês têm alguma percepção de.
+
+636
+00:57:44,430 --> 00:57:45,970
+Karine Christiane Cunha de Souza: Onde a gente está perdendo esse negócio.
+
+637
+00:57:47,370 --> 00:57:49,750
+Karine Christiane Cunha de Souza: O que o concorrente tem que a gente não tem, né?
+
+638
+00:57:49,850 --> 00:57:51,690
+Karine Christiane Cunha de Souza: Que queremos ter.
+
+639
+00:57:53,581 --> 00:58:00,021
+Karine Christiane Cunha de Souza: E o que nenhuma outra ferramenta faz, no contexto do planejamento, é o que o RISCOS faz.
+
+640
+00:58:00,321 --> 00:58:03,441
+Karine Christiane Cunha de Souza: Aqui eu deixei o x porque eu não queria dizer a funcionalidade que eu acho.
+
+641
+00:58:03,761 --> 00:58:06,601
+Karine Christiane Cunha de Souza: Mas pensem se tem alguma funcionalidade que.
+
+642
+00:58:06,601 --> 00:58:09,701
+Karine Christiane Cunha de Souza: Na visão de vocês é o nosso diferencial, o que a gente faz.
+
+643
+00:58:11,901 --> 00:58:15,881
+Karine Christiane Cunha de Souza: E se existir, qual seria essa funcionalidade.
+
+644
+00:58:16,328 --> 00:58:18,748
+Karine Christiane Cunha de Souza: Aqui, pessoal, tem sido a gente se dividir, tá?
+
+645
+00:58:18,808 --> 00:58:20,148
+Karine Christiane Cunha de Souza: Então eu vou dividir vocês aqui numa.
+
+646
+00:58:20,148 --> 00:58:22,648
+Karine Christiane Cunha de Souza: Estalinhas pra vocês falarem e discutirem.
+
+647
+00:58:22,788 --> 00:58:29,228
+Karine Christiane Cunha de Souza: E podem arrastar daí o cardzinho, se ele já tiver escrito, vocês podem arrastar ele pra cá.
+
+648
+00:58:29,488 --> 00:58:31,988
+Karine Christiane Cunha de Souza: Se não, podem escrever novos cardzinhos aqui.
+
+649
+00:58:31,988 --> 00:58:38,408
+Karine Christiane Cunha de Souza: Também, que depois a gente vai levar eles pra uma matriz priorizando também.
+
+650
+00:58:41,894 --> 00:58:44,334
+Karine Christiane Cunha de Souza: Vai começar a atribuir vocês aqui, vai ser legal.
+
+651
+00:58:44,534 --> 00:58:46,194
+Karine Christiane Cunha de Souza: A Bruna já colou ali do diferencial.
+
+652
+00:58:46,194 --> 00:58:48,734
+Karine Christiane Cunha de Souza: Competitivo também, né Bruna?
+
+653
+00:58:50,934 --> 00:58:57,474
+Karine Christiane Cunha de Souza: Eu vou tentar, pessoal, distribuir vocês pra misturar, tá?
+
+654
+00:58:58,654 --> 00:59:01,594
+Karine Christiane Cunha de Souza: Não vale ficar todos os coleguinhas na mesma sala.
+
+655
+00:59:02,294 --> 00:59:07,954
+Karine Christiane Cunha de Souza: Então, deixa eu pegar aqui e botar vocês.
+
+656
+00:59:08,394 --> 00:59:09,894
+Karine Christiane Cunha de Souza: Quantas pessoas a gente tá agora?
+
+657
+00:59:10,494 --> 00:59:11,494
+Karine Christiane Cunha de Souza: Três, é isso?
+
+658
+00:59:12,758 --> 00:59:14,238
+Emilly Hirt: Eu não agrego tanto, Karine.
+
+659
+00:59:14,358 --> 00:59:15,718
+Emilly Hirt: Pode me deixar no café com leite.
+
+660
+00:59:16,718 --> 00:59:17,738
+Karine Christiane Cunha de Souza: Tá bom.
+
+661
+00:59:20,098 --> 00:59:22,478
+Rodrigo Ramos de Souza: O que pensa?
+
+662
+00:59:24,238 --> 00:59:26,598
+Karine Christiane Cunha de Souza: Sabe que tem uma coisa que é.
+
+663
+00:59:26,598 --> 00:59:33,078
+Karine Christiane Cunha de Souza: Interessante, Emily, que às vezes a gente acha que não agrega tanto, mas que tem uma veia de gerenciamento de projetos.
+
+664
+00:59:33,418 --> 00:59:38,858
+Karine Christiane Cunha de Souza: Porque às vezes o que a gente faz por hábito é o que eles deveriam fazer.
+
+665
+00:59:39,858 --> 00:59:41,738
+Karine Christiane Cunha de Souza: Eu quero o Proust.
+
+666
+00:59:43,623 --> 00:59:46,623
+Karine Christiane Cunha de Souza: Ai,.
+
+667
+00:59:59,343 --> 01:00:06,023
+Karine Christiane Cunha de Souza: Pera, acho que quase contrapei a pessoa aqui do lugar.
+
+668
+01:00:12,530 --> 01:00:15,150
+Karine Christiane Cunha de Souza: Ó, uma salinha vai ficar com 5, o outro tá com...
+
+669
+01:00:15,150 --> 01:00:16,730
+Karine Christiane Cunha de Souza: O resto do pessoal tá com 4.
+
+670
+01:00:17,170 --> 01:00:17,850
+Karine Christiane Cunha de Souza: É isso?
+
+671
+01:00:18,490 --> 01:00:20,510
+Karine Christiane Cunha de Souza: Não, deu aqui, distribuiu merda.
+
+672
+01:00:22,190 --> 01:00:26,870
+Karine Christiane Cunha de Souza: Acho que são 12 pessoas, não são?
+
+673
+01:00:27,290 --> 01:00:27,990
+Karine Christiane Cunha de Souza: É, não.
+
+674
+01:00:28,510 --> 01:00:31,150
+Karine Christiane Cunha de Souza: Eu errei por causa da Libra.
+
+675
+01:00:32,630 --> 01:00:33,510
+Karine Christiane Cunha de Souza: 4, 4, 4.
+
+676
+01:00:33,750 --> 01:00:34,490
+Karine Christiane Cunha de Souza: Agora sim.
+
+677
+01:00:35,570 --> 01:00:37,390
+Karine Christiane Cunha de Souza: Mas agora é 6, vamos.
+
+678
+01:00:37,510 --> 01:00:40,290
+Karine Christiane Cunha de Souza: Daqui a pouco o fixo de 6 e volta pra pessoal, 10 minutinhos.
+
+679
+01:00:49,098 --> 01:00:52,098
+Karine Christiane Cunha de Souza: Obrigado.
+
+680
+01:01:28,501 --> 01:01:32,101
+Jorgiana Maria Weiber Lievore: Karine, eu caí aqui, aí eu não vi o que é pro...
+
+681
+01:01:32,101 --> 01:01:33,101
+Jorgiana Maria Weiber Lievore: Pra que grupo que eu tô indo.
+
+682
+01:01:34,141 --> 01:01:34,741
+Karine Christiane Cunha de Souza: tá.
+
+683
+01:01:35,281 --> 01:01:36,821
+Karine Christiane Cunha de Souza: É que daí eu atribuí, peraí que.
+
+684
+01:01:36,821 --> 01:01:38,721
+Karine Christiane Cunha de Souza: Eu já vou te botar numa salinha total.
+
+685
+01:01:38,721 --> 01:01:40,041
+Jorgiana Maria Weiber Lievore: A internet tá terrível.
+
+686
+01:01:41,061 --> 01:01:41,641
+Karine Christiane Cunha de Souza: Dois.
+
+687
+01:01:43,041 --> 01:01:44,721
+Karine Christiane Cunha de Souza: Vou te chamar ali, tá?
+
+688
+01:01:45,001 --> 01:01:45,261
+Amanda Geraldo Andrighi: Tá.
+
+689
+01:01:46,421 --> 01:01:48,061
+Karine Christiane Cunha de Souza: E se não me chamar, tu me aceita.
+
+690
+01:01:48,901 --> 01:01:49,481
+Karine Christiane Cunha de Souza: Tá certo.
+
+691
+01:01:51,261 --> 01:01:52,561
+Karine Christiane Cunha de Souza: Aí.
+
+692
+01:10:55,383 --> 01:10:56,583
+Emilly Hirt: Não volta não sozinho.
+
+693
+01:10:57,003 --> 01:10:57,903
+Jorgiana Maria Weiber Lievore: Volta sozinho, né?
+
+694
+01:10:58,083 --> 01:11:04,543
+Karine Christiane Cunha de Souza: Não volta sozinho, puxa de volta.
+
+695
+01:11:05,923 --> 01:11:08,783
+Emilly Hirt: É só fechar aqui volta, não volta não.
+
+696
+01:11:09,083 --> 01:11:14,923
+Karine Christiane Cunha de Souza: Eu ia até avisar, mas vou trazer de volta pessoal.
+
+697
+01:11:16,503 --> 01:11:18,803
+Emilly Hirt: Já que o pessoal aqui vai falar, eu vou abrir.
+
+698
+01:11:26,197 --> 01:11:28,557
+Karine Christiane Cunha de Souza: Aproveita aí.
+
+699
+01:11:29,257 --> 01:11:32,797
+Karine Christiane Cunha de Souza: Pra quem tá voltando, quer, né?
+
+700
+01:11:32,857 --> 01:11:35,537
+Karine Christiane Cunha de Souza: momento pit-stop aí, tá valendo também.
+
+701
+01:11:37,797 --> 01:11:42,837
+Lara Mylena da Silva: Eu sei que no 5 ele faz as análises de volta, tá?
+
+702
+01:11:42,877 --> 01:11:43,117
+Rodrigo Ramos de Souza: Opa!
+
+703
+01:11:43,877 --> 01:11:45,277
+Karine Christiane Cunha de Souza: É, cocheita de balão!
+
+704
+01:11:45,517 --> 01:11:46,717
+Peter Ruiz Paredes: Mais uns 10 minutos, eu acho.
+
+705
+01:11:49,297 --> 01:11:49,637
+Bruna Durieux Ferreira: Tranquilo.
+
+706
+01:11:49,657 --> 01:11:51,697
+Isabella Duraes: Tava bem no meio ali do raciocínio.
+
+707
+01:11:52,471 --> 01:11:59,511
+Ingrid Zitto: Fiz uma pergunta para a Isabela e fiquei sem resposta.
+
+708
+01:12:00,111 --> 01:12:04,091
+Karine Christiane Cunha de Souza: Calma, eu vou deixar vocês conversar mais de novo daqui a pouco.
+
+709
+01:12:07,491 --> 01:12:11,551
+Karine Christiane Cunha de Souza: Eu botei, mas eu não botei para expirar e puxar de volta mesmo, né?
+
+710
+01:12:11,631 --> 01:12:17,851
+Karine Christiane Cunha de Souza: Daí eu estava aqui concentrada, desperdiçando nas coisas que vocês estavam escrevendo e tal, e daqui a pouco as meninas voltaram e dizeram.
+
+711
+01:12:21,175 --> 01:12:27,015
+Karine Christiane Cunha de Souza: Mas vamos lá, acho que todos de volta ou quem foi fazer pit-stop já volta também.
+
+712
+01:12:27,895 --> 01:12:35,055
+Karine Christiane Cunha de Souza: Mas vamos lá, pessoal, assim ó, a gente vai ter mais momento pra botar vocês nessa linha de novo, então não se preocupem, vocês podem continuar raciocinando depois.
+
+713
+01:12:36,035 --> 01:12:43,615
+Karine Christiane Cunha de Souza: Mas do que surgiu até aqui, assim, querem eleger alguém aí de cada grupo pra contar pouquinho do que surgiu aqui como diferencial?
+
+714
+01:12:46,815 --> 01:12:47,915
+Karine Christiane Cunha de Souza: Se não, eu vou chamar.
+
+715
+01:12:48,255 --> 01:12:49,855
+Karine Christiane Cunha de Souza: Podem levantar, não se devastar.
+
+716
+01:12:53,238 --> 01:13:01,178
+Peter Ruiz Paredes: Eu trazer então o que estavam discutindo lá no time, daí o time apoia e eu abri o ponto polêmico ali sobre esse ponto.
+
+717
+01:13:02,038 --> 01:13:06,358
+Peter Ruiz Paredes: Na verdade o Rodrigo puxou isso e aí eu complementei o Rodrigo.
+
+718
+01:13:06,538 --> 01:13:11,038
+Peter Ruiz Paredes: Quando a gente pensa assim, por que o cliente escolheria planejar a lida do Bissuz?
+
+719
+01:13:11,733 --> 01:13:23,433
+Peter Ruiz Paredes: E aí, na teoria, quando é vendido pra ele discurso que ele vai conseguir contar ali o cronograma, o modelo BIM e o custo, tipo, ele vê assim, cara, faz total sentido pra mim isso.
+
+720
+01:13:23,733 --> 01:13:27,093
+Peter Ruiz Paredes: Eu preciso realmente de isso conectado assim pra...
+
+721
+01:13:27,093 --> 01:13:31,713
+Peter Ruiz Paredes: Parece que vira uma chave nele ali quando ele vê que tudo isso tá conectado, sabe?
+
+722
+01:13:32,373 --> 01:13:33,073
+Peter Ruiz Paredes: E aí...
+
+723
+01:13:33,073 --> 01:13:35,093
+Peter Ruiz Paredes: Desculpa, gente, o Estásio já tá latindo aí, tá aqui.
+
+724
+01:13:35,358 --> 01:13:44,118
+Peter Ruiz Paredes: Aí, quando ele vê todos os pontos conectados, ele vê assim, putz, lá não tem isso, não tem isso conectado.
+
+725
+01:13:44,478 --> 01:13:52,238
+Peter Ruiz Paredes: Ele meio que vira uma chavinha a partir do momento que ele fala que tem uma interface que ele conecta ali o cronograma, o modelo e o custo.
+
+726
+01:13:52,672 --> 01:14:04,552
+Peter Ruiz Paredes: E aí eu tinha até perguntado, e a pergunta da Amy foi algo parecido com o que eu fiz ali também para o pessoal ali, que a gente estava junto com a Issa, a Amy e o Rodrigo.
+
+727
+01:14:04,992 --> 01:14:05,952
+Peter Ruiz Paredes: Aí pronto, é pra eles.
+
+728
+01:14:06,132 --> 01:14:13,012
+Peter Ruiz Paredes: Cara, na prática, isso realmente, essa promessa realmente se cumpre, aí a gente estava debatendo bem isso.
+
+729
+01:14:13,192 --> 01:14:23,697
+Peter Ruiz Paredes: E aí eu estava até trazendo o exemplo lá da direcional, que o pessoal, eles utilizam muito mais para extrair quantitativo, porque lá realmente está a extração de quantitativo, orçamento e planejamento.
+
+730
+01:14:24,077 --> 01:14:26,397
+Peter Ruiz Paredes: Eles utilizam muito mais para extrair quantitativo.
+
+731
+01:14:26,517 --> 01:14:31,497
+Peter Ruiz Paredes: O orçamento, eles puxam tudo para fora e eles vão terminar essa tarefinha fora.
+
+732
+01:14:31,637 --> 01:14:34,237
+Peter Ruiz Paredes: Eles vão na planilha, conectam com o RP deles.
+
+733
+01:14:34,637 --> 01:14:37,377
+Peter Ruiz Paredes: Aquela história lá do RP, do bendito do mega.
+
+734
+01:14:37,677 --> 01:14:40,477
+Peter Ruiz Paredes: E aí, essa informação acaba não voltando.
+
+735
+01:14:40,757 --> 01:14:45,957
+Peter Ruiz Paredes: E aí, essa promessa de eu conectar o cronograma, o modelo B, e o custo, acaba não se cumprindo.
+
+736
+01:14:46,217 --> 01:14:53,717
+Peter Ruiz Paredes: Aí, bem nesse momento que a gente voltou, e acho que aí isso ia complementar, o Rodrigo também ia trazer algo sobre isso também.
+
+737
+01:14:55,397 --> 01:14:58,977
+Rodrigo Ramos de Souza: Isa, passa pra gente, fica à vontade.
+
+738
+01:15:00,557 --> 01:15:12,450
+Isabella Duraes: Não, a gente tava comentando que o fluxo, ele funciona bem pros clientes que têm fluxo menos complexo na parte de planejamento.
+
+739
+01:15:12,970 --> 01:15:25,050
+Isabella Duraes: Agora, para os clientes que têm fluxo de trabalho mais complexo, eles não acham tão bom assim por conta dessa integração da EAP.
+
+740
+01:15:25,710 --> 01:15:27,870
+Isabella Duraes: Então, trazendo exemplo aqui da Patrimar.
+
+741
+01:15:28,090 --> 01:15:44,453
+Isabella Duraes: A Patrimar, eles utilizam o Viso 100% para extrair quantitativo, para fazer toda a parte de orçamento, Porém, o planejamento deles tem alguns níveis da EAP a mais, são mais detalhados do que a parte ali de orçamento.
+
+742
+01:15:44,573 --> 01:15:47,193
+Isabella Duraes: Então, são como se fosse duas equipes diferentes lá.
+
+743
+01:15:47,633 --> 01:15:50,373
+Isabella Duraes: A equipe de planejamento é uma, a equipe de orçamento é outra.
+
+744
+01:15:51,033 --> 01:16:00,653
+Isabella Duraes: E por conta deles terem processo pouco mais complexo na parte de planejamento, eles acabam não utilizando e não integrando isso com o orçamento.
+
+745
+01:16:01,377 --> 01:16:08,897
+Isabella Duraes: Uma forma que a gente conseguiu para adaptar isso dentro do Visus foi utilizando as visões.
+
+746
+01:16:09,157 --> 01:16:22,257
+Isabella Duraes: Então, eles conseguiram, dentro do mesmo projeto, utilizar uma visão só para a parte de planejamento que eles conseguiam adequar a EAP deles para essa etapa.
+
+747
+01:16:24,142 --> 01:16:31,642
+Isabella Duraes: Em geral, o que a gente vê nos clientes que estão em plantação é esse ponto.
+
+748
+01:16:31,842 --> 01:16:40,642
+Isabella Duraes: Então, para os clientes que têm uma EAP, processo de planejamento diferente da parte de orçamento, aí eles acabam optando por não utilizar.
+
+749
+01:16:41,262 --> 01:16:48,742
+Isabella Duraes: No caso da Patrimar, a gente conseguiu dessa forma, mas realmente tem alguns clientes que preferem utilizar outras soluções ali.
+
+750
+01:16:53,808 --> 01:16:57,708
+Karine Christiane Cunha de Souza: Mais alguém quer complementar o pessoal do guru da sala 3 ali?
+
+751
+01:17:00,208 --> 01:17:03,028
+Rodrigo Ramos de Souza: Acho que tá bem explicadinho.
+
+752
+01:17:03,308 --> 01:17:03,588
+Rodrigo Ramos de Souza: Pode ir.
+
+753
+01:17:03,948 --> 01:17:04,348
+Rodrigo Ramos de Souza: Pode trocar.
+
+754
+01:17:06,288 --> 01:17:07,068
+Karine Christiane Cunha de Souza: Então tá, pessoal.
+
+755
+01:17:07,208 --> 01:17:08,708
+Karine Christiane Cunha de Souza: Próximo da salinha, hein?
+
+756
+01:17:08,808 --> 01:17:09,508
+Karine Christiane Cunha de Souza: Quem sabeleta?
+
+757
+01:17:13,348 --> 01:17:14,768
+Karine Christiane Cunha de Souza: Alcimar?
+
+758
+01:17:19,128 --> 01:17:23,368
+Karine Christiane Cunha de Souza: Jô, da tua salinha, quem pode falar pra gente?
+
+759
+01:17:25,263 --> 01:17:26,063
+Karine Christiane Cunha de Souza: O que vem falar?
+
+760
+01:17:26,523 --> 01:17:27,463
+Karine Christiane Cunha de Souza: É de energia.
+
+761
+01:17:27,723 --> 01:17:28,443
+Karine Christiane Cunha de Souza: Oi, Marcos.
+
+762
+01:17:29,703 --> 01:17:32,303
+Karine Christiane Cunha de Souza: Marcos quer café com leite.
+
+763
+01:17:35,123 --> 01:17:35,843
+Peter Ruiz Paredes: E para lá, Jout?
+
+764
+01:17:35,843 --> 01:17:37,963
+Karine Christiane Cunha de Souza: Você tem a dor mais forte, Jout?
+
+765
+01:17:38,023 --> 01:17:42,323
+Karine Christiane Cunha de Souza: Antes do Marcos conversar, isso não vale,.
+
+766
+01:17:42,363 --> 01:17:43,563
+Karine Christiane Cunha de Souza: A gente vê café com leite.
+
+767
+01:17:43,943 --> 01:17:46,623
+Karine Christiane Cunha de Souza: Mas, gente, eu não posso deixar passar a piada.
+
+768
+01:17:47,523 --> 01:17:52,423
+Karine Christiane Cunha de Souza: O cliente que tem o processo mais robusto ali, a coisa conectada.
+
+769
+01:17:52,563 --> 01:17:53,043
+Karine Christiane Cunha de Souza: Falta o quê?
+
+770
+01:17:53,823 --> 01:17:55,243
+Karine Christiane Cunha de Souza: Entregar a conexão.
+
+771
+01:17:55,435 --> 01:17:59,875
+Karine Christiane Cunha de Souza: Vamos lá, chegaremos lá.
+
+772
+01:18:01,535 --> 01:18:03,775
+Karine Christiane Cunha de Souza: Não, o Marcos é café com leite, é tu que vai falar, Marcos.
+
+773
+01:18:04,435 --> 01:18:05,655
+Rodrigo Ramos de Souza: É, isso que eu não entendi.
+
+774
+01:18:05,995 --> 01:18:09,775
+Rodrigo Ramos de Souza: Contato com cliente, a Jo respondeu tudo.
+
+775
+01:18:11,055 --> 01:18:15,635
+Karine Christiane Cunha de Souza: Tô tirando ele que a Emily disse que ela, né, não iria contribuir tanto.
+
+776
+01:18:16,655 --> 01:18:18,735
+Karine Christiane Cunha de Souza: O Ed está aqui na minha frente, então, né?
+
+777
+01:18:18,755 --> 01:18:24,875
+Jorgiana Maria Weiber Lievore: A gente colocou ali os cardezinhos amarelos ali mais pra cima pouquinho.
+
+778
+01:18:28,932 --> 01:18:29,972
+Karine Christiane Cunha de Souza: Vai lá, manda aí.
+
+779
+01:18:31,272 --> 01:18:35,212
+Jorgiana Maria Weiber Lievore: Por que o cliente escolheria planejar com Visus?
+
+780
+01:18:35,512 --> 01:18:38,312
+Jorgiana Maria Weiber Lievore: Porque teria vínculo do planejamento com o orçamento.
+
+781
+01:18:39,732 --> 01:18:46,692
+Jorgiana Maria Weiber Lievore: Então, acho que o principal diferencial de planejar com Visus ao invés de Provision ou Project é justamente esse vínculo com o modelo.
+
+782
+01:18:49,172 --> 01:18:55,952
+Jorgiana Maria Weiber Lievore: E atribuir datas aos insumos e serviços, então...
+
+783
+01:18:56,557 --> 01:19:06,957
+Jorgiana Maria Weiber Lievore: Vários clientes notam isso como diferencial também, a atribuição de período de tempo ali para os insumos, serviços, equipamentos, tudo que foi atribuído ao orçamento, né?
+
+784
+01:19:07,037 --> 01:19:12,217
+Jorgiana Maria Weiber Lievore: Então, nisso a gente ganha ali num discurso de porquê planejar dentro do BIS.
+
+785
+01:19:13,717 --> 01:19:16,477
+Karine Christiane Cunha de Souza: Eu podia não esquecer coisas de você, não é isso?
+
+786
+01:19:16,997 --> 01:19:20,097
+Karine Christiane Cunha de Souza: Tipo, por não esquecer coisas, assim?
+
+787
+01:19:21,317 --> 01:19:43,045
+Jorgiana Maria Weiber Lievore: É, principalmente porque, né, Às vezes, em muitos casos, o cliente pode não possuir sistema IRP muito bem estruturado e a planilha de insumos por etapa de obra acaba auxiliando muito, porque não é porque vamos utilizar toneladas de aço na obra que eu precise das toneladas de aço de uma vez só.
+
+788
+01:19:43,845 --> 01:19:55,445
+Jorgiana Maria Weiber Lievore: Então, no discurso de venda do planning, eu utilizo bastante essas informações de atribuir prazos aos insumos e serviços, equipamentos, tudo.
+
+789
+01:19:57,340 --> 01:20:02,380
+Jorgiana Maria Weiber Lievore: Inclusive eu coloquei isso também como uma funcionalidade que gera o UAU.
+
+790
+01:20:03,480 --> 01:20:08,280
+Jorgiana Maria Weiber Lievore: O relatório de insumo por etapa de obra atrai bastante, chama bastante atenção também.
+
+791
+01:20:09,380 --> 01:20:14,200
+Jorgiana Maria Weiber Lievore: E também o que gera bastante efeito UAU é o vídeo, né?
+
+792
+01:20:15,660 --> 01:20:18,400
+Jorgiana Maria Weiber Lievore: A construção digital do empreendimento ali, a animação 4D.
+
+793
+01:20:19,600 --> 01:20:20,860
+Karine Christiane Cunha de Souza: Alguém levantou a mão, né?
+
+794
+01:20:22,568 --> 01:20:25,168
+Ingrid Zitto: Foi eu, Georgiana, perdão.
+
+795
+01:20:25,768 --> 01:20:26,708
+Ingrid Zitto: Uma dúvida.
+
+796
+01:20:27,288 --> 01:20:37,148
+Ingrid Zitto: Os clientes assim que tu traz, que eles atribuem as datas aos insumos e serviços, eles fazem isso já com uma visão de médio e curto prazo?
+
+797
+01:20:37,648 --> 01:20:39,908
+Ingrid Zitto: Saberias nos informar isso?
+
+798
+01:20:40,528 --> 01:20:45,368
+Ingrid Zitto: Ou mais ou menos em que prazo que eles costumam fazer essa seleção?
+
+799
+01:20:48,505 --> 01:21:00,185
+Jorgiana Maria Weiber Lievore: E a data no insumo, na composição da distribuição, e a data na etapa construtiva, o que gera relatório de insumos e relatório de todos os serviços, equipamentos, tudo por etapa de obra.
+
+800
+01:21:00,745 --> 01:21:17,965
+Jorgiana Maria Weiber Lievore: E eles precisam disso a médio e longo prazo também, não só a curto prazo, porque tem alguns itens que precisam ser adquiridos com seis meses de antecedência.
+
+801
+01:21:18,830 --> 01:21:31,530
+Jorgiana Maria Weiber Lievore: Então, tem vários materiais ali que têm período de tempo para fabricação e chegada na obra, tudo, e o cliente se interessa muito por colocar essa...
+
+802
+01:21:31,530 --> 01:21:46,550
+Jorgiana Maria Weiber Lievore: Quando gera essa planilha de insumo por etapa de obra, vários clientes nossos trazem uma coluna a mais nesse relatório, que seria o prazo de contratação, o prazo de compra, quando não possuem sistema IRPB estruturado.
+
+803
+01:21:47,197 --> 01:21:49,137
+Jorgiana Maria Weiber Lievore: Então acaba se utilizando essa planilha.
+
+804
+01:21:49,937 --> 01:21:50,417
+Ingrid Zitto: Entendi.
+
+805
+01:21:50,637 --> 01:21:51,937
+Ingrid Zitto: Não, legal, eu entendi bem.
+
+806
+01:21:52,097 --> 01:21:53,857
+Ingrid Zitto: Entendi, obrigada.
+
+807
+01:21:55,617 --> 01:22:14,577
+Jorgiana Maria Weiber Lievore: Contra quem perdeu nos negócios quando o planejamento é critério decisão, daí entra o Prevision Project ali, que inclusive na feira passaram pelo nosso stand para ouvir falar sobre o planning antes de adquirir o Prevision.
+
+808
+01:22:17,791 --> 01:22:22,931
+Jorgiana Maria Weiber Lievore: Apresentei tudo que eu podia ali no planning, mas optaram por adquirir o provision.
+
+809
+01:22:22,931 --> 01:22:24,611
+Karine Christiane Cunha de Souza: Mesmo depois da apresentação.
+
+810
+01:22:25,971 --> 01:22:32,971
+Jorgiana Maria Weiber Lievore: O que o concorrente tem que a gente não tem entra muito naqueles gaps que a gente citou ali anteriormente.
+
+811
+01:22:34,051 --> 01:22:40,071
+Jorgiana Maria Weiber Lievore: O que mais chama atenção normalmente é a linha de base, linha de balanço,.
+
+812
+01:22:40,231 --> 01:22:41,451
+Karine Christiane Cunha de Souza: Caminho crítico, essas coisas.
+
+813
+01:22:43,371 --> 01:22:44,231
+Karine Christiane Cunha de Souza: O que o concorrente tem que a.
+
+814
+01:22:44,231 --> 01:22:45,631
+Jorgiana Maria Weiber Lievore: Gente não tem seria isso, né?
+
+815
+01:22:48,031 --> 01:22:51,691
+Jorgiana Maria Weiber Lievore: Nenhuma outra ferramenta faz o que o Visus faz.
+
+816
+01:22:52,811 --> 01:22:55,611
+Karine Christiane Cunha de Souza: Eu não sei o que a gente colocou ali, pessoal.
+
+817
+01:22:56,291 --> 01:23:01,111
+Emilly Hirt: A gente vinculou o primeiro ali, porque do Visus, por causa do vínculo do orçamento com o planejamento.
+
+818
+01:23:03,091 --> 01:23:03,571
+Karine Christiane Cunha de Souza: Repetindo.
+
+819
+01:23:06,571 --> 01:23:12,251
+Karine Christiane Cunha de Souza: Próxima salinha, pessoal.
+
+820
+01:23:16,448 --> 01:23:20,928
+Karine Christiane Cunha de Souza: Pessoal, vocês estão botando aqui no chat, mas vocês podem abrir o chat complementar ali também, tá?
+
+821
+01:23:20,968 --> 01:23:24,228
+Karine Christiane Cunha de Souza: Quem quiser ali ter uma conversa, né?
+
+822
+01:23:24,308 --> 01:23:25,348
+Karine Christiane Cunha de Souza: Podem ficar à vontade.
+
+823
+01:23:27,288 --> 01:23:31,008
+Karine Christiane Cunha de Souza: Tá alinhando ali da Lara, da Bruna, da Amanda, da Gabriela.
+
+824
+01:23:32,448 --> 01:23:35,428
+Karine Christiane Cunha de Souza: O que vocês querem compartilhar conosco?
+
+825
+01:23:36,328 --> 01:23:37,668
+Bruna Durieux Ferreira: Eu sou cafagüente também.
+
+826
+01:23:38,488 --> 01:23:39,968
+Karine Christiane Cunha de Souza: Tu é?
+
+827
+01:23:40,028 --> 01:23:41,068
+Karine Christiane Cunha de Souza: Mas eu te ouvi falando...
+
+828
+01:23:44,056 --> 01:23:48,096
+Bruna Durieux Ferreira: É que esse grupo aqui, ele tava mais sem dó, assim.
+
+829
+01:23:48,996 --> 01:23:49,816
+Bruna Durieux Ferreira: É, então.
+
+830
+01:23:52,056 --> 01:23:54,856
+Gabrielly de Oliveira Soares Pereira: Acho que eu posso terminar aqui, as minas vão complementando também.
+
+831
+01:23:55,516 --> 01:23:59,236
+Gabrielly de Oliveira Soares Pereira: Mas a gente foi tentando responder as perguntas ali, pontualmente, né?
+
+832
+01:24:00,036 --> 01:24:07,776
+Gabrielly de Oliveira Soares Pereira: E a primeira a gente colocou, né, que não escolheria planejar no Visus por não...
+
+833
+01:24:07,776 --> 01:24:10,756
+Gabrielly de Oliveira Soares Pereira: Não escolheria fazer completo no Plane, né, diretamente ali.
+
+834
+01:24:13,013 --> 01:24:15,633
+Gabrielly de Oliveira Soares Pereira: Só se fosse só o plane né, sem o costing.
+
+835
+01:24:16,313 --> 01:24:28,553
+Gabrielly de Oliveira Soares Pereira: E aí os diferenciais também, qual funcionalidade gera o ball né, ali seria a animação 4D, o físico financeiro e a QVS, a gente colocou como o que mais gera impacto nas apresentações.
+
+836
+01:24:29,467 --> 01:24:32,547
+Gabrielly de Oliveira Soares Pereira: As meninas complementaram também que o silêncio é constrangedor.
+
+837
+01:24:32,807 --> 01:24:37,807
+Gabrielly de Oliveira Soares Pereira: Ele é muito recorrente devido à questão da falta de recurso.
+
+838
+01:24:37,967 --> 01:24:45,067
+Gabrielly de Oliveira Soares Pereira: Então a Lara até comentou que é muito rápido para apresentar o plano e fica aquele eco, aquele vazio durante a apresentação.
+
+839
+01:24:45,707 --> 01:24:55,987
+Gabrielly de Oliveira Soares Pereira: E também a questão dos feriados e ter que registrar sempre duplicados a quantidade de feriados que está atribuído ao tempo.
+
+840
+01:24:58,306 --> 01:25:10,306
+Gabrielly de Oliveira Soares Pereira: Aí também a gente respondeu a questão dos negócios que a gente hoje, na nossa visão, a gente pede para todos os concorrentes hoje em questão de negócio ou do critério planejamento.
+
+841
+01:25:10,986 --> 01:25:20,446
+Gabrielly de Oliveira Soares Pereira: Também complementamos que dos diferenciais que o concorrente não tem hoje é a questão da integração com o físico financeiro.
+
+842
+01:25:22,943 --> 01:25:45,423
+Gabrielly de Oliveira Soares Pereira: E aí a gente não conseguiu responder a última, a gente tava discutindo sobre o diferencial ali de sugestão que a gente visualiza, né, como que a maioria dos 4Ds hoje não fazem, né, ter esse diferencial em relação ao posicionamento de equipamentos, que foi dos pontos que foram tratados como gap em relação a grua, cremalheira, todos esses equipamentos que são de usabilidade durante o planejamento ali.
+
+843
+01:25:45,893 --> 01:25:58,493
+Gabrielly de Oliveira Soares Pereira: E que fazem planejamento vivo ali, que vão realmente precisar de horas de trabalho, de pessoas, que muitas vezes não estão interligadas diretamente ao custo, mas que a gente consegue visualizar esses gaps nos planejamentos hoje.
+
+844
+01:25:59,073 --> 01:26:15,493
+Gabrielly de Oliveira Soares Pereira: Então, o SYNCRO até tem bloco de fazer ou importar uma grua, elemento de grua para fazer essas simulações relacionadas a essas questões de execução mesmo, desenvolvimento, planejamento real.
+
+845
+01:26:16,572 --> 01:26:25,432
+Gabrielly de Oliveira Soares Pereira: Então, a gente trouxe aí como uma sugestão diferencial também de ter alguns blocos desses equipamentos para que possa ser importado de vídeo, seja possível fazer essas simulações.
+
+846
+01:26:27,512 --> 01:26:28,632
+Bruna Durieux Ferreira: Se vocês quiserem complementar.
+
+847
+01:26:29,052 --> 01:26:38,212
+Bruna Durieux Ferreira: Complementando aqui a Gabriele, porque de outros concorrentes que trouxeram, acho que não escolheria fazer orçamento completo.
+
+848
+01:26:38,692 --> 01:26:44,512
+Bruna Durieux Ferreira: Mesma coisa dos outros, pela falta de recurso de linha de balanço, caminho crítico, outras funcionalidades.
+
+849
+01:26:45,614 --> 01:26:47,754
+Bruna Durieux Ferreira: Mas esse do...
+
+850
+01:26:47,754 --> 01:26:49,654
+Bruna Durieux Ferreira: Tá perda pelos concorrentes.
+
+851
+01:26:50,034 --> 01:26:51,334
+Bruna Durieux Ferreira: Eu até questionei ali.
+
+852
+01:26:51,454 --> 01:26:51,794
+Bruna Durieux Ferreira: tá.
+
+853
+01:26:51,914 --> 01:26:52,964
+Bruna Durieux Ferreira: Então, o nosso, né?
+
+854
+01:26:52,964 --> 01:26:55,334
+Bruna Durieux Ferreira: Porque os outros concorrentes, eu acho que eles não...
+
+855
+01:26:56,060 --> 01:26:58,080
+Bruna Durieux Ferreira: Tem essa conexão com o modelo, né?
+
+856
+01:26:58,180 --> 01:27:18,460
+Bruna Durieux Ferreira: Que já era esse UAU ali muito grande para a gente, pensando no Project Previsão, que veio mais nos cards acima, mas aí a Lara, a Gabriela e a Amanda trouxeram, não, tem o Sincro, tem outros que têm já essa conexão com o modelo, que realmente o nosso único ponto diferencial seria o físico financeiro, que os outros não fazem dessa forma.
+
+857
+01:27:19,260 --> 01:27:24,340
+Bruna Durieux Ferreira: Então, às vezes, a gente até olha muito para o modelo como pontual, mas nem é esse o principal.
+
+858
+01:27:26,300 --> 01:27:29,560
+Bruna Durieux Ferreira: Então, esse biofísico financeiro realmente é bem importante.
+
+859
+01:27:32,700 --> 01:27:35,700
+Karine Christiane Cunha de Souza: Entendido.
+
+860
+01:27:36,480 --> 01:27:41,780
+Karine Christiane Cunha de Souza: Pegando até a síntese aqui, dá para,.
+
+861
+01:27:42,180 --> 01:27:46,200
+Karine Christiane Cunha de Souza: Talvez, três coisas bem macro que apareceram.
+
+862
+01:27:46,260 --> 01:27:52,800
+Karine Christiane Cunha de Souza: Uma coisa sobre uma conexão mais robusta, vamos colocar assim, de todas as informações etápicas ali.
+
+863
+01:27:53,182 --> 01:28:00,302
+Karine Christiane Cunha de Souza: A questão do físico-financeiro, que vocês trouxeram agora, é algo mais ligado a esse controle ali dos instrumentos, enfim, dos instrumentos,.
+
+864
+01:28:00,322 --> 01:28:05,322
+Karine Christiane Cunha de Souza: Numa granulometria que atenda a outras, a.
+
+865
+01:28:05,322 --> 01:28:07,022
+Karine Christiane Cunha de Souza: Outras crências, outras etapas também.
+
+866
+01:28:08,082 --> 01:28:14,442
+Karine Christiane Cunha de Souza: Mais alguém, pessoal, quer colocar mais algum pontinho aqui, desprezar o competitivo?
+
+867
+01:28:14,782 --> 01:28:21,295
+Karine Christiane Cunha de Souza: Então, bora para a última etapa, a gente tem...
+
+868
+01:28:21,295 --> 01:28:23,335
+Karine Christiane Cunha de Souza: Vocês até deus lá para as perguntinhas.
+
+869
+01:28:24,555 --> 01:28:25,675
+Karine Christiane Cunha de Souza: O que é a ideia aqui?
+
+870
+01:28:25,875 --> 01:28:27,415
+Karine Christiane Cunha de Souza: Vocês botaram os cardezinhos, né?
+
+871
+01:28:27,575 --> 01:28:29,815
+Karine Christiane Cunha de Souza: Então, já nas duas etapas anteriores.
+
+872
+01:28:30,635 --> 01:28:33,515
+Karine Christiane Cunha de Souza: E agora, eu queria que a gente.
+
+873
+01:28:33,515 --> 01:28:36,135
+Karine Christiane Cunha de Souza: Trouxesse isso daqui para uma matriz de priorização.
+
+874
+01:28:37,512 --> 01:28:40,872
+Karine Christiane Cunha de Souza: Eu trouxe aqui uma que a gente olha o que gera valor.
+
+875
+01:28:41,212 --> 01:28:45,472
+Karine Christiane Cunha de Souza: Então, mais para cima, mais valor a gente está gerando para o cliente, para o mercado.
+
+876
+01:28:46,092 --> 01:28:47,592
+Karine Christiane Cunha de Souza: Mais para baixo, menos valor.
+
+877
+01:28:47,852 --> 01:28:50,612
+Karine Christiane Cunha de Souza: Às vezes tem coisas que a gente entende que são operacionais, né?
+
+878
+01:28:50,732 --> 01:28:52,932
+Karine Christiane Cunha de Souza: Mas o cliente nem sente que a.
+
+879
+01:28:52,932 --> 01:28:53,792
+Karine Christiane Cunha de Souza: Gente está passando por ela.
+
+880
+01:28:53,892 --> 01:28:59,492
+Karine Christiane Cunha de Souza: Então, para ele não é uma coisa que ele vai perceber tanto valor ali.
+
+881
+01:28:59,712 --> 01:29:02,592
+Karine Christiane Cunha de Souza: Ele só vai lamentar se não tiver, vamos colocar assim.
+
+882
+01:29:03,533 --> 01:29:09,313
+Karine Christiane Cunha de Souza: E também aqui, né, no lado esquerdo e direito, que seria aparentemente pouco esforço.
+
+883
+01:29:09,313 --> 01:29:10,953
+Karine Christiane Cunha de Souza: E grande esforço, tá?
+
+884
+01:29:11,013 --> 01:29:16,273
+Karine Christiane Cunha de Souza: Então, aqui pensando no que vocês já fizeram várias vezes, a relação, isso a gente já tem, isso a gente,.
+
+885
+01:29:16,373 --> 01:29:18,113
+Karine Christiane Cunha de Souza: Né, ainda não tem.
+
+886
+01:29:18,253 --> 01:29:21,513
+Karine Christiane Cunha de Souza: Então, processa pouquinho desse racional aqui também.
+
+887
+01:29:22,833 --> 01:29:26,853
+Karine Christiane Cunha de Souza: Então, vocês podem ir pegando os cardizinhos.
+
+888
+01:29:26,853 --> 01:29:28,853
+Karine Christiane Cunha de Souza: Aqui das outras etapas também, tá?
+
+889
+01:29:29,013 --> 01:29:30,153
+Karine Christiane Cunha de Souza: Eu só vou duplicar aqui que eu.
+
+890
+01:29:30,153 --> 01:29:31,493
+Karine Christiane Cunha de Souza: Tô botando os originais.
+
+891
+01:29:32,913 --> 01:29:33,493
+Karine Christiane Cunha de Souza: Para cima.
+
+892
+01:29:34,313 --> 01:29:36,153
+Karine Christiane Cunha de Souza: Então, não mexam nessas de cima, porque.
+
+893
+01:29:36,153 --> 01:29:37,853
+Karine Christiane Cunha de Souza: Depois a Yá tem que ler a minha historinha.
+
+894
+01:29:38,973 --> 01:29:43,673
+Karine Christiane Cunha de Souza: E podem, nesses aqui de baixo, se vocês já quiserem, puxando os cardizinhos aqui.
+
+895
+01:29:43,673 --> 01:29:48,073
+Karine Christiane Cunha de Souza: Para dentro da matriz, pode colocar.
+
+896
+01:29:48,513 --> 01:29:53,973
+Karine Christiane Cunha de Souza: E eu vou botar aqui também, então, só para fechar as perguntinhas norteadoras aqui, tá?
+
+897
+01:29:54,593 --> 01:29:57,153
+Karine Christiane Cunha de Souza: E aqui, além do exercício que a.
+
+898
+01:29:57,153 --> 01:29:59,153
+Karine Christiane Cunha de Souza: Gente foi fazendo até aqui, podem colocar, né?
+
+899
+01:29:59,253 --> 01:30:01,853
+Karine Christiane Cunha de Souza: Obviamente, cochetes novos se quiserem, tá?
+
+900
+01:30:02,647 --> 01:30:06,787
+Karine Christiane Cunha de Souza: Mas pensar também aqui, então, o que é...
+
+901
+01:30:06,787 --> 01:30:09,487
+Karine Christiane Cunha de Souza: Trazendo tudo isso que a gente falou até aqui.
+
+902
+01:30:09,687 --> 01:30:11,767
+Karine Christiane Cunha de Souza: Então, sim, a gente está trazendo melhorias.
+
+903
+01:30:11,907 --> 01:30:14,527
+Karine Christiane Cunha de Souza: Como eu comecei o brainstorm falando.
+
+904
+01:30:15,407 --> 01:30:20,807
+Karine Christiane Cunha de Souza: Melhorias incrementais ou a gente talvez esteja pensando em uma mudança de posicionamento?
+
+905
+01:30:20,887 --> 01:30:23,907
+Karine Christiane Cunha de Souza: Pensar se isso move o negócio da.
+
+906
+01:30:23,907 --> 01:30:26,987
+Karine Christiane Cunha de Souza: AutoQI também, o negócio da plataforma, ou.
+
+907
+01:30:26,987 --> 01:30:29,127
+Karine Christiane Cunha de Souza: Se ele só está melhorando o produto específico.
+
+908
+01:30:30,642 --> 01:30:32,782
+Karine Christiane Cunha de Souza: A gente está também eliminando algum risco.
+
+909
+01:30:33,802 --> 01:30:39,742
+Karine Christiane Cunha de Souza: E se existe algum segmento de cliente que hoje não compra o risco por causa do planejamento.
+
+910
+01:30:40,102 --> 01:30:42,802
+Karine Christiane Cunha de Souza: Tem algum segmento que está difícil a.
+
+911
+01:30:42,802 --> 01:30:45,002
+Karine Christiane Cunha de Souza: Gente entrar também por conta desse gap.
+
+912
+01:30:46,342 --> 01:30:52,602
+Karine Christiane Cunha de Souza: Se a gente investir nesse planning, isso ajuda a reter, fazer sell, atrair novos clientes.
+
+913
+01:30:54,267 --> 01:30:56,927
+Karine Christiane Cunha de Souza: E quais problemas de cliente, sejam organizações.
+
+914
+01:30:56,927 --> 01:31:03,507
+Karine Christiane Cunha de Souza: Operacionais, financeiros, estratégicos, regulatórios, enfim, bom planejamento nos visos ajuda eles a se iluminar.
+
+915
+01:31:03,767 --> 01:31:10,787
+Karine Christiane Cunha de Souza: Então, pensando tudo isso também, dando foco aqui nessas oportunidades estratégicas que a gente pode explorar.
+
+916
+01:31:12,327 --> 01:31:15,867
+Karine Christiane Cunha de Souza: Vamos dar pouquinho mais de tempo, já que antes eu roubei vocês da sala, tá?
+
+917
+01:31:16,287 --> 01:31:19,627
+Karine Christiane Cunha de Souza: Então, vou dar aqui até a Flamengo.
+
+918
+01:31:20,812 --> 01:31:26,772
+Bruna Durieux Ferreira: Não só que a Lara vai ter que sair, vocês estão aqui a dividir em três grupos agora, o Peter também vai.
+
+919
+01:31:26,852 --> 01:31:31,632
+Bruna Durieux Ferreira: E aí fica eu, Ed, o Marcos, cada num grupo, porque a gente vai ter mais essa ideia de esforço.
+
+920
+01:31:32,012 --> 01:31:37,552
+Bruna Durieux Ferreira: Acho que a Ingrid ainda tá aprendendo essa parte, talvez os esforços ela fique na dúvida.
+
+921
+01:31:38,532 --> 01:31:40,872
+Karine Christiane Cunha de Souza: Tá, eu vou redistribuir aqui, então peraí.
+
+922
+01:31:41,052 --> 01:31:45,492
+Karine Christiane Cunha de Souza: E aí eu dou 15 minutinhos pra vocês, qualquer coisa vocês me avisem se.
+
+923
+01:31:45,492 --> 01:31:48,492
+Karine Christiane Cunha de Souza: Tiver...
+
+924
+01:31:50,174 --> 01:31:51,494
+Karine Christiane Cunha de Souza: Deixa eu só redistribuir aqui.
+
+925
+01:31:51,634 --> 01:31:52,974
+Karine Christiane Cunha de Souza: O Peter vai sair então, né?
+
+926
+01:31:54,534 --> 01:31:56,394
+Bruna Durieux Ferreira: O Bruno vai sair até estimado.
+
+927
+01:31:56,854 --> 01:31:59,014
+Rodrigo Ramos de Souza: É tudo pouco esforço mesmo, então não tem problema.
+
+928
+01:31:59,454 --> 01:32:00,214
+Bruna Durieux Ferreira: Tudo ponto, né?
+
+929
+01:32:00,794 --> 01:32:01,514
+Peter Ruiz Paredes: Tudo ponto.
+
+930
+01:32:02,054 --> 01:32:03,634
+Rodrigo Ramos de Souza: Tudo tranquilo.
+
+931
+01:32:03,974 --> 01:32:04,974
+Karine Christiane Cunha de Souza: eu tenho que...
+
+932
+01:32:04,974 --> 01:32:08,014
+Karine Christiane Cunha de Souza: Eu vou abrir as aulas e depois eu vou redistribuindo, tá, gente?
+
+933
+01:32:08,554 --> 01:32:12,374
+Karine Christiane Cunha de Souza: Vamos lá.
+
+934
+01:32:12,514 --> 01:32:14,834
+Karine Christiane Cunha de Souza: Vou abrir aqui e depois eu puxo de volta.
+
+935
+01:32:15,354 --> 01:32:15,834
+Rodrigo Ramos de Souza: Boa, Ed.
+
+936
+01:32:15,894 --> 01:32:17,334
+Rodrigo Ramos de Souza: O problema não é o número de.
+
+937
+01:32:17,334 --> 01:32:18,674
+Rodrigo Ramos de Souza: Pontos, é a hora por ponto, né?
+
+938
+01:32:22,456 --> 01:32:25,576
+Karine Christiane Cunha de Souza: Oxe, não tá deixando.
+
+939
+01:32:25,916 --> 01:32:26,816
+Karine Christiane Cunha de Souza: Não briga comigo.
+
+940
+01:32:27,176 --> 01:32:27,976
+Karine Christiane Cunha de Souza: Ele tá brigando comigo.
+
+941
+01:32:27,996 --> 01:32:31,356
+Bruna Durieux Ferreira: O Ed vai chegar ali arrastando tudo por muito esforço.
+
+942
+01:32:32,496 --> 01:32:34,476
+Karine Christiane Cunha de Souza: Tá arrastando só dois aqui.
+
+943
+01:32:34,956 --> 01:32:40,536
+Karine Christiane Cunha de Souza: Tô eliminando as telas.
+
+944
+01:32:44,016 --> 01:32:46,376
+Karine Christiane Cunha de Souza: Bom, agora vocês viram.
+
+945
+01:32:46,596 --> 01:32:48,116
+Karine Christiane Cunha de Souza: Acho que é do jeito certo.
+
+946
+01:32:48,416 --> 01:32:56,641
+Karine Christiane Cunha de Souza: Se alguém não for do jeito certo, Oi.
+
+947
+01:33:14,961 --> 01:33:15,801
+Karine Christiane Cunha de Souza: Olá.
+
+948
+01:33:17,041 --> 01:33:18,801
+Karine Christiane Cunha de Souza: Oi.
+
+949
+01:33:20,742 --> 01:33:23,742
+Bruna Durieux Ferreira: Estou olhando aqui os muitos forços, poucos forços.
+
+950
+01:33:23,802 --> 01:33:24,102
+Gabrielly de Oliveira Soares Pereira: Que bom.
+
+951
+01:33:24,642 --> 01:33:25,562
+Gabrielly de Oliveira Soares Pereira: Vai contigo, Max.
+
+952
+01:33:25,902 --> 01:33:26,542
+Bruna Durieux Ferreira: Gente...
+
+953
+01:33:26,542 --> 01:33:28,302
+Bruna Durieux Ferreira: Compartilha aí, é melhor...
+
+954
+01:33:28,302 --> 01:33:32,102
+Bruna Durieux Ferreira: Acho que vocês quiserem ir movendo os cardizinhos aqui.
+
+955
+01:33:33,297 --> 01:33:34,377
+Edvanio Pacheco Teixeira: Vai lá, segunda.
+
+956
+01:33:35,237 --> 01:33:36,157
+Bruna Durieux Ferreira: Eu não tinha botado.
+
+957
+01:33:36,737 --> 01:33:39,297
+Ingrid Zitto: Bruna, eu botei assim, ó.
+
+958
+01:33:39,357 --> 01:33:49,237
+Ingrid Zitto: Criar recursos próprios de planejamento para a autonomia da ferramenta, que é isso que o pessoal estava trazendo muito assim, sabe?
+
+959
+01:33:49,277 --> 01:33:50,797
+Ingrid Zitto: De tornar ele com recurso.
+
+960
+01:33:50,897 --> 01:33:56,117
+Ingrid Zitto: O pessoal disse, tenho vergonha porque não tenho recurso, não tenho função para apresentar ali, né?
+
+961
+01:33:56,817 --> 01:33:59,197
+Ingrid Zitto: Mas eu coloquei aqui, ó, fazer agora.
+
+962
+01:33:59,943 --> 01:34:03,823
+Ingrid Zitto: Mas eu não sei se isso é pouco esforço ou seria grande.
+
+963
+01:34:03,923 --> 01:34:05,923
+Ingrid Zitto: Eu botei aqui no primeiro quadrante, sabe?
+
+964
+01:34:07,023 --> 01:34:17,463
+Ingrid Zitto: Então, porque para mim, fazer agora, porque é uma coisa que está sendo muito solicitado, que seria algo que agregaria muito valor ao nosso produto.
+
+965
+01:34:17,823 --> 01:34:24,943
+Ingrid Zitto: Mas eu só fico na dúvida quanto a esse esforço.
+
+966
+01:34:25,947 --> 01:34:40,227
+Bruna Durieux Ferreira: Não, eu acho que tá pouco esforço mesmo, porque a gente não vai precisar trazer todas as ferramentas do mundo, mas a gente consegue ir puxando várias ferramentinhas, tipo, dois pontos de uma, quatro da outra, e alocando ao longo de todas as relíquias, assim.
+
+967
+01:34:40,787 --> 01:34:42,547
+Bruna Durieux Ferreira: Então, eu acho que tem que cabe ali, sabe?
+
+968
+01:34:43,387 --> 01:34:48,067
+Ingrid Zitto: Vai criando várias pequenininhas, que dá montão, né?
+
+969
+01:34:48,447 --> 01:34:49,187
+Ingrid Zitto: Fechou, tá.
+
+970
+01:34:52,019 --> 01:34:54,139
+Amanda Geraldo Andrighi: Essa era a minha dúvida também, Bruna,.
+
+971
+01:34:54,539 --> 01:35:01,319
+Amanda Geraldo Andrighi: Porque a Hebrie me explicou ali tempo atrás, daí, por exemplo, essas questões que eu tinha comentado de automatizar.
+
+972
+01:35:01,319 --> 01:35:04,639
+Amanda Geraldo Andrighi: Pouco coisas que a gente já tem, então, tipo, ao invés de eu ter.
+
+973
+01:35:04,639 --> 01:35:09,779
+Amanda Geraldo Andrighi: Que pesquisar a data lá no calendáriozinho, eu poder editar, eu também coloquei agora.
+
+974
+01:35:09,779 --> 01:35:11,679
+Amanda Geraldo Andrighi: Pouco esforço, mas eu não sei, né,.
+
+975
+01:35:11,719 --> 01:35:15,119
+Amanda Geraldo Andrighi: Que eu imagino que é mais fácil, imagino eu,.
+
+976
+01:35:19,255 --> 01:35:22,575
+Bruna Durieux Ferreira: Olha, eu considero isso também pouco esforço.
+
+977
+01:35:22,695 --> 01:35:25,675
+Bruna Durieux Ferreira: Tipo, ó, exemplo, o que a gente vai fazer da IAP, sabe?
+
+978
+01:35:25,695 --> 01:35:31,295
+Bruna Durieux Ferreira: Vida IAP de Planejamento Sem Parar, pra mim, ele é alto esforço, porque ele muda muito as regras.
+
+979
+01:35:31,795 --> 01:35:36,515
+Bruna Durieux Ferreira: Coisas da gente, poder botar uma pesquisa para ver qual data, coisas assim.
+
+980
+01:35:36,735 --> 01:35:41,755
+Bruna Durieux Ferreira: eu poder botar multiplicador do feriado, do Natal, sabe?
+
+981
+01:35:42,425 --> 01:35:45,865
+Bruna Durieux Ferreira: São coisas mais simples, assim, bem diretas, digamos assim, sabe?
+
+982
+01:35:46,385 --> 01:35:54,025
+Bruna Durieux Ferreira: Às vezes, eu tenho que fazer cálculo para ver as composições que estão lá dentro e isso, calcular a duração que vai refletir em outro local.
+
+983
+01:35:54,125 --> 01:35:55,345
+Bruna Durieux Ferreira: Isso já tem esforço maior.
+
+984
+01:35:56,105 --> 01:35:59,945
+Bruna Durieux Ferreira: Então, coisas mais diretinhas, assim, elas são...
+
+985
+01:35:59,945 --> 01:36:06,165
+Bruna Durieux Ferreira: É esforço menor e algumas, você vê, vai impactar em muitas áreas do programa, no planejamento e no orçamento.
+
+986
+01:36:06,325 --> 01:36:09,605
+Bruna Durieux Ferreira: Eu tenho que puxar de uma lista de 3 mil linhas lá.
+
+987
+01:36:10,471 --> 01:36:16,271
+Bruna Durieux Ferreira: Então, isso acaba sendo mais esforço, né?
+
+988
+01:36:16,351 --> 01:36:22,251
+Bruna Durieux Ferreira: Mais coisas mais diretas, de recursos mais pontuais, eles não são tão difíceis de fazer.
+
+989
+01:36:25,878 --> 01:36:41,358
+Ingrid Zitto: Bruna, digamos assim, a questão das predecessoras, quando a gente vai abrir as predecessoras e vai tentar facilitar, trazendo tudo isso que o pessoal trouxe aí na reunião, de tirar pouco essa cara de project que está dando muito trabalho e deixar ele bem fácil.
+
+990
+01:36:41,738 --> 01:36:48,858
+Ingrid Zitto: Isso seria aqui no fazer agora pouco esforço ou ele já é esforço maior?
+
+991
+01:36:51,140 --> 01:36:54,480
+Bruna Durieux Ferreira: Eu acho que seria, gente, definir bem certinho a regra.
+
+992
+01:36:54,620 --> 01:36:57,000
+Bruna Durieux Ferreira: Não quero mais aquela janela, quero agora digitar, sabe?
+
+993
+01:36:57,120 --> 01:36:58,400
+Bruna Durieux Ferreira: Eu acho que seria esforço.
+
+994
+01:36:59,340 --> 01:37:00,360
+Bruna Durieux Ferreira: Pouco esforço, sim.
+
+995
+01:37:00,380 --> 01:37:01,740
+Bruna Durieux Ferreira: Não acho que seria muito esforço.
+
+996
+01:37:02,640 --> 01:37:05,354
+Bruna Durieux Ferreira: Uma coisa que talvez a gente possa pensar aqui...
+
+997
+01:37:05,354 --> 01:37:08,688
+Bruna Durieux Ferreira: A gente tá trazendo assim os cards, né, só movendo pra cá.
+
+998
+01:37:09,088 --> 01:37:23,548
+Bruna Durieux Ferreira: Pouco esforço, mas tem essa tarefa com alta carga operacional, trazer monte de ferramentinha de edição, mas será que se a gente não botar aqui, fazer agora uma IAC automatize?
+
+999
+01:37:24,417 --> 01:37:26,397
+Bruna Durieux Ferreira: Tipo, dos feriados ali, sabe?
+
+1000
+01:37:26,497 --> 01:37:31,097
+Bruna Durieux Ferreira: Se ele tivesse botado, quero criar feriado e queria ter três natais, será que seria problema, sabe?
+
+1001
+01:37:31,157 --> 01:37:32,277
+Bruna Durieux Ferreira: Natal por ano.
+
+1002
+01:37:32,497 --> 01:37:36,557
+Bruna Durieux Ferreira: Porque a Amanda trouxe outro lá que eu acho que era importar, né?
+
+1003
+01:37:36,577 --> 01:37:37,837
+Bruna Durieux Ferreira: Importar os feriados.
+
+1004
+01:37:38,897 --> 01:37:46,937
+Bruna Durieux Ferreira: Com o MCP que a gente tá fazendo, já vou pedir pra Iá complete todos os feriados de 2026 e ele vai cadastrar todos os feriados lá no planning.
+
+1005
+01:37:47,017 --> 01:37:47,737
+Bruna Durieux Ferreira: Vai ser muito rápido.
+
+1006
+01:37:48,785 --> 01:37:57,145
+Bruna Durieux Ferreira: Então, não sei se, acho que talvez eles serão quem investia mais tempo fazendo isso primeiro e, quem sabe, depois duplicar, botar multiplicador e tal.
+
+1007
+01:37:57,665 --> 01:38:03,785
+Bruna Durieux Ferreira: Então, talvez esse é item que a gente pode botar aqui agora, talvez uma inteligência artificial para atualizar, uma integração.
+
+1008
+01:38:04,565 --> 01:38:08,125
+Bruna Durieux Ferreira: Uma ideia aqui, tá, gente?
+
+1009
+01:38:08,285 --> 01:38:12,305
+Bruna Durieux Ferreira: Porque são coisas que posicionam também o produto, né?
+
+1010
+01:38:14,873 --> 01:38:15,793
+Gabrielly de Oliveira Soares Pereira: É, mas vocês acham que...
+
+1011
+01:38:15,793 --> 01:38:22,313
+Gabrielly de Oliveira Soares Pereira: Eu penso como eu vou fazer agora, tipo, algo que tá impactando no meu uso pra que eu venda cliente.
+
+1012
+01:38:22,413 --> 01:38:32,092
+Gabrielly de Oliveira Soares Pereira: Eu acho que talvez essa questão data não é uma coisa que eu deixaria de comprar o planner por conta que eu precise colocar os feriados, porque os feriados são coisas detalhes, né?
+
+1013
+01:38:32,093 --> 01:38:32,893
+Gabrielly de Oliveira Soares Pereira: Então, talvez...
+
+1014
+01:38:32,893 --> 01:38:35,453
+Emilly Hirt: Colocaria dia, mas o planejamento...
+
+1015
+01:38:35,453 --> 01:38:35,733
+Karine Christiane Cunha de Souza: É.
+
+1016
+01:38:36,473 --> 01:38:42,173
+Gabrielly de Oliveira Soares Pereira: Eu acho que não seria tão impactante assim essa questão se for ver por prioridade, né?
+
+1017
+01:38:42,173 --> 01:38:47,313
+Gabrielly de Oliveira Soares Pereira: Porque a gente acaba colocando pequenas coisinhas ali e vai se tornando uma bola de neve ali.
+
+1018
+01:38:47,473 --> 01:38:52,753
+Gabrielly de Oliveira Soares Pereira: Então eu colocaria como na lista de prioridades pra depois, sabe?
+
+1019
+01:38:53,770 --> 01:38:56,290
+Ingrid Zitto: Nenhuma que eu achei bem interessante.
+
+1020
+01:38:57,370 --> 01:39:23,621
+Ingrid Zitto: Bom, essa questão da predecessora mesmo é assim, que a gente pode pensar em diagrama de rede, a gente pode pensar em outros recursos, e por isso a minha dúvida também, né, Bruna, porque daqui a pouco não é simplesmente botar ali eu vou puxar de tal e escrever, mas, de repente, é criar uma outra solução totalmente diferente, totalmente visual, fazer algo mesmo com diagrama de rede, criando facilmente como a gente está...
+
+1021
+01:39:23,621 --> 01:39:27,801
+Ingrid Zitto: Meio que é semelhante como a gente está fazendo aqui, criando cards, criando conexões.
+
+1022
+01:39:28,061 --> 01:39:31,461
+Ingrid Zitto: Então, eu acho que daí esse esforço já não é tão pequeno.
+
+1023
+01:39:32,498 --> 01:39:55,658
+Ingrid Zitto: Mas por isso que eu pergunto, porque às vezes é uma coisa que parece bem simples, só que quando a gente vai pensar numa solução criativa, realmente, que seja intuitiva, que agregue muito valor ao produto pela facilidade de manuseio, eu acho que ela vai demandar pouco mais de esforço, porque ela vai mudar bem a função do que hoje a nossa plataforma apresenta.
+
+1024
+01:39:56,198 --> 01:40:03,642
+Ingrid Zitto: Uma outra coisa que eu também achei bem importante agora, que eu estava me lembrando, Era card que tinha...
+
+1025
+01:40:03,642 --> 01:40:08,102
+Ingrid Zitto: Gente, eu vou rodar aqui para o lado, vou ver se eu acho e daí eu trago para vocês também...
+
+1026
+01:40:11,969 --> 01:40:16,989
+Bruna Durieux Ferreira: Enquanto a Ingrid procura o card, esse é ponto bem relevante que vale colocar aqui também.
+
+1027
+01:40:17,349 --> 01:40:18,269
+Bruna Durieux Ferreira: Bom, não.
+
+1028
+01:40:18,669 --> 01:40:20,129
+Bruna Durieux Ferreira: O Gant hoje não serve.
+
+1029
+01:40:20,309 --> 01:40:26,309
+Bruna Durieux Ferreira: Teria que construir novo do zero que fosse editável e que tivesse N coisas.
+
+1030
+01:40:26,409 --> 01:40:29,069
+Bruna Durieux Ferreira: É esforço maior, mas às vezes não.
+
+1031
+01:40:29,489 --> 01:40:33,863
+Bruna Durieux Ferreira: Não adianta ficar botando recursinho pequeníssimo daquele antigo, velho.
+
+1032
+01:40:33,863 --> 01:40:34,476
+Bruna Durieux Ferreira: Ele travado.
+
+1033
+01:40:34,876 --> 01:40:36,496
+Bruna Durieux Ferreira: Precisa alguma coisa nova, né?
+
+1034
+01:40:36,956 --> 01:40:44,836
+Bruna Durieux Ferreira: Então, acho que vale a pena botar, por exemplo, fazer agora com muito esforço, e não a gente botar aqui como sugestão, ficar fazendo coisas pequenas.
+
+1035
+01:40:45,576 --> 01:40:52,436
+Bruna Durieux Ferreira: Uma coisa diferencial é, tipo, não, a gente chega lá na hora da venda e ele pergunta, é uma entrada, e ele pergunta, dizer, tem.
+
+1036
+01:40:52,576 --> 01:40:53,976
+Bruna Durieux Ferreira: E precisa só dizer que tem, sabe?
+
+1037
+01:40:54,476 --> 01:40:59,196
+Bruna Durieux Ferreira: Porque em outro local, a gente entrou, gente, em outro lugar também é difícil de fazer, digamos assim, sabe?
+
+1038
+01:40:59,725 --> 01:41:06,345
+Bruna Durieux Ferreira: Então esse é que vale a gente sair primeiro com algo mais rápido só pra dizer que tem e depois a gente vai melhorando, né?
+
+1039
+01:41:07,705 --> 01:41:09,885
+Emilly Hirt: E vocês estão fazendo algo em relação.
+
+1040
+01:41:09,885 --> 01:41:10,645
+Karine Christiane Cunha de Souza: À linha de balanço?
+
+1041
+01:41:13,025 --> 01:41:17,965
+Bruna Durieux Ferreira: Cara, a gente tá fazendo a IAP de planejamento agora, tem duas IAPs.
+
+1042
+01:41:18,085 --> 01:41:23,505
+Bruna Durieux Ferreira: Tu vai conseguir editar o planejamento, né, pelo chat de APT.
+
+1043
+01:41:24,265 --> 01:41:26,825
+Bruna Durieux Ferreira: E a gente tá fazendo a setorização.
+
+1044
+01:41:28,615 --> 01:41:31,015
+Bruna Durieux Ferreira: Tá fazendo, uma das doutoras não tá escrevendo, tá fazendo a P3.
+
+1045
+01:41:32,335 --> 01:41:36,215
+Bruna Durieux Ferreira: Então, tem bastante coisa que tá ali já, sabe?
+
+1046
+01:41:36,655 --> 01:41:40,115
+Bruna Durieux Ferreira: Mas, gente, pode mover os cards de vocês aí, eu quero ver.
+
+1047
+01:41:40,235 --> 01:41:42,335
+Bruna Durieux Ferreira: Às vezes eu troco a prioridade aqui, se for o caso.
+
+1048
+01:41:43,755 --> 01:41:45,075
+Bruna Durieux Ferreira: O...
+
+1049
+01:41:45,075 --> 01:41:47,535
+Bruna Durieux Ferreira: o Gant também.
+
+1050
+01:41:48,435 --> 01:41:50,515
+Bruna Durieux Ferreira: A linha de balança, ela veio como...
+
+1051
+01:41:50,515 --> 01:41:54,575
+Emilly Hirt: A linha de balança, ela veio como uma perda de...
+
+1052
+01:41:54,575 --> 01:41:55,375
+Emilly Hirt: De clientes, né?
+
+1053
+01:41:55,435 --> 01:41:56,395
+Emilly Hirt: Por a gente não ter...
+
+1054
+01:41:56,395 --> 01:41:57,755
+Emilly Hirt: Isso que eu acho importante.
+
+1055
+01:41:58,417 --> 01:42:05,137
+Bruna Durieux Ferreira: A linha de balança ainda não começamos a fazer a timing, mas o Gantt a gente vai trocar para poder editar no Gantt as coisas.
+
+1056
+01:42:06,877 --> 01:42:09,077
+Bruna Durieux Ferreira: Para trabalhar em cima do Gantt.
+
+1057
+01:42:09,197 --> 01:42:18,497
+Ingrid Zitto: Inclusive era isso que eu estava tentando lembrar, que é essa possibilidade de criar novo planejamento a partir da alteração de uma data.
+
+1058
+01:42:18,577 --> 01:42:20,737
+Ingrid Zitto: É o reprogramar que a gente fala.
+
+1059
+01:42:21,117 --> 01:42:27,957
+Ingrid Zitto: É quando a gente não chega a alterar todo o planejamento, mas a gente quer só puxar a data tipo, tira o atraso, né?
+
+1060
+01:42:27,957 --> 01:42:29,897
+Ingrid Zitto: Então, a gente tá dando tempo a mais ali.
+
+1061
+01:42:30,317 --> 01:42:34,577
+Ingrid Zitto: Então, o pessoal já colocou ali o card, ó, no fazer agora, aquele roxinho maior aqui.
+
+1062
+01:42:35,297 --> 01:42:40,216
+Ingrid Zitto: Então, eu gostaria também de te reforçar e de criar os cenários e salvar versões, né?
+
+1063
+01:42:40,217 --> 01:42:41,697
+Ingrid Zitto: Não precisamos chamar de cenário, né?
+
+1064
+01:42:41,757 --> 01:42:44,837
+Ingrid Zitto: Esse nome, ele vem de outro software, né?
+
+1065
+01:42:45,077 --> 01:42:48,097
+Ingrid Zitto: Mas de criar essas visões, né?
+
+1066
+01:42:48,137 --> 01:42:58,416
+Ingrid Zitto: Eu tenho uma visão A, uma visão B, e às vezes eu vejo, assim, que tem empresa E até o pessoal assim, me confirmem se isso acontece aí nas empresas que vocês estão atendendo, né?
+
+1067
+01:42:59,016 --> 01:43:05,276
+Ingrid Zitto: Tem empresa que faz replanejamento todo mês, e aí eles vão salvando o seu replan todo mês.
+
+1068
+01:43:05,856 --> 01:43:13,716
+Ingrid Zitto: Então, da gente também ter essa possibilidade, não sei seriam as visões ali, da gente começar também a ter essa possibilidade, sabe?
+
+1069
+01:43:15,198 --> 01:43:18,118
+Gabrielly de Oliveira Soares Pereira: Salvar as linhas bases de planejamento.
+
+1070
+01:43:19,038 --> 01:43:23,378
+Ingrid Zitto: Exato, porque daí aquele primeiro que tu fez, o que é a linha base?
+
+1071
+01:43:23,618 --> 01:43:25,238
+Ingrid Zitto: É o primeiro que tu criou, né?
+
+1072
+01:43:25,678 --> 01:43:32,738
+Ingrid Zitto: Então, tu vai ter sempre o teu primeiro, que é a tua referência, e depois vai criando os outros, que eu acho que é isso que o pessoal queria muito trazer.
+
+1073
+01:43:33,760 --> 01:43:38,380
+Emilly Hirt: Pensando nessa questão de salvar mês a mês, uma obra tem 48 meses.
+
+1074
+01:43:38,620 --> 01:43:40,580
+Emilly Hirt: Eu vou ter 48 linhas de base.
+
+1075
+01:43:40,800 --> 01:43:46,280
+Emilly Hirt: Como é que eu pesquiso alguma linha de base que eu quero buscar no histórico e uma descrição do que aconteceu?
+
+1076
+01:43:47,520 --> 01:43:49,820
+Emilly Hirt: Tipo, essa possibilidade de buscar também.
+
+1077
+01:43:50,600 --> 01:43:54,040
+Bruna Durieux Ferreira: É, então, mas eu pesquisar linha de base seria eu fazer daqui a pouco, né?
+
+1078
+01:43:54,100 --> 01:43:55,500
+Bruna Durieux Ferreira: Primeiro eu tenho que fazer linha de base.
+
+1079
+01:43:57,723 --> 01:43:59,723
+Bruna Durieux Ferreira: Mas eu acho que vale colocar ali no fazendo daqui a pouco.
+
+1080
+01:44:00,303 --> 01:44:05,743
+Bruna Durieux Ferreira: A gente pode ir escrevendo ali que eu tô puxando os cards da Lara aqui pra gente adotar eles também e ir alocando.
+
+1081
+01:44:06,383 --> 01:44:10,503
+Gabrielly de Oliveira Soares Pereira: A questão de uma e meia hora já foi colocada, eu acho que seria...
+
+1082
+01:44:10,503 --> 01:44:11,623
+Gabrielly de Oliveira Soares Pereira: Prioridade, sim.
+
+1083
+01:44:14,125 --> 01:44:22,225
+Amanda Geraldo Andrighi: Eu acho que hoje o que deveria ser inegociável que acaba que a gente pede cliente é as linhas de básicos que foi comentado e o caminho crítico também, né?
+
+1084
+01:44:22,245 --> 01:44:26,105
+Amanda Geraldo Andrighi: O cliente poder ver isso é muito importante porque daí ele consegue determinar onde.
+
+1085
+01:44:26,105 --> 01:44:33,105
+Amanda Geraldo Andrighi: É que ele tem que colocar a equipe, onde é que às vezes ele vai colocar mais gente ou onde ele não pode atrasar também a compra do material.
+
+1086
+01:44:33,905 --> 01:44:35,525
+Amanda Geraldo Andrighi: E daí, puxando pouco ali que.
+
+1087
+01:44:35,525 --> 01:44:37,745
+Amanda Geraldo Andrighi: A Angie foi comentando, daí isso seria.
+
+1088
+01:44:37,745 --> 01:44:39,705
+Amanda Geraldo Andrighi: Coisas pra fazer pra frente que daí.
+
+1089
+01:44:39,705 --> 01:44:41,065
+Amanda Geraldo Andrighi: A gente vai imaginando, né?
+
+1090
+01:44:41,446 --> 01:44:46,366
+Amanda Geraldo Andrighi: Se a gente conseguisse melhorar o Gantt e fizesse visual, até às vezes dava.
+
+1091
+01:44:46,366 --> 01:44:48,926
+Amanda Geraldo Andrighi: Para evoluir o diagrama de pertes CPTM.
+
+1092
+01:44:49,366 --> 01:44:51,066
+Amanda Geraldo Andrighi: Tem gente que gosta para fazer planejamento,.
+
+1093
+01:44:51,146 --> 01:44:53,406
+Amanda Geraldo Andrighi: Eu pessoalmente acho bom também, porque aí.
+
+1094
+01:44:53,406 --> 01:44:54,926
+Amanda Geraldo Andrighi: Tu tem uma visão pouquinho diferente.
+
+1095
+01:44:54,926 --> 01:44:56,426
+Amanda Geraldo Andrighi: Do Gantt, mas tu consegue ver o.
+
+1096
+01:44:56,426 --> 01:44:58,626
+Amanda Geraldo Andrighi: Andamento das atividades e às vezes identificar.
+
+1097
+01:44:58,626 --> 01:45:00,766
+Amanda Geraldo Andrighi: O caminho crítico até com mais facilidade.
+
+1098
+01:45:02,746 --> 01:45:07,966
+Ingrid Zitto: Sim, de maneira que tu pudesse ver a vinculação deles e o caminho crítico, Amanda, seria isso?
+
+1099
+01:45:08,486 --> 01:45:09,366
+Amanda Geraldo Andrighi: Seria isso.
+
+1100
+01:45:14,470 --> 01:45:21,330
+Ingrid Zitto: Vou criar cardzinho desse também, mas aí a gente botaria isso fazer a seguir ou...
+
+1101
+01:45:21,330 --> 01:45:22,450
+Ingrid Zitto: Que eu não sei se isso...
+
+1102
+01:45:22,450 --> 01:45:24,370
+Ingrid Zitto: Qual o esforço que demanda, Bruna?
+
+1103
+01:45:25,230 --> 01:45:26,750
+Amanda Geraldo Andrighi: Eu acho que isso...
+
+1104
+01:45:26,750 --> 01:45:27,510
+Amanda Geraldo Andrighi: Acho que vamos.
+
+1105
+01:45:27,510 --> 01:45:41,027
+Bruna Durieux Ferreira: Pensar também só não no esforço, mas no valor que isso tem, porque às vezes se for uma coisa que tem bastante valor, Vale a gente, mesmo com esforço alto, né, vocês, fazer o caminho.
+
+1106
+01:45:41,027 --> 01:45:49,147
+Karine Christiane Cunha de Souza: Da crença e visualizar dependências.
+
+1107
+01:45:49,767 --> 01:45:50,547
+Amanda Geraldo Andrighi: Seria isso?
+
+1108
+01:45:52,473 --> 01:45:53,433
+Amanda Geraldo Andrighi: É, seria isso.
+
+1109
+01:45:53,693 --> 01:45:56,173
+Karine Christiane Cunha de Souza: Eu gosto do perto porque a gente.
+
+1110
+01:45:56,173 --> 01:45:57,653
+Amanda Geraldo Andrighi: Consegue ver melhor, mas eu acho que.
+
+1111
+01:45:57,653 --> 01:46:00,853
+Karine Christiane Cunha de Souza: Isso talvez teria a minha opinião fazer.
+
+1112
+01:46:00,853 --> 01:46:04,173
+Amanda Geraldo Andrighi: A seguir, porque eu vejo que hoje a gente tem que vencer esses pontos.
+
+1113
+01:46:04,173 --> 01:46:08,433
+Amanda Geraldo Andrighi: Básicos que foram comentados, de linha de base, de caminho crítico, que acaba sendo.
+
+1114
+01:46:08,433 --> 01:46:09,793
+Amanda Geraldo Andrighi: A base do planejamento, né?
+
+1115
+01:46:10,333 --> 01:46:12,153
+Amanda Geraldo Andrighi: E até se a gente consegue mudar.
+
+1116
+01:46:12,153 --> 01:46:14,573
+Amanda Geraldo Andrighi: Ali as vinculações das próprias atividades, a.
+
+1117
+01:46:14,573 --> 01:46:17,248
+Karine Christiane Cunha de Souza: Gente acaba Consegue medir pouco isso, então?
+
+1118
+01:46:17,428 --> 01:46:19,348
+Edvanio Pacheco Teixeira: Porque o exame de PET seria só.
+
+1119
+01:46:19,348 --> 01:46:23,048
+Amanda Geraldo Andrighi: módulo de visualização mais simplificado de todas essas relações.
+
+1120
+01:46:28,748 --> 01:46:30,668
+Emilly Hirt: Nota-se que o não fazer não tem nada, né?
+
+1121
+01:46:31,808 --> 01:46:32,548
+Bruna Durieux Ferreira: É, então.
+
+1122
+01:46:38,187 --> 01:46:49,787
+Ingrid Zitto: Uma outra coisa que eu acho interessante, que eu vi que vocês reforçaram constantemente, é a questão do...
+
+1123
+01:46:49,787 --> 01:46:51,567
+Ingrid Zitto: Financeiro, né?
+
+1124
+01:46:52,327 --> 01:47:01,087
+Ingrid Zitto: Eu também tinha pensado numa ordem de relatório que participasse muito e que a gente pudesse até ter os desembolsos mensais, né?
+
+1125
+01:47:01,728 --> 01:47:08,488
+Ingrid Zitto: E eu vejo que já é ponto forte do planning e que talvez reforçasse mais ainda.
+
+1126
+01:47:09,008 --> 01:47:11,728
+Ingrid Zitto: Eu não sei se ele já está ali em algum lugar.
+
+1127
+01:47:12,828 --> 01:47:17,588
+Ingrid Zitto: E o que eu vi assim também, aí eu queria também ver de vocês se vocês concordam ou não.
+
+1128
+01:47:18,687 --> 01:47:32,527
+Ingrid Zitto: Que o pessoal está usando muito também para ter o que foi realizado, o que está sendo previsto, trazer muito esse comparativo pelo que vocês trouxeram também, seria diferencial ali.
+
+1129
+01:47:32,907 --> 01:47:45,627
+Ingrid Zitto: Então, penso que talvez também seria algo que se a gente pudesse dar uma melhorada ainda, agregaria mais valor ao produto, não sei se vocês concordam, o que vocês acham disso?
+
+1130
+01:47:49,720 --> 01:47:50,020
+Karine Christiane Cunha de Souza: Concordo.
+
+1131
+01:47:53,400 --> 01:47:56,120
+Gabrielly de Oliveira Soares Pereira: Acho que faz sentido, concordo também.
+
+1132
+01:47:56,680 --> 01:47:57,980
+Ingrid Zitto: Sim,.
+
+1133
+01:48:01,920 --> 01:48:06,220
+Amanda Geraldo Andrighi: Até foi comentado ali da correlação visual, né?
+
+1134
+01:48:06,860 --> 01:48:09,040
+Amanda Geraldo Andrighi: Até eu lembro acho que hoje do.
+
+1135
+01:48:09,040 --> 01:48:23,583
+Amanda Geraldo Andrighi: Lado a relação do mensal hoje a gente se eu não me engano a gente já tem ele no relatório a gente consegue ele dentro com gráfico também mas o que seria interessante que às vezes o pessoal até a.
+
+1136
+01:48:23,583 --> 01:48:26,863
+Amanda Geraldo Andrighi: Gente pensando assim de uma verificação visual.
+
+1137
+01:48:26,863 --> 01:48:33,443
+Amanda Geraldo Andrighi: Né hoje a gente tem para o orçamento aquele simbolo do lado né então checkzinho verde está tudo certo a gente.
+
+1138
+01:48:33,443 --> 01:48:37,436
+Amanda Geraldo Andrighi: Tem o triângulo em laranja Se tem alguma coisa errada, a gente tem o amarelo.
+
+1139
+01:48:37,836 --> 01:48:39,296
+Amanda Geraldo Andrighi: Às vezes, para o orçamento, a gente.
+
+1140
+01:48:39,296 --> 01:48:42,696
+Amanda Geraldo Andrighi: Poderia até pensar em uma coisa assim, o que estava previsto que foi gasto.
+
+1141
+01:48:42,736 --> 01:48:44,756
+Amanda Geraldo Andrighi: Se eu gastei a mais, coloca.
+
+1142
+01:48:44,756 --> 01:48:47,996
+Amanda Geraldo Andrighi: Símbolo, ou a linha fica vermelha, indicando que eu estourei o meu orçamento.
+
+1143
+01:48:48,476 --> 01:48:50,796
+Amanda Geraldo Andrighi: Se eu conseguir economizar, fica ali no.
+
+1144
+01:48:50,796 --> 01:48:52,596
+Amanda Geraldo Andrighi: Verde, ou coloca uma faixa de valores.
+
+1145
+01:48:53,396 --> 01:48:55,756
+Amanda Geraldo Andrighi: Mas eu acho que isso vai entrando depois, assim.
+
+1146
+01:48:56,736 --> 01:48:59,896
+Ingrid Zitto: Num sinalizador na IAP mesmo, tu diz, Amanda?
+
+1147
+01:49:01,709 --> 01:49:04,909
+Amanda Geraldo Andrighi: É, até mesmo no planejamento, né, com relação às datas.
+
+1148
+01:49:05,989 --> 01:49:09,009
+Emilly Hirt: A gente já pega pouquinho de RP nesse caso também, né?
+
+1149
+01:49:10,629 --> 01:49:14,109
+Emilly Hirt: Eu tô mexendo com a parte de custo.
+
+1150
+01:49:14,509 --> 01:49:19,429
+Emilly Hirt: Eu acho que o média tem alguma coisa de função, assim, de quando eu tô me aproximando do gasto.
+
+1151
+01:49:20,669 --> 01:49:22,129
+Ingrid Zitto: De mudar a cor, Emily?
+
+1152
+01:49:22,629 --> 01:49:27,509
+Emilly Hirt: Não, de ter algum lugar que eu consiga acompanhar esse andamento.
+
+1153
+01:49:27,865 --> 01:49:33,545
+Emilly Hirt: Tipo, você coloca certo valor ali que você vai utilizar e acho que tu vai chegando perto daquele valor.
+
+1154
+01:49:34,325 --> 01:49:35,725
+Ingrid Zitto: Aí ele vai te avisando?
+
+1155
+01:49:36,565 --> 01:49:39,085
+Emilly Hirt: Não, se ele avisa, se tu consegue consultar.
+
+1156
+01:49:39,725 --> 01:49:43,385
+Ingrid Zitto: Consegue acompanhar, sim, tu consegue pelo custo de nível, né?
+
+1157
+01:49:43,465 --> 01:49:46,585
+Ingrid Zitto: Tu consegue ir acompanhando tudo.
+
+1158
+01:49:46,665 --> 01:49:52,425
+Ingrid Zitto: Mas eu acho legal isso de colocar ali e com cores, talvez, né?
+
+1159
+01:49:53,205 --> 01:49:55,805
+Ingrid Zitto: E aí a gente poder acompanhar no planejamento, né?
+
+1160
+01:49:56,785 --> 01:49:57,125
+Ingrid Zitto: Legal.
+
+1161
+01:49:59,067 --> 01:50:00,807
+Amanda Geraldo Andrighi: Eu, para o plano de manejamento, eu.
+
+1162
+01:50:00,807 --> 01:50:02,047
+Amanda Geraldo Andrighi: Sou muito mais visual.
+
+1163
+01:50:02,207 --> 01:50:07,507
+Amanda Geraldo Andrighi: Então, tudo que eu consigo bater o olho, eu consigo identificar, opa, se tá certo, se tá errado, se vai atrasar, é melhor.
+
+1164
+01:50:08,847 --> 01:50:10,587
+Ingrid Zitto: Aquele dos filtros...
+
+1165
+01:50:10,587 --> 01:50:12,487
+Ingrid Zitto: Eu, por mim, eu faria tudo visual também.
+
+1166
+01:50:13,867 --> 01:50:21,407
+Emilly Hirt: Aquele dos filtros das cores do executado, em execução e tal, é recurso simples que eu acho que vai agregar bastante também.
+
+1167
+01:50:23,587 --> 01:50:26,547
+Karine Christiane Cunha de Souza: Concordo.
+
+1168
+01:50:29,678 --> 01:50:32,738
+Emilly Hirt: Eu não sei onde tá aquele ticket, aquele item.
+
+1169
+01:50:36,078 --> 01:50:39,078
+Karine Christiane Cunha de Souza: Esse.
+
+1170
+01:50:43,658 --> 01:50:45,038
+Ingrid Zitto: Já foi ali no primeiro, né?
+
+1171
+01:50:45,038 --> 01:50:46,218
+Ingrid Zitto: O pessoal já colocou.
+
+1172
+01:50:48,138 --> 01:50:50,198
+Ingrid Zitto: Acho que a Bruna até que colocou, né Bruna?
+
+1173
+01:50:52,561 --> 01:50:57,121
+Ingrid Zitto: O das cores ali, cor pelo status e andamento, filtro de cores, né?
+
+1174
+01:50:57,281 --> 01:50:57,701
+Karine Christiane Cunha de Souza: Achei.
+
+1175
+01:50:58,221 --> 01:51:05,001
+Ingrid Zitto: Aí a gente teria que criar outro que é para botar no planejamento as cores pelo estouro do custo, né?
+
+1176
+01:51:05,341 --> 01:51:05,861
+Ingrid Zitto: Seria isso?
+
+1177
+01:51:07,321 --> 01:51:08,041
+Ingrid Zitto: É essa a ideia?
+
+1178
+01:51:09,981 --> 01:51:11,701
+Amanda Geraldo Andrighi: Ali eu já estava dando uma divulgada,.
+
+1179
+01:51:11,821 --> 01:51:13,421
+Amanda Geraldo Andrighi: Mas acho que mais no ponto que.
+
+1180
+01:51:13,421 --> 01:51:17,221
+Amanda Geraldo Andrighi: A Emily comentou de a gente estar se aproximando do prazo final dessa atividade.
+
+1181
+01:51:18,141 --> 01:51:19,961
+Ingrid Zitto: Mas pelo prazo e não pelo custo daí.
+
+1182
+01:51:20,161 --> 01:51:21,461
+Ingrid Zitto: Seria olhar de prazo.
+
+1183
+01:51:23,273 --> 01:51:23,993
+Emilly Hirt: A de prazo.
+
+1184
+01:51:25,213 --> 01:51:25,793
+Karine Christiane Cunha de Souza: De prazo.
+
+1185
+01:51:26,413 --> 01:51:28,153
+Amanda Geraldo Andrighi: Eu tinha dado exemplo do custo, né?
+
+1186
+01:51:28,813 --> 01:51:30,533
+Amanda Geraldo Andrighi: Mas a gente tá procurando em planejamento.
+
+1187
+01:51:31,553 --> 01:51:32,393
+Ingrid Zitto: Tá, legal.
+
+1188
+01:51:33,673 --> 01:51:34,873
+Emilly Hirt: É que vai estar vinculado, né?
+
+1189
+01:51:35,353 --> 01:51:37,013
+Emilly Hirt: Mas eu acho que eu...
+
+1190
+01:51:37,013 --> 01:51:37,613
+Emilly Hirt: Dá pra.
+
+1191
+01:51:37,613 --> 01:51:39,113
+Ingrid Zitto: Criar cardzinho, Amanda?
+
+1192
+01:51:40,153 --> 01:51:43,233
+Ingrid Zitto: Queres criar cardzinho ali e colocar, de repente?
+
+1193
+01:51:44,513 --> 01:51:46,353
+Karine Christiane Cunha de Souza: Pelo custo?
+
+1194
+01:51:46,763 --> 01:51:47,603
+Karine Christiane Cunha de Souza: Já coloquei já.
+
+1195
+01:51:47,763 --> 01:51:50,723
+Ingrid Zitto: Pelo custo já foi ou pelo prazo?
+
+1196
+01:51:51,023 --> 01:51:53,903
+Emilly Hirt: Pelo prazo, eu coloquei pelo prazo.
+
+1197
+01:51:53,963 --> 01:51:54,963
+Ingrid Zitto: Tá, então fechou.
+
+1198
+01:51:55,543 --> 01:51:57,483
+Emilly Hirt: Mas eu acho o custo relevante também.
+
+1199
+01:51:58,403 --> 01:52:02,303
+Emilly Hirt: Sabe aquele filtro que o Excel tem de valor mais alto, valor menor?
+
+1200
+01:52:02,983 --> 01:52:05,903
+Emilly Hirt: Que daí tu bota do vermelho ao verde, assim, e ele faz...
+
+1201
+01:52:05,903 --> 01:52:07,303
+Karine Christiane Cunha de Souza: Mas aí, será que não poderia ser.
+
+1202
+01:52:07,303 --> 01:52:09,223
+Ingrid Zitto: Uma emissão de relatório, talvez?
+
+1203
+01:52:10,683 --> 01:52:13,203
+Ingrid Zitto: Ou tu acha que teria que ser ali no visual, ali?
+
+1204
+01:52:14,320 --> 01:52:16,100
+Gabrielly de Oliveira Soares Pereira: Eu acho melhor chamar mais, pegar mais.
+
+1205
+01:52:16,620 --> 01:52:20,380
+Emilly Hirt: Tudo que eu não precisar tirar do software que está na tela inicial para ler mais fácil também.
+
+1206
+01:52:21,660 --> 01:52:30,140
+Ingrid Zitto: E de repente a gente cria botão e que tu sugira o que tu quer ver na tela.
+
+1207
+01:52:31,020 --> 01:52:38,060
+Ingrid Zitto: Tipo, agora eu quero ver o que está, por exemplo, os custos que estão próximos do estouro, do descolamento do orçamento.
+
+1208
+01:52:38,480 --> 01:52:40,440
+Ingrid Zitto: Agora eu quero ver o descolamento de prazo.
+
+1209
+01:52:41,220 --> 01:52:43,280
+Ingrid Zitto: De repente, faz sentido ou não?
+
+1210
+01:52:44,408 --> 01:52:49,968
+Ingrid Zitto: Para não ficar também com monte de informação, a pessoa não sabe nem o que está vendo ali, monte de cor, aquela coisa toda.
+
+1211
+01:52:50,308 --> 01:52:56,768
+Ingrid Zitto: Daqui a pouco ele poder criar filtro de tipo, o que eu quero visualizar no meu planning?
+
+1212
+01:52:57,168 --> 01:53:01,088
+Ingrid Zitto: eu quero visualizar o caminho crítico, as datas marcos...
+
+1213
+01:53:01,088 --> 01:53:04,388
+Ingrid Zitto: O pessoal nem falou de datas marcos, mas é troço super importante.
+
+1214
+01:53:04,708 --> 01:53:05,408
+Ingrid Zitto: Daqui a pouco.
+
+1215
+01:53:05,738 --> 01:53:23,318
+Ingrid Zitto: eu quero visualizar a minha dependência ali, tipo, num perto, eu quero visualizar o meu caminho crítico, eu quero visualizar as atividades que estão próximas do fim, né, ou que já estão em atraso, só que aí eu não sei se não ficaria tudo muito poluído quando eu trago tudo junto, né?
+
+1216
+01:53:23,798 --> 01:53:33,078
+Ingrid Zitto: Mas não sei, de repente uma ideia, assim, que eu tava pensando era da gente criar, tipo, uma janela de opções de visualização, não sei se vocês concordam ou se vocês pensaram num outro formato.
+
+1217
+01:53:34,915 --> 01:53:37,075
+Amanda Geraldo Andrighi: Uma das dificuldades que a gente tem.
+
+1218
+01:53:37,075 --> 01:53:39,775
+Amanda Geraldo Andrighi: Ali com os clientes é que eles...
+
+1219
+01:53:39,775 --> 01:53:42,175
+Amanda Geraldo Andrighi: Não é que eles são relutantes, mas é o que eu vejo que a gente tem ganho.
+
+1220
+01:53:42,275 --> 01:53:43,635
+Amanda Geraldo Andrighi: Tudo que nem a Emily falou,.
+
+1221
+01:53:43,735 --> 01:53:45,135
+Amanda Geraldo Andrighi: Que eu não preciso sair do software.
+
+1222
+01:53:45,135 --> 01:53:48,755
+Amanda Geraldo Andrighi: Melhor e o que eu consigo extrair de relatório pronto é ganho.
+
+1223
+01:53:48,835 --> 01:53:49,775
+Amanda Geraldo Andrighi: Então, eu não quero ter que extrair.
+
+1224
+01:53:49,775 --> 01:53:51,875
+Amanda Geraldo Andrighi: O relatório, depois ir lá e editar ele.
+
+1225
+01:53:53,115 --> 01:53:54,035
+Amanda Geraldo Andrighi: Na minha opinião, também.
+
+1226
+01:53:54,695 --> 01:53:56,815
+Emilly Hirt: É, o relatório pra mim é a entrega final.
+
+1227
+01:53:56,975 --> 01:53:58,035
+Karine Christiane Cunha de Souza: Eu vou mandar pro meu cliente, mas.
+
+1228
+01:53:58,035 --> 01:53:59,735
+Emilly Hirt: Enquanto eu tô trabalhando, eu quero ver essa informação.
+
+1229
+01:54:01,038 --> 01:54:07,458
+Ingrid Zitto: Pois é, então, vocês acham que seria legal essa janela de visualização, que é a visualização aqui no planning, não estou falando no relatório.
+
+1230
+01:54:07,918 --> 01:54:10,558
+Ingrid Zitto: Eu estou falando o que eu vou ver aqui enquanto eu estou planejando.
+
+1231
+01:54:11,358 --> 01:54:16,818
+Ingrid Zitto: E ter opcionais, agora eu quero ver o caminho crítico, para eu ver como é que está o meu caminho, qual é o meu caminho crítico.
+
+1232
+01:54:17,358 --> 01:54:22,978
+Ingrid Zitto: Porque eu não sei se vocês entendem que não vai ficar muito poluído se eu ter todas as informações ao mesmo tempo.
+
+1233
+01:54:23,958 --> 01:54:30,038
+Emilly Hirt: Mas aí igual você tem o cost, custo, quantitativo e tal, você vai ter o planning e as várias visões deles dentro dele.
+
+1234
+01:54:30,721 --> 01:54:43,501
+Ingrid Zitto: É, não, o que eu tinha pensado é uma coisa mais prática assim mesmo, é tipo, eu tenho uma janela que eu abro, tipo pop-up assim, que eu escolho, agora eu quero visualizar o caminho crítico, dependências, e aí ele já me mostra ali, é automático, sabe?
+
+1235
+01:54:44,201 --> 01:54:47,021
+Ingrid Zitto: Não sei se isso é viável também, estou pensando uma coisa aqui na minha cabeça, sabe?
+
+1236
+01:54:48,052 --> 01:54:58,212
+Ingrid Zitto: Tipo, agora eu quero ver as atividades que estão em atraso, as atividades que estão com orçamento estourado, que provavelmente vai estar meio que no caminho crítico, né?
+
+1237
+01:54:58,692 --> 01:55:05,052
+Ingrid Zitto: Então, eu consegui visualizar ali, ou se eu quero visualizar tudo, o marco todo, como se fossem umas tagzinhas assim, sabe?
+
+1238
+01:55:06,112 --> 01:55:09,912
+Amanda Geraldo Andrighi: Pensando pouquinho na estrutura que a gente tem ali no planning hoje, até.
+
+1239
+01:55:09,912 --> 01:55:12,072
+Amanda Geraldo Andrighi: Eu ia comentar, foi request ali, Bruna.
+
+1240
+01:55:12,773 --> 01:55:17,953
+Amanda Geraldo Andrighi: A gente tem várias colunas, a gente consegue cadastrar algumas, mas tem informação dentro.
+
+1241
+01:55:17,953 --> 01:55:21,173
+Amanda Geraldo Andrighi: Do próprio cost que a gente não consegue puxar para a coluna.
+
+1242
+01:55:21,933 --> 01:55:24,053
+Amanda Geraldo Andrighi: exemplo, a classificação de serviço.
+
+1243
+01:55:24,633 --> 01:55:26,533
+Amanda Geraldo Andrighi: Então, muitas dessas coisas a gente poderia.
+
+1244
+01:55:26,533 --> 01:55:29,573
+Amanda Geraldo Andrighi: Puxar para uma coluna, ser opcional, porque.
+
+1245
+01:55:29,573 --> 01:55:34,473
+Amanda Geraldo Andrighi: O que eu vejo também é que os clientes têm muita resistência quando tem que ficar trocando de aba, eles ficam muito perdidos.
+
+1246
+01:55:34,933 --> 01:55:36,433
+Amanda Geraldo Andrighi: Eu acho que criar regra é uma dificuldade.
+

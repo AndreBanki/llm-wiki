@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-08
+updated: 2026-05-12
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md"]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt]
 tags: [terminology, style, glossary]
 ---
 
@@ -485,6 +485,22 @@ Each entry follows this format:
 **Predecessora** *(predecessor task, dependência de atividade)*
 : Relação de dependência entre atividades de um cronograma. Tipos principais: TI (Término a Início — padrão); II (Início a Início — atividades começam juntas); com latência (espera N dias entre as atividades). Uma atividade pode ter múltiplas predecessoras.
 - See also: [[projects/altoqi-visus-planning]]
+
+**Caminho Crítico** *(critical path)*
+: Sequência de atividades com folga total zero que determina a duração mínima do cronograma. Atraso em qualquer atividade do caminho crítico atrasa a entrega final do projeto, salvo ação de compressão/resequenciamento. No contexto do Visus Planning, aparece como requisito recorrente de adoção e decisão de compra em clientes maduros.
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
+
+**Linha de Base** *(baseline de cronograma)*
+: Snapshot oficial do planejamento em uma data de referência, usado para comparar previsto vs. executado ao longo do tempo. Permite governar replanejamentos sem perder histórico de desempenho. Em ambientes de obra com replanejamento frequente, exige mecanismo de versionamento e consulta histórica.
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
+
+**Linha de Balanço** *(line of balance)*
+: Técnica de planejamento e controle para atividades repetitivas (ex.: pavimentos, unidades, setores), representando ritmo de produção por frente/equipe ao longo do tempo. Facilita detecção visual de interferências de fluxo, ociosidade e colisão entre equipes. Foi citada como lacuna competitiva recorrente no contexto do Visus Planning.
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
+
+**Replanejamento** *(rescheduling, reprogramação)*
+: Ajuste global do cronograma após mudança de data-base, produtividade ou restrições de obra. Pode incluir deslocamento em massa de atividades, redefinição de dependências e criação de nova versão de linha de base. No uso real, a capacidade de replanejar rapidamente reduz manutenção manual e aumenta aderência da ferramenta no canteiro.
+- See also: [[projects/altoqi-visus-planning]], [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]]
 
 **Setorização** *(sectoring, zoning)*
 : Técnica de divisão de uma obra em setores ou trechos para planejamento granular. No Visus Planning, quando os IFCs não contêm propriedade de setor, a setorização é feita por seleção de elementos via coordenadas X/Y e atribuição do campo "Ambiente" nos metadados. O campo Ambiente passa então a ser um critério de hierarquia na EAP.
