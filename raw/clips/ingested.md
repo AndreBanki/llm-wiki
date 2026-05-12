@@ -19,3 +19,4 @@ Update this file at the end of every clip ingest.
 - `RAG Is Fundamentally Broken. Here's Why..md`
 - `Seamless Content Ingestion for Claude-Obsidian Second Brain.md`
 - `You Don't Need a PhD to Build an Ontology.md`
+- `PRDs are Dead.md`

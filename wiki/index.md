@@ -67,6 +67,7 @@ Each entry follows this format:
 |---|---|---|
 | [[product-org-design/gyaco-conway-team-structure]] | Gyaco article (Joca Torres): Conway's Law, Reverse Conway Maneuver critique, Lopes case study — structure must follow strategy and architecture | 2026-04-22 |
 | [[product-org-design/shailesh-sharma-anthropic-pm-execution-collapse]] | Medium (Apr 2026): AI-native PM workflow — Execution Collapse concept; Product Note replaces PRD; context files as constraint layer; PM as Editor-in-Chief; 45-minute idea-to-PR cycle | 2026-05-11 |
+| [[product-org-design/shailesh-sharma-prds-are-dead]] | Medium (Mar 2026): Spec-Driven Development end-to-end via "Ask Maps"; vibe coding failure modes; behavioural spec vs. technical spec; executable specification; six SDD phases; spec debugging principle | 2026-05-12 |
 
 ### BIM & Construction
 
@@ -132,7 +133,8 @@ Each entry follows this format:
 |---|---|---|
 | [[product-org-design/conways-law]] | Lei de Conway + Manobra Reversa de Conway — team structure shapes product; reverse maneuver is valid but incomplete without strategy | 2026-04-22 |
 | [[product-org-design/team-topology]] | Organizing principles for product teams: system-centric vs. user-centric vs. capability-centric; Lopes three-sided marketplace case | 2026-05-11 |
-| [[product-org-design/ai-native-product-orchestration]] | AI-native PM operating model: PM as Orchestrator/Editor-in-Chief; Product Note → context files → LLM spec → autonomous PR; execution latency as the new bottleneck; constraint-first generation; failure modes | 2026-05-11 |
+| [[product-org-design/ai-native-product-orchestration]] | AI-native PM operating model: PM as Orchestrator/Editor-in-Chief; Product Note → context files → LLM spec → autonomous PR; execution latency as the new bottleneck; constraint-first generation; failure modes | 2026-05-12 |
+| [[product-org-design/spec-driven-development]] | Engineering methodology where formal behavioural specs precede code generation; three maturity levels (spec-first/anchored/as-source); executable specification via CI/CD; vibe coding alternative; spec debugging principle | 2026-05-12 |
 
 ### BIM & Construction
 

@@ -6,6 +6,23 @@ To view recent activity: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-05-12] ingest | "PRDs are Dead — Spec-Driven Development for Product Managers" (Shailesh Sharma)
+
+**Pages created**
+- [wiki/sources/product-org-design/shailesh-sharma-prds-are-dead.md](sources/product-org-design/shailesh-sharma-prds-are-dead.md) — source summary: vibe coding failure modes; six SDD phases via "Ask Maps" example; behavioural spec structure with FR/NFR/EC numbering system; executable specification via CI/CD; context fragmentation in multi-repo enterprises; spec debugging principle; PM leverage argument (9.8–42.1% AI code vulnerability rate)
+- [wiki/concepts/product-org-design/spec-driven-development.md](concepts/product-org-design/spec-driven-development.md) — new concept page: SDD methodology, three maturity levels (spec-first/anchored/as-source), what a behavioural spec contains, six-phase workflow, relationship to ai-native-product-orchestration / ai-agent-governance / ontology-driven-architecture / genai-security-workflow
+
+**Pages updated**
+- [wiki/concepts/product-org-design/ai-native-product-orchestration.md](concepts/product-org-design/ai-native-product-orchestration.md) — new "Companion Methodology: Spec-Driven Development" section connecting orchestration model (what the PM does) to SDD (how the AI operates safely); new backlinks; frontmatter updated
+- [wiki/glossary.md](glossary.md) — 6 new terms: Spec-Driven Development (SDD), Vibe Coding, Behavioural Spec, Executable Specification, Context Fragmentation (SDD), Spec Debugging
+
+**Key additions**
+This source completes the Shailesh Sharma pair: the previous article ("Execution Collapse") describes the PM's orchestration workflow — Product Note → context files → generated spec → review → autonomous PR. This article provides the engineering methodology that makes the "generated spec → autonomous PR" step safe and repeatable. The central structural insight: **vibe coding is not a prompting problem, it is a contract problem** — and SDD replaces the implicit contract (developer intuition + code review) with an explicit contract (behavioural spec + executable CI/CD enforcement).
+
+Cross-domain connections: (1) Spec as single source of truth mirrors Ontology as single source of truth in [[ai-engineering/ontology-driven-architecture]] — both make semantics explicit before execution; (2) Spec Debugging's "fix the spec, not the code" principle parallels [[ai-engineering/llm-wiki-pattern]]'s "file the answer back in" — both compound knowledge rather than patching one-off occurrences; (3) Executable Specification adds a concrete governance mechanism to [[ai-engineering/ai-agent-governance]]'s "architecture of decision" concept; (4) The 9.8–42.1% AI code vulnerability rate anchors [[ai-engineering/genai-security-workflow]] concerns in a product PM workflow.
+
+---
+
 ## [2026-05-12] ingest | "Brainstorm Visus Planning" (reunião interna AltoQi)
 
 **Pages created**

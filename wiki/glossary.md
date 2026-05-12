@@ -4,7 +4,7 @@ type: glossary
 created: 2026-04-07
 updated: 2026-05-12
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt, "PRDs are Dead.md"]
 tags: [terminology, style, glossary]
 ---
 
@@ -652,6 +652,33 @@ Each entry follows this format:
 **PM as Editor-in-Chief**
 : The role shift where PMs do not draft every technical spec from scratch, but review and correct AI-generated functional logic before execution. Review quality becomes a core governance gate.
 - See also: [[product-org-design/ai-native-product-orchestration]]
+
+**Spec-Driven Development (SDD)**
+: A development methodology where a formal, machine-readable specification is written and approved *before* any code is generated. The spec defines behavior, constraints, success criteria, and edge cases; code is a downstream artefact. The spec is enforced as an executable contract by the CI/CD pipeline (hard build failures), not a document people read.
+- Three maturity levels: spec-first (spec guides AI workflow), spec-anchored (spec continuously updated), spec-as-source (only spec is ever edited by humans)
+- See also: [[product-org-design/spec-driven-development]]
+
+**Vibe Coding**
+: AI-assisted development without a formal specification contract. A developer fires a prompt into an AI coding tool, reviews the output, re-prompts until something "feels right," and repeats. No explicit definition of what the feature must and must not do. Leads to inconsistent edge case behavior, silent technical debt, and bugs that are reproduced on every AI-assisted regeneration because they are never fixed in the spec.
+- Contrasted with: Spec-Driven Development (SDD)
+- See also: [[product-org-design/spec-driven-development]]
+
+**Behavioural Spec**
+: A specification that defines *what* a system must do and how it must behave from the user's perspective and from a system-contract perspective, without prescribing implementation. Behavioural specs include functional requirements (FR-xx), non-functional requirements (NFR-xx), and edge cases (EC-xx) — all numbered for traceability. Deliberately omits database schema, API structure, and infrastructure decisions; those are left to the AI coding agent.
+- Contrasted with: technical spec (prescribes implementation)
+- See also: [[product-org-design/spec-driven-development]]
+
+**Executable Specification**
+: A spec embedded in the CI/CD pipeline as automated validation checks that produce hard build failures when violated. Code that does not satisfy the spec cannot merge. Transforms the spec from a document people read into a contract the build system enforces. The SDD mechanism for making AI-generated code provably compliant.
+- See also: [[product-org-design/spec-driven-development]], [[ai-engineering/ai-agent-governance]]
+
+**Context Fragmentation** *(SDD)*
+: The problem in AI code generation where the AI agent only sees one repository, but an enterprise feature spans multiple repos (each owned by a different team). The agent generates code that is locally correct but architecturally inconsistent: reinvents session management that already exists elsewhere, creates new inference wrappers instead of using shared ML infrastructure. Requires a cross-repo context engine or explicit cross-repo documentation injected at task time.
+- See also: [[product-org-design/spec-driven-development]]
+
+**Spec Debugging**
+: The practice of fixing bugs in the specification (not in generated code) when AI-generated code is wrong. Rationale: AI code generation is non-deterministic — patching the generated code without updating the spec means the bug is reproduced on the next AI-assisted regeneration or refactor. Every spec fix propagates permanently and makes the entire feature more robust.
+- See also: [[product-org-design/spec-driven-development]]
 
 **Lei de Conway** *(Conway's Law)*
 : "Organizations that design systems tend to produce systems that mirror the communication structures of those organizations." (Melvin Conway, 1968.) Team structure shapes product structure — when structure is wrong, it works silently against strategy.

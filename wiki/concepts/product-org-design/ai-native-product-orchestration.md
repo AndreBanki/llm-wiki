@@ -2,9 +2,9 @@
 title: AI-Native Product Orchestration
 type: concept
 created: 2026-05-11
-updated: 2026-05-11
-sources: [How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md]
-tags: [product-management, ai-product-management, orchestration, context-engineering, execution]
+updated: 2026-05-12
+sources: ["How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md", "PRDs are Dead.md"]
+tags: [product-management, ai-product-management, orchestration, context-engineering, execution, spec-driven-development]
 ---
 
 A product operating model where PMs orchestrate context, constraints, and review gates while AI systems execute most specification and implementation steps.
@@ -65,6 +65,21 @@ Use the model as a practical playbook to test in context, not as an absolute ben
 
 ---
 
+## Companion Methodology: Spec-Driven Development
+
+The orchestration model describes *what the PM does*. [[product-org-design/spec-driven-development]] describes *how the AI operates safely* once the PM has defined intent.
+
+The connection:
+- Product Note + context files provide the **intent** (PM layer)
+- A behavioural spec translates intent into **enforceable constraints** (spec layer)
+- An executable specification makes constraint enforcement **automatic** via CI/CD (engineering layer)
+
+Together: orchestration model + SDD = complete loop from PM intent to provably compliant autonomous PR.
+
+SDD also addresses the primary failure mode of this model — "thin context files that leave business rules implicit" — by requiring explicit FR-xx, NFR-xx, and EC-xx entries before generation starts.
+
+---
+
 ## Relationship to Existing Concepts
 
 - Complements [[product-org-design/team-topology]]: organizing around users/outcomes becomes more effective when execution latency drops.
@@ -73,7 +88,9 @@ Use the model as a practical playbook to test in context, not as an absolute ben
 
 ## Related Pages
 
+- [[product-org-design/spec-driven-development]]
 - [[product-org-design/shailesh-sharma-anthropic-pm-execution-collapse]]
+- [[product-org-design/shailesh-sharma-prds-are-dead]]
 - [[product-org-design/team-topology]]
 - [[product-org-design/conways-law]]
 - [[ai-engineering/ai-agent-governance]]
