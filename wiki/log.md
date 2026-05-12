@@ -4,6 +4,22 @@ Append-only chronological record of all activity: ingests, queries, and lint pas
 
 To view recent activity: `grep "^## \[" log.md | tail -10`
 
+## [2026-05-12] ingest | "ObrasGov MGI/SERPRO — docs do workshop de requisitos" + análise comparativa com Paraná
+
+**Pages created**
+- [wiki/sources/bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026.md](sources/bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026.md) — síntese estruturada da pasta docs do repositório obrasgov-docs, consolidando framework de produto (modelo operacional, fases, entidades/perfis, artefatos, integrações, regras de negócio, RNFs)
+- [wiki/projects/proposta-mgi-serpro-obrasgov.md](projects/proposta-mgi-serpro-obrasgov.md) — nova página de projeto para o cenário federal MGI/SERPRO com leitura de cobertura funcional, governança, integrações e implicações estratégicas para a AltoQi
+- [wiki/analyses/obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica.md](analyses/obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica.md) — análise comparativa detalhada ObrasGov vs Paraná, estruturada pelos aspectos do framework ObrasGov, com proposta de estratégia de solução única (core + policy packs + integration hub)
+
+**Pages updated**
+- [wiki/index.md](index.md) — inclusão da nova source em BIM & Construction, do novo projeto em Projects e da nova análise em Analyses
+- [wiki/sources/bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026.md](sources/bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026.md) — refinamento da ingestão com método de extração, leitura estrutural por documento, detalhamento por fase, matriz de decisões de produto e lacunas da fonte
+- [wiki/projects/proposta-mgi-serpro-obrasgov.md](projects/proposta-mgi-serpro-obrasgov.md) — aprofundamento do framing de projeto com escopo funcional detalhado por módulos, arquitetura de referência e critérios de sucesso
+- [wiki/analyses/obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica.md](analyses/obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica.md) — aumento de granularidade da comparação e substituição do roadmap temporal por roadmap em fases de projeto
+
+**Key additions**
+Esta ingestão conecta explicitamente dois contextos governamentais de alta relevância (federal MGI/SERPRO e estadual Paraná) em um único quadro de produto. O principal insight é que a convergência funcional entre os cenários é alta (fases, governança documental, medição, reprogramação, transparência), enquanto as divergências se concentram em topologia institucional e integrações obrigatórias. O refinamento subsequente foi consolidado nesta mesma entrada, elevando o material de síntese para base analítica-operacional com maior rastreabilidade e roadmap em fases de projeto (sem dependência de calendário), evitando bifurcação de código e reduzindo custo de expansão para novos estados/órgãos.
+
 ---
 
 ## [2026-05-12] ingest | "PRDs are Dead — Spec-Driven Development for Product Managers" (Shailesh Sharma)

@@ -84,6 +84,7 @@ Each entry follows this format:
 | [[bim-construction/visus-evolucao-mpd-analise-produto]] | Documento interno AltoQi/MPD (Mai 2026): análise AS IS/TO BE completa da evolução do Visus para procurement + gestão contratual de execução; metodologia de pacotes, gap analysis por módulo, roadmap priorizado P1–P6, integração DocuSign/Senior Mega, narrativa "ciclo de vida de contrato" | 2026-05-05 |
 | [[bim-construction/documento-parana-governanca-obras]] | Edital publicado pelo Governo do Estado do Paraná (SGSD): solução integrada de software para governança de obras públicas em 11 secretarias; ciclo DFD→ETP→projeto BIM→orçamento→licitação→execução→medição→transparência; POC 45 critérios / 500 pontos; Estratégia BIM Paraná; UTEA; SIM-AM TCE-PR | 2026-05-08 |
 | [[bim-construction/brainstorm-visus-planning-132375ed-2f4a]] | Reunião interna AltoQi (Mai 2026): diagnóstico de posicionamento do Visus Planning; dores recorrentes de adoção (linha de base, caminho crítico, linha de balanço, EAP de planejamento), tensão integração vs usabilidade, e priorização por valor x esforço | 2026-05-12 |
+| [[bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026]] | Repositório ObrasGov Docs (Workshop MGI/SERPRO, Mar-Abr 2026): extração estruturada do desenho de produto federal (fases F0-F4 + reprogramação, entidades e perfis, artefatos, integrações, regras de negócio e RNFs) para o módulo de gestão de obras públicas | 2026-05-12 |
 
 ### Software Engineering
 
@@ -169,6 +170,7 @@ Each entry follows this format:
 |---|---|---|
 | [[session-memory-vs-wiki-synergy]] | Synergy analysis: how Mem0/session memory and the Karpathy LLM Wiki operate as complementary tiers; vectorless vs. semantic retrieval; knowledge promotion workflow; combined architecture | 2026-04-25 |
 | [[axis-planning-proximos-passos]] | Análise de produto: próximos passos de desenvolvimento do Axis e Visus Planning; simbiose Axis↔Planning; leitura de TRL por componente; sequência lógica de desenvolvimento; "o Axis é a camada de memória que o Planning sempre precisou" | 2026-05-01 |
+| [[obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica]] | Análise comparativa detalhada entre ObrasGov (MGI/SERPRO) e proposta Paraná usando os aspectos do framework ObrasGov; convergências, divergências e estratégia de plataforma única (core + policy packs + integration hub) | 2026-05-12 |
 
 ---
 
@@ -185,6 +187,7 @@ Each entry follows this format:
 | [[projects/finep-mais-inovacao-brasil-2026]] | Proposta de P&D | FINEP Mais Inovação Brasil 2026: subvenção econômica FINEP/MCTI; 6 componentes (a–f) TRL 3→7; roadmap sistêmico TRL 2→7; cluster openBIM (IFC/IDS/BCF/bSDD); modelos SaaS/DaaS/AIaaS/Gov/Marketplace; mapa competitivo | 2026-05-05 |
 | [[projects/mpd-visus-evolucao-plataforma]] | Proposta de evolução de produto | MPD Engenharia: evolução do Visus para ciclo de vida contratual (procurement + execução + medição + pagamento) com Pacote como objeto central; dependências de EAP obrigatória, portal de fornecedores, mapa de cotações, BM digital e integrações DocuSign/ERP | 2026-05-05 |
 | [[projects/proposta-parana-governanca-obras]] | Proposta de licitação | Edital Governo do Estado do Paraná — proposta AltoQi para plataforma integrada de governança de obras públicas; ciclo completo DFD→execução→SIM-AM; 11 secretarias; 50 licenças desktop + 1 web perpétua; POC 45 critérios / 500 pontos | 2026-05-08 |
+| [[projects/proposta-mgi-serpro-obrasgov]] | Proposta de licitação/implantação federal | Proposta AltoQi para o cenário MGI/SERPRO (ObrasGov): módulo de gestão técnico-física de obras públicas com foco em compliance, integração com ecossistema TransfereGov e governança auditável por fase | 2026-05-12 |
 
 ---
 

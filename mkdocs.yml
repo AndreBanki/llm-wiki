@@ -106,6 +106,7 @@ nav:
       - Conway's Law: concepts/product-org-design/conways-law.md
       - Team Topology: concepts/product-org-design/team-topology.md
       - AI-Native Product Orchestration: concepts/product-org-design/ai-native-product-orchestration.md
+      - Spec-Driven Development: concepts/product-org-design/spec-driven-development.md
     - Software Engineering:
       - Caching, CDN & Proxy: concepts/software-engineering/caching-cdn-proxy.md
       - CAP Theorem: concepts/software-engineering/cap-theorem-and-consistency.md
@@ -148,6 +149,7 @@ nav:
       - MPD — Evolução da Plataforma Visus (AS IS/TO BE): sources/bim-construction/visus-evolucao-mpd-analise-produto.md
       - Governo do Paraná — Edital Governança de Obras Públicas: sources/bim-construction/documento-parana-governanca-obras.md
       - Brainstorm Visus Planning (Reunião Interna): sources/bim-construction/brainstorm-visus-planning-132375ed-2f4a.md
+      - ObrasGov MGI/SERPRO — Workshop de Requisitos: sources/bim-construction/obrasgov-mgi-serpro-workshop-requisitos-2026.md
     - Coaching & Leadership:
       - MBS — Coaching Paradoxes: sources/coaching-leadership/mbs-paradoxes-of-being-a-coach.md
       - MBS — Performance vs Development: sources/coaching-leadership/mbs-performance-vs-development-coaching.md
@@ -155,11 +157,13 @@ nav:
     - Product & Org Design:
       - GYACO — Conway & Team Structure: sources/product-org-design/gyaco-conway-team-structure.md
       - Sharma — Anthropic PMs Ship Features in 45 Minutes: sources/product-org-design/shailesh-sharma-anthropic-pm-execution-collapse.md
+      - Sharma — PRDs are Dead: sources/product-org-design/shailesh-sharma-prds-are-dead.md
     - Software Engineering:
       - System Design for Beginners: sources/software-engineering/shivambhadani-system-design-for-beginners.md
   - Analyses:
     - Session Memory vs. Wiki Synergy: analyses/session-memory-vs-wiki-synergy.md
     - Axis e Planning — Próximos Passos: analyses/axis-planning-proximos-passos.md
+    - ObrasGov vs Paraná — Estratégia de Solução Única: analyses/obrasgov-mgi-serpro-vs-parana-estrategia-solucao-unica.md
   - Projects:
     - AltoQi — Perfil Institucional: projects/altoqi-company.md
     - Linhas de Produto:
@@ -170,6 +174,7 @@ nav:
       - FINEP Mais Inovação Brasil 2026: projects/finep-mais-inovacao-brasil-2026.md
       - MPD — Evolução da Plataforma Visus: projects/mpd-visus-evolucao-plataforma.md
       - Paraná — Proposta Governança de Obras Públicas: projects/proposta-parana-governanca-obras.md
+      - MGI/SERPRO — Proposta ObrasGov: projects/proposta-mgi-serpro-obrasgov.md
   - Glossary: glossary.md
   
 extra_css:

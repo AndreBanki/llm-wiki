@@ -109,3 +109,4 @@ Clips are MD files saved by the Obsidian Web Clipper into `raw/clips/`. They alr
 - Always ask clarifying questions to understand key takeaways before proceeding with updates.
 - Briefing emails are sent **before** making wiki changes to allow the user to provide feedback.
 - Completion emails are sent **after** all wiki changes are complete.
+- **Log consolidation:** if the user requests refinements or deepening of pages created in the same session (before committing), fold the updates into the existing `wiki/log.md` entry — do NOT append a separate refinement entry.

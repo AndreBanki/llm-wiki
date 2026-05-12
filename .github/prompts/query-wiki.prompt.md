@@ -70,7 +70,7 @@ Append an entry to `wiki/log.md`:
 
 Output filed: yes/no — <filename if yes>
 ```
-Rules: each path must be a markdown link (link text = full `wiki/...` path; link target = relative path from `wiki/`). Omit `wiki/index.md`, `wiki/overview.md`, and `mkdocs.yml` from Pages updated.
+Rules: each path must be a markdown link (link text = full `wiki/...` path; link target = relative path from `wiki/`). Omit `wiki/index.md`, `wiki/overview.md`, and `mkdocs.yml` from Pages updated. If this query refines or deepens work done in the same session (before a git commit), fold any log updates into the existing entry for that session rather than appending a new one.
 
 ## Output Format
 
