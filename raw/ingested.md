@@ -24,6 +24,8 @@ Update this file at the end of every ingest.
 - `Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf`
 - `Post _ LinkedIn_Compatibilização.pdf`
 - `Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf`
+- `Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens.pdf`
+- `Tipos de contratos em engenharia.pdf`
 - `Skills no Claude Code_ O Guia Definitivo Para Quem Quer Parar de Subutilizar a Ferramenta Mais Poderosa da IA Agentica _ LinkedIn.pdf`
 - `System Design For Beginners_ Everything You Need in One Article _ by Shivam Bhadani _ Medium.pdf`
 - `visus-evolucao-mpd-analise-produto.md`
