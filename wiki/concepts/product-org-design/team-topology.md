@@ -2,8 +2,8 @@
 title: "Topologia de Times (Team Topology)"
 type: concept
 created: 2026-04-22
-updated: 2026-05-11
-sources: [gyaco-conway-team-structure.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md]
+updated: 2026-05-13
+sources: [gyaco-conway-team-structure.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, The Best Product Managers Don’t Talk to Customers.md]
 tags: [product-management, organization-design, team-topology, marketplace]
 ---
 
@@ -83,6 +83,8 @@ When execution latency drops (idea -> spec -> PR in under an hour), team topolog
 
 This raises the leverage of user-centric and outcome-centric teams. With faster implementation loops, structure quality and framing quality have even greater impact on what gets built.
 
+Signal quality becomes a first-class constraint: user-centric teams still need disciplined synthesis of requests, behavior data, and market signals to avoid request-driven roadmap drift. See [[product-org-design/customer-signal-synthesis]].
+
 See [[product-org-design/ai-native-product-orchestration]].
 
 ---
@@ -92,3 +94,4 @@ See [[product-org-design/ai-native-product-orchestration]].
 - [[product-org-design/conways-law]]
 - [[product-org-design/gyaco-conway-team-structure]]
 - [[product-org-design/ai-native-product-orchestration]]
+- [[product-org-design/customer-signal-synthesis]]

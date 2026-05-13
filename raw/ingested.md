@@ -30,6 +30,8 @@ Update this file at the end of every ingest.
 - `Tipos de contratos em engenharia.pdf`
 - `Skills no Claude Code_ O Guia Definitivo Para Quem Quer Parar de Subutilizar a Ferramenta Mais Poderosa da IA Agentica _ LinkedIn.pdf`
 - `System Design For Beginners_ Everything You Need in One Article _ by Shivam Bhadani _ Medium.pdf`
+- `The Best Product Managers Don’t Talk to Customers.md`
+- `The AI Revolution Nobody Saw Coming_ Why Ontology Just Beat Vector Embeddings.md`
 - `visus-evolucao-mpd-analise-produto.md`
 - `Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md`
 - `𝐌𝐂𝐏 𝐯𝐬. 𝐓𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐀𝐏𝐈 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞.pdf`

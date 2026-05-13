@@ -2,9 +2,9 @@
 title: RAG Retrieval Approaches
 type: concept
 created: 2026-04-22
-updated: 2026-05-04
-sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf]
-tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking, gradient-wall, clara, differentiable-retrieval]
+updated: 2026-05-13
+sources: [pageindex-vectorless-rag.md, gaurav-shrivastav-rag-fundamentally-broken.md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, "The AI Revolution Nobody Saw Coming_ Why Ontology Just Beat Vector Embeddings.md"]
+tags: [rag, retrieval, vector-rag, vectorless-rag, embeddings, chunking, gradient-wall, clara, differentiable-retrieval, graphrag, ontology, benchmarks]
 ---
 
 Overview of Retrieval-Augmented Generation (RAG) retrieval strategies, contrasting the traditional vector-based approach with the emerging reasoning-based (vectorless) approach.
@@ -163,6 +163,16 @@ A fourth retrieval approach where the document corpus is represented as a **pers
 - **Token compression**: serves ~300-token subgraphs instead of full raw files — claimed 71.5x reduction
 - **Multi-hop**: topology-clustered graph enables following chains of relationships, not just single-document traversal
 
+### Enterprise Ontology-Guided GraphRAG Pattern
+
+Recent enterprise-oriented material adds a practical pattern on top of GraphRAG: treat graph retrieval as one component in a hybrid stack where ontology constraints and action semantics shape retrieval and execution together.
+
+- **Vector retrieval** handles broad semantic recall
+- **Graph traversal** resolves explicit relationships and multi-hop structure
+- **Ontology-guided reasoning** enforces domain constraints and improves context completeness for agent actions
+
+In practice, this pattern is strongest on relational and operational queries, while simple lookup queries may still be served efficiently by vector-centric retrieval alone. Reported numerical gains in this class of source should be treated as directional unless benchmark methodology is independently verified.
+
 ### BIM-Specific Execution Pattern (BIMConverse, 2024)
 
 An applied thesis implementation in architecture/construction shows how GraphRAG patterns are operationalized for IFC archives:
@@ -179,6 +189,25 @@ This case reinforces a practical distinction: many production "GraphRAG" impleme
 - Mixed-media corpora (code + PDFs + video transcripts)
 - Teams that need explainability about *why* a relationship was identified
 - Scenarios where raw files cannot fit in context even with 1M-window models
+
+### GraphRAG Performance Benchmarks (MDPI KA-RAG Study)
+
+*Source: Aftab, "The AI Revolution Nobody Saw Coming" (Apr 2026) — [[ai-engineering/aftab-ontology-beat-vector-embeddings]]*
+
+Study comparing vector RAG vs. ontology-guided GraphRAG on 20 complex enterprise queries over grant application documents:
+
+| Metric | Vector RAG | GraphRAG (Ontology-Guided) |
+|---|---|---|
+| Retrieval Accuracy | 68% | **91.4%** |
+| Complete Answers | 45% | **80%** |
+| Hallucination Rate | 22% | **8%** |
+| Multi-Hop Success | 30% | **85%** |
+
+**Why the gap is largest on multi-hop queries:** vector similarity scores individual chunks independently — it cannot follow a chain `Shipment→Orders→Customers→Regions`. GraphRAG traverses that chain through explicit relationship edges. Where the answer requires connecting three or more entities, the structural advantage compounds.
+
+**Caveat:** N=20 on a specific document type (grant applications). The numbers are directionally representative for relational enterprise queries, but should not be treated as universal baselines.
+
+**Cost implication:** the higher retrieval precision of GraphRAG reduces token waste (fewer wrong chunks in context, fewer LLM retries), with an estimated 30–50% inference cost reduction vs. pure vector RAG for relational-heavy workloads. Offset by an upfront ontology construction cost of ~$50–200 (from an existing DB schema) to ~$500–2000/month (ongoing LLM extraction from unstructured text).
 
 ### Comparison with other paradigms
 
@@ -222,6 +251,7 @@ See [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] for the full s
 - [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]] (source article — BIM GraphRAG implementation)
 - [[ai-engineering/gaurav-shrivastav-rag-fundamentally-broken]] (source article — gradient wall, CLaRa)
 - [[ai-engineering/harika-yenuga-five-llm-concepts-first-agents]] (source article — practitioner framing, recall@k=10 diagnostic)
+- [[ai-engineering/aftab-ontology-beat-vector-embeddings]] (source article — GraphRAG benchmarks, enterprise migration roadmap)
 - [[ai-engineering/llm-model-economics]]
 - [[ai-engineering/llm-hallucination]]
 - [[ai-engineering/chew-loong-nian-qwen36plus-trilhao-tokens]] (source article)

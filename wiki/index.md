@@ -17,9 +17,9 @@ Each entry follows this format:
 
 | Page | Summary | Updated |
 |---|---|---|
-| [[overview]] | High-level synthesis of the entire knowledge base | 2026-04-24 |
-| [[glossary]] | Living terminology, definitions, and style conventions | 2026-05-12 |
-| [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-12 |
+| [[overview]] | High-level synthesis of the entire knowledge base | 2026-05-13 |
+| [[glossary]] | Living terminology, definitions, and style conventions | 2026-05-13 |
+| [[log]] | Chronological register of ingests, queries, and lint passes | 2026-05-13 |
 
 ---
 
@@ -54,6 +54,7 @@ Each entry follows this format:
 | [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]] | Towards AI (Jan 2026): Microsoft Fabric IQ vs Palantir — three-layer implementation (Ontology Item, Semantic Bindings to OneLake, Semantic Contracts for agents); who owns the semantic layer; democratization via Power BI; convergence thesis | 2026-05-11 |
 | [[ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption]] | Medium (Apr 2026): Anthropic Managed Agents as model-native hosted runtime; vertical stack consolidation; middleware squeeze risk; runtime+token pricing implications | 2026-05-12 |
 | [[ai-engineering/quarkandcode-high-value-knowledge-graph-relationships]] | Medium (Apr 2026): practical framework for extracting high-value knowledge-graph relationships; competency-question-first design; hybrid extraction stack (rules/OpenIE/supervised/distant supervision/LLM); predicate normalization; provenance, scoring, SHACL validation, and human-in-the-loop review | 2026-05-12 |
+| [[ai-engineering/aftab-ontology-beat-vector-embeddings]] | Medium (Apr 2026): integrated ontology-first enterprise AI narrative connecting semantic and kinetic layers, GraphRAG hybrid retrieval, and phased migration from vector-only RAG to action-oriented agent systems; numerical claims treated as directional evidence | 2026-05-13 |
 
 ### Coaching & Leadership
 
@@ -70,6 +71,7 @@ Each entry follows this format:
 | [[product-org-design/gyaco-conway-team-structure]] | Gyaco article (Joca Torres): Conway's Law, Reverse Conway Maneuver critique, Lopes case study — structure must follow strategy and architecture | 2026-04-22 |
 | [[product-org-design/shailesh-sharma-anthropic-pm-execution-collapse]] | Medium (Apr 2026): AI-native PM workflow — Execution Collapse concept; Product Note replaces PRD; context files as constraint layer; PM as Editor-in-Chief; 45-minute idea-to-PR cycle | 2026-05-11 |
 | [[product-org-design/shailesh-sharma-prds-are-dead]] | Medium (Mar 2026): Spec-Driven Development end-to-end via "Ask Maps"; vibe coding failure modes; behavioural spec vs. technical spec; executable specification; six SDD phases; spec debugging principle | 2026-05-12 |
+| [[product-org-design/pankaj-bisht-best-product-managers-dont-talk-to-customers]] | Medium (Mar 2026): argument for separating customer pain discovery from solution prescription; incremental trap; interview confirmation bias risk; multi-channel signal listening model for roadmap quality | 2026-05-13 |
 
 ### BIM & Construction
 
@@ -107,7 +109,7 @@ Each entry follows this format:
 | [[ai-engineering/llm-wiki-pattern]] | The LLM Wiki pattern: three-layer architecture (raw/ + wiki/ + schema), three operations (ingest/query/lint), knowledge compounding — synthesis problem, quarriable knowledge, and why it works without vector databases; content acquisition layer (Layer 0) via Obsidian Web Clipper; Obsidian-as-builder complementary perspective | 2026-05-01 |
 | [[ai-engineering/ai-session-memory]] | AI session memory: three-tier memory model (context/session/domain), Mem0 + ChromaDB MCP pattern, hook production hazards, vectorless vs. semantic retrieval tension | 2026-04-25 |
 | [[ai-engineering/pageindex]] | Open source vectorless RAG framework by VectifyAI — hierarchical tree + LLM reasoning | 2026-04-22 |
-| [[ai-engineering/rag-approaches]] | Comparison of five RAG paradigms (vector, vectorless, graph, 1M context, CLaRa/differentiable) — retrieval mechanism frame + gradient wall frame; process-level improvements (Golden Retriever RAG, Instructed Retriever); BIMConverse as BIM-specific GraphRAG execution pattern | 2026-05-04 |
+| [[ai-engineering/rag-approaches]] | Comparison of five RAG paradigms (vector, vectorless, graph, 1M context, CLaRa/differentiable) — retrieval mechanism frame + gradient wall frame; process-level improvements (Golden Retriever RAG, Instructed Retriever); BIMConverse as BIM-specific GraphRAG execution pattern; enterprise ontology-guided GraphRAG pattern | 2026-05-13 |
 | [[ai-engineering/mcp-architecture]] | MCP (Model Context Protocol) — AI-driven tool orchestration; tools not services; capability discovery; security model; failure modes; comparison with traditional REST APIs | 2026-04-22 |
 | [[ai-engineering/genai-security-workflow]] | 6-stage GenAI security workflow model (Gartner): each stage's threat profile, countermeasures, and cross-cutting principles (Human in the Loop, Guardrails, TRiSM) | 2026-04-22 |
 | [[ai-engineering/constitutional-ai]] | Constitutional AI and 3H principles (Helpful, Honest, Harmless) — the standard for governing GenAI output quality and safety | 2026-04-22 |
@@ -115,7 +117,7 @@ Each entry follows this format:
 | [[ai-engineering/enterprise-ai-deployment]] | How enterprises adopt and operationalize AI: the bootcamp model, empirical architecture, chat-to-automation shift, expert feedback loops, governance gap | 2026-04-22 |
 | [[ai-engineering/claude-code-skills]] | Claude Code Skills — directory-based context packages for AI coding agents; 9 categories; gotcha-driven knowledge capture; context engineering via folder structure; CLAUDE.md design patterns for knowledge vaults (Active Context, Reference Don't Inline, Negative Instructions) | 2026-05-01 |
 | [[ai-engineering/ai-agent-governance]] | AI agent governance: copilot→operator shift, delegation vs automation, architecture of decision, four-component production stack (guardrails, observability, FinOps, execution control) | 2026-05-11 |
-| [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; Palantir (graph/intelligence) vs. Microsoft Fabric IQ (semantic contracts/operations) implementation comparison; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm; open-source implementation pathway; practitioner tooling (Protégé, OrionBelt); SKOS | 2026-05-11 |
+| [[ai-engineering/ontology-driven-architecture]] | Ontology-driven architecture: schema vs. ontology distinction; Palantir (graph/intelligence) vs. Microsoft Fabric IQ (semantic contracts/operations) implementation comparison; formal vs. vendor ontologies; why agentic systems require ontologies; Semantic Cartography as competing paradigm; open-source implementation pathway; practitioner tooling (Protégé, OrionBelt); SKOS; practical ontology+GraphRAG+agent execution ladder | 2026-05-13 |
 | [[ai-engineering/llm-model-economics]] | LLM model selection decision framework: cost-quality tradeoff, token economics for agent pipelines, open-weight vs. frontier closed models, OpenRouter as inference gateway; tiered model routing by task type | 2026-04-26 |
 | [[ai-engineering/obsidian-knowledge-graph]] | Obsidian vault as implicit knowledge graph: vault-as-graph model, graph metrics for PKM (centrality, orphans, clusters, bridges), compound maintenance, CLAUDE.md design patterns, four-tier tool taxonomy | 2026-05-01 |
 | [[ai-engineering/llm-context-window]] | Context window as RAM: what consumes the budget (system prompt, history, tool schemas, tool results), 30–50K typical agent overhead, the core architectural question (see vs. retrieve), failure modes | 2026-05-01 |
@@ -135,8 +137,9 @@ Each entry follows this format:
 | Page | Summary | Updated |
 |---|---|---|
 | [[product-org-design/conways-law]] | Lei de Conway + Manobra Reversa de Conway — team structure shapes product; reverse maneuver is valid but incomplete without strategy | 2026-04-22 |
-| [[product-org-design/team-topology]] | Organizing principles for product teams: system-centric vs. user-centric vs. capability-centric; Lopes three-sided marketplace case | 2026-05-11 |
-| [[product-org-design/ai-native-product-orchestration]] | AI-native PM operating model: PM as Orchestrator/Editor-in-Chief; Product Note → context files → LLM spec → autonomous PR; execution latency as the new bottleneck; constraint-first generation; failure modes | 2026-05-12 |
+| [[product-org-design/team-topology]] | Organizing principles for product teams: system-centric vs. user-centric vs. capability-centric; Lopes three-sided marketplace case; signal-quality implications in AI-speed execution contexts | 2026-05-13 |
+| [[product-org-design/ai-native-product-orchestration]] | AI-native PM operating model: PM as Orchestrator/Editor-in-Chief; Product Note → context files → LLM spec → autonomous PR; execution latency as the new bottleneck; constraint-first generation; failure modes; linkage to customer-signal synthesis | 2026-05-13 |
+| [[product-org-design/customer-signal-synthesis]] | PM decision model: separate pain discovery from solution authority; triangulate interview, behavioral, commercial, and market signals to reduce roadmap drift | 2026-05-13 |
 | [[product-org-design/spec-driven-development]] | Engineering methodology where formal behavioural specs precede code generation; three maturity levels (spec-first/anchored/as-source); executable specification via CI/CD; vibe coding alternative; spec debugging principle | 2026-05-12 |
 
 ### BIM & Construction

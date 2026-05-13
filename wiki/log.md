@@ -4,6 +4,33 @@ Append-only chronological record of all activity: ingests, queries, and lint pas
 
 To view recent activity: `grep "^## \[" log.md | tail -10`
 
+## [2026-05-13] ingest | "The Best Product Managers Don’t Talk to Customers" (Pankaj Bisht)
+
+**Pages created**
+- [wiki/sources/product-org-design/pankaj-bisht-best-product-managers-dont-talk-to-customers.md](sources/product-org-design/pankaj-bisht-best-product-managers-dont-talk-to-customers.md) — source summary of the article's core thesis: separate customer pain discovery from solution prescription; avoid the incremental trap through multi-signal synthesis
+- [wiki/concepts/product-org-design/customer-signal-synthesis.md](concepts/product-org-design/customer-signal-synthesis.md) — new concept page defining the PM signal stack, decision rules, and failure modes for roadmap quality under fast execution cycles
+
+**Pages updated**
+- [wiki/concepts/product-org-design/ai-native-product-orchestration.md](concepts/product-org-design/ai-native-product-orchestration.md) — integrated signal-quality failure mode and backlink to customer-signal-synthesis
+- [wiki/concepts/product-org-design/team-topology.md](concepts/product-org-design/team-topology.md) — added synthesis discipline implication for user-centric teams in AI-speed delivery contexts
+- [wiki/glossary.md](glossary.md) — 4 new terms: Customer Signal Synthesis, Incremental Trap, Narrative Laundering, Pain vs. Prescription Distinction
+
+**Key additions**
+This ingest adds an epistemic governance layer to the Product & Org Design domain. Existing pages already described *how* teams execute faster (AI-native orchestration) and *how* structure shapes solution space (team topology). The new source adds *how teams decide what is true enough to build*: customer interviews remain essential for discovering pain, but request-literal roadmapping is treated as a strategic anti-pattern. The most important cross-domain connection is that execution acceleration magnifies discovery quality risk: the faster an organization can ship, the faster it can overfit to weak evidence unless signal triangulation is explicit.
+
+## [2026-05-13] ingest | "The AI Revolution Nobody Saw Coming: Why Ontology Just Beat Vector Embeddings" (Aftab)
+
+**Pages created**
+- [wiki/sources/ai-engineering/aftab-ontology-beat-vector-embeddings.md](sources/ai-engineering/aftab-ontology-beat-vector-embeddings.md) — source summary integrating ontology-first architecture, GraphRAG hybrid retrieval, and phased enterprise adoption path; includes explicit evidence-strength note for directional numeric claims
+
+**Pages updated**
+- [wiki/concepts/ai-engineering/ontology-driven-architecture.md](concepts/ai-engineering/ontology-driven-architecture.md) — added practical ontology+GraphRAG+agent execution ladder and semantic-vs-kinetic action framing
+- [wiki/concepts/ai-engineering/rag-approaches.md](concepts/ai-engineering/rag-approaches.md) — added enterprise ontology-guided GraphRAG pattern clarifying vector+graph+ontology hybrid use cases and evidence caveat
+- [wiki/glossary.md](glossary.md) — 4 new terms: Kinetic Layer, GraphRAG, Knowledge Compounding, Semantic-Kinetic Split
+
+**Key additions**
+This ingest strengthens the bridge between two parts of the wiki that were previously adjacent but less explicitly connected: ontology as semantic governance and GraphRAG as retrieval strategy. The updated synthesis frames GraphRAG as part of an action-constrained agent architecture (not only a retrieval upgrade), adds directional benchmark evidence from the cited KA-RAG comparison, and introduces the "knowledge compounding" argument: ontology-backed knowledge graphs accumulate reusable institutional memory over time while vector-only retrieval does not. Cross-domain impact: it sharpens the operational reading of ontology-driven architecture while explicitly linking this compounding dynamic to the Axis framing of capacidade de aprendizagem operacional.
+
 ## [2026-05-12] ingest | "Anthropic's Managed Agents wipe out thousands of AI startups overnight" (Ashraff Hathibelagal)
 
 **Pages created**

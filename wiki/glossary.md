@@ -2,9 +2,9 @@
 title: Glossary
 type: glossary
 created: 2026-04-07
-updated: 2026-05-12
+updated: 2026-05-13
 
-sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt, "PRDs are Dead.md", "How to Extract High-Value Knowledge Graph Relationships.md"]
+sources: [pageindex-vectorless-rag.md, francieli-wagner-bim-coordination.md, mbs-performance-vs-development-coaching.md, mbs-two-questions-for-great-conversation.md, gyaco-conway-team-structure.md, mbs-paradoxes-of-being-a-coach.md, article.md, gartner-genai-security-workflow, vidvatta-mcp-vs-api-architecture.md, palantir-aip-bootcamps.md, eric-luque-claude-code-skills.md, Planejamento de obra 4.0_ algoritmos que otimizam cronogramas e antecipam gargalos _ LinkedIn.pdf, Qwen 3.6 Plus Just Hit 1 Trillion Daily Tokens — Here's Why Developers Are Ditching $5M Claude for a $0.28 Alternative.pdf, balajiBal-palantir-ontologies.md, tejas-sharma-karpathy-knowledge-system.md, linkedin-post-jhonatan-lazarin-ia-gestao-obras, daniel-rusnok-mem0-mcp-semantic-memory.md, Seamless Content Ingestion for Claude-Obsidian Second Brain.md, How to Use Graphify_ Turn Any Folder Into a Knowledge Graph.md, gt-antac-visus-planning-objeto-aprendizagem.md, nfigay-ontology-marketing-vs-formal.md, gaurav-shrivastav-rag-fundamentally-broken.md, Your Obsidian Vault Is a Knowledge Graph. Here's How to Make It Think (quickly)..md, Five LLM concepts I keep explaining to engineers shipping their first agents.md, O PAPEL DO ARQUITETO DE SOLUÇÕES NA INTEGRAÇÃO DA CONSTRUÇÃO.pdf, Formulário _ Projeto Finep_Axis_2026.pdf, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, BIMConverse - GraphRAG for IFC Natural Language Queries - IAAC BLOG.pdf, visus-evolucao-mpd-analise-produto.md, documento_parana.md, How Anthropic PMs Ship Features in 45 Minutes (Without Writing PRDs).md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", Brainstorm-Visus-Planning-132375ed-2f4a.srt, "PRDs are Dead.md", "How to Extract High-Value Knowledge Graph Relationships.md", The AI Revolution Nobody Saw Coming_ Why Ontology Just Beat Vector Embeddings.md]
 tags: [terminology, style, glossary]
 ---
 
@@ -204,6 +204,14 @@ Each entry follows this format:
 : A RAG paradigm where retrieval is performed by extracting a topology-clustered **subgraph** from a persistent knowledge graph, rather than retrieving vector-similarity chunks or reasoning over a document tree. Enables multi-hop relational queries and preserves cross-file dependency structure. Contrasted with Vector RAG (similarity-based), Vectorless RAG (tree traversal), and 1M Context (no retrieval). See Graphify.
 - See also: [[ai-engineering/rag-approaches]]
 
+**Ontology-Guided GraphRAG** *(hybrid relational retrieval)*
+: A GraphRAG pattern where graph traversal and vector retrieval are both used, while ontology constraints and entity/action semantics guide retrieval and answer grounding. Particularly useful for multi-hop, relationship-heavy, and operational queries where vector similarity alone under-specifies context.
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/aftab-ontology-beat-vector-embeddings]]
+
+**Semantic-Kinetic Split**
+: Design pattern that separates domain meaning from executable behavior in ontology-based systems: semantic layer models entities and relationships; kinetic layer models actions, rules, and permissions. Helps prevent ambiguous agent behavior by making action boundaries explicit.
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]], [[ai-engineering/aftab-ontology-beat-vector-embeddings]]
+
 **AST Parsing** *(Abstract Syntax Tree parsing)*
 : Deterministic structural analysis of source code that extracts classes, functions, imports, call graphs, and docstrings by parsing the code's syntax tree — not by reading it as text. Used in Graphify's Pass 1. Because AST parsing is rule-based, all edges it produces carry confidence 1.0 (`EXTRACTED`). `tree-sitter` is the library used by Graphify for cross-language AST parsing (20 languages).
 - Contrasted with: LLM-based code understanding (probabilistic, confidence < 1.0)
@@ -238,6 +246,21 @@ Each entry follows this format:
 : A middle tier that maps technical database tables to business-meaningful terms via configuration (typically YAML). Enables non-technical users to query "Revenue" instead of `SUM(orders.price)`. Tools: Cube.js, dbt Semantic Layer, AtScale. Related to but less rigorous than a formal ontology — provides business-term mapping without description logic, inference, or the Open World Assumption. In the context of open-source Palantir alternatives, the semantic layer replaces the Ontology's metadata and business-term navigation functions.
 - Contrasted with: formal ontology (has inference and formal semantics); schema (describes data structure, not business meaning)
 - See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/dhiraj-patra-open-source-ontology-pipeline]]
+
+**Kinetic Layer** *(Palantir Ontology)*
+: The action/execution tier of Palantir's Ontology architecture, distinct from the semantic (definitional) layer. The semantic layer defines what exists and how it relates; the kinetic layer defines what can be done and under which constraints. Concretely: Action Types (`ApproveRequest()`, `AssignResource()`, `UpdateStatus()`), business logic, workflow orchestration, and dynamic role-based security tied to ontology objects. The kinetic layer is what elevates Palantir from a knowledge graph into an operational system capable of grounding autonomous agent actions.
+- Contrasted with: **Semantic Layer** (defines entities and relationships); data governance policies (kinetic layer enforces via meaning, not policy)
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/aftab-ontology-beat-vector-embeddings]], [[ai-engineering/palantir-aip-bootcamps]]
+
+**GraphRAG** *(Graph Retrieval-Augmented Generation)*
+: A RAG architecture that retrieves structured knowledge with explicit relationships rather than text chunks. Combines at least two retrieval strategies: vector similarity search (semantic matching) and graph traversal (relationship queries via Cypher or SPARQL). Optionally adds ontology reasoning (inference from schema). The fusion of strategies allows answering relational and multi-hop queries that vector RAG cannot resolve by semantic similarity alone. Benchmarked against vector RAG in the MDPI KA-RAG study: +23.4% retrieval accuracy (68% → 91.4%), +35% complete answers (45% → 80%), −14pp hallucination rate (22% → 8%), +55pp multi-hop success (30% → 85%).
+- Contrasted with: **Vector RAG** (similarity-only, no graph traversal); **Vectorless RAG** (reasoning-only, no vector index)
+- See also: [[ai-engineering/rag-approaches]], [[ai-engineering/how-to-use-graphify-knowledge-graph]], [[ai-engineering/aftab-ontology-beat-vector-embeddings]], [[bim-construction/bimconverse-graphrag-ifc-natural-language-queries]]
+
+**Knowledge Compounding** *(knowledge graph compounding)*
+: The property of knowledge graphs whereby value accumulates over time through each new integration, agent interaction, and validated reasoning rule — compounding the quality of future retrievals and decisions. Contrasted with vector databases, which are stateless with respect to prior queries: adding documents to a vector store does not improve the model's understanding of relationships already indexed. In knowledge graphs, each new edge enriches traversal paths for all future queries. The strategic implication: ontology-first infrastructure is a moat, not a feature — early adopters accumulate compound structural advantages. Proposed by Aftab (2026); structurally consistent with Palantir's empirical architecture principle and FINEP 2026's *capacidade de aprendizagem operacional* framing.
+- Critical note: compounding presupposes curation; graphs without governance compound noise as readily as signal
+- See also: [[ai-engineering/ontology-driven-architecture]], [[ai-engineering/aftab-ontology-beat-vector-embeddings]], [[bim-construction/altoqi-finep-axis-2026]]
 
 **Data Lakehouse Medallion Architecture** *(Bronze/Silver/Gold)*
 : A three-tier data organization pattern for data lakehouses: Bronze (raw ingested data, as-is from sources), Silver (cleaned and validated), Gold (business-ready tables mapped to semantic entities). Popularized by Databricks. The Gold layer feeds the semantic layer or ontology. Pre-condition for any open-source ontology build: "Palantir doesn't map to messy data — it maps to cleaned datasets."
@@ -876,6 +899,26 @@ Each entry follows this format:
 ---
 
 ## AI Agent Governance
+
+## Product Management / Discovery
+
+**Customer Signal Synthesis**
+: PM decision model that separates user pain discovery from solution design authority, then triangulates interviews with behavior data, commercial signal, and market/technology context before roadmap commitment.
+- See also: [[product-org-design/customer-signal-synthesis]]
+
+**Incremental Trap**
+: Roadmap failure mode where each decision is locally sensible (small requested improvements) but the aggregate result is strategic irrelevance because category direction has shifted.
+- See also: [[product-org-design/customer-signal-synthesis]]
+
+**Narrative Laundering** *(product research anti-pattern)*
+: Using customer interviews or quotes to retroactively legitimize a decision that was already made, creating the appearance of evidence-based discovery without genuine hypothesis testing.
+- See also: [[product-org-design/pankaj-bisht-best-product-managers-dont-talk-to-customers]], [[product-org-design/customer-signal-synthesis]]
+
+**Pain vs. Prescription Distinction**
+: Discovery principle that user reports of friction are high-value signals, while user-proposed solutions are hypotheses to validate rather than direct implementation instructions.
+- See also: [[product-org-design/customer-signal-synthesis]]
+
+---
 
 **AI Operator** *(operator model)*
 : A mode in which an AI model does not just suggest actions but interprets context, makes decisions, and executes them autonomously — with the human arriving after the fact to review results. Contrasted with the copilot model. Enabled by effective long-context reasoning (e.g., Claude Opus 4.7).

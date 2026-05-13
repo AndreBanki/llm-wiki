@@ -2,9 +2,9 @@
 title: Ontology-Driven Architecture
 type: concept
 created: 2026-04-24
-updated: 2026-05-11
-sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md"]
-tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography, semantic-layer, open-source, skos, protege, orionbelt, tools]
+updated: 2026-05-13
+sources: [balajiBal-palantir-ontologies, palantir-aip-bootcamps, nfigay-ontology-marketing-vs-formal, How to Develop An Open Source Ontology & AI Pipeline.md, Building Your First Ontology_ A Hands-On Tutorial.md, You Don't Need a PhD to Build an Ontology.md, "Microsoft vs Palantir_ Two Paths to Enterprise Ontology (And Why Microsoft's Bet on Semantic….md", "The AI Revolution Nobody Saw Coming_ Why Ontology Just Beat Vector Embeddings.md"]
+tags: [ontology, agentic-ai, schema, world-modeling, data-governance, coordination, deterministic-interface, formal-semantics, semantic-cartography, semantic-layer, open-source, skos, protege, orionbelt, tools, knowledge-compounds, kinetic-layer]
 ---
 
 # Ontology-Driven Architecture
@@ -117,7 +117,6 @@ You can regulate access to data perfectly and still have a system that doesn't u
 ## Palantir's Approach: World-Modeling as Core Strategy
 
 Palantir was a *world-modeling company* from the beginning — not a dashboards company, a data lake company, or an analytics company. While the big data industry raced to ingest more data faster, Palantir consistently asked:
-
 > "What are the actual entities in this domain, and how do they relate?"
 
 This was unfashionable for most of the 2010s. In hindsight, it was prescient. The bet:
@@ -125,6 +124,47 @@ This was unfashionable for most of the 2010s. In hindsight, it was prescient. Th
 > "Meaning had to be encoded up front, explicitly, and shared across the system."
 
 Core principle: **Meaning precedes intelligence.**
+
+---
+
+## Ontology + GraphRAG + Agents: Practical Architecture Ladder
+
+*Source: Aftab, "The AI Revolution Nobody Saw Coming" (Apr 2026) — [[ai-engineering/aftab-ontology-beat-vector-embeddings]]*
+
+This source contributes a practical sequencing pattern that connects ideas already present in the wiki:
+
+1. **Ontology definition** (entities, relationships, constraints, valid actions)
+2. **Graph-grounded retrieval** (vector + graph traversal + ontology-guided reasoning)
+3. **Agent execution** (actions constrained by semantic and permission boundaries)
+
+The main implementation value is not a new ontology theory, but a deployable ladder from semantic modeling to operational automation. It also sharpens the semantic vs. kinetic split:
+
+- **Semantic layer** defines what exists and how it relates
+- **Kinetic layer** defines what can be executed and under which constraints
+
+This aligns with the concept's core claim: ontologies become most valuable when they govern actions, not just interpretation.
+
+**Evidence note:** the source includes strong numerical claims about comparative performance and enterprise readiness. In this wiki, those numbers are treated as directional unless triangulated with stronger benchmark evidence.
+
+---
+
+## Knowledge Compounds: The Strategic Moat Argument
+
+*Source: Aftab, "The AI Revolution Nobody Saw Coming" (Apr 2026) — [[ai-engineering/aftab-ontology-beat-vector-embeddings]]*
+
+> "Vector databases don't compound. Knowledge graphs do."
+
+The core strategic argument: unlike vector databases (where each query is stateless with respect to prior queries), knowledge graphs accumulate institutional memory over time.
+
+- Every new data source integrated into the ontology makes the graph richer and more connected
+- Every agent interaction can add inferred relationships and validated facts back to the graph
+- Every reasoning rule derived from one case improves future decisions across all similar cases
+
+This compounding property makes ontology-first infrastructure a **strategic moat**, not just a technical choice. Early adopters do not stay ahead by a fixed margin — the gap widens as their graphs accumulate depth and their retrieval precision compounds over time.
+
+**Connection to the Axis project:** the FINEP 2026 framing of *capacidade de aprendizagem operacional* ("each obra begins at a higher maturity level") is a domain-specific expression of the same compounding principle — see [[bim-construction/altoqi-finep-axis-2026]].
+
+**Critical note:** the compounding claim is structurally sound but presupposes a well-maintained ontology. In practice, knowledge graphs that accumulate without curation compound noise as readily as signal. Governance (who validates new additions? how are contradictions resolved?) is a prerequisite for positive compounding.
 
 ---
 
@@ -380,3 +420,5 @@ SKOS is directly relevant to the Axis project: material types, activity categori
 - **[[ai-engineering/genai-security-workflow]]** — The Gartner framework's data governance stage is necessary but, per both sources, insufficient; formal ontologies would complete what governance alone cannot enforce
 - **[[product-org-design/conways-law]]** — "Meaning must be encoded upfront" mirrors "strategy must precede structure"; both reject emergent, unplanned design in favor of deliberate upfront modeling
 - **[[ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology]]** — primary source for the Microsoft Fabric IQ implementation architecture section above; same author as the Protégé tutorial; provides the non-Palantir implementation case that was listed as a knowledge gap
+- **[[ai-engineering/aftab-ontology-beat-vector-embeddings]]** — primary source for the Practical Architecture Ladder and Knowledge Compounds sections above; provides the clearest articulation of Palantir's semantic/kinetic layer split and MDPI KA-RAG benchmark data for GraphRAG performance
+- **[[ai-engineering/rag-approaches]]** — GraphRAG is the retrieval paradigm enabled by ontologies; benchmark data from this source appears in the rag-approaches comparison table

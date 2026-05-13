@@ -106,6 +106,7 @@ nav:
       - Conway's Law: concepts/product-org-design/conways-law.md
       - Team Topology: concepts/product-org-design/team-topology.md
       - AI-Native Product Orchestration: concepts/product-org-design/ai-native-product-orchestration.md
+      - Customer Signal Synthesis: concepts/product-org-design/customer-signal-synthesis.md
       - Spec-Driven Development: concepts/product-org-design/spec-driven-development.md
     - Software Engineering:
       - Caching, CDN & Proxy: concepts/software-engineering/caching-cdn-proxy.md
@@ -138,6 +139,7 @@ nav:
       - Becher — You Don't Need a PhD to Build an Ontology (OrionBelt): sources/ai-engineering/ralfo-becher-you-dont-need-phd-ontology.md
       - Kumar — Microsoft vs Palantir Enterprise Ontology: sources/ai-engineering/pankaj-kumar-microsoft-palantir-enterprise-ontology.md
       - QuarkAndCode — High-Value Knowledge Graph Relationships: sources/ai-engineering/quarkandcode-high-value-knowledge-graph-relationships.md
+      - Aftab — Ontology Beat Vector Embeddings: sources/ai-engineering/aftab-ontology-beat-vector-embeddings.md
       - Hathibelagal — Anthropic Managed Agents Startup Disruption: sources/ai-engineering/ashraff-hathibelagal-anthropic-managed-agents-startup-disruption.md
     - BIM & Construction:
       - Francieli Wagner — BIM Coordination: sources/bim-construction/francieli-wagner-bim-coordination.md
@@ -160,6 +162,7 @@ nav:
       - GYACO — Conway & Team Structure: sources/product-org-design/gyaco-conway-team-structure.md
       - Sharma — Anthropic PMs Ship Features in 45 Minutes: sources/product-org-design/shailesh-sharma-anthropic-pm-execution-collapse.md
       - Sharma — PRDs are Dead: sources/product-org-design/shailesh-sharma-prds-are-dead.md
+      - Bisht — The Best Product Managers Don't Talk to Customers: sources/product-org-design/pankaj-bisht-best-product-managers-dont-talk-to-customers.md
     - Software Engineering:
       - System Design for Beginners: sources/software-engineering/shivambhadani-system-design-for-beginners.md
   - Analyses:
